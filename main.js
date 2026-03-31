@@ -5,6 +5,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     initLightbox();
     initScrollButtons();
     initGoalHover();
+    renderHeroBg();
 });
 
 function initNav() {
@@ -110,6 +111,35 @@ function initScrollButtons() {
 
     btnTop.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
     btnBottom.addEventListener('click', () => window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' }));
+}
+
+async function renderHeroBg() {
+    const grid = document.getElementById('hero-bg-grid');
+    if (!grid) return;
+    try {
+        const res = await fetch('./data/playing.json');
+        const games = await res.json();
+
+        // 썸네일 있는 게임만 필터링 후 셔플
+        const withThumb = games.filter(g => g.thumbnail);
+        for (let i = withThumb.length - 1; i > 0; i--) {
+            const j = Math.floor(Math.random() * (i + 1));
+            [withThumb[i], withThumb[j]] = [withThumb[j], withThumb[i]];
+        }
+
+        // 화면 채울 충분한 수만큼 반복
+        const needed = 120;
+        const imgs = [];
+        for (let i = 0; i < needed; i++) {
+            imgs.push(withThumb[i % withThumb.length]);
+        }
+
+        grid.innerHTML = imgs.map(g =>
+            `<img src="${g.thumbnail}" alt="" loading="lazy">`
+        ).join('');
+    } catch (e) {
+        // 배경 실패해도 무시
+    }
 }
 
 function initLightbox() {

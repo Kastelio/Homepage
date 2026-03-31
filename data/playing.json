@@ -7,6 +7,10 @@
     "platform": "",
     "package": "No",
     "comment": "",
+    "playtime": "",
+    "playtime_num": 0,
+    "payment": "",
+    "payment_num": 0,
     "thumbnail": ""
   },
   {
@@ -17,6 +21,10 @@
     "platform": "Android, Windows, iOS",
     "package": "No",
     "comment": "",
+    "playtime": "",
+    "playtime_num": 0,
+    "payment": "",
+    "payment_num": 0,
     "thumbnail": "content/playing/Archeland/thumbnail.png"
   },
   {
@@ -27,6 +35,10 @@
     "platform": "",
     "package": "No",
     "comment": "",
+    "playtime": "",
+    "playtime_num": 0,
+    "payment": "",
+    "payment_num": 0,
     "thumbnail": "content/playing/Assassin's Creed Odyssey(어쌔신 크리드 오디세이)/thumbnail.png"
   },
   {
@@ -37,6 +49,10 @@
     "platform": "PS4, Switch, Xbox",
     "package": "No",
     "comment": "",
+    "playtime": "",
+    "playtime_num": 0,
+    "payment": "",
+    "payment_num": 0,
     "thumbnail": ""
   },
   {
@@ -47,6 +63,10 @@
     "platform": "Android, iOS",
     "package": "No",
     "comment": "",
+    "playtime": "",
+    "playtime_num": 0,
+    "payment": "",
+    "payment_num": 0,
     "thumbnail": ""
   },
   {
@@ -57,6 +77,10 @@
     "platform": "",
     "package": "No",
     "comment": "",
+    "playtime": "",
+    "playtime_num": 0,
+    "payment": "",
+    "payment_num": 0,
     "thumbnail": "content/playing/Cyberpunk 2077/thumbnail.png"
   },
   {
@@ -67,6 +91,10 @@
     "platform": "PlayStation, Steam Deck, Windows, Xbox, macOS",
     "package": "Yes",
     "comment": "",
+    "playtime": "",
+    "playtime_num": 0,
+    "payment": "",
+    "payment_num": 0,
     "thumbnail": ""
   },
   {
@@ -77,6 +105,10 @@
     "platform": "PlayStation, Steam Deck, Windows, Xbox, macOS",
     "package": "Yes",
     "comment": "",
+    "playtime": "",
+    "playtime_num": 0,
+    "payment": "",
+    "payment_num": 0,
     "thumbnail": ""
   },
   {
@@ -87,6 +119,10 @@
     "platform": "",
     "package": "No",
     "comment": "",
+    "playtime": "",
+    "playtime_num": 0,
+    "payment": "",
+    "payment_num": 0,
     "thumbnail": "content/playing/Dragonheir Silent Gods(드래곤에어 침묵의 신)/thumbnail.png"
   },
   {
@@ -97,6 +133,10 @@
     "platform": "Android, Windows, iOS",
     "package": "No",
     "comment": "",
+    "playtime": "",
+    "playtime_num": 0,
+    "payment": "",
+    "payment_num": 0,
     "thumbnail": ""
   },
   {
@@ -107,6 +147,10 @@
     "platform": "",
     "package": "No",
     "comment": "",
+    "playtime": "",
+    "playtime_num": 0,
+    "payment": "",
+    "payment_num": 0,
     "thumbnail": "content/playing/Frostpunk Beyond the ice(프로스트펑크 비욘드 더 아이스)/thumbnail.png"
   },
   {
@@ -117,6 +161,10 @@
     "platform": "Android, iOS",
     "package": "No",
     "comment": "",
+    "playtime": "",
+    "playtime_num": 0,
+    "payment": "",
+    "payment_num": 0,
     "thumbnail": ""
   },
   {
@@ -127,6 +175,10 @@
     "platform": "",
     "package": "No",
     "comment": "",
+    "playtime": "",
+    "playtime_num": 0,
+    "payment": "",
+    "payment_num": 0,
     "thumbnail": "content/playing/Game of Thrones Kingsroad(왕좌의 게임 킹스로드)/thumbnail.png"
   },
   {
@@ -137,6 +189,10 @@
     "platform": "",
     "package": "No",
     "comment": "",
+    "playtime": "",
+    "playtime_num": 0,
+    "payment": "",
+    "payment_num": 0,
     "thumbnail": ""
   },
   {
@@ -147,6 +203,10 @@
     "platform": "Android, Windows, iOS, macOS",
     "package": "No",
     "comment": "",
+    "playtime": "",
+    "playtime_num": 0,
+    "payment": "",
+    "payment_num": 0,
     "thumbnail": ""
   },
   {
@@ -157,6 +217,10 @@
     "platform": "Windows, macOS",
     "package": "No",
     "comment": "",
+    "playtime": "",
+    "playtime_num": 0,
+    "payment": "",
+    "payment_num": 0,
     "thumbnail": "content/playing/Heroes Of The Storm(히어로즈 오브 더 스톰)/thumbnail.png"
   },
   {
@@ -167,6 +231,10 @@
     "platform": "Windows, macOS",
     "package": "No",
     "comment": "",
+    "playtime": "",
+    "playtime_num": 0,
+    "payment": "",
+    "payment_num": 0,
     "thumbnail": ""
   },
   {
@@ -177,6 +245,10 @@
     "platform": "Windows",
     "package": "No",
     "comment": "",
+    "playtime": "",
+    "playtime_num": 0,
+    "payment": "",
+    "payment_num": 0,
     "thumbnail": "content/playing/OVERWATCH 2/thumbnail.png"
   },
   {
@@ -187,6 +259,10 @@
     "platform": "PS5, Windows, Xbox",
     "package": "No",
     "comment": "",
+    "playtime": "",
+    "playtime_num": 0,
+    "payment": "",
+    "payment_num": 0,
     "thumbnail": "content/playing/Path Of Exile 2(POE 2)/thumbnail.png"
   },
   {
@@ -197,6 +273,10 @@
     "platform": "",
     "package": "No",
     "comment": "",
+    "playtime": "",
+    "playtime_num": 0,
+    "payment": "",
+    "payment_num": 0,
     "thumbnail": ""
   },
   {
@@ -207,6 +287,10 @@
     "platform": "",
     "package": "No",
     "comment": "",
+    "playtime": "",
+    "playtime_num": 0,
+    "payment": "",
+    "payment_num": 0,
     "thumbnail": "content/playing/Rise Of Empires Ice and Fire(라이즈 오브 엠파이어)/thumbnail.png"
   },
   {
@@ -217,6 +301,10 @@
     "platform": "",
     "package": "No",
     "comment": "",
+    "playtime": "",
+    "playtime_num": 0,
+    "payment": "",
+    "payment_num": 0,
     "thumbnail": ""
   },
   {
@@ -227,6 +315,10 @@
     "platform": "",
     "package": "No",
     "comment": "",
+    "playtime": "",
+    "playtime_num": 0,
+    "payment": "",
+    "payment_num": 0,
     "thumbnail": ""
   },
   {
@@ -237,6 +329,10 @@
     "platform": "Android, Windows, iOS",
     "package": "No",
     "comment": "",
+    "playtime": "",
+    "playtime_num": 0,
+    "payment": "",
+    "payment_num": 0,
     "thumbnail": "content/playing/Slay The Spire/thumbnail.png"
   },
   {
@@ -247,6 +343,10 @@
     "platform": "",
     "package": "No",
     "comment": "",
+    "playtime": "",
+    "playtime_num": 0,
+    "payment": "",
+    "payment_num": 0,
     "thumbnail": "content/playing/THE WITCHER 3 Wild Hunt/thumbnail.png"
   },
   {
@@ -257,6 +357,10 @@
     "platform": "PS4, PlayStation, Windows, Xbox",
     "package": "No",
     "comment": "",
+    "playtime": "",
+    "playtime_num": 0,
+    "payment": "",
+    "payment_num": 0,
     "thumbnail": ""
   },
   {
@@ -267,6 +371,10 @@
     "platform": "Android, iOS",
     "package": "No",
     "comment": "",
+    "playtime": "",
+    "playtime_num": 0,
+    "payment": "",
+    "payment_num": 0,
     "thumbnail": "content/playing/The Legend of Neverland(레전드 오브 네버랜드)/thumbnail.png"
   },
   {
@@ -277,6 +385,10 @@
     "platform": "Windows, macOS",
     "package": "No",
     "comment": "",
+    "playtime": "",
+    "playtime_num": 0,
+    "payment": "",
+    "payment_num": 0,
     "thumbnail": "content/playing/World Of Warcraft/thumbnail.png"
   },
   {
@@ -287,6 +399,10 @@
     "platform": "Android, iOS",
     "package": "No",
     "comment": "",
+    "playtime": "",
+    "playtime_num": 0,
+    "payment": "",
+    "payment_num": 0,
     "thumbnail": "content/playing/ウマ娘(우마무스메)/thumbnail.png"
   },
   {
@@ -297,6 +413,10 @@
     "platform": "PS4, PS5, Windows",
     "package": "Yes",
     "comment": "",
+    "playtime": "",
+    "playtime_num": 0,
+    "payment": "",
+    "payment_num": 0,
     "thumbnail": "content/playing/ゴースト・オブ・ツシマ(고스트 오브 쓰시마)/thumbnail.png"
   },
   {
@@ -307,6 +427,10 @@
     "platform": "Android, Windows, iOS",
     "package": "No",
     "comment": "",
+    "playtime": "",
+    "playtime_num": 0,
+    "payment": "",
+    "payment_num": 0,
     "thumbnail": "content/playing/ヘブン バーンズ レッド(헤븐 번즈 레드)/thumbnail.png"
   },
   {
@@ -317,6 +441,10 @@
     "platform": "Android, iOS",
     "package": "No",
     "comment": "",
+    "playtime": "",
+    "playtime_num": 0,
+    "payment": "",
+    "payment_num": 0,
     "thumbnail": "content/playing/メメントモリ(메멘토 모리)/thumbnail.png"
   },
   {
@@ -327,6 +455,10 @@
     "platform": "Android, PS4, PS5, Windows, iOS",
     "package": "No",
     "comment": "",
+    "playtime": "",
+    "playtime_num": 0,
+    "payment": "",
+    "payment_num": 0,
     "thumbnail": "content/playing/原神(원신)/thumbnail.png"
   },
   {
@@ -337,6 +469,10 @@
     "platform": "Android, iOS",
     "package": "No",
     "comment": "",
+    "playtime": "",
+    "playtime_num": 0,
+    "payment": "",
+    "payment_num": 0,
     "thumbnail": ""
   },
   {
@@ -347,6 +483,10 @@
     "platform": "",
     "package": "No",
     "comment": "",
+    "playtime": "",
+    "playtime_num": 0,
+    "payment": "",
+    "payment_num": 0,
     "thumbnail": "content/playing/少女前线 云图计划(뉴럴 클라우드)/thumbnail.png"
   },
   {
@@ -357,6 +497,10 @@
     "platform": "Android, iOS",
     "package": "No",
     "comment": "",
+    "playtime": "",
+    "playtime_num": 0,
+    "payment": "",
+    "payment_num": 0,
     "thumbnail": ""
   },
   {
@@ -367,6 +511,10 @@
     "platform": "Android, Windows, iOS",
     "package": "No",
     "comment": "",
+    "playtime": "",
+    "playtime_num": 0,
+    "payment": "",
+    "payment_num": 0,
     "thumbnail": ""
   },
   {
@@ -377,6 +525,10 @@
     "platform": "",
     "package": "No",
     "comment": "",
+    "playtime": "",
+    "playtime_num": 0,
+    "payment": "",
+    "payment_num": 0,
     "thumbnail": "content/playing/尘白禁区 塵白禁區(스노우 브레이크 포비든 존)/thumbnail.png"
   },
   {
@@ -387,6 +539,10 @@
     "platform": "",
     "package": "No",
     "comment": "",
+    "playtime": "",
+    "playtime_num": 0,
+    "payment": "",
+    "payment_num": 0,
     "thumbnail": "content/playing/崩坏：星穹铁道(붕괴 스타레일)/thumbnail.png"
   },
   {
@@ -397,6 +553,10 @@
     "platform": "Android, Windows, iOS",
     "package": "No",
     "comment": "",
+    "playtime": "",
+    "playtime_num": 0,
+    "payment": "",
+    "payment_num": 0,
     "thumbnail": ""
   },
   {
@@ -407,6 +567,10 @@
     "platform": "Android, iOS",
     "package": "No",
     "comment": "",
+    "playtime": "",
+    "playtime_num": 0,
+    "payment": "",
+    "payment_num": 0,
     "thumbnail": "content/playing/白夜極光(백야극광)/thumbnail.png"
   },
   {
@@ -417,6 +581,10 @@
     "platform": "Android, PS5, Windows, iOS",
     "package": "No",
     "comment": "",
+    "playtime": "",
+    "playtime_num": 0,
+    "payment": "",
+    "payment_num": 0,
     "thumbnail": "content/playing/绝区零 · 絕區零(젠레스 존 제로)/thumbnail.png"
   },
   {
@@ -427,6 +595,10 @@
     "platform": "",
     "package": "No",
     "comment": "",
+    "playtime": "",
+    "playtime_num": 0,
+    "payment": "",
+    "payment_num": 0,
     "thumbnail": "content/playing/重返未来 1999(리버스 1999)/thumbnail.png"
   },
   {
@@ -437,6 +609,10 @@
     "platform": "Android, Windows, iOS",
     "package": "No",
     "comment": "",
+    "playtime": "",
+    "playtime_num": 0,
+    "payment": "",
+    "payment_num": 0,
     "thumbnail": ""
   },
   {
@@ -447,6 +623,10 @@
     "platform": "",
     "package": "No",
     "comment": "",
+    "playtime": "",
+    "playtime_num": 0,
+    "payment": "",
+    "payment_num": 0,
     "thumbnail": "content/playing/鸣潮(명조 워더링 웨이브)/thumbnail.png"
   },
   {
@@ -457,6 +637,10 @@
     "platform": "Android, Windows, iOS",
     "package": "No",
     "comment": "",
+    "playtime": "",
+    "playtime_num": 0,
+    "payment": "",
+    "payment_num": 0,
     "thumbnail": ""
   },
   {
@@ -467,6 +651,10 @@
     "platform": "Android, Windows, iOS",
     "package": "No",
     "comment": "",
+    "playtime": "",
+    "playtime_num": 0,
+    "payment": "",
+    "payment_num": 0,
     "thumbnail": "content/playing/龙之国物语(아카디아M)/thumbnail.png"
   },
   {
@@ -477,6 +665,10 @@
     "platform": "Android, iOS",
     "package": "No",
     "comment": "",
+    "playtime": "",
+    "playtime_num": 0,
+    "payment": "",
+    "payment_num": 0,
     "thumbnail": ""
   },
   {
@@ -487,6 +679,10 @@
     "platform": "",
     "package": "No",
     "comment": "",
+    "playtime": "",
+    "playtime_num": 0,
+    "payment": "",
+    "payment_num": 0,
     "thumbnail": "content/playing/나 혼자만 레벨업 어라이즈/thumbnail.png"
   },
   {
@@ -497,6 +693,10 @@
     "platform": "Android, Windows, iOS",
     "package": "No",
     "comment": "",
+    "playtime": "",
+    "playtime_num": 0,
+    "payment": "",
+    "payment_num": 0,
     "thumbnail": ""
   },
   {
@@ -507,6 +707,10 @@
     "platform": "Windows",
     "package": "No",
     "comment": "",
+    "playtime": "",
+    "playtime_num": 0,
+    "payment": "",
+    "payment_num": 0,
     "thumbnail": "content/playing/나이트 워커/thumbnail.png"
   },
   {
@@ -517,6 +721,10 @@
     "platform": "Android, Windows, iOS",
     "package": "No",
     "comment": "",
+    "playtime": "",
+    "playtime_num": 0,
+    "payment": "",
+    "payment_num": 0,
     "thumbnail": "content/playing/나이트크로우/thumbnail.png"
   },
   {
@@ -527,6 +735,10 @@
     "platform": "",
     "package": "No",
     "comment": "",
+    "playtime": "",
+    "playtime_num": 0,
+    "payment": "",
+    "payment_num": 0,
     "thumbnail": "content/playing/낚시의 신 크루/thumbnail.png"
   },
   {
@@ -537,6 +749,10 @@
     "platform": "Android, iOS",
     "package": "No",
     "comment": "",
+    "playtime": "",
+    "playtime_num": 0,
+    "payment": "",
+    "payment_num": 0,
     "thumbnail": ""
   },
   {
@@ -547,6 +763,10 @@
     "platform": "",
     "package": "No",
     "comment": "",
+    "playtime": "",
+    "playtime_num": 0,
+    "payment": "",
+    "payment_num": 0,
     "thumbnail": ""
   },
   {
@@ -557,6 +777,10 @@
     "platform": "Windows",
     "package": "No",
     "comment": "",
+    "playtime": "",
+    "playtime_num": 0,
+    "payment": "",
+    "payment_num": 0,
     "thumbnail": ""
   },
   {
@@ -567,6 +791,10 @@
     "platform": "Android, Windows, iOS",
     "package": "No",
     "comment": "",
+    "playtime": "",
+    "playtime_num": 0,
+    "payment": "",
+    "payment_num": 0,
     "thumbnail": "content/playing/던전앤파이터 모바일/thumbnail.png"
   },
   {
@@ -577,6 +805,10 @@
     "platform": "",
     "package": "No",
     "comment": "",
+    "playtime": "",
+    "playtime_num": 0,
+    "payment": "",
+    "payment_num": 0,
     "thumbnail": "content/playing/드래곤소드/thumbnail.png"
   },
   {
@@ -587,6 +819,10 @@
     "platform": "",
     "package": "No",
     "comment": "",
+    "playtime": "",
+    "playtime_num": 0,
+    "payment": "",
+    "payment_num": 0,
     "thumbnail": ""
   },
   {
@@ -597,6 +833,10 @@
     "platform": "",
     "package": "No",
     "comment": "",
+    "playtime": "",
+    "playtime_num": 0,
+    "payment": "",
+    "payment_num": 0,
     "thumbnail": "content/playing/레이드 컨닝페이퍼/thumbnail.jpg"
   },
   {
@@ -607,6 +847,10 @@
     "platform": "Android, Windows, iOS",
     "package": "No",
     "comment": "",
+    "playtime": "",
+    "playtime_num": 0,
+    "payment": "",
+    "payment_num": 0,
     "thumbnail": "content/playing/레이븐 2/thumbnail.png"
   },
   {
@@ -617,6 +861,10 @@
     "platform": "",
     "package": "No",
     "comment": "",
+    "playtime": "",
+    "playtime_num": 0,
+    "payment": "",
+    "payment_num": 0,
     "thumbnail": "content/playing/레전드 오브 슬라임 방치형 RPG/thumbnail.png"
   },
   {
@@ -627,6 +875,10 @@
     "platform": "Android, iOS",
     "package": "No",
     "comment": "",
+    "playtime": "",
+    "playtime_num": 0,
+    "payment": "",
+    "payment_num": 0,
     "thumbnail": ""
   },
   {
@@ -637,6 +889,10 @@
     "platform": "Android, Windows, iOS",
     "package": "No",
     "comment": "",
+    "playtime": "",
+    "playtime_num": 0,
+    "payment": "",
+    "payment_num": 0,
     "thumbnail": "content/playing/로드나인/thumbnail.png"
   },
   {
@@ -647,6 +903,10 @@
     "platform": "Windows",
     "package": "No",
     "comment": "",
+    "playtime": "",
+    "playtime_num": 0,
+    "payment": "",
+    "payment_num": 0,
     "thumbnail": "content/playing/로스트아크/thumbnail.png"
   },
   {
@@ -657,6 +917,10 @@
     "platform": "Android, iOS",
     "package": "No",
     "comment": "",
+    "playtime": "",
+    "playtime_num": 0,
+    "payment": "",
+    "payment_num": 0,
     "thumbnail": "content/playing/리니지2 레볼루션/thumbnail.png"
   },
   {
@@ -667,6 +931,10 @@
     "platform": "Android, Windows, iOS",
     "package": "No",
     "comment": "",
+    "playtime": "",
+    "playtime_num": 0,
+    "payment": "",
+    "payment_num": 0,
     "thumbnail": ""
   },
   {
@@ -677,6 +945,10 @@
     "platform": "Android, Windows, iOS",
     "package": "No",
     "comment": "",
+    "playtime": "",
+    "playtime_num": 0,
+    "payment": "",
+    "payment_num": 0,
     "thumbnail": "content/playing/리니지W/thumbnail.png"
   },
   {
@@ -687,6 +959,10 @@
     "platform": "",
     "package": "No",
     "comment": "",
+    "playtime": "",
+    "playtime_num": 0,
+    "payment": "",
+    "payment_num": 0,
     "thumbnail": ""
   },
   {
@@ -697,6 +973,10 @@
     "platform": "Windows",
     "package": "No",
     "comment": "",
+    "playtime": "",
+    "playtime_num": 0,
+    "payment": "",
+    "payment_num": 0,
     "thumbnail": "content/playing/마비노기 영웅전/thumbnail.png"
   },
   {
@@ -707,6 +987,10 @@
     "platform": "",
     "package": "No",
     "comment": "",
+    "playtime": "",
+    "playtime_num": 0,
+    "payment": "",
+    "payment_num": 0,
     "thumbnail": ""
   },
   {
@@ -717,6 +1001,10 @@
     "platform": "",
     "package": "No",
     "comment": "",
+    "playtime": "",
+    "playtime_num": 0,
+    "payment": "",
+    "payment_num": 0,
     "thumbnail": ""
   },
   {
@@ -727,6 +1015,10 @@
     "platform": "",
     "package": "No",
     "comment": "",
+    "playtime": "",
+    "playtime_num": 0,
+    "payment": "",
+    "payment_num": 0,
     "thumbnail": ""
   },
   {
@@ -737,6 +1029,10 @@
     "platform": "Android, iOS",
     "package": "No",
     "comment": "",
+    "playtime": "",
+    "playtime_num": 0,
+    "payment": "",
+    "payment_num": 0,
     "thumbnail": "content/playing/브라운더스트 2/thumbnail.png"
   },
   {
@@ -747,6 +1043,10 @@
     "platform": "Android, Windows, iOS",
     "package": "No",
     "comment": "",
+    "playtime": "",
+    "playtime_num": 0,
+    "payment": "",
+    "payment_num": 0,
     "thumbnail": "content/playing/블레이드 & 소울 2/thumbnail.png"
   },
   {
@@ -757,6 +1057,10 @@
     "platform": "Windows, iOS",
     "package": "No",
     "comment": "",
+    "playtime": "",
+    "playtime_num": 0,
+    "payment": "",
+    "payment_num": 0,
     "thumbnail": "content/playing/블루 아카이브/thumbnail.png"
   },
   {
@@ -767,6 +1071,10 @@
     "platform": "Android, Windows, iOS",
     "package": "No",
     "comment": "",
+    "playtime": "",
+    "playtime_num": 0,
+    "payment": "",
+    "payment_num": 0,
     "thumbnail": ""
   },
   {
@@ -777,6 +1085,10 @@
     "platform": "",
     "package": "No",
     "comment": "",
+    "playtime": "",
+    "playtime_num": 0,
+    "payment": "",
+    "payment_num": 0,
     "thumbnail": "content/playing/서머너즈 워 백년전쟁/thumbnail.png"
   },
   {
@@ -787,6 +1099,10 @@
     "platform": "Android, iOS",
     "package": "No",
     "comment": "",
+    "playtime": "",
+    "playtime_num": 0,
+    "payment": "",
+    "payment_num": 0,
     "thumbnail": ""
   },
   {
@@ -797,6 +1113,10 @@
     "platform": "Android, Windows, iOS",
     "package": "No",
     "comment": "",
+    "playtime": "",
+    "playtime_num": 0,
+    "payment": "",
+    "payment_num": 0,
     "thumbnail": ""
   },
   {
@@ -807,6 +1127,10 @@
     "platform": "Android, iOS",
     "package": "No",
     "comment": "",
+    "playtime": "",
+    "playtime_num": 0,
+    "payment": "",
+    "payment_num": 0,
     "thumbnail": "content/playing/세븐나이츠 키우기/thumbnail.png"
   },
   {
@@ -817,6 +1141,10 @@
     "platform": "Android, iOS",
     "package": "No",
     "comment": "",
+    "playtime": "",
+    "playtime_num": 0,
+    "payment": "",
+    "payment_num": 0,
     "thumbnail": "content/playing/소울 스트라이크/thumbnail.png"
   },
   {
@@ -827,6 +1155,10 @@
     "platform": "",
     "package": "No",
     "comment": "",
+    "playtime": "",
+    "playtime_num": 0,
+    "payment": "",
+    "payment_num": 0,
     "thumbnail": "content/playing/스카이림/thumbnail.png"
   },
   {
@@ -837,6 +1169,10 @@
     "platform": "",
     "package": "No",
     "comment": "",
+    "playtime": "",
+    "playtime_num": 0,
+    "payment": "",
+    "payment_num": 0,
     "thumbnail": "content/playing/스타시드 아스니아 트리거/thumbnail.png"
   },
   {
@@ -847,6 +1183,10 @@
     "platform": "Android, iOS",
     "package": "No",
     "comment": "",
+    "playtime": "",
+    "playtime_num": 0,
+    "payment": "",
+    "payment_num": 0,
     "thumbnail": ""
   },
   {
@@ -857,6 +1197,10 @@
     "platform": "",
     "package": "No",
     "comment": "",
+    "playtime": "",
+    "playtime_num": 0,
+    "payment": "",
+    "payment_num": 0,
     "thumbnail": "content/playing/승리의 여신 니케/thumbnail.png"
   },
   {
@@ -867,6 +1211,10 @@
     "platform": "Android, iOS",
     "package": "No",
     "comment": "",
+    "playtime": "",
+    "playtime_num": 0,
+    "payment": "",
+    "payment_num": 0,
     "thumbnail": ""
   },
   {
@@ -877,6 +1225,10 @@
     "platform": "Windows, macOS",
     "package": "No",
     "comment": "",
+    "playtime": "",
+    "playtime_num": 0,
+    "payment": "",
+    "payment_num": 0,
     "thumbnail": "content/playing/쓰론 앤 리버티/thumbnail.png"
   },
   {
@@ -887,6 +1239,10 @@
     "platform": "",
     "package": "No",
     "comment": "",
+    "playtime": "",
+    "playtime_num": 0,
+    "payment": "",
+    "payment_num": 0,
     "thumbnail": "content/playing/아스달 연대기 세 개의 세력/thumbnail.png"
   },
   {
@@ -897,6 +1253,10 @@
     "platform": "Android, Windows, iOS",
     "package": "No",
     "comment": "",
+    "playtime": "",
+    "playtime_num": 0,
+    "payment": "",
+    "payment_num": 0,
     "thumbnail": ""
   },
   {
@@ -907,6 +1267,10 @@
     "platform": "",
     "package": "No",
     "comment": "",
+    "playtime": "",
+    "playtime_num": 0,
+    "payment": "",
+    "payment_num": 0,
     "thumbnail": ""
   },
   {
@@ -917,6 +1281,10 @@
     "platform": "Android, Windows, iOS",
     "package": "No",
     "comment": "",
+    "playtime": "",
+    "playtime_num": 0,
+    "payment": "",
+    "payment_num": 0,
     "thumbnail": "content/playing/아키에이지 워/thumbnail.png"
   },
   {
@@ -927,6 +1295,10 @@
     "platform": "Android, iOS",
     "package": "No",
     "comment": "",
+    "playtime": "",
+    "playtime_num": 0,
+    "payment": "",
+    "payment_num": 0,
     "thumbnail": "content/playing/안녕 엘라/thumbnail.png"
   },
   {
@@ -937,6 +1309,10 @@
     "platform": "Android, iOS",
     "package": "No",
     "comment": "",
+    "playtime": "",
+    "playtime_num": 0,
+    "payment": "",
+    "payment_num": 0,
     "thumbnail": "content/playing/어나더던전/thumbnail.png"
   },
   {
@@ -947,6 +1323,10 @@
     "platform": "Android, iOS",
     "package": "No",
     "comment": "",
+    "playtime": "",
+    "playtime_num": 0,
+    "payment": "",
+    "payment_num": 0,
     "thumbnail": "content/playing/에버소울/thumbnail.png"
   },
   {
@@ -957,6 +1337,10 @@
     "platform": "",
     "package": "No",
     "comment": "",
+    "playtime": "",
+    "playtime_num": 0,
+    "payment": "",
+    "payment_num": 0,
     "thumbnail": ""
   },
   {
@@ -967,6 +1351,10 @@
     "platform": "",
     "package": "No",
     "comment": "",
+    "playtime": "",
+    "playtime_num": 0,
+    "payment": "",
+    "payment_num": 0,
     "thumbnail": ""
   },
   {
@@ -977,6 +1365,10 @@
     "platform": "Android, Windows, iOS",
     "package": "No",
     "comment": "",
+    "playtime": "",
+    "playtime_num": 0,
+    "payment": "",
+    "payment_num": 0,
     "thumbnail": ""
   },
   {
@@ -987,6 +1379,10 @@
     "platform": "Windows",
     "package": "No",
     "comment": "",
+    "playtime": "",
+    "playtime_num": 0,
+    "payment": "",
+    "payment_num": 0,
     "thumbnail": "content/playing/이터널 리턴/thumbnail.png"
   },
   {
@@ -997,6 +1393,10 @@
     "platform": "",
     "package": "No",
     "comment": "",
+    "playtime": "",
+    "playtime_num": 0,
+    "payment": "",
+    "payment_num": 0,
     "thumbnail": "content/playing/제2의 나라 Cross Worlds/thumbnail.png"
   },
   {
@@ -1007,6 +1407,10 @@
     "platform": "Android, Windows, iOS",
     "package": "No",
     "comment": "",
+    "playtime": "",
+    "playtime_num": 0,
+    "payment": "",
+    "payment_num": 0,
     "thumbnail": ""
   },
   {
@@ -1017,6 +1421,10 @@
     "platform": "",
     "package": "No",
     "comment": "",
+    "playtime": "",
+    "playtime_num": 0,
+    "payment": "",
+    "payment_num": 0,
     "thumbnail": "content/playing/제노니아 크로노브레이크/thumbnail.png"
   },
   {
@@ -1027,6 +1435,10 @@
     "platform": "Android, Windows, iOS",
     "package": "No",
     "comment": "",
+    "playtime": "",
+    "playtime_num": 0,
+    "payment": "",
+    "payment_num": 0,
     "thumbnail": ""
   },
   {
@@ -1037,6 +1449,10 @@
     "platform": "",
     "package": "No",
     "comment": "",
+    "playtime": "",
+    "playtime_num": 0,
+    "payment": "",
+    "payment_num": 0,
     "thumbnail": ""
   },
   {
@@ -1047,6 +1463,10 @@
     "platform": "Windows",
     "package": "No",
     "comment": "",
+    "playtime": "",
+    "playtime_num": 0,
+    "payment": "",
+    "payment_num": 0,
     "thumbnail": "content/playing/커츠펠/thumbnail.png"
   },
   {
@@ -1057,6 +1477,10 @@
     "platform": "Android, iOS",
     "package": "No",
     "comment": "",
+    "playtime": "",
+    "playtime_num": 0,
+    "payment": "",
+    "payment_num": 0,
     "thumbnail": ""
   },
   {
@@ -1067,6 +1491,10 @@
     "platform": "",
     "package": "No",
     "comment": "",
+    "playtime": "",
+    "playtime_num": 0,
+    "payment": "",
+    "payment_num": 0,
     "thumbnail": "content/playing/쿠키런 모험의 탑/thumbnail.png"
   },
   {
@@ -1077,6 +1505,10 @@
     "platform": "Android, Windows, iOS, iPadOS",
     "package": "No",
     "comment": "",
+    "playtime": "",
+    "playtime_num": 0,
+    "payment": "",
+    "payment_num": 0,
     "thumbnail": ""
   },
   {
@@ -1087,6 +1519,10 @@
     "platform": "",
     "package": "No",
     "comment": "",
+    "playtime": "",
+    "playtime_num": 0,
+    "payment": "",
+    "payment_num": 0,
     "thumbnail": "content/playing/탕탕특공대(Survivor io)/thumbnail.png"
   },
   {
@@ -1097,6 +1533,10 @@
     "platform": "Android, iOS",
     "package": "No",
     "comment": "",
+    "playtime": "",
+    "playtime_num": 0,
+    "payment": "",
+    "payment_num": 0,
     "thumbnail": ""
   },
   {
@@ -1107,6 +1547,10 @@
     "platform": "Android, iOS",
     "package": "No",
     "comment": "",
+    "playtime": "",
+    "playtime_num": 0,
+    "payment": "",
+    "payment_num": 0,
     "thumbnail": "content/playing/트릭컬 리바이브/thumbnail.png"
   },
   {
@@ -1117,6 +1561,10 @@
     "platform": "",
     "package": "No",
     "comment": "",
+    "playtime": "",
+    "playtime_num": 0,
+    "payment": "",
+    "payment_num": 0,
     "thumbnail": ""
   },
   {
@@ -1127,6 +1575,10 @@
     "platform": "Android, Windows, iOS",
     "package": "No",
     "comment": "",
+    "playtime": "",
+    "playtime_num": 0,
+    "payment": "",
+    "payment_num": 0,
     "thumbnail": "content/playing/프라시아 전기/thumbnail.png"
   },
   {
@@ -1137,6 +1589,10 @@
     "platform": "Android, Windows, iOS",
     "package": "No",
     "comment": "",
+    "playtime": "",
+    "playtime_num": 0,
+    "payment": "",
+    "payment_num": 0,
     "thumbnail": "content/playing/호연/thumbnail.png"
   },
   {
@@ -1147,6 +1603,10 @@
     "platform": "Android, Windows, iOS",
     "package": "No",
     "comment": "",
+    "playtime": "",
+    "playtime_num": 0,
+    "payment": "",
+    "payment_num": 0,
     "thumbnail": "content/playing/히트2/thumbnail.png"
   }
 ]

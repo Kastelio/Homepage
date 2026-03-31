@@ -119,6 +119,20 @@ def build_playing():
                 thumbnail = f"content/playing/{entry}/{fname}"
                 break
 
+        # playtime을 숫자로 파싱 (정렬용)
+        playtime_raw = info.get("playtime", "")
+        try:
+            playtime_num = float(playtime_raw) if playtime_raw else 0
+        except ValueError:
+            playtime_num = 0
+
+        # payment를 숫자로 파싱 (정렬용)
+        payment_raw = info.get("payment", "")
+        try:
+            payment_num = float(payment_raw) if payment_raw else 0
+        except ValueError:
+            payment_num = 0
+
         games.append({
             "id": entry,
             "name": info.get("name", entry),
@@ -127,6 +141,10 @@ def build_playing():
             "platform": info.get("platform", ""),
             "package": info.get("package", "No"),
             "comment": info.get("comment", ""),
+            "playtime": playtime_raw,
+            "playtime_num": playtime_num,
+            "payment": payment_raw,
+            "payment_num": payment_num,
             "thumbnail": thumbnail,
         })
     return games
