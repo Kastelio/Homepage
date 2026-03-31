@@ -1003,8 +1003,8 @@
     "comment": "",
     "playtime": "",
     "playtime_num": 0,
-    "payment": "",
-    "payment_num": 0,
+    "payment": "85100",
+    "payment_num": 85100.0,
     "thumbnail": ""
   },
   {
