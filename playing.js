@@ -82,12 +82,25 @@ function renderGames() {
     }).join('');
 }
 
+const TAB_DEFAULT_SORT = {
+    all: 'payment',
+    package: 'playtime',
+    live: 'payment',
+};
+
 function initTabs() {
     document.querySelectorAll('.tab-btn').forEach(btn => {
         btn.addEventListener('click', () => {
             document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
             btn.classList.add('active');
             currentTab = btn.dataset.tab;
+
+            // 탭에 따라 기본 정렬 자동 전환
+            currentSort = TAB_DEFAULT_SORT[currentTab] || 'payment';
+            document.querySelectorAll('.sort-btn').forEach(b => {
+                b.classList.toggle('active', b.dataset.sort === currentSort);
+            });
+
             renderGames();
         });
     });
