@@ -79,22 +79,20 @@ function initGoalHover() {
     const descEl = document.getElementById('goal-desc');
     if (!descEl) return;
     const defaultText = descEl.textContent;
+    let timer = null;
+
+    function setDesc(text) {
+        clearTimeout(timer);
+        descEl.style.opacity = '0';
+        timer = setTimeout(() => {
+            descEl.textContent = text;
+            descEl.style.opacity = '1';
+        }, 200);
+    }
 
     document.querySelectorAll('.goal-tag').forEach(tag => {
-        tag.addEventListener('mouseenter', () => {
-            descEl.style.opacity = '0';
-            setTimeout(() => {
-                descEl.textContent = tag.dataset.desc;
-                descEl.style.opacity = '1';
-            }, 150);
-        });
-        tag.addEventListener('mouseleave', () => {
-            descEl.style.opacity = '0';
-            setTimeout(() => {
-                descEl.textContent = defaultText;
-                descEl.style.opacity = '1';
-            }, 150);
-        });
+        tag.addEventListener('mouseenter', () => setDesc(tag.dataset.desc));
+        tag.addEventListener('mouseleave', () => setDesc(defaultText));
     });
 }
 
