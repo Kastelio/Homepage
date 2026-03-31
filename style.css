@@ -131,11 +131,42 @@ h4,
     overflow: hidden;
 }
 
-/* Section content backdrops */
-.about-section,
-.projects-carousel-section,
-.contact-section {
-    background: rgba(20, 20, 20, 0.7);
+/* Content block panels — dark backdrop only on actual content */
+.hero-content,
+.career-content,
+.skills-content,
+.project-carousel-wrapper,
+.framer-nav,
+.footer {
+    background: rgba(18, 18, 18, 0.82);
+}
+
+.career-content,
+.skills-content {
+    border-radius: 16px;
+    width: 100%;
+}
+
+.project-carousel-wrapper {
+    border-radius: 12px;
+    margin-top: 0.5rem;
+}
+
+.contact-links {
+    background: rgba(18, 18, 18, 0.82);
+    border-radius: 16px;
+    padding: 2rem;
+}
+
+.framer-nav {
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+}
+
+.section-header-row {
+    background: rgba(18, 18, 18, 0.82);
+    padding: 1.5rem 2rem 0;
+    border-radius: 16px 16px 0 0;
 }
 
 /* Game thumbnail mosaic background - fixed, full page */
@@ -169,6 +200,10 @@ h4,
     flex-direction: column;
     align-items: center;
     gap: 1.2rem;
+    width: 100%;
+    max-width: 700px;
+    padding: 3rem 2rem 2.5rem;
+    border-radius: 0 0 16px 16px;
 }
 
 .profile-frame {
