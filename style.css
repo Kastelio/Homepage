@@ -781,17 +781,24 @@ h4,
 /* Skills with descriptions */
 .company-header {
     display: flex;
+    flex-direction: row;
     align-items: center;
     gap: 0.8rem;
     margin-bottom: 0.5rem;
+}
+
+.company-header h3 {
+    margin: 0;
 }
 
 .company-logo {
     width: 36px;
     height: 36px;
     object-fit: contain;
-    border-radius: 8px;
+    border-radius: 6px;
     flex-shrink: 0;
+    display: block;
+    mix-blend-mode: multiply;
 }
 
 .skill-group h3 {
