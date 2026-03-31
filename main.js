@@ -4,6 +4,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     await renderProjects();
     initLightbox();
     initScrollButtons();
+    initGoalHover();
 });
 
 function initNav() {
@@ -72,6 +73,29 @@ async function renderProjects() {
     } catch (e) {
         console.error('Projects 로드 실패:', e);
     }
+}
+
+function initGoalHover() {
+    const descEl = document.getElementById('goal-desc');
+    if (!descEl) return;
+    const defaultText = descEl.textContent;
+
+    document.querySelectorAll('.goal-tag').forEach(tag => {
+        tag.addEventListener('mouseenter', () => {
+            descEl.style.opacity = '0';
+            setTimeout(() => {
+                descEl.textContent = tag.dataset.desc;
+                descEl.style.opacity = '1';
+            }, 150);
+        });
+        tag.addEventListener('mouseleave', () => {
+            descEl.style.opacity = '0';
+            setTimeout(() => {
+                descEl.textContent = defaultText;
+                descEl.style.opacity = '1';
+            }, 150);
+        });
+    });
 }
 
 function initScrollButtons() {
