@@ -131,19 +131,11 @@ h4,
     overflow: hidden;
 }
 
-/* Dark overlay between mosaic and content */
-#app {
-    position: relative;
-    z-index: 0;
-}
-
-#app::before {
-    content: '';
-    position: fixed;
-    inset: 0;
-    background: rgba(20, 20, 20, 0.72);
-    z-index: -1;
-    pointer-events: none;
+/* Section content backdrops */
+.about-section,
+.projects-carousel-section,
+.contact-section {
+    background: rgba(20, 20, 20, 0.7);
 }
 
 /* Game thumbnail mosaic background - fixed, full page */
