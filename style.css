@@ -979,7 +979,7 @@ h4,
 /* Timeline project link */
 .timeline-project-link,
 .timeline-project-link:visited {
-    color: #ffffff;
+    color: var(--accent-yellow);
     text-decoration: none;
     border-bottom: 1px solid #666;
     transition: color 0.2s, border-color 0.2s;
