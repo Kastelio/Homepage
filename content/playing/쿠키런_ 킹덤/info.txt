@@ -1,0 +1,8 @@
+name: 쿠키런: 킹덤
+release: 2021
+developer: Devsisters
+platform: Android, iOS
+package: Yes
+playtime:
+payment: 4500
+comment:

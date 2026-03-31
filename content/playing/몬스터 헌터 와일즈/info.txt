@@ -1,0 +1,8 @@
+name: 몬스터 헌터 와일즈
+release: 2025
+developer: Capcom
+platform: PC, PS5, Xbox
+package: Yes
+playtime:
+payment: 133200
+comment:

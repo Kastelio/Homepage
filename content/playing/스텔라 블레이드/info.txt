@@ -1,0 +1,8 @@
+name: 스텔라 블레이드
+release: 2024
+developer: Shift Up
+platform: PS5, PC
+package: Yes
+playtime:
+payment: 67000
+comment:

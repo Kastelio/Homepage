@@ -1,0 +1,8 @@
+name: Warcraft Rumble
+release: 2023
+developer: Blizzard Entertainment
+platform: Android, iOS
+package: Yes
+playtime:
+payment: 23400
+comment:

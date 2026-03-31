@@ -56,6 +56,20 @@
     "thumbnail": ""
   },
   {
+    "id": "Balatro",
+    "name": "Balatro",
+    "release": "2024",
+    "developer": "LocalThunk",
+    "platform": "PC, Mobile",
+    "package": "Yes",
+    "comment": "",
+    "playtime": "",
+    "playtime_num": 0,
+    "payment": "14000",
+    "payment_num": 14000.0,
+    "thumbnail": "content/playing/Balatro/thumbnail.jpg"
+  },
+  {
     "id": "Brawl Stars",
     "name": "Brawl Stars",
     "release": "2018년 12월 12일",
@@ -224,6 +238,20 @@
     "thumbnail": "content/playing/Heroes Of The Storm(히어로즈 오브 더 스톰)/thumbnail.png"
   },
   {
+    "id": "Kingdom Come_ Deliverance 2",
+    "name": "Kingdom Come: Deliverance 2",
+    "release": "2025",
+    "developer": "Warhorse Studios",
+    "platform": "PC, PS5, Xbox",
+    "package": "Yes",
+    "comment": "",
+    "playtime": "",
+    "playtime_num": 0,
+    "payment": "81100",
+    "payment_num": 81100.0,
+    "thumbnail": "content/playing/Kingdom Come_ Deliverance 2/thumbnail.jpg"
+  },
+  {
     "id": "League Of Legends",
     "name": "League Of Legends",
     "release": "2011년 12월 4일",
@@ -376,6 +404,20 @@
     "payment": "52000",
     "payment_num": 52000.0,
     "thumbnail": "content/playing/The Legend of Neverland(레전드 오브 네버랜드)/thumbnail.png"
+  },
+  {
+    "id": "Warcraft Rumble",
+    "name": "Warcraft Rumble",
+    "release": "2023",
+    "developer": "Blizzard Entertainment",
+    "platform": "Android, iOS",
+    "package": "Yes",
+    "comment": "",
+    "playtime": "",
+    "playtime_num": 0,
+    "payment": "23400",
+    "payment_num": 23400.0,
+    "thumbnail": "content/playing/Warcraft Rumble/thumbnail.png"
   },
   {
     "id": "World Of Warcraft",
@@ -695,8 +737,8 @@
     "comment": "",
     "playtime": "",
     "playtime_num": 0,
-    "payment": "303980",
-    "payment_num": 303980.0,
+    "payment": "313880",
+    "payment_num": 313880.0,
     "thumbnail": ""
   },
   {
@@ -1008,6 +1050,20 @@
     "thumbnail": ""
   },
   {
+    "id": "몬스터 헌터 와일즈",
+    "name": "몬스터 헌터 와일즈",
+    "release": "2025",
+    "developer": "Capcom",
+    "platform": "PC, PS5, Xbox",
+    "package": "Yes",
+    "comment": "",
+    "playtime": "",
+    "playtime_num": 0,
+    "payment": "133200",
+    "payment_num": 133200.0,
+    "thumbnail": "content/playing/몬스터 헌터 와일즈/thumbnail.jpg"
+  },
+  {
     "id": "뱀피르",
     "name": "뱀피르",
     "release": "",
@@ -1106,6 +1162,20 @@
     "thumbnail": "content/playing/서머너즈 워 백년전쟁/thumbnail.png"
   },
   {
+    "id": "서머너즈 워_ 러쉬",
+    "name": "서머너즈 워: 러쉬",
+    "release": "2024",
+    "developer": "Com2us",
+    "platform": "PC, Android, iOS",
+    "package": "Yes",
+    "comment": "",
+    "playtime": "",
+    "playtime_num": 0,
+    "payment": "12000",
+    "payment_num": 12000.0,
+    "thumbnail": "content/playing/서머너즈 워_ 러쉬/thumbnail.jpg"
+  },
+  {
     "id": "서머너즈 워_ 백년전쟁",
     "name": "서머너즈 워: 백년전쟁",
     "release": "2021년 4월 29일",
@@ -1162,6 +1232,20 @@
     "thumbnail": "content/playing/소울 스트라이크/thumbnail.png"
   },
   {
+    "id": "쉐이프 오브 드림즈(Shape Of Dreams)",
+    "name": "쉐이프 오브 드림즈",
+    "release": "2024",
+    "developer": "Pearl Abyss",
+    "platform": "PC, Mobile",
+    "package": "Yes",
+    "comment": "",
+    "playtime": "",
+    "playtime_num": 0,
+    "payment": "27000",
+    "payment_num": 27000.0,
+    "thumbnail": "content/playing/쉐이프 오브 드림즈(Shape Of Dreams)/thumbnail.jpg"
+  },
+  {
     "id": "스카이림",
     "name": "스카이림",
     "release": "",
@@ -1202,6 +1286,20 @@
     "payment": "11000",
     "payment_num": 11000.0,
     "thumbnail": ""
+  },
+  {
+    "id": "스텔라 블레이드",
+    "name": "스텔라 블레이드",
+    "release": "2024",
+    "developer": "Shift Up",
+    "platform": "PS5, PC",
+    "package": "Yes",
+    "comment": "",
+    "playtime": "",
+    "playtime_num": 0,
+    "payment": "67000",
+    "payment_num": 67000.0,
+    "thumbnail": "content/playing/스텔라 블레이드/thumbnail.jpg"
   },
   {
     "id": "승리의 여신 니케",
@@ -1538,6 +1636,20 @@
     "payment": "",
     "payment_num": 0,
     "thumbnail": ""
+  },
+  {
+    "id": "쿠키런_ 킹덤",
+    "name": "쿠키런: 킹덤",
+    "release": "2021",
+    "developer": "Devsisters",
+    "platform": "Android, iOS",
+    "package": "Yes",
+    "comment": "",
+    "playtime": "",
+    "playtime_num": 0,
+    "payment": "4500",
+    "payment_num": 4500.0,
+    "thumbnail": "content/playing/쿠키런_ 킹덤/thumbnail.jpg"
   },
   {
     "id": "탕탕특공대(Survivor io)",
