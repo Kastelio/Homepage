@@ -1039,15 +1039,9 @@ h4,
     letter-spacing: 0.3px;
 }
 
-/* Competency Section */
-.competency-section {
-    background-color: #1e1e1e;
-}
-
-.section-subtitle {
+.competency-wip {
     color: var(--text-muted);
-    font-size: 1rem;
-    margin-top: -1rem;
+    font-size: 0.9rem;
 }
 
 /* Timeline project link */
