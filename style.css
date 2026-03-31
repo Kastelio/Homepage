@@ -1034,11 +1034,14 @@ h4,
 
 /* Hero intro */
 .hero-intro {
-    font-size: 1.05rem;
-    color: var(--text-muted);
-    margin-top: 0.5rem;
-    font-weight: 400;
-    letter-spacing: 0.3px;
+    font-size: 1.3rem;
+    color: var(--text-light);
+    margin-top: 1.2rem;
+    font-weight: 600;
+    letter-spacing: -0.2px;
+    border-left: 3px solid var(--accent-yellow);
+    padding-left: 1rem;
+    text-align: left;
 }
 
 .competency-wip {
