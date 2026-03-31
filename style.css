@@ -779,6 +779,10 @@ h4,
 }
 
 /* Skills with descriptions */
+.skill-group h3 {
+    margin-bottom: 1.2rem;
+}
+
 .skill-list {
     display: flex;
     flex-direction: column;
@@ -973,8 +977,9 @@ h4,
 }
 
 /* Timeline project link */
-.timeline-project-link {
-    color: var(--text-light);
+.timeline-project-link,
+.timeline-project-link:visited {
+    color: #ffffff;
     text-decoration: none;
     border-bottom: 1px solid #666;
     transition: color 0.2s, border-color 0.2s;
