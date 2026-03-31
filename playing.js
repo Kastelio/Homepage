@@ -60,11 +60,13 @@ function renderGames() {
             ? `<img src="${g.thumbnail}" alt="${g.name}" class="game-thumb" loading="lazy">`
             : `<div class="game-thumb-placeholder">🎮</div>`;
 
+        const isPackage = g.package === 'Yes';
+
         const playtimeEl = g.playtime
             ? `<div class="game-stat"><span class="stat-label">플레이</span><span class="stat-value">${g.playtime}시간</span></div>`
             : '';
 
-        const paymentEl = g.payment
+        const paymentEl = (!isPackage && g.payment)
             ? `<div class="game-stat"><span class="stat-label">과금</span><span class="stat-value">${Number(g.payment).toLocaleString()}원</span></div>`
             : '';
 
