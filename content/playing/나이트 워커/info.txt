@@ -4,3 +4,4 @@ developer: 에이스톰
 platform: Windows
 package: No
 comment: 
+payment: 30000

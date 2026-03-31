@@ -4,3 +4,4 @@ developer: 네오플
 platform: Android, Windows, iOS
 package: No
 comment: 
+payment: 103600

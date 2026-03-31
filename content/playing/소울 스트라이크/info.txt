@@ -4,3 +4,4 @@ developer: 티키타카 스튜디오
 platform: Android, iOS
 package: No
 comment: 
+payment: 114380

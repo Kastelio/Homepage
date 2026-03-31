@@ -4,3 +4,4 @@ developer: BLUEPOCH
 platform: Android, Windows, iOS
 package: No
 comment: 
+payment: 20500

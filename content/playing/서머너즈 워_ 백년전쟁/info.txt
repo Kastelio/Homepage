@@ -4,3 +4,4 @@ developer: 컴투스
 platform: Android, iOS
 package: No
 comment: 
+payment: 339200

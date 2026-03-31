@@ -4,3 +4,4 @@ developer: 라이온하트스튜디오
 platform: Android, Windows, iOS
 package: No
 comment: 
+payment: 2287600

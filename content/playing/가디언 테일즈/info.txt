@@ -4,3 +4,4 @@ developer: Kong Studios
 platform: Android, iOS
 package: No
 comment: 
+payment: 157000

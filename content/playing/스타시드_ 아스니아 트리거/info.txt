@@ -4,3 +4,4 @@ developer: 모히또게임즈
 platform: Android, iOS
 package: No
 comment: 
+payment: 11000

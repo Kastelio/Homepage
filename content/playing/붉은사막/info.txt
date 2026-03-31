@@ -1,0 +1,8 @@
+name: 붉은사막
+release: 2026
+developer: Pearl Abyss
+platform: PC
+package: Yes
+playtime:
+payment: 79800
+comment:

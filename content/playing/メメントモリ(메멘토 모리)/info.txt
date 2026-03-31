@@ -4,3 +4,4 @@ developer: BANK OF INNOVATION
 platform: Android, iOS
 package: No
 comment: 
+payment: 29000

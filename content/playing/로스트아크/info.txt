@@ -4,3 +4,4 @@ developer: 스마일게이트알피지
 platform: Windows
 package: No
 comment: 
+payment: 12098500

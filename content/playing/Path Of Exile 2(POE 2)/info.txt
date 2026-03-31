@@ -4,3 +4,4 @@ developer: 그라인딩 기어 게임즈
 platform: PS5, Windows, Xbox
 package: No
 comment: 
+payment: 66000

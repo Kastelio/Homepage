@@ -4,3 +4,4 @@ developer: 넷이즈
 platform: Android, iOS
 package: No
 comment: 
+payment: 9900

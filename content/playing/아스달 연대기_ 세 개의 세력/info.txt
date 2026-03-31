@@ -4,3 +4,4 @@ developer: 넷마블에프앤씨
 platform: Android, Windows, iOS
 package: No
 comment: 
+payment: 80000

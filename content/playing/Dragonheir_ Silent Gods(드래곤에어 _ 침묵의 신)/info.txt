@@ -4,3 +4,4 @@ developer: SGRA Studio
 platform: Android, Windows, iOS
 package: No
 comment: 
+payment: 162400

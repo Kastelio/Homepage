@@ -4,3 +4,4 @@ developer: 넷마블몬스터
 platform: Android, Windows, iOS
 package: No
 comment: 
+payment: 58800

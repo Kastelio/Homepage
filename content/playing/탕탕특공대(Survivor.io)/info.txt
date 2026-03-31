@@ -4,3 +4,4 @@ developer: Habby
 platform: Android, iOS
 package: No
 comment: 
+payment: 10700

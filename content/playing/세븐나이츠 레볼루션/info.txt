@@ -4,3 +4,4 @@ developer: 넷마블 넥서스
 platform: Android, Windows, iOS
 package: No
 comment: 
+payment: 262000

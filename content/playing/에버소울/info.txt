@@ -4,3 +4,4 @@ developer: 나인아크
 platform: Android, iOS
 package: No
 comment: 
+payment: 3000

@@ -4,3 +4,4 @@ developer: Blizzard
 platform: Android, Windows, iOS, macOS
 package: No
 comment: 
+payment: 30000

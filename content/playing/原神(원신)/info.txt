@@ -4,3 +4,4 @@ developer: miHoYo
 platform: Android, PS4, PS5, Windows, iOS
 package: No
 comment: 
+payment: 4887000

@@ -4,3 +4,4 @@ developer: Riot Games
 platform: Windows, macOS
 package: No
 comment: 
+payment: 148800

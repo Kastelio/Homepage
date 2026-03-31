@@ -4,3 +4,4 @@ developer: 넥슨게임즈
 platform: Android, Windows, iOS
 package: No
 comment: 
+payment: 111000

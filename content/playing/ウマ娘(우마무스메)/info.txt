@@ -4,3 +4,4 @@ developer: Cygames
 platform: Android, iOS
 package: No
 comment: 
+payment: 47900

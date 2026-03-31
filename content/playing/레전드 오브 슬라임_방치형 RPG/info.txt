@@ -4,3 +4,4 @@ developer: 로드컴플릿
 platform: Android, iOS
 package: No
 comment: 
+payment: 13000

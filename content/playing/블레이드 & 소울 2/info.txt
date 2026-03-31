@@ -4,3 +4,4 @@ developer: 엔씨소프트
 platform: Android, Windows, iOS
 package: No
 comment: 
+payment: 33000

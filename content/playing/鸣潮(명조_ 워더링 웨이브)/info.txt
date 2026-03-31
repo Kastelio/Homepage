@@ -4,3 +4,4 @@ developer: KURO GAMES
 platform: Android, Windows, iOS
 package: No
 comment: 
+payment: 368400

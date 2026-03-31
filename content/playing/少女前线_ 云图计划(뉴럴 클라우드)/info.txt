@@ -4,3 +4,4 @@ developer: SUNBORN Network Technology
 platform: Android, iOS
 package: No
 comment: 
+payment: 92500

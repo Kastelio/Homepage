@@ -4,3 +4,4 @@ developer: 엑스엘게임즈
 platform: Android, Windows, iOS
 package: No
 comment: 
+payment: 79000

@@ -4,3 +4,4 @@ developer: Jule Game
 platform: Android, iOS
 package: No
 comment: 
+payment: 25700

@@ -4,3 +4,4 @@ developer: 넥슨
 platform: Android, Windows, iOS
 package: No
 comment: 
+payment: 27228890

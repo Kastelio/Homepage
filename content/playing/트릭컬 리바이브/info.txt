@@ -4,3 +4,4 @@ developer: 에피드게임즈
 platform: Android, iOS
 package: No
 comment: 
+payment: 2374500

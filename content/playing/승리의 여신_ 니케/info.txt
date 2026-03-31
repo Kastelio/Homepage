@@ -4,3 +4,4 @@ developer: 시프트업
 platform: Android, iOS
 package: No
 comment: 
+payment: 48000

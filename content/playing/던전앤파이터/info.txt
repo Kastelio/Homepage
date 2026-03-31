@@ -4,3 +4,4 @@ developer: 네오플
 platform: Windows
 package: No
 comment: 
+payment: 500000

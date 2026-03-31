@@ -4,3 +4,4 @@ developer: Wright Flyer Studios
 platform: Android, Windows, iOS
 package: No
 comment: 
+payment: 66000

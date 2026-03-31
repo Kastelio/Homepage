@@ -4,3 +4,4 @@ developer: 매드엔진
 platform: Android, Windows, iOS
 package: No
 comment: 
+payment: 253000
