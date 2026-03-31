@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>왕좌의 게임: 킹스로드 | Game-Oriented</title>
+    <meta name="description" content="왕좌의 게임: 킹스로드 시스템 기획 포트폴리오. 액션 RPG, 어드벤처, 실사 그래픽.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Outfit:wght@300;400;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./detail.css">
+</head>
+
+<body>
+    <div id="app">
+        <!-- Navigation -->
+        <nav class="framer-nav">
+            <div class="nav-content">
+                <div class="logo-area">
+                    <span class="logo-text">Game-Oriented</span>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="./index.html">About Me</a></li>
+                    <li><a href="./index.html#projects">Projects</a></li>
+                    <li><a href="./index.html#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <main class="detail-main">
+            <!-- Back Button -->
+            <div class="back-btn-wrapper container">
+                <a href="./index.html#projects" class="back-btn">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18" height="18">
+                        <path d="M19 12H5M12 5l-7 7 7 7" />
+                    </svg>
+                    돌아가기
+                </a>
+            </div>
+
+            <!-- Hero -->
+            <section class="detail-hero container">
+                <div class="detail-badge">2025. 3. 26. Steam Early Access</div>
+                <h1 class="detail-title">왕좌의 게임: 킹스로드</h1>
+                <div class="detail-tags">
+                    <span class="detail-tag">Action RPG</span>
+                    <span class="detail-tag">Adventure</span>
+                    <span class="detail-tag">실사</span>
+                </div>
+                <p class="detail-dev">Netmarble Neo 개발 · Netmarble 유통</p>
+                <div class="hero-banner-container">
+                    <img src="https://framerusercontent.com/images/Q97lWkyCEDhb9FZD6gwINeaxo.png"
+                        alt="Kingsroad Hero Banner" class="hero-banner-img">
+                </div>
+            </section>
+
+            <!-- Divider -->
+            <div class="detail-divider container"></div>
+
+            <section class="detail-systems container">
+                <h2 class="detail-section-title">Designed</h2>
+
+                <div class="system-list">
+                    <!-- 1. 효과 상세 정보 팝업 -->
+                    <div class="system-item fade-in">
+                        <div class="system-header">
+                            <h3 class="system-name">효과 상세 정보 팝업</h3>
+                            <div class="role-tags">
+                                <span class="role-tag">시스템 기획</span>
+                            </div>
+                        </div>
+                        <p class="system-desc-main">PC에 적용된 효과를 출력하는 시스템으로, 자신의 캐릭터에 부여된 효과에 대한 정보를 제공합니다.</p>
+                        <div class="system-image-container">
+                            <img src="https://framerusercontent.com/images/QeKouJBdfNC8EhEXeM9biKBEdU.png"
+                                alt="효과 상세 정보 팝업" class="system-img">
+                        </div>
+                    </div>
+
+                    <!-- 2. 획득처 -->
+                    <div class="system-item fade-in">
+                        <div class="system-header">
+                            <h3 class="system-name">획득처</h3>
+                            <div class="role-tags">
+                                <span class="role-tag">시스템 기획</span>
+                                <span class="role-tag">데이터 입력</span>
+                            </div>
+                        </div>
+                        <p class="system-desc-main">특정 자원(아이템, 재화 등)에 대해 획득할 수 있는 콘텐츠를 안내하는 시스템입니다.</p>
+                        <p class="system-desc-sub">필요한 자원을 제공하는 콘텐츠로 빠르게 안내하여 플레이를 이어갈 수 있도록 지원</p>
+                        <div class="system-image-container">
+                            <img src="https://framerusercontent.com/images/QXdtOksTx2RMa8silx8fm8uS0nE.png" alt="획득처"
+                                class="system-img">
+                        </div>
+                    </div>
+
+                    <!-- 3. 특정 상품 안내 -->
+                    <div class="system-item fade-in">
+                        <div class="system-header">
+                            <h3 class="system-name">특정 상품 안내</h3>
+                            <div class="role-tags">
+                                <span class="role-tag">시스템 기획</span>
+                                <span class="role-tag">데이터 입력</span>
+                            </div>
+                        </div>
+                        <p class="system-desc-main">특정 상품을 구매할 수 있는 상점 탭으로 안내하거나 상품을 추천합니다.</p>
+                        <p class="system-desc-sub">필요한 자원과 관련된 상품에 대한 정보를 적시에 제공</p>
+                        <div class="system-image-container">
+                            <img src="https://framerusercontent.com/images/n6y895z21aTvlCWEdb3BdXJytP0.png"
+                                alt="특정 상품 안내" class="system-img">
+                        </div>
+                    </div>
+
+                    <!-- 4. 상품 타입 -->
+                    <div class="system-item fade-in">
+                        <div class="system-header">
+                            <h3 class="system-name">상품 타입 (릴레이, 보너스 그룹, 출석)</h3>
+                            <div class="role-tags">
+                                <span class="role-tag">시스템 기획</span>
+                                <span class="role-tag">데이터 입력</span>
+                            </div>
+                        </div>
+                        <p class="system-desc-main">특정한 규칙이 존재하는 상품 타입 시스템 개발을 목표로 합니다.</p>
+                        <ul class="system-sub-list">
+                            <li>릴레이 상품 기획 (순차적으로 구매)</li>
+                            <li>보너스 상품 기획 (N회 구매 시 보너스 획득)</li>
+                            <li>출석 상품 기획 (출석 횟수에 맞춰 보상 획득)</li>
+                        </ul>
+                        <div class="system-image-container">
+                            <img src="https://framerusercontent.com/images/mEat0BgBmHbDEgeS7cvP86CffH0.png?scale-down-to=512"
+                                alt="상품 타입" class="system-img">
+                        </div>
+                    </div>
+
+                    <!-- 5. 효용 -->
+                    <div class="system-item fade-in">
+                        <div class="system-header">
+                            <h3 class="system-name">효용</h3>
+                        </div>
+                        <p class="system-desc-main">계정 또는 캐릭터에게 특정한 효용을 부여하는 시스템입니다.</p>
+                        <p class="system-desc-sub">효용을 획득하기 위해 특정 상품 이용 또는 콘텐츠에 참여하도록 유도</p>
+                        <div class="system-image-container">
+                            <img src="https://framerusercontent.com/images/rSLkKXQBUXXBn7xV7wPC4fRfW2E.png" alt="효용"
+                                class="system-img">
+                        </div>
+                    </div>
+
+                    <!-- 6. 게임 설정, 키 바인딩, 언어 -->
+                    <div class="system-item fade-in">
+                        <div class="system-header">
+                            <h3 class="system-name">게임 설정, 키 바인딩, 언어</h3>
+                        </div>
+                        <p class="system-desc-main">게임 환경을 조정할 수 있는 시스템으로, 기기 스펙 또는 유저 필요에 대응합니다.</p>
+                        <div class="system-image-container">
+                            <img src="https://framerusercontent.com/images/RospPtMRwaW4LksU9k72mIyFAK8.png" alt="게임 설정"
+                                class="system-img">
+                        </div>
+                    </div>
+
+                    <!-- 7. 튜토리얼 다시보기 -->
+                    <div class="system-item fade-in">
+                        <div class="system-header">
+                            <h3 class="system-name">튜토리얼 다시보기</h3>
+                            <div class="role-tags">
+                                <span class="role-tag">시스템 기획</span>
+                                <span class="role-tag">데이터 입력</span>
+                            </div>
+                        </div>
+                        <p class="system-desc-main">플레이에 필요한 각종 콘텐츠에 대해 학습을 지원하는 시스템입니다.</p>
+                        <div class="system-image-container">
+                            <img src="https://framerusercontent.com/images/y3W0Xiz3l8XTjOYDca0y0V3gQQQ.png"
+                                alt="튜토리얼 다시보기" class="system-img">
+                        </div>
+                    </div>
+
+                    <div class="features-list">
+                        <!-- 1. 효과 상세 정보 팝업 -->
+                        <div class="feature-item" style="text-align: center; margin-bottom: 4rem;">
+                            <h3 style="color: #DFFF00; font-size: 1.8rem; margin-bottom: 0.5rem; font-weight: 800;">효과
+                                상세 정보 팝업</h3>
+                            <p style="color: #888; margin-bottom: 0.5rem; font-size: 1rem;">PC에 적용된 효과를 출력하는 시스템</p>
+                            <p style="color: #fff; font-weight: 700; margin-bottom: 2rem;">자신의 캐릭터에 부여된 효과에 대한 정보 제공</p>
+                            <img src="./assets/kingsroad.jpg" alt="효과 상세 정보 팝업"
+                                style="max-width: 800px; width: 100%; border-radius: 8px;">
+                        </div>
+
+                        <!-- 2. 획득처 -->
+                        <div class="feature-item" style="text-align: center; margin-bottom: 4rem;">
+                            <h3 style="color: #DFFF00; font-size: 1.8rem; margin-bottom: 0.5rem; font-weight: 800;">획득처
+                            </h3>
+                            <p style="color: #888; margin-bottom: 0.5rem; font-size: 1rem;">특정 자원(아이템, 재화 등)에 대해 획득할 수
+                                있는 콘텐츠를 안내하는 시스템</p>
+                            <p style="color: #fff; font-weight: 700; margin-bottom: 2rem;">필요한 자원을 제공하는 콘텐츠를 빠르게 안내하여
+                                플레이를 이어갈 수 있도록 지원</p>
+                            <img src="./assets/kingsroad.jpg" alt="획득처"
+                                style="max-width: 800px; width: 100%; border-radius: 8px;">
+                        </div>
+
+                        <!-- 3. 특정 상품 안내 -->
+                        <div class="feature-item" style="text-align: center; margin-bottom: 4rem;">
+                            <h3 style="color: #DFFF00; font-size: 1.8rem; margin-bottom: 0.5rem; font-weight: 800;">특정
+                                상품 안내</h3>
+                            <p style="color: #888; margin-bottom: 0.5rem; font-size: 1rem;">특정 상품을 구매할 수 있는 상점 탭으로 안내하거나
+                                상품을 추천</p>
+                            <p style="color: #fff; font-weight: 700; margin-bottom: 2rem;">필요한 자원과 관련된 상품에 대한 정보를 적시에 제공
+                            </p>
+                            <img src="./assets/kingsroad.jpg" alt="특정 상품 안내"
+                                style="max-width: 800px; width: 100%; border-radius: 8px;">
+                        </div>
+
+                        <!-- 4. 상품 타입 -->
+                        <div class="feature-item" style="text-align: center; margin-bottom: 4rem;">
+                            <h3 style="color: #DFFF00; font-size: 1.8rem; margin-bottom: 0.5rem; font-weight: 800;">상품
+                                타입 (릴레이, 보너스 그룹, 출석)</h3>
+                            <p style="color: #888; margin-bottom: 0.5rem; font-size: 1rem;">특정한 규칙이 존재하는 상품 타입 시스템</p>
+                            <p style="color: #fff; font-weight: 700; margin-bottom: 2rem;">매력적으로 느껴질 수 있는 상품 타입 개발을 목표
+                            </p>
+
+                            <div class="sub-features-grid"
+                                style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; max-width: 800px; margin: 0 auto; margin-bottom: 1rem;">
+                                <div
+                                    style="background: #222; padding: 1rem; border-radius: 4px; font-weight: 600; color: #fff;">
+                                    릴레이 상품 기획 (순차적으로 구매)</div>
+                                <div
+                                    style="background: #222; padding: 1rem; border-radius: 4px; font-weight: 600; color: #fff;">
+                                    보너스 상품 기획 (N회 구매 시 보너스 획득)</div>
+                            </div>
+                            <div class="sub-features-grid"
+                                style="display: grid; grid-template-columns: 1fr; max-width: 400px; margin: 0 auto;">
+                                <div
+                                    style="background: #222; padding: 1rem; border-radius: 4px; font-weight: 600; color: #fff;">
+                                    출석 상품 기획 (출석 횟수에 맞춰 보상 획득)</div>
+                            </div>
+                        </div>
+
+                        <!-- 5. 효용 -->
+                        <div class="feature-item" style="text-align: center; margin-bottom: 4rem;">
+                            <h3 style="color: #DFFF00; font-size: 1.8rem; margin-bottom: 0.5rem; font-weight: 800;">효용
+                            </h3>
+                            <p style="color: #888; margin-bottom: 0.5rem; font-size: 1rem;">계정 또는 캐릭터에게 특정한 효용을 부여하는 시스템
+                            </p>
+                            <p style="color: #fff; font-weight: 700; margin-bottom: 2rem;">효용을 획득하기 위해 특정 상품 이용 또는 콘텐츠에
+                                참여하도록 유도</p>
+
+                            <div class="sub-features-grid"
+                                style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; max-width: 800px; margin: 0 auto;">
+                                <div
+                                    style="background: #222; padding: 1rem; border-radius: 4px; font-weight: 600; color: #fff;">
+                                    패키지 상품에서 제공하는 경우 (영구)</div>
+                                <div
+                                    style="background: #222; padding: 1rem; border-radius: 4px; font-weight: 600; color: #fff;">
+                                    월정액 상품에서 제공하는 경우 (기간제)</div>
+                            </div>
+                        </div>
+
+                        <!-- 6. 게임 설정, 키 바인딩, 언어 -->
+                        <div class="feature-item" style="text-align: center; margin-bottom: 4rem;">
+                            <h3 style="color: #DFFF00; font-size: 1.8rem; margin-bottom: 0.5rem; font-weight: 800;">게임
+                                설정, 키 바인딩, 언어</h3>
+                            <p style="color: #888; margin-bottom: 0.5rem; font-size: 1rem;">게임을 플레이하는 데 있어, 게임 환경을 조정할 수
+                                있는 시스템</p>
+                            <p style="color: #fff; font-weight: 700; margin-bottom: 2rem;">기기의 스펙 또는 유저의 필요에 대응하여, 적절히
+                                게임을 플레이할 수 있는 환경 구성</p>
+
+                            <div class="sub-features-grid"
+                                style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; max-width: 800px; margin: 0 auto;">
+                                <div
+                                    style="background: #222; padding: 1rem; border-radius: 4px; font-weight: 600; color: #fff;">
+                                    게임 설정</div>
+                                <div
+                                    style="background: #222; padding: 1rem; border-radius: 4px; font-weight: 600; color: #fff;">
+                                    키 바인딩</div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 8. 레드닷 -->
+                    <div class="system-item fade-in">
+                        <div class="system-header">
+                            <h3 class="system-name">레드닷</h3>
+                            <div class="role-tags">
+                                <span class="role-tag">시스템 기획</span>
+                                <span class="role-tag">데이터 입력</span>
+                            </div>
+                        </div>
+                        <p class="system-desc-main">특정 콘텐츠 진입이 필요한 상황을 유도하고 가이드하는 시스템입니다.</p>
+                        <div class="system-image-container">
+                            <img src="https://framerusercontent.com/images/aDmss1TAMtY09GRQ7adv1Iz4MDw.png" alt="레드닷"
+                                class="system-img">
+                        </div>
+                    </div>
+
+                    <!-- 9. 게임패드 -->
+                    <div class="system-item fade-in">
+                        <div class="system-header">
+                            <h3 class="system-name">게임패드</h3>
+                            <div class="role-tags">
+                                <span class="role-tag">PC 조작 개선</span>
+                                <span class="role-tag">UI 조작 기획</span>
+                            </div>
+                        </div>
+                        <p class="system-desc-main">XBox Controller로 게임을 플레이할 수 있도록 환경을 구축했습니다.</p>
+                        <div class="system-image-container">
+                            <img src="https://framerusercontent.com/images/PjVaNXsMjdsSvTjk2RuMYi9tg.png" alt="게임패드"
+                                class="system-img">
+                        </div>
+                    </div>
+
+                    <!-- 10. 타이틀 -->
+                    <div class="system-item fade-in">
+                        <div class="system-header">
+                            <h3 class="system-name">타이틀</h3>
+                            <div class="role-tags">
+                                <span class="role-tag">시스템 개선</span>
+                            </div>
+                        </div>
+                        <p class="system-desc-main">게임 접속 전 필요한 각종 처리 및 플로우를 정리한 시스템입니다.</p>
+                        <div class="system-image-container">
+                            <img src="https://framerusercontent.com/images/I0HGyIVxeU8ZSpYfODXnUNclF4.png" alt="타이틀"
+                                class="system-img">
+                        </div>
+                    </div>
+
+                    <!-- 11. 업적 -->
+                    <div class="system-item fade-in">
+                        <div class="system-header">
+                            <h3 class="system-name">업적</h3>
+                            <div class="role-tags">
+                                <span class="role-tag">시스템 개선</span>
+                                <span class="role-tag">데이터 구성 및 밸런싱</span>
+                            </div>
+                        </div>
+                        <p class="system-desc-main">특정 행동 유도 및 반복 활동에 대한 정기적인 보상 피드백 시스템입니다.</p>
+                        <div class="system-image-container">
+                            <img src="https://framerusercontent.com/images/QLApS8ocVkjCpyCiCq7fdEd5V1s.png" alt="업적"
+                                class="system-img">
+                        </div>
+                    </div>
+
+                    <!-- 12. 유물 도감 -->
+                    <div class="system-item fade-in">
+                        <div class="system-header">
+                            <h3 class="system-name">유물 도감</h3>
+                            <div class="role-tags">
+                                <span class="role-tag">시스템 기획</span>
+                            </div>
+                        </div>
+                        <p class="system-desc-main">게임 내 존재하는 유물을 목록화하여 정보를 제공하고 보유/성장 시 장점을 안내합니다.</p>
+                        <div class="system-image-container">
+                            <img src="https://framerusercontent.com/images/ixdveaBq4B8hSNw1MUpp5LzDiw.png" alt="유물 도감"
+                                class="system-img">
+                        </div>
+                    </div>
+
+                    <!-- 13. 일일 미션 -->
+                    <div class="system-item fade-in">
+                        <div class="system-header">
+                            <h3 class="system-name">일일 미션</h3>
+                            <div class="role-tags">
+                                <span class="role-tag">시스템 개선</span>
+                                <span class="role-tag">데이터 구성</span>
+                            </div>
+                        </div>
+                        <p class="system-desc-main">일일/주간 플레이 콘텐츠와 보상을 제공하는 시스템입니다.</p>
+                        <div class="system-image-container">
+                            <img src="https://framerusercontent.com/images/meDN8vCCtWt4pycJk9sprpwyOy4.png" alt="일일 미션"
+                                class="system-img">
+                        </div>
+                    </div>
+
+                    <!-- 14. 서비스 대응 -->
+                    <div class="system-item fade-in">
+                        <div class="system-header">
+                            <h3 class="system-name">서비스 대응</h3>
+                            <div class="role-tags">
+                                <span class="role-tag">웹뷰 기획 및 데이터 입력</span>
+                            </div>
+                        </div>
+                        <p class="system-desc-main">웹뷰, 푸시, 플랫폼 대응, 계정 연동 등 운영 상 필요한 시스템 사양을 구축했습니다.</p>
+                        <div class="system-image-container">
+                            <img src="https://framerusercontent.com/images/ilvmKOkKBPExftLFhI6LaNTuNRU.png" alt="서비스 대응"
+                                class="system-img">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 기타 (Grid Layout) -->
+                <div class="other-improvements container"
+                    style="margin-top: 6rem; margin-bottom: 2rem; text-align: center;">
+                    <h2 class="detail-section-title"
+                        style="color: #DFFF00; margin-bottom: 0.5rem; border: none; padding-bottom: 0;">기타</h2>
+                    <p style="color: #888; margin-bottom: 1rem; font-size: 1.1rem;">간단한 개선 혹은 참여</p>
+                    <p style="color: #fff; font-weight: 700; font-size: 1.3rem; margin-bottom: 3rem;">플레이 퀄리티 제고를 위한 작업
+                        수행</p>
+
+                    <div class="improvements-grid"
+                        style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 2rem; max-width: 1000px; margin: 0 auto;">
+                        <div class="improvement-card"
+                            style="position: relative; overflow: hidden; border-radius: 8px; background: #222;">
+                            <img src="https://framerusercontent.com/images/zs59Yv6splUFrL2L84Mb2L91JQ.png"
+                                alt="탈것(데이터 구성)" style="width: 100%; display: block; opacity: 0.8;">
+                            <div class="card-overlay"
+                                style="position: absolute; bottom: 0; left: 0; right: 0; background: linear-gradient(to top, rgba(0,0,0,0.9), transparent); padding: 1.5rem 1rem 1rem; text-align: center;">
+                                <span style="color: #fff; font-weight: 700; font-size: 1.1rem;">탈것(데이터 구성)</span>
+                            </div>
+                        </div>
+                        <div class="improvement-card"
+                            style="position: relative; overflow: hidden; border-radius: 8px; background: #222;">
+                            <img src="https://framerusercontent.com/images/IhhXVPQJaJQ9xHMoMnJULtnGMAQ.png"
+                                alt="탈것 장비 (데이터 구성)" style="width: 100%; display: block; opacity: 0.8;">
+                            <div class="card-overlay"
+                                style="position: absolute; bottom: 0; left: 0; right: 0; background: linear-gradient(to top, rgba(0,0,0,0.9), transparent); padding: 1.5rem 1rem 1rem; text-align: center;">
+                                <span style="color: #fff; font-weight: 700; font-size: 1.1rem;">탈것 장비 (데이터 구성)</span>
+                            </div>
+                        </div>
+                        <div class="improvement-card"
+                            style="position: relative; overflow: hidden; border-radius: 8px; background: #222;">
+                            <img src="https://framerusercontent.com/images/2xOR1rlCz8uQFcblyompuDOSzk.png"
+                                alt="제작, 생산, 유물 탐사 (즉시 완료 기능 추가)" style="width: 100%; display: block; opacity: 0.8;">
+                            <div class="card-overlay"
+                                style="position: absolute; bottom: 0; left: 0; right: 0; background: linear-gradient(to top, rgba(0,0,0,0.9), transparent); padding: 1.5rem 1rem 1rem; text-align: center;">
+                                <span style="color: #fff; font-weight: 700; font-size: 1.1rem;">제작, 생산, 유물 탐사 (즉시 완료 기능
+                                    추가)</span>
+                            </div>
+                        </div>
+                        <div class="improvement-card"
+                            style="position: relative; overflow: hidden; border-radius: 8px; background: #222;">
+                            <img src="https://framerusercontent.com/images/pjrEyGslcyG1gkPsifVMZHca4.png"
+                                alt="유물 탐사 (취소 기능, 연출)" style="width: 100%; display: block; opacity: 0.8;">
+                            <div class="card-overlay"
+                                style="position: absolute; bottom: 0; left: 0; right: 0; background: linear-gradient(to top, rgba(0,0,0,0.9), transparent); padding: 1.5rem 1rem 1rem; text-align: center;">
+                                <span style="color: #fff; font-weight: 700; font-size: 1.1rem;">유물 탐사 (취소 기능, 연출)</span>
+                            </div>
+                        </div>
+                        <div class="improvement-card"
+                            style="position: relative; overflow: hidden; border-radius: 8px; background: #222;">
+                            <img src="https://framerusercontent.com/images/PAXLvpzKItgxqv5F7eWpnjtVTU.png"
+                                alt="장벽 너머 원정 콘텐츠 개선" style="width: 100%; display: block; opacity: 0.8;">
+                            <div class="card-overlay"
+                                style="position: absolute; bottom: 0; left: 0; right: 0; background: linear-gradient(to top, rgba(0,0,0,0.9), transparent); padding: 1.5rem 1rem 1rem; text-align: center;">
+                                <span style="color: #fff; font-weight: 700; font-size: 1.1rem;">장벽 너머 원정 콘텐츠 개선</span>
+                            </div>
+                        </div>
+                        <div class="improvement-card"
+                            style="position: relative; overflow: hidden; border-radius: 8px; background: #222;">
+                            <img src="https://framerusercontent.com/images/PAXLvpzKItgxqv5F7eWpnjtVTU.png"
+                                alt="채팅 말풍선 출력" style="width: 100%; display: block; opacity: 0.8;">
+                            <div class="card-overlay"
+                                style="position: absolute; bottom: 0; left: 0; right: 0; background: linear-gradient(to top, rgba(0,0,0,0.9), transparent); padding: 1.5rem 1rem 1rem; text-align: center;">
+                                <span style="color: #fff; font-weight: 700; font-size: 1.1rem;">채팅 말풍선 출력</span>
+                            </div>
+                        </div>
+                        <div class="improvement-card"
+                            style="position: relative; overflow: hidden; border-radius: 8px; background: #222;">
+                            <img src="https://framerusercontent.com/images/PAXLvpzKItgxqv5F7eWpnjtVTU.png"
+                                alt="2024 지스타 참여" style="width: 100%; display: block; opacity: 0.8;">
+                            <div class="card-overlay"
+                                style="position: absolute; bottom: 0; left: 0; right: 0; background: linear-gradient(to top, rgba(0,0,0,0.9), transparent); padding: 1.5rem 1rem 1rem; text-align: center;">
+                                <span style="color: #fff; font-weight: 700; font-size: 1.1rem;">2024 지스타 참여</span>
+                            </div>
+                        </div>
+                        <div class="improvement-card"
+                            style="position: relative; overflow: hidden; border-radius: 8px; background: #222;">
+                            <img src="https://framerusercontent.com/images/R7QUnnae0QzDPibOZ7i8DL27CY.png"
+                                alt="커스터마이징 (목소리 선택)" style="width: 100%; display: block; opacity: 0.8;">
+                            <div class="card-overlay"
+                                style="position: absolute; bottom: 0; left: 0; right: 0; background: linear-gradient(to top, rgba(0,0,0,0.9), transparent); padding: 1.5rem 1rem 1rem; text-align: center;">
+                                <span style="color: #fff; font-weight: 700; font-size: 1.1rem;">커스터마이징 (목소리 선택)</span>
+                            </div>
+                        </div>
+                        <div class="improvement-card"
+                            style="position: relative; overflow: hidden; border-radius: 8px; background: #222;">
+                            <img src="https://framerusercontent.com/images/tBMETIIiIcqogkOh7DbF1ebu8E.png"
+                                alt="장신구 일괄 장착 기능 추가" style="width: 100%; display: block; opacity: 0.8;">
+                            <div class="card-overlay"
+                                style="position: absolute; bottom: 0; left: 0; right: 0; background: linear-gradient(to top, rgba(0,0,0,0.9), transparent); padding: 1.5rem 1rem 1rem; text-align: center;">
+                                <span style="color: #fff; font-weight: 700; font-size: 1.1rem;">장신구 일괄 장착 기능 추가</span>
+                            </div>
+                        </div>
+                        <div class="improvement-card"
+                            style="position: relative; overflow: hidden; border-radius: 8px; background: #222;">
+                            <img src="https://framerusercontent.com/images/PAXLvpzKItgxqv5F7eWpnjtVTU.png"
+                                alt="장비 추천 팝업 개선" style="width: 100%; display: block; opacity: 0.8;">
+                            <div class="card-overlay"
+                                style="position: absolute; bottom: 0; left: 0; right: 0; background: linear-gradient(to top, rgba(0,0,0,0.9), transparent); padding: 1.5rem 1rem 1rem; text-align: center;">
+                                <span style="color: #fff; font-weight: 700; font-size: 1.1rem;">장비 추천 팝업 개선</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Back Button (Bottom) -->
+            <div class="back-btn-wrapper container" style="margin-top: 4rem; margin-bottom: 4rem;">
+                <a href="./index.html#projects" class="back-btn">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18" height="18">
+                        <path d="M19 12H5M12 5l-7 7 7 7" />
+                    </svg>
+                    돌아가기
+                </a>
+            </div>
+        </main>
+
+        <footer class="footer text-center">
+            <p>&copy; 2026 DeokGyu Kim. All rights reserved.</p>
+        </footer>
+    </div>
+    <script src="./main.js" defer></script>
+</body>
+
+</html>

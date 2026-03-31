@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UI Reference Archive | DeokGyu Kim</title>
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <style>
+        /* Specific overrides for detail page navigation */
+        body {
+            background-color: #111111;
+        }
+
+        .framer-nav {
+            background-color: #000000;
+            position: fixed;
+            border-bottom: 1px solid #333;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="app">
+        <!-- Navigation -->
+        <nav class="framer-nav">
+            <div class="nav-content">
+                <div class="logo-area">
+                    <span class="logo-text">Game-Oriented</span>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="./index.html#about">About Me</a></li>
+                    <li><a href="./index.html#projects">Projects</a></li>
+                    <li><a href="./index.html#sub-projects">Sub-Projects</a></li>
+                    <li><a href="./index.html#archive">Archive</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <main>
+            <!-- Details UI Section -->
+            <section class="archive-detail-section">
+                <div class="archive-detail-container">
+                    <!-- Title is populated by JS -->
+                    <h1 class="detail-header-title text-center fade-in" id="category-main-title">UI Reference</h1>
+
+                    <div class="reference-grid" id="reference-grid">
+                        <!-- Images will be injected by main.js -->
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer text-center" style="margin-top: 5rem; border-top: 1px solid #333; padding-top: 2rem;">
+            <p>&copy; 2026 DeokGyu Kim. All rights reserved.</p>
+        </footer>
+    </div>
+
+    <!-- Lightbox Modal (Reusing existing one from CSS/JS) -->
+    <div id="lightbox" class="lightbox-modal">
+        <span class="lightbox-close">&times;</span>
+        <img class="lightbox-content" id="lightbox-img">
+    </div>
+
+    <script src="./main.js" defer></script>
+</body>
+
+</html>
