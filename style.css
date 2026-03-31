@@ -152,7 +152,7 @@ h4,
     display: block;
 }
 
-.about-section > * {
+.about-section > *:not(#hero-bg-grid) {
     position: relative;
     z-index: 1;
 }
