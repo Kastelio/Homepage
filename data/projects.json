@@ -115,7 +115,7 @@
   {
     "id": "kingsroad",
     "title": "왕좌의 게임: 킹스로드",
-    "badge": "2025. 3. 26. Steam Early Access",
+    "badge": "2025. 3. 26. Steam Early Access  ·  2025. 5. 23. Grand Launch",
     "tags": [
       "Action RPG",
       "Adventure",
@@ -262,24 +262,17 @@
         ]
       },
       {
-        "name": "게임 설정, 키 바인딩, 언어",
+        "name": "게임 설정",
         "order": 8,
-        "category": "UX",
+        "category": "Environment",
         "date": "2024년 6월 10일",
-        "roles": [],
-        "desc": "게임 환경을 조정할 수 있는 시스템으로, 기기 스펙 또는 유저 필요에 대응합니다.",
+        "roles": [
+          "시스템 기획"
+        ],
+        "desc": "그래픽, 사운드, 인터페이스 등 게임 환경을 조정할 수 있는 옵션 시스템입니다.",
         "sub": "",
         "bullets": [],
-        "images": [
-          {
-            "file": "content/projects/kingsroad/게임설정/01.jpg",
-            "caption": ""
-          },
-          {
-            "file": "content/projects/kingsroad/게임설정/01.png",
-            "caption": ""
-          }
-        ]
+        "images": []
       },
       {
         "name": "튜토리얼 다시보기",
@@ -454,7 +447,7 @@
           "시스템 기획",
           "데이터 입력"
         ],
-        "desc": "특정 재료를 소모해 아이템을 제작하는 생산 콘텐츠입니다.",
+        "desc": "투입한 일꾼에 따라 시간당 보상을 획득하는 방치 시스템입니다.",
         "sub": "",
         "bullets": [],
         "images": [
@@ -550,7 +543,7 @@
           "시스템 기획",
           "데이터 입력"
         ],
-        "desc": "시간이 소요되는 콘텐츠를 재화를 소모해 즉시 완료하는 시스템입니다.",
+        "desc": "자원을 소모해 시간이 소요되는 콘텐츠를 즉시 완료하는 시스템입니다.",
         "sub": "",
         "bullets": [],
         "images": [
@@ -850,12 +843,12 @@
       {
         "name": "언어",
         "order": 41,
-        "category": "Service",
+        "category": "Environment",
         "date": "2024년 10월 20일",
         "roles": [
           "시스템 기획"
         ],
-        "desc": "",
+        "desc": "게임 내 표시 언어를 변경할 수 있는 언어 설정 시스템입니다.",
         "sub": "",
         "bullets": [],
         "images": []
@@ -1220,6 +1213,19 @@
           "시스템 기획"
         ],
         "desc": "",
+        "sub": "",
+        "bullets": [],
+        "images": []
+      },
+      {
+        "name": "키 바인딩",
+        "order": 81,
+        "category": "Environment",
+        "date": "2024년 6월 10일",
+        "roles": [
+          "시스템 기획"
+        ],
+        "desc": "PC 환경에서 유저가 키를 직접 설정할 수 있는 입력 매핑 시스템입니다.",
         "sub": "",
         "bullets": [],
         "images": []
