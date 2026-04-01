@@ -74,8 +74,8 @@ def build_project(project_id, project_folder):
         entry_path = os.path.join(project_folder, entry)
         if not os.path.isdir(entry_path):
             continue
-        if entry == "기타":
-            continue  # 기타는 별도 처리
+        if entry in ("기타", "etc"):
+            continue  # 기타/etc는 사이트 미노출
         # 이미지 없는 시스템은 제외
         if not get_images(entry_path):
             continue
