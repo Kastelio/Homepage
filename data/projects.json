@@ -836,24 +836,6 @@
         ]
       },
       {
-        "name": "예비 RP",
-        "order": 42,
-        "category": "Core",
-        "date": "2025년 10월 29일",
-        "roles": [
-          "시스템 기획"
-        ],
-        "desc": "",
-        "sub": "",
-        "bullets": [],
-        "images": [
-          {
-            "file": "content/projects/kingsroad/예비 RP/01.png",
-            "caption": ""
-          }
-        ]
-      },
-      {
         "name": "우편 보상 정렬 규칙 추가",
         "order": 43,
         "category": "UX",
