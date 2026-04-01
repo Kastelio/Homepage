@@ -78,7 +78,7 @@ h4,
 .nav-links {
     display: flex;
     list-style: none;
-    gap: 2rem;
+    gap: 1.5rem;
 }
 
 .nav-links a {
@@ -178,8 +178,8 @@ h4,
 }
 
 .profile-frame {
-    width: 250px;
-    height: 300px;
+    width: min(250px, 60vw);
+    height: min(300px, 72vw);
     background-color: #f0f0f0;
     margin-bottom: 0.5rem;
     display: flex;
@@ -669,6 +669,50 @@ h4,
     .timeline-date {
         text-align: left;
         flex: none;
+    }
+
+    .skill-groups {
+        flex-direction: column;
+        gap: 2rem;
+        align-items: flex-start;
+    }
+
+    .carousel-card {
+        flex: 0 0 80vw;
+    }
+}
+
+@media (max-width: 480px) {
+    .nav-content {
+        padding: 0 1rem;
+    }
+
+    .nav-links {
+        gap: 1rem;
+    }
+
+    .nav-links a {
+        font-size: 0.85rem;
+    }
+
+    .logo-text {
+        font-size: 1rem;
+    }
+
+    .title-name {
+        font-size: 1.8rem;
+    }
+
+    .about-section {
+        padding-top: calc(var(--nav-height) + 2rem);
+    }
+
+    .carousel-card {
+        flex: 0 0 90vw;
+    }
+
+    .section-header-row {
+        padding: 0 1rem;
     }
 }
 
