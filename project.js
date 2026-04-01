@@ -225,17 +225,73 @@ function renderOtherSystems(systems) {
             <div class="other-category-group">
                 <span class="other-category-label">${g.label}</span>
                 <ul class="other-system-list">
-                    ${g.systems.map(s => `
-                        <li class="other-system-item">
+                    ${g.systems.map(s => {
+                        const hasImg = s.images && s.images.length > 0;
+                        const imgSrc = hasImg ? s.images[0].file : '';
+                        return `
+                        <li class="other-system-item${hasImg ? ' has-preview' : ''}"
+                            ${hasImg ? `data-img="${imgSrc}" data-desc="${(s.desc || '').replace(/"/g, '&quot;')}" data-date="${s.date || ''}"` : ''}>
                             <span class="other-system-name">${s.name}</span>
                             ${s.date ? `<span class="other-system-date">${s.date}</span>` : ''}
-                        </li>
-                    `).join('')}
+                        </li>`;
+                    }).join('')}
                 </ul>
             </div>
         `).join('')}
     `;
     el.style.display = 'block';
+    initOtherSystemPopup();
+}
+
+function initOtherSystemPopup() {
+    let popup = document.getElementById('other-preview-popup');
+    if (!popup) {
+        popup = document.createElement('div');
+        popup.id = 'other-preview-popup';
+        popup.innerHTML = `
+            <img id="other-preview-img" src="" alt="">
+            <div id="other-preview-info">
+                <p id="other-preview-desc"></p>
+                <span id="other-preview-date"></span>
+            </div>
+        `;
+        document.body.appendChild(popup);
+    }
+
+    const isMobile = () => window.matchMedia('(hover: none)').matches;
+    let activeItem = null;
+
+    const show = (item) => {
+        document.getElementById('other-preview-img').src = item.dataset.img;
+        document.getElementById('other-preview-desc').textContent = item.dataset.desc;
+        document.getElementById('other-preview-date').textContent = item.dataset.date;
+        popup.classList.add('visible');
+        const rect = item.getBoundingClientRect();
+        const popupW = 280;
+        let left = rect.right + 12 + window.scrollX;
+        if (left + popupW > window.innerWidth - 16) left = rect.left - popupW - 12 + window.scrollX;
+        popup.style.left = left + 'px';
+        popup.style.top = (rect.top + window.scrollY) + 'px';
+    };
+    const hide = () => { popup.classList.remove('visible'); activeItem = null; };
+
+    document.querySelectorAll('.other-system-item.has-preview').forEach(item => {
+        if (!isMobile()) {
+            item.addEventListener('mouseenter', () => show(item));
+            item.addEventListener('mouseleave', hide);
+        } else {
+            item.addEventListener('click', (e) => {
+                e.stopPropagation();
+                if (activeItem === item) { hide(); return; }
+                activeItem = item;
+                show(item);
+            });
+        }
+    });
+
+    document.addEventListener('click', () => {
+        if (activeItem) hide();
+    });
 }
 
 function renderMisc(misc) {

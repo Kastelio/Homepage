@@ -307,12 +307,7 @@
         "desc": "성장 시 장착한 장비의 스탯을 %로 추가 적용 받는 시스템입니다.",
         "sub": "슬롯 성장을 통해 캐릭터 전투력을 지속적으로 향상",
         "bullets": [],
-        "images": [
-          {
-            "file": "content/projects/kingsroad/강화(슬롯 성장)/01.jpg",
-            "caption": ""
-          }
-        ]
+        "images": []
       },
       {
         "name": "교역",
@@ -345,12 +340,7 @@
         "desc": "장비 획득 시 최초에 부여된 기본 능력치의 단계를 상승시킬 수 있는 시스템입니다.",
         "sub": "",
         "bullets": [],
-        "images": [
-          {
-            "file": "content/projects/kingsroad/단조/01.jpg",
-            "caption": ""
-          }
-        ]
+        "images": []
       },
       {
         "name": "레드닷",
