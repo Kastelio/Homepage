@@ -15,8 +15,8 @@ document.addEventListener('DOMContentLoaded', async () => {
         hideLoading();
         renderHero(project);
         const sorted = sortByDateDesc(project.systems);
-        const mainSystems = sorted.filter(s => s.images && s.images.length > 0);
-        const otherSystems = sorted.filter(s => !s.images || s.images.length === 0);
+        const mainSystems = sorted.filter(s => (s.images && s.images.length > 0) || s.featured);
+        const otherSystems = sorted.filter(s => (!s.images || s.images.length === 0) && !s.featured);
         renderTOC(mainSystems);
         renderSystems(mainSystems);
         renderOtherSystems(otherSystems);
@@ -69,7 +69,7 @@ function sortByDateDesc(systems) {
 const CATEGORY_LABELS = {
     Core: '코어', Growth: '성장', Trade: '교환', Accomplishment: '달성',
     Collect: '수집', Dungeon: '전투/던전', Social: '소셜', Economy: '경제',
-    Management: '경영', Idle: '방치', BM: 'BM', Event: '이벤트',
+    Management: '경영', Idle: '방치', BM: 'BM', Event: '행사',
     UX: 'UX', Guide: '가이드', Service: '운영/서비스', Environment: '환경', World: '월드', Data: '데이터', Misc: '기타'
 };
 const CATEGORY_ORDER = ['Core','Growth','Trade','Accomplishment','Collect','Dungeon','Social','Economy','Management','Idle','BM','Event','UX','Guide','Service','Environment','World','Data','Misc'];

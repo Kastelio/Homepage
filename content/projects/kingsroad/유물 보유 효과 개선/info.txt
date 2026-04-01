@@ -1,6 +1,7 @@
 name: 유물 보유 효과 개선
 order: 48
 category: Growth
+featured: yes
 date: 2025년 7월 18일
 roles: 시스템 기획
-desc:
+desc: 유물 보유 시 적용되는 능력치 효과의 계산 방식 및 표시를 개선한 작업입니다.
