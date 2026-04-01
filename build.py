@@ -76,6 +76,9 @@ def build_project(project_id, project_folder):
             continue
         if entry == "기타":
             continue  # 기타는 별도 처리
+        # 이미지 없는 시스템은 제외
+        if not get_images(entry_path):
+            continue
         system = build_system(project_id, entry_path, entry)
         systems.append(system)
 
