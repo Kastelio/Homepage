@@ -14,8 +14,9 @@ document.addEventListener('DOMContentLoaded', async () => {
         document.title = `${project.title} | Game-Oriented`;
         hideLoading();
         renderHero(project);
-        renderTOC(project.systems);
-        renderSystems(project.systems);
+        const sorted = sortByDateDesc(project.systems);
+        renderTOC(sorted);
+        renderSystems(sorted);
         renderMisc(project.misc);
         initScrollAnimations();
         initLightbox();
@@ -49,6 +50,17 @@ function renderHero(project) {
         <div class="detail-tags">${tagsHtml}</div>
         ${project.dev ? `<p class="detail-dev">${project.dev}</p>` : ''}
     `;
+}
+
+function parseKoreanDate(str) {
+    if (!str) return 0;
+    const m = str.match(/(\d{4})년\s*(\d{1,2})월\s*(\d{1,2})일/);
+    if (!m) return 0;
+    return new Date(+m[1], +m[2] - 1, +m[3]).getTime();
+}
+
+function sortByDateDesc(systems) {
+    return [...systems].sort((a, b) => parseKoreanDate(b.date) - parseKoreanDate(a.date));
 }
 
 const CATEGORY_LABELS = {
