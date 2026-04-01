@@ -59,7 +59,6 @@ async function renderProjects() {
                 <div class="carousel-card-info">
                     <h3 class="carousel-card-title">${p.title}</h3>
                     <p class="carousel-card-tags">${p.tags.join(' · ')}</p>
-                    <span class="carousel-card-count">${p.systems.length}개 시스템</span>
                 </div>
             </a>
         `).join('');
