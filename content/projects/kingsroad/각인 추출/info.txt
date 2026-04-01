@@ -1,4 +1,5 @@
 name: 각인 추출
 order: 16
+category: Growth
 roles: 시스템 기획, 데이터 입력
 desc: 장착된 부품에서 각인 수치를 추출하여 재활용하는 시스템입니다.

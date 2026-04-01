@@ -1169,6 +1169,49 @@ h4,
     border-color: var(--accent-yellow);
 }
 
+.toc-cat-label {
+    font-size: 0.7rem;
+    font-weight: 700;
+    color: #666;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 0.3rem 0;
+    width: 100%;
+    margin-top: 0.3rem;
+}
+
+/* System Category Group */
+.system-category-group {
+    margin-bottom: 3rem;
+}
+
+.system-category-header {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+    margin-bottom: 0;
+    padding-bottom: 0.8rem;
+    border-bottom: 1px solid #383838;
+}
+
+.system-category-badge {
+    font-size: 0.75rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    color: var(--accent-yellow);
+    padding: 0.25rem 0.7rem;
+    border: 1px solid rgba(255,200,0,0.3);
+    border-radius: 4px;
+    background: rgba(255,200,0,0.06);
+}
+
+.system-category-count {
+    font-size: 0.75rem;
+    color: #555;
+    font-weight: 600;
+}
+
 /* Loading spinner */
 .loading-spinner {
     display: flex;

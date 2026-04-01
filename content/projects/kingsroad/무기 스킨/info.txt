@@ -1,4 +1,5 @@
 name: 무기 스킨
 order: 14
+category: Collect
 roles: 시스템 기획, 데이터 입력
 desc: 무기의 외형을 변경할 수 있는 코스메틱 시스템입니다.

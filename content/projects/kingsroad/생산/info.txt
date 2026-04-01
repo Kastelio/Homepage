@@ -1,4 +1,5 @@
 name: 생산
 order: 17
+category: Idle
 roles: 시스템 기획, 데이터 입력
 desc: 특정 재료를 소모해 아이템을 제작하는 생산 콘텐츠입니다.

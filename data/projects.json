@@ -16,6 +16,7 @@
       {
         "name": "업적",
         "order": 1,
+        "category": "",
         "roles": [
           "시스템 기획",
           "데이터 구성 및 보상 밸런싱"
@@ -28,6 +29,7 @@
       {
         "name": "칭호",
         "order": 2,
+        "category": "",
         "roles": [
           "시스템 기획",
           "데이터 구성"
@@ -40,6 +42,7 @@
       {
         "name": "승급",
         "order": 3,
+        "category": "",
         "roles": [
           "시스템 기획",
           "데이터 구성 및 밸런싱"
@@ -52,6 +55,7 @@
       {
         "name": "도감",
         "order": 4,
+        "category": "",
         "roles": [
           "시스템 기획 (지역 일람)",
           "시스템 기획 (지식 탐구)"
@@ -64,6 +68,7 @@
       {
         "name": "의뢰 퀘스트",
         "order": 5,
+        "category": "",
         "roles": [
           "데이터 구성 및 보상 밸런싱"
         ],
@@ -75,6 +80,7 @@
       {
         "name": "기사단 퀘스트 & 기사단 성장",
         "order": 6,
+        "category": "",
         "roles": [
           "데이터 구성 및 밸런싱",
           "성장 밸런싱"
@@ -87,6 +93,7 @@
       {
         "name": "가이드 퀘스트",
         "order": 7,
+        "category": "",
         "roles": [
           "데이터 구성"
         ],
@@ -115,6 +122,7 @@
       {
         "name": "효과 상세 정보 팝업",
         "order": 1,
+        "category": "Core",
         "roles": [
           "시스템 기획"
         ],
@@ -131,6 +139,7 @@
       {
         "name": "획득처",
         "order": 2,
+        "category": "Guide",
         "roles": [
           "시스템 기획",
           "데이터 입력"
@@ -148,6 +157,7 @@
       {
         "name": "자원 부족 시 상품 안내",
         "order": 3,
+        "category": "BM",
         "roles": [
           "시스템 기획",
           "데이터 입력"
@@ -165,6 +175,7 @@
       {
         "name": "릴레이 상품",
         "order": 4,
+        "category": "BM",
         "roles": [
           "시스템 기획",
           "데이터 입력"
@@ -177,6 +188,7 @@
       {
         "name": "출석 상품",
         "order": 5,
+        "category": "BM",
         "roles": [
           "시스템 기획",
           "데이터 입력"
@@ -194,6 +206,7 @@
       {
         "name": "보너스 그룹 상품",
         "order": 6,
+        "category": "BM",
         "roles": [
           "시스템 기획",
           "데이터 입력"
@@ -206,6 +219,7 @@
       {
         "name": "효용",
         "order": 7,
+        "category": "Core",
         "roles": [],
         "desc": "계정 또는 캐릭터에게 특정한 효용을 부여하는 시스템입니다.",
         "sub": "효용을 획득하기 위해 특정 상품 이용 또는 콘텐츠에 참여하도록 유도",
@@ -218,8 +232,24 @@
         ]
       },
       {
+        "name": "게임 설정, 키 바인딩, 언어",
+        "order": 8,
+        "category": "Service",
+        "roles": [],
+        "desc": "게임 환경을 조정할 수 있는 시스템으로, 기기 스펙 또는 유저 필요에 대응합니다.",
+        "sub": "",
+        "bullets": [],
+        "images": [
+          {
+            "file": "content/projects/kingsroad/게임설정/01.jpg",
+            "caption": ""
+          }
+        ]
+      },
+      {
         "name": "튜토리얼 다시보기",
-        "order": 7,
+        "order": 9,
+        "category": "Guide",
         "roles": [
           "시스템 기획",
           "데이터 입력"
@@ -235,22 +265,9 @@
         ]
       },
       {
-        "name": "게임 설정, 키 바인딩, 언어",
-        "order": 8,
-        "roles": [],
-        "desc": "게임 환경을 조정할 수 있는 시스템으로, 기기 스펙 또는 유저 필요에 대응합니다.",
-        "sub": "",
-        "bullets": [],
-        "images": [
-          {
-            "file": "content/projects/kingsroad/게임설정/01.jpg",
-            "caption": ""
-          }
-        ]
-      },
-      {
         "name": "강화(슬롯 성장)",
         "order": 10,
+        "category": "Growth",
         "roles": [
           "시스템 기획",
           "데이터 입력"
@@ -268,6 +285,7 @@
       {
         "name": "교역",
         "order": 11,
+        "category": "Trade",
         "roles": [
           "시스템 기획",
           "데이터 입력"
@@ -285,6 +303,7 @@
       {
         "name": "단조",
         "order": 12,
+        "category": "Trade",
         "roles": [
           "시스템 기획",
           "데이터 입력"
@@ -302,6 +321,7 @@
       {
         "name": "레드닷",
         "order": 13,
+        "category": "Guide",
         "roles": [
           "시스템 기획",
           "데이터 입력"
@@ -319,6 +339,7 @@
       {
         "name": "무기 스킨",
         "order": 14,
+        "category": "Collect",
         "roles": [
           "시스템 기획",
           "데이터 입력"
@@ -336,6 +357,7 @@
       {
         "name": "각인 부여",
         "order": 15,
+        "category": "Growth",
         "roles": [
           "시스템 기획",
           "데이터 입력"
@@ -353,6 +375,7 @@
       {
         "name": "각인 추출",
         "order": 16,
+        "category": "Growth",
         "roles": [
           "시스템 기획",
           "데이터 입력"
@@ -370,6 +393,7 @@
       {
         "name": "생산",
         "order": 17,
+        "category": "Idle",
         "roles": [
           "시스템 기획",
           "데이터 입력"
@@ -387,6 +411,7 @@
       {
         "name": "시즌",
         "order": 18,
+        "category": "Accomplishment",
         "roles": [
           "시스템 기획",
           "데이터 입력"
@@ -404,6 +429,7 @@
       {
         "name": "업적",
         "order": 19,
+        "category": "Accomplishment",
         "roles": [
           "시스템 기획",
           "데이터 입력"
@@ -421,6 +447,7 @@
       {
         "name": "일일 미션",
         "order": 20,
+        "category": "Accomplishment",
         "roles": [
           "시스템 기획",
           "데이터 입력"
@@ -438,6 +465,7 @@
       {
         "name": "즉시 완료",
         "order": 21,
+        "category": "UX",
         "roles": [
           "시스템 기획",
           "데이터 입력"
@@ -455,6 +483,7 @@
       {
         "name": "타이틀",
         "order": 22,
+        "category": "Collect",
         "roles": [
           "시스템 기획",
           "데이터 입력"
@@ -472,6 +501,7 @@
       {
         "name": "마구",
         "order": 23,
+        "category": "Growth",
         "roles": [
           "시스템 기획",
           "데이터 입력"
@@ -489,6 +519,7 @@
       {
         "name": "확률 고지",
         "order": 24,
+        "category": "Service",
         "roles": [
           "시스템 기획",
           "데이터 입력"
@@ -506,6 +537,7 @@
       {
         "name": "훈련장",
         "order": 25,
+        "category": "Guide",
         "roles": [
           "시스템 기획",
           "데이터 입력"

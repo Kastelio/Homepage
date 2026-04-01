@@ -51,17 +51,59 @@ function renderHero(project) {
     `;
 }
 
+const CATEGORY_LABELS = {
+    Core: '코어', Growth: '성장', Trade: '교환', Accomplishment: '달성',
+    Collect: '수집', Dungeon: '전투/던전', Social: '소셜', Economy: '경제',
+    Management: '경영', Idle: '방치', BM: 'BM', Event: '이벤트',
+    UX: 'UX', Guide: '가이드', Service: '운영/서비스', World: '월드', Misc: '기타'
+};
+const CATEGORY_ORDER = ['Core','Growth','Trade','Accomplishment','Collect','Dungeon','Social','Economy','Management','Idle','BM','Event','UX','Guide','Service','World','Misc'];
+
+function groupByCategory(systems) {
+    const grouped = {};
+    systems.forEach((s, i) => {
+        const cat = s.category || 'Misc';
+        if (!grouped[cat]) grouped[cat] = [];
+        grouped[cat].push({ ...s, _idx: i });
+    });
+    // category 순서대로 정렬
+    const result = [];
+    CATEGORY_ORDER.forEach(cat => {
+        if (grouped[cat]) result.push({ cat, label: CATEGORY_LABELS[cat] || cat, systems: grouped[cat] });
+    });
+    // 정의되지 않은 category 처리
+    Object.keys(grouped).forEach(cat => {
+        if (!CATEGORY_ORDER.includes(cat)) result.push({ cat, label: cat, systems: grouped[cat] });
+    });
+    return result;
+}
+
 function renderTOC(systems) {
     if (!systems || systems.length === 0) return;
     const el = document.getElementById('detail-toc');
     if (!el) return;
 
+    const hasCat = systems.some(s => s.category);
+    if (!hasCat) {
+        el.innerHTML = `
+            <nav class="toc-nav">
+                <span class="toc-label">시스템</span>
+                <div class="toc-links">
+                    ${systems.map((s, i) => `<a href="#system-${i}" class="toc-link">${s.name}</a>`).join('')}
+                </div>
+            </nav>
+        `;
+        return;
+    }
+
+    const groups = groupByCategory(systems);
     el.innerHTML = `
         <nav class="toc-nav">
             <span class="toc-label">시스템</span>
             <div class="toc-links">
-                ${systems.map((s, i) => `
-                    <a href="#system-${i}" class="toc-link">${s.name}</a>
+                ${groups.map(g => `
+                    <span class="toc-cat-label">${g.label}</span>
+                    ${g.systems.map(s => `<a href="#system-${s._idx}" class="toc-link">${s.name}</a>`).join('')}
                 `).join('')}
             </div>
         </nav>
@@ -99,22 +141,44 @@ function renderSystems(systems) {
         `;
     };
 
+    const systemCardHtml = (s, i) => `
+        <div class="system-item fade-in" id="system-${i}">
+            <div class="system-header">
+                <h3 class="system-name">${s.name}</h3>
+                ${rolesHtml(s.roles)}
+            </div>
+            ${s.desc ? `<p class="system-desc-main">${s.desc}</p>` : ''}
+            ${s.sub ? `<p class="system-desc-sub">${s.sub}</p>` : ''}
+            ${bulletsHtml(s.bullets)}
+            ${imagesHtml(s.images)}
+        </div>
+    `;
+
+    const hasCat = systems.some(s => s.category);
+    if (!hasCat) {
+        el.innerHTML = `
+            <h2 class="detail-section-title">Designed</h2>
+            <div class="system-list">
+                ${systems.map((s, i) => systemCardHtml(s, i)).join('')}
+            </div>
+        `;
+        return;
+    }
+
+    const groups = groupByCategory(systems);
     el.innerHTML = `
         <h2 class="detail-section-title">Designed</h2>
-        <div class="system-list">
-            ${systems.map((s, i) => `
-                <div class="system-item fade-in" id="system-${i}">
-                    <div class="system-header">
-                        <h3 class="system-name">${s.name}</h3>
-                        ${rolesHtml(s.roles)}
-                    </div>
-                    ${s.desc ? `<p class="system-desc-main">${s.desc}</p>` : ''}
-                    ${s.sub ? `<p class="system-desc-sub">${s.sub}</p>` : ''}
-                    ${bulletsHtml(s.bullets)}
-                    ${imagesHtml(s.images)}
+        ${groups.map(g => `
+            <div class="system-category-group">
+                <div class="system-category-header">
+                    <span class="system-category-badge">${g.label}</span>
+                    <span class="system-category-count">${g.systems.length}</span>
                 </div>
-            `).join('')}
-        </div>
+                <div class="system-list">
+                    ${g.systems.map(s => systemCardHtml(s, s._idx)).join('')}
+                </div>
+            </div>
+        `).join('')}
     `;
 }
 

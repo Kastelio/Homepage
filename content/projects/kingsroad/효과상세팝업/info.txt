@@ -1,4 +1,5 @@
 name: 효과 상세 정보 팝업
 roles: 시스템 기획
 order: 1
+category: Core
 desc: PC에 적용된 효과를 출력하는 시스템으로, 자신의 캐릭터에 부여된 효과에 대한 정보를 제공합니다.
