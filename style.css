@@ -1077,6 +1077,7 @@ h4,
     text-decoration: none;
     color: var(--text-light);
     padding: 1.5rem 2.5rem;
+    background: #111;
     border: 1px solid #444;
     border-radius: 12px;
     transition: border-color 0.2s, transform 0.2s;
