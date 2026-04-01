@@ -203,6 +203,52 @@
     transform: scale(1.02);
 }
 
+/* Etc Section */
+.detail-etc-systems {
+    margin-top: 5rem;
+}
+
+.other-category-group {
+    margin-bottom: 2rem;
+}
+
+.other-category-label {
+    font-size: 0.72rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    color: #555;
+    display: block;
+    margin-bottom: 0.6rem;
+}
+
+.other-system-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.other-system-item {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    padding: 0.55rem 0;
+    border-bottom: 1px solid #2a2a2a;
+    gap: 1rem;
+}
+
+.other-system-name {
+    font-size: 0.9rem;
+    color: var(--text-muted);
+}
+
+.other-system-date {
+    font-size: 0.75rem;
+    color: #444;
+    white-space: nowrap;
+}
+
 /* Other Improvements Grid */
 .other-improvements {
     margin-top: 6rem;

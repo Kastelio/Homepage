@@ -15,8 +15,11 @@ document.addEventListener('DOMContentLoaded', async () => {
         hideLoading();
         renderHero(project);
         const sorted = sortByDateDesc(project.systems);
-        renderTOC(sorted);
-        renderSystems(sorted);
+        const mainSystems = sorted.filter(s => s.images && s.images.length > 0);
+        const otherSystems = sorted.filter(s => !s.images || s.images.length === 0);
+        renderTOC(mainSystems);
+        renderSystems(mainSystems);
+        renderOtherSystems(otherSystems);
         renderMisc(project.misc);
         initScrollAnimations();
         initLightbox();
@@ -193,6 +196,32 @@ function renderSystems(systems) {
             </div>
         `).join('')}
     `;
+}
+
+function renderOtherSystems(systems) {
+    if (!systems || systems.length === 0) return;
+    const el = document.getElementById('detail-misc-systems');
+    if (!el) return;
+
+    const groups = groupByCategory(systems);
+
+    el.innerHTML = `
+        <h2 class="detail-section-title">Etc</h2>
+        ${groups.map(g => `
+            <div class="other-category-group">
+                <span class="other-category-label">${g.label}</span>
+                <ul class="other-system-list">
+                    ${g.systems.map(s => `
+                        <li class="other-system-item">
+                            <span class="other-system-name">${s.name}</span>
+                            ${s.date ? `<span class="other-system-date">${s.date}</span>` : ''}
+                        </li>
+                    `).join('')}
+                </ul>
+            </div>
+        `).join('')}
+    `;
+    el.style.display = 'block';
 }
 
 function renderMisc(misc) {

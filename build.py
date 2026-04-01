@@ -76,9 +76,6 @@ def build_project(project_id, project_folder):
             continue
         if entry in ("기타", "etc"):
             continue  # 기타/etc는 사이트 미노출
-        # 이미지 없는 시스템은 제외
-        if not get_images(entry_path):
-            continue
         system = build_system(project_id, entry_path, entry)
         systems.append(system)
 

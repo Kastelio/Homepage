@@ -12,7 +12,104 @@
     "order": 1,
     "thumbnail": "assets/zenonia.jpg",
     "card_class": "",
-    "systems": [],
+    "systems": [
+      {
+        "name": "업적",
+        "order": 1,
+        "category": "",
+        "date": "",
+        "roles": [
+          "시스템 기획",
+          "데이터 구성 및 보상 밸런싱"
+        ],
+        "desc": "조건에서 요구하는 행위를 정해진 횟수만큼 수행할 경우, 보상을 지급하는 시스템",
+        "sub": "특정 행동 유도 및 반복적인 활동에 대한 정기적인 보상 피드백 목표",
+        "bullets": [],
+        "images": []
+      },
+      {
+        "name": "칭호",
+        "order": 2,
+        "category": "",
+        "date": "",
+        "roles": [
+          "시스템 기획",
+          "데이터 구성"
+        ],
+        "desc": "조건에서 요구하는 행위를 정해진 횟수만큼 수행할 경우, 칭호를 지급하는 시스템",
+        "sub": "특정한 행위 달성을 직관적으로 노출 및 앞·뒤 칭호 조합으로 캐릭터 간 개성 부여",
+        "bullets": [],
+        "images": []
+      },
+      {
+        "name": "승급",
+        "order": 3,
+        "category": "",
+        "date": "",
+        "roles": [
+          "시스템 기획",
+          "데이터 구성 및 밸런싱"
+        ],
+        "desc": "캐릭터 경험치 누계에 따라, 아이템 또는 스탯 보상을 획득할 수 있는 시스템",
+        "sub": "단계별 보상을 통해, 꾸준한 플레이 동기 부여",
+        "bullets": [],
+        "images": []
+      },
+      {
+        "name": "도감",
+        "order": 4,
+        "category": "",
+        "date": "",
+        "roles": [
+          "시스템 기획 (지역 일람)",
+          "시스템 기획 (지식 탐구)"
+        ],
+        "desc": "지역별 몬스터 반복 처치를 통해 캐릭터를 성장시킬 수 있는 시스템",
+        "sub": "동일한 지역에서의 반복 사냥이 보다 의미를 가지도록 함",
+        "bullets": [],
+        "images": []
+      },
+      {
+        "name": "의뢰 퀘스트",
+        "order": 5,
+        "category": "",
+        "date": "",
+        "roles": [
+          "데이터 구성 및 보상 밸런싱"
+        ],
+        "desc": "지역별 몬스터를 반복 처치하는 퀘스트 시스템",
+        "sub": "일일 플레이 콘텐츠 제공",
+        "bullets": [],
+        "images": []
+      },
+      {
+        "name": "기사단 퀘스트 & 기사단 성장",
+        "order": 6,
+        "category": "",
+        "date": "",
+        "roles": [
+          "데이터 구성 및 밸런싱",
+          "성장 밸런싱"
+        ],
+        "desc": "길드원과 비동기로 협력할 수 있는 퀘스트 시스템 및 기사단 성장 밸런싱",
+        "sub": "길드 간 협력 및 주간 플레이 콘텐츠 제공하고, 꾸준한 참여 시 기사단 레벨 성장",
+        "bullets": [],
+        "images": []
+      },
+      {
+        "name": "가이드 퀘스트",
+        "order": 7,
+        "category": "",
+        "date": "",
+        "roles": [
+          "데이터 구성"
+        ],
+        "desc": "유저에게 특정 콘텐츠를 안내하기 위한 일회용 퀘스트 시스템",
+        "sub": "게임 학습을 보조",
+        "bullets": [],
+        "images": []
+      }
+    ],
     "misc": []
   },
   {
@@ -98,6 +195,20 @@
         ]
       },
       {
+        "name": "릴레이 상품",
+        "order": 4,
+        "category": "BM",
+        "date": "",
+        "roles": [
+          "시스템 기획",
+          "데이터 입력"
+        ],
+        "desc": "순차적으로 구매하는 상품 타입으로, 이전 단계 구매 시 다음 상품이 활성화됩니다.",
+        "sub": "단계별 구매 유도로 유저의 지속적인 소비 패턴 형성",
+        "bullets": [],
+        "images": []
+      },
+      {
         "name": "출석 상품",
         "order": 5,
         "category": "BM",
@@ -119,6 +230,20 @@
             "caption": ""
           }
         ]
+      },
+      {
+        "name": "보너스 그룹 상품",
+        "order": 6,
+        "category": "BM",
+        "date": "",
+        "roles": [
+          "시스템 기획",
+          "데이터 입력"
+        ],
+        "desc": "N회 구매 시 보너스 보상을 지급하는 상품 타입입니다.",
+        "sub": "반복 구매를 유도하고 구매 가치를 높이는 BM 구조",
+        "bullets": [],
+        "images": []
       },
       {
         "name": "효용",
@@ -538,12 +663,7 @@
         "desc": "",
         "sub": "",
         "bullets": [],
-        "images": [
-          {
-            "file": "content/projects/kingsroad/2024 지스타 빌드 대응/01.png",
-            "caption": ""
-          }
-        ]
+        "images": []
       },
       {
         "name": "BM 효용",
@@ -556,15 +676,10 @@
         "desc": "",
         "sub": "",
         "bullets": [],
-        "images": [
-          {
-            "file": "content/projects/kingsroad/BM 효용/01.png",
-            "caption": ""
-          }
-        ]
+        "images": []
       },
       {
-        "name": "PC 키매핑 타 게임 사례 조사",
+        "name": "PC 키매핑",
         "order": 28,
         "category": "UX",
         "date": "2026년 2월 20일",
@@ -574,24 +689,7 @@
         "desc": "",
         "sub": "",
         "bullets": [],
-        "images": [
-          {
-            "file": "content/projects/kingsroad/PC 키매핑 타 게임 사례 조사/01.png",
-            "caption": ""
-          },
-          {
-            "file": "content/projects/kingsroad/PC 키매핑 타 게임 사례 조사/02.png",
-            "caption": ""
-          },
-          {
-            "file": "content/projects/kingsroad/PC 키매핑 타 게임 사례 조사/03.png",
-            "caption": ""
-          },
-          {
-            "file": "content/projects/kingsroad/PC 키매핑 타 게임 사례 조사/04.png",
-            "caption": ""
-          }
-        ]
+        "images": []
       },
       {
         "name": "RP 충전 시 상품 안내",
@@ -604,12 +702,7 @@
         "desc": "",
         "sub": "",
         "bullets": [],
-        "images": [
-          {
-            "file": "content/projects/kingsroad/RP 충전 시 상품 안내/01.png",
-            "caption": ""
-          }
-        ]
+        "images": []
       },
       {
         "name": "가방 슬롯 확장 UI에서 구매 가능한 상품으로 연결하는 기능 추가",
@@ -622,12 +715,7 @@
         "desc": "",
         "sub": "",
         "bullets": [],
-        "images": [
-          {
-            "file": "content/projects/kingsroad/가방 슬롯 확장 UI에서 구매 가능한 상품으로 연결하는 기능 추가/01.png",
-            "caption": ""
-          }
-        ]
+        "images": []
       },
       {
         "name": "계정 탈퇴",
@@ -640,12 +728,7 @@
         "desc": "",
         "sub": "",
         "bullets": [],
-        "images": [
-          {
-            "file": "content/projects/kingsroad/계정 탈퇴/01.png",
-            "caption": ""
-          }
-        ]
+        "images": []
       },
       {
         "name": "교역로별 이미지를 다르게 출력할 수 있도록 처리",
@@ -658,12 +741,20 @@
         "desc": "",
         "sub": "",
         "bullets": [],
-        "images": [
-          {
-            "file": "content/projects/kingsroad/교역로별 이미지를 다르게 출력할 수 있도록 처리/01.png",
-            "caption": ""
-          }
-        ]
+        "images": []
+      },
+      {
+        "name": "기억의 제단 티켓 소모 형태로 로직 변경",
+        "order": 33,
+        "category": "Core",
+        "date": "2025년 6월 5일",
+        "roles": [
+          "시스템 기획"
+        ],
+        "desc": "",
+        "sub": "",
+        "bullets": [],
+        "images": []
       },
       {
         "name": "네임플레이트",
@@ -676,20 +767,7 @@
         "desc": "",
         "sub": "",
         "bullets": [],
-        "images": [
-          {
-            "file": "content/projects/kingsroad/네임플레이트/01.png",
-            "caption": ""
-          },
-          {
-            "file": "content/projects/kingsroad/네임플레이트/02.png",
-            "caption": ""
-          },
-          {
-            "file": "content/projects/kingsroad/네임플레이트/03.png",
-            "caption": ""
-          }
-        ]
+        "images": []
       },
       {
         "name": "랭킹 도전 지렁이길 추가",
@@ -702,12 +780,7 @@
         "desc": "",
         "sub": "",
         "bullets": [],
-        "images": [
-          {
-            "file": "content/projects/kingsroad/랭킹 도전 지렁이길 추가/01.png",
-            "caption": ""
-          }
-        ]
+        "images": []
       },
       {
         "name": "로딩 화면 로직 개선",
@@ -720,12 +793,7 @@
         "desc": "",
         "sub": "",
         "bullets": [],
-        "images": [
-          {
-            "file": "content/projects/kingsroad/로딩 화면 로직 개선/01.png",
-            "caption": ""
-          }
-        ]
+        "images": []
       },
       {
         "name": "말풍선",
@@ -738,12 +806,7 @@
         "desc": "",
         "sub": "",
         "bullets": [],
-        "images": [
-          {
-            "file": "content/projects/kingsroad/말풍선/01.png",
-            "caption": ""
-          }
-        ]
+        "images": []
       },
       {
         "name": "빠른 이동 시 비용 요구 기능 추가",
@@ -756,12 +819,7 @@
         "desc": "",
         "sub": "",
         "bullets": [],
-        "images": [
-          {
-            "file": "content/projects/kingsroad/빠른 이동 시 비용 요구 기능 추가/01.png",
-            "caption": ""
-          }
-        ]
+        "images": []
       },
       {
         "name": "생산 즉시 완료",
@@ -774,12 +832,7 @@
         "desc": "",
         "sub": "",
         "bullets": [],
-        "images": [
-          {
-            "file": "content/projects/kingsroad/생산 즉시 완료/01.png",
-            "caption": ""
-          }
-        ]
+        "images": []
       },
       {
         "name": "세트 연구 보조 세트 효과 3세트 5세트로 구분해서 지급",
@@ -792,12 +845,7 @@
         "desc": "",
         "sub": "",
         "bullets": [],
-        "images": [
-          {
-            "file": "content/projects/kingsroad/세트 연구 보조 세트 효과 3세트 5세트로 구분해서 지급/01.png",
-            "caption": ""
-          }
-        ]
+        "images": []
       },
       {
         "name": "언어",
@@ -810,12 +858,20 @@
         "desc": "",
         "sub": "",
         "bullets": [],
-        "images": [
-          {
-            "file": "content/projects/kingsroad/언어/01.png",
-            "caption": ""
-          }
-        ]
+        "images": []
+      },
+      {
+        "name": "예비 RP",
+        "order": 42,
+        "category": "Core",
+        "date": "2025년 10월 29일",
+        "roles": [
+          "시스템 기획"
+        ],
+        "desc": "",
+        "sub": "",
+        "bullets": [],
+        "images": []
       },
       {
         "name": "우편 보상 정렬 규칙 추가",
@@ -828,12 +884,7 @@
         "desc": "",
         "sub": "",
         "bullets": [],
-        "images": [
-          {
-            "file": "content/projects/kingsroad/우편 보상 정렬 규칙 추가/01.png",
-            "caption": ""
-          }
-        ]
+        "images": []
       },
       {
         "name": "우편에 ‘영구 보관’ 기능 추가",
@@ -846,12 +897,7 @@
         "desc": "",
         "sub": "",
         "bullets": [],
-        "images": [
-          {
-            "file": "content/projects/kingsroad/우편에 ‘영구 보관’ 기능 추가/01.png",
-            "caption": ""
-          }
-        ]
+        "images": []
       },
       {
         "name": "월드맵 탐험 콘텐츠 출력 개선",
@@ -864,16 +910,7 @@
         "desc": "",
         "sub": "",
         "bullets": [],
-        "images": [
-          {
-            "file": "content/projects/kingsroad/월드맵 탐험 콘텐츠 출력 개선/01.png",
-            "caption": ""
-          },
-          {
-            "file": "content/projects/kingsroad/월드맵 탐험 콘텐츠 출력 개선/02.png",
-            "caption": ""
-          }
-        ]
+        "images": []
       },
       {
         "name": "웹뷰",
@@ -886,12 +923,7 @@
         "desc": "",
         "sub": "",
         "bullets": [],
-        "images": [
-          {
-            "file": "content/projects/kingsroad/웹뷰/01.png",
-            "caption": ""
-          }
-        ]
+        "images": []
       },
       {
         "name": "유물 도감",
@@ -904,20 +936,7 @@
         "desc": "",
         "sub": "",
         "bullets": [],
-        "images": [
-          {
-            "file": "content/projects/kingsroad/유물 도감/01.png",
-            "caption": ""
-          },
-          {
-            "file": "content/projects/kingsroad/유물 도감/02.png",
-            "caption": ""
-          },
-          {
-            "file": "content/projects/kingsroad/유물 도감/03.png",
-            "caption": ""
-          }
-        ]
+        "images": []
       },
       {
         "name": "유물 보유 효과 개선",
@@ -930,16 +949,7 @@
         "desc": "",
         "sub": "",
         "bullets": [],
-        "images": [
-          {
-            "file": "content/projects/kingsroad/유물 보유 효과 개선/01.png",
-            "caption": ""
-          },
-          {
-            "file": "content/projects/kingsroad/유물 보유 효과 개선/02.png",
-            "caption": ""
-          }
-        ]
+        "images": []
       },
       {
         "name": "유물 탐사 유료 탐사 마차의 경우, 일꾼을 요구하지 않도록 처리",
@@ -952,12 +962,7 @@
         "desc": "",
         "sub": "",
         "bullets": [],
-        "images": [
-          {
-            "file": "content/projects/kingsroad/유물 탐사 유료 탐사 마차의 경우, 일꾼을 요구하지 않도록 처리/01.png",
-            "caption": ""
-          }
-        ]
+        "images": []
       },
       {
         "name": "유물 탐사 즉시 완료, 탐사 취소, 연출 관련 대응",
@@ -970,16 +975,7 @@
         "desc": "",
         "sub": "",
         "bullets": [],
-        "images": [
-          {
-            "file": "content/projects/kingsroad/유물 탐사 즉시 완료, 탐사 취소, 연출 관련 대응/01.png",
-            "caption": ""
-          },
-          {
-            "file": "content/projects/kingsroad/유물 탐사 즉시 완료, 탐사 취소, 연출 관련 대응/02.png",
-            "caption": ""
-          }
-        ]
+        "images": []
       },
       {
         "name": "일괄 장착",
@@ -992,12 +988,7 @@
         "desc": "",
         "sub": "",
         "bullets": [],
-        "images": [
-          {
-            "file": "content/projects/kingsroad/일괄 장착/01.png",
-            "caption": ""
-          }
-        ]
+        "images": []
       },
       {
         "name": "일꾼 각 일꾼별로 최대 수행 가능한 생산 및 교역 횟수 지정",
@@ -1010,12 +1001,7 @@
         "desc": "",
         "sub": "",
         "bullets": [],
-        "images": [
-          {
-            "file": "content/projects/kingsroad/일꾼 각 일꾼별로 최대 수행 가능한 생산 및 교역 횟수 지정/01.png",
-            "caption": ""
-          }
-        ]
+        "images": []
       },
       {
         "name": "일부 튜토리얼 데이터 입력",
@@ -1028,12 +1014,7 @@
         "desc": "",
         "sub": "",
         "bullets": [],
-        "images": [
-          {
-            "file": "content/projects/kingsroad/일부 튜토리얼 데이터 입력/01.png",
-            "caption": ""
-          }
-        ]
+        "images": []
       },
       {
         "name": "장벽 너머 원정 건너뛰기 기능 추가",
@@ -1046,12 +1027,7 @@
         "desc": "",
         "sub": "",
         "bullets": [],
-        "images": [
-          {
-            "file": "content/projects/kingsroad/장벽 너머 원정 건너뛰기 기능 추가/01.png",
-            "caption": ""
-          }
-        ]
+        "images": []
       },
       {
         "name": "장벽 너머 원정 스테이지 생성 프로세스 추가(프리셋)",
@@ -1064,12 +1040,7 @@
         "desc": "",
         "sub": "",
         "bullets": [],
-        "images": [
-          {
-            "file": "content/projects/kingsroad/장벽 너머 원정 스테이지 생성 프로세스 추가(프리셋)/01.png",
-            "caption": ""
-          }
-        ]
+        "images": []
       },
       {
         "name": "장벽 너머 원정 플레이 시간 출력",
@@ -1082,12 +1053,7 @@
         "desc": "",
         "sub": "",
         "bullets": [],
-        "images": [
-          {
-            "file": "content/projects/kingsroad/장벽 너머 원정 플레이 시간 출력/01.png",
-            "caption": ""
-          }
-        ]
+        "images": []
       },
       {
         "name": "장시간 AFK 유저 킥 처리",
@@ -1100,12 +1066,7 @@
         "desc": "",
         "sub": "",
         "bullets": [],
-        "images": [
-          {
-            "file": "content/projects/kingsroad/장시간 AFK 유저 킥 처리/01.png",
-            "caption": ""
-          }
-        ]
+        "images": []
       },
       {
         "name": "제작 즉시 완료",
@@ -1118,12 +1079,7 @@
         "desc": "",
         "sub": "",
         "bullets": [],
-        "images": [
-          {
-            "file": "content/projects/kingsroad/제작 즉시 완료/01.png",
-            "caption": ""
-          }
-        ]
+        "images": []
       },
       {
         "name": "조작",
@@ -1136,12 +1092,7 @@
         "desc": "",
         "sub": "",
         "bullets": [],
-        "images": [
-          {
-            "file": "content/projects/kingsroad/조작/01.png",
-            "caption": ""
-          }
-        ]
+        "images": []
       },
       {
         "name": "캐릭터 생성 후 다시 커스터마이징할 수 있는 기능",
@@ -1154,12 +1105,7 @@
         "desc": "",
         "sub": "",
         "bullets": [],
-        "images": [
-          {
-            "file": "content/projects/kingsroad/캐릭터 생성 후 다시 커스터마이징할 수 있는 기능/01.png",
-            "caption": ""
-          }
-        ]
+        "images": []
       },
       {
         "name": "캐릭터 선택 화면",
@@ -1172,12 +1118,7 @@
         "desc": "",
         "sub": "",
         "bullets": [],
-        "images": [
-          {
-            "file": "content/projects/kingsroad/캐릭터 선택 화면/01.png",
-            "caption": ""
-          }
-        ]
+        "images": []
       },
       {
         "name": "커스터마이징 PC 음성 선택 기능 추가",
@@ -1190,12 +1131,7 @@
         "desc": "",
         "sub": "",
         "bullets": [],
-        "images": [
-          {
-            "file": "content/projects/kingsroad/커스터마이징 PC 음성 선택 기능 추가/01.png",
-            "caption": ""
-          }
-        ]
+        "images": []
       },
       {
         "name": "코스튬",
@@ -1208,12 +1144,7 @@
         "desc": "",
         "sub": "",
         "bullets": [],
-        "images": [
-          {
-            "file": "content/projects/kingsroad/코스튬/01.png",
-            "caption": ""
-          }
-        ]
+        "images": []
       },
       {
         "name": "코스튬 장착 시 특정 헤어(투구)가 장착되도록 처리",
@@ -1226,12 +1157,7 @@
         "desc": "",
         "sub": "",
         "bullets": [],
-        "images": [
-          {
-            "file": "content/projects/kingsroad/코스튬 장착 시 특정 헤어(투구)가 장착되도록 처리/01.png",
-            "caption": ""
-          }
-        ]
+        "images": []
       },
       {
         "name": "탈것 & 마구 데이터 작업",
@@ -1244,16 +1170,7 @@
         "desc": "",
         "sub": "",
         "bullets": [],
-        "images": [
-          {
-            "file": "content/projects/kingsroad/탈것 & 마구 데이터 작업/01.png",
-            "caption": ""
-          },
-          {
-            "file": "content/projects/kingsroad/탈것 & 마구 데이터 작업/02.png",
-            "caption": ""
-          }
-        ]
+        "images": []
       },
       {
         "name": "튜토리얼 모아보기",
@@ -1266,12 +1183,7 @@
         "desc": "",
         "sub": "",
         "bullets": [],
-        "images": [
-          {
-            "file": "content/projects/kingsroad/튜토리얼 모아보기/01.png",
-            "caption": ""
-          }
-        ]
+        "images": []
       },
       {
         "name": "패스 미션 UI에 일일 주간 탭 추가",
@@ -1284,12 +1196,7 @@
         "desc": "",
         "sub": "",
         "bullets": [],
-        "images": [
-          {
-            "file": "content/projects/kingsroad/패스 미션 UI에 일일 주간 탭 추가/01.png",
-            "caption": ""
-          }
-        ]
+        "images": []
       },
       {
         "name": "패스 즉시 달성 못하게 하는 처리",
@@ -1302,12 +1209,7 @@
         "desc": "",
         "sub": "",
         "bullets": [],
-        "images": [
-          {
-            "file": "content/projects/kingsroad/패스 즉시 달성 못하게 하는 처리/01.png",
-            "caption": ""
-          }
-        ]
+        "images": []
       },
       {
         "name": "프롤로그 스킵 기능 구현",
@@ -1320,12 +1222,7 @@
         "desc": "",
         "sub": "",
         "bullets": [],
-        "images": [
-          {
-            "file": "content/projects/kingsroad/프롤로그 스킵 기능 구현/01.png",
-            "caption": ""
-          }
-        ]
+        "images": []
       }
     ],
     "misc": []
