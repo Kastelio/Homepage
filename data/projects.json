@@ -142,7 +142,12 @@
         "desc": "계정 또는 캐릭터에게 특정한 효용을 부여하는 시스템입니다.",
         "sub": "효용을 획득하기 위해 특정 상품 이용 또는 콘텐츠에 참여하도록 유도",
         "bullets": [],
-        "images": []
+        "images": [
+          {
+            "file": "content/projects/kingsroad/효용/01.jpg",
+            "caption": ""
+          }
+        ]
       },
       {
         "name": "게임 설정",
@@ -652,6 +657,10 @@
         "images": [
           {
             "file": "content/projects/kingsroad/기억의 제단 티켓 소모 형태로 로직 변경/01.jpg",
+            "caption": ""
+          },
+          {
+            "file": "content/projects/kingsroad/기억의 제단 티켓 소모 형태로 로직 변경/02.jpg",
             "caption": ""
           }
         ]
@@ -1204,6 +1213,26 @@
         "images": [
           {
             "file": "content/projects/kingsroad/키 바인딩/01.jpg",
+            "caption": ""
+          }
+        ]
+      },
+      {
+        "name": "계정 연동",
+        "order": 99,
+        "category": "Service",
+        "date": "",
+        "featured": false,
+        "hidden": false,
+        "roles": [
+          "시스템 기획"
+        ],
+        "desc": "",
+        "sub": "",
+        "bullets": [],
+        "images": [
+          {
+            "file": "content/projects/kingsroad/계정 연동/01.jpg",
             "caption": ""
           }
         ]
