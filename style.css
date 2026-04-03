@@ -1124,6 +1124,13 @@ h4,
     background: #5c1a1a;
 }
 
+.li-icon {
+    background: #1a3550;
+    font-size: 1rem;
+    font-weight: 700;
+    font-family: 'Georgia', serif;
+}
+
 .contact-info {
     display: flex;
     flex-direction: column;
