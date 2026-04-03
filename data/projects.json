@@ -1481,7 +1481,7 @@
       {
         "name": "아이템 상세 팝업 개선",
         "order": 8,
-        "category": "UX",
+        "category": "Item",
         "date": "",
         "featured": false,
         "hidden": false,
@@ -1497,7 +1497,7 @@
       {
         "name": "창고",
         "order": 9,
-        "category": "Core",
+        "category": "Item",
         "date": "",
         "featured": true,
         "hidden": false,
@@ -1534,7 +1534,7 @@
       {
         "name": "아이템 유효기간 제어",
         "order": 11,
-        "category": "UX",
+        "category": "Item",
         "date": "",
         "featured": false,
         "hidden": false,
