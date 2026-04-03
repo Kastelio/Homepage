@@ -1575,11 +1575,11 @@
         "images": []
       },
       {
-        "name": "이벤트 시스템 (인터렉션 버프)",
+        "name": "기도사 (인터랙션 버프)",
         "order": 14,
         "category": "Event",
         "date": "",
-        "featured": true,
+        "featured": false,
         "hidden": false,
         "minor": false,
         "roles": [
