@@ -18,18 +18,28 @@ function renderNowPlaying() {
     }
     container.style.display = '';
     container.innerHTML = `
-        <span class="now-playing-label">Now Playing</span>
+        <div class="now-playing-label">
+            <span class="now-playing-dot"></span>
+            NOW PLAYING
+        </div>
         <div class="now-playing-grid">
             ${current.map(g => {
                 const thumb = g.thumbnail
                     ? `<img src="${g.thumbnail}" alt="${g.name}" class="now-playing-thumb" loading="lazy">`
                     : `<div class="now-playing-thumb-placeholder">🎮</div>`;
+                const isPackage = g.package === 'Yes';
+                const statEl = g.playtime
+                    ? `<div class="now-playing-stat"><span class="np-stat-label">플레이</span><span class="np-stat-value">${g.playtime}시간</span></div>`
+                    : (!isPackage && g.payment)
+                    ? `<div class="now-playing-stat"><span class="np-stat-label">과금</span><span class="np-stat-value">${Number(g.payment).toLocaleString()}원</span></div>`
+                    : '';
                 return `
                     <div class="now-playing-card">
                         <div class="now-playing-thumb-wrapper">${thumb}</div>
                         <div class="now-playing-info">
                             <div class="now-playing-name">${g.name}</div>
                             ${g.developer ? `<div class="now-playing-dev">${g.developer}</div>` : ''}
+                            ${statEl}
                             ${g.comment ? `<div class="now-playing-comment">${g.comment}</div>` : ''}
                         </div>
                     </div>
@@ -37,6 +47,22 @@ function renderNowPlaying() {
             }).join('')}
         </div>
     `;
+}
+
+function renderPlayingBg() {
+    const grid = document.getElementById('playing-bg-grid');
+    if (!grid) return;
+    const withThumb = allGames.filter(g => g.thumbnail);
+    for (let i = withThumb.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [withThumb[i], withThumb[j]] = [withThumb[j], withThumb[i]];
+    }
+    const needed = Math.ceil((window.innerWidth / 200) * (window.innerHeight / 113)) + 20;
+    const tiles = [];
+    while (tiles.length < needed) tiles.push(...withThumb);
+    grid.innerHTML = tiles.slice(0, needed).map(g =>
+        `<img src="${g.thumbnail}" alt="" loading="lazy">`
+    ).join('');
 }
 
 async function loadGames() {
@@ -48,6 +74,7 @@ async function loadGames() {
 
         updateStats();
         renderNowPlaying();
+        renderPlayingBg();
         renderGames();
 
     } catch (e) {
