@@ -1,0 +1,3 @@
+name: The Elder Scrolls V: Skyrim Special Edition
+package: Yes
+playtime: 94.6

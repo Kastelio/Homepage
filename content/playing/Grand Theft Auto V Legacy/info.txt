@@ -1,0 +1,3 @@
+name: Grand Theft Auto V Legacy
+package: Yes
+playtime: 52.0

@@ -1,0 +1,3 @@
+name: Baldur's Gate 3
+package: Yes
+playtime: 36.6

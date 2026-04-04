@@ -1,0 +1,3 @@
+name: PUBG: BATTLEGROUNDS
+package: Yes
+playtime: 175.0

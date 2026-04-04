@@ -5,3 +5,4 @@ platform: PlayStation, Steam Deck, Windows, Xbox, macOS
 package: Yes
 comment: 
 payment: 34900
+playtime: 204.9

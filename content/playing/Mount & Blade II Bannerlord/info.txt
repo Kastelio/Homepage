@@ -1,0 +1,3 @@
+name: Mount & Blade II: Bannerlord
+package: Yes
+playtime: 65.8

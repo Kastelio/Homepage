@@ -1,0 +1,3 @@
+name: Tropico 5
+package: Yes
+playtime: 67.3

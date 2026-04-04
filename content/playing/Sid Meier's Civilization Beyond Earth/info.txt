@@ -1,0 +1,3 @@
+name: Sid Meier's Civilization: Beyond Earth
+package: Yes
+playtime: 28.8

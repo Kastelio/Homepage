@@ -1,0 +1,3 @@
+name: Battle Brothers
+package: Yes
+playtime: 24.6

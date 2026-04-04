@@ -1,0 +1,3 @@
+name: Total War: ROME II - Emperor Edition
+package: Yes
+playtime: 74.5

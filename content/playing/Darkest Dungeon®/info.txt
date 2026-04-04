@@ -1,0 +1,3 @@
+name: Darkest Dungeon®
+package: Yes
+playtime: 212.2

@@ -1,0 +1,3 @@
+name: Sid Meier's Civilization V
+package: Yes
+playtime: 146.5

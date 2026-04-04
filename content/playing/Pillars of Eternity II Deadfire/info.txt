@@ -1,0 +1,3 @@
+name: Pillars of Eternity II: Deadfire
+package: Yes
+playtime: 28.3

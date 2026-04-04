@@ -1,0 +1,3 @@
+name: South Park The Fractured But Whole
+package: Yes
+playtime: 21.0

@@ -1,0 +1,3 @@
+name: Assassin's Creed Origins
+package: Yes
+playtime: 34.2

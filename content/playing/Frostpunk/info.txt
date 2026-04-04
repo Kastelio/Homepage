@@ -1,0 +1,3 @@
+name: Frostpunk
+package: Yes
+playtime: 33.8

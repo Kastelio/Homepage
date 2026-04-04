@@ -1,0 +1,3 @@
+name: Far Cry 4
+package: Yes
+playtime: 11.8
