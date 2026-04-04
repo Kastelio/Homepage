@@ -4,3 +4,4 @@ developer: 님블뉴런
 platform: Windows
 package: No
 comment: 
+playtime: 36.4

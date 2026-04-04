@@ -3,6 +3,6 @@ release: 2026
 developer: Nexon
 platform: PC
 package: Yes
-playtime:
+playtime: 2.4
 payment: 58900
 comment:

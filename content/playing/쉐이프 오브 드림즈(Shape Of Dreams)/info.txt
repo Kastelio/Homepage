@@ -3,6 +3,6 @@ release: 2024
 developer: Pearl Abyss
 platform: PC, Mobile
 package: Yes
-playtime:
+playtime: 9.7
 payment: 27000
 comment:

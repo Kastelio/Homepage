@@ -3,7 +3,7 @@ release: 2026
 developer: Pearl Abyss
 platform: PC
 package: Yes
-playtime:
+playtime: 2.1
 payment: 79800
 comment:
 current: yes

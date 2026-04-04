@@ -5,3 +5,4 @@ platform: Windows, macOS
 package: No
 comment: 
 payment: 49800
+playtime: 57.0

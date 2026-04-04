@@ -4,3 +4,4 @@ developer: Mega Cirt Games
 platform: Android, Windows, iOS
 package: No
 comment: 
+playtime: 26.7
