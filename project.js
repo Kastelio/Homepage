@@ -234,7 +234,7 @@ function renderOtherSystems(systems) {
                         return `
                         <li class="other-system-item${hasImg ? ' has-preview' : ''}"
                             ${hasImg ? `data-imgs='${imgSrcs}' data-desc="${(s.desc || '').replace(/"/g, '&quot;')}" data-date="${s.date || ''}"` : ''}>
-                            <span class="other-system-name">${s.name}</span>
+                            <span class="other-system-name">${s.name}${hasImg ? '<span class="other-system-has-img">+</span>' : ''}</span>
                             ${s.date ? `<span class="other-system-date">${s.date}</span>` : ''}
                         </li>`;
                     }).join('')}

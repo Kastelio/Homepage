@@ -306,6 +306,14 @@
     color: var(--text-muted);
 }
 
+.other-system-has-img {
+    margin-left: 0.3rem;
+    font-size: 0.7rem;
+    color: #666;
+    font-weight: 700;
+    vertical-align: middle;
+}
+
 .other-system-date {
     font-size: 0.75rem;
     color: #999;
