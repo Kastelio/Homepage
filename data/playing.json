@@ -1481,7 +1481,7 @@
     "release": "",
     "developer": "",
     "platform": "",
-    "package": "Yes",
+    "package": "No",
     "comment": "",
     "playtime": "",
     "playtime_num": 0,
@@ -1491,7 +1491,7 @@
     "current": false,
     "current_order": 99,
     "tasting": false,
-    "childhood": false
+    "childhood": true
   },
   {
     "id": "디아블로 3 영혼을 거두는 자",
@@ -1499,7 +1499,7 @@
     "release": "",
     "developer": "",
     "platform": "",
-    "package": "Yes",
+    "package": "No",
     "comment": "",
     "playtime": "",
     "playtime_num": 0,
@@ -1509,7 +1509,7 @@
     "current": false,
     "current_order": 99,
     "tasting": false,
-    "childhood": false
+    "childhood": true
   },
   {
     "id": "디펜스 더비",
@@ -1967,7 +1967,7 @@
     "release": "",
     "developer": "",
     "platform": "",
-    "package": "Yes",
+    "package": "No",
     "comment": "",
     "playtime": "",
     "playtime_num": 0,
@@ -1977,7 +1977,7 @@
     "current": false,
     "current_order": 99,
     "tasting": false,
-    "childhood": false
+    "childhood": true
   },
   {
     "id": "승리의 여신 니케",
