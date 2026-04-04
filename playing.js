@@ -46,7 +46,7 @@ async function loadGames() {
         const res = await fetch('./data/playing.json');
         allGames = await res.json();
 
-        updateStats(allGames);
+        updateStats();
         renderNowPlaying();
         renderGames();
 
@@ -56,15 +56,10 @@ async function loadGames() {
     }
 }
 
-function updateStats(games) {
+function updateStats() {
     const countEl = document.getElementById('game-count');
-    const paymentEl = document.getElementById('total-payment');
-
     const filtered = getFilteredGames();
-    const totalPayment = filtered.reduce((sum, g) => sum + (g.payment_num || 0), 0);
-
     countEl.textContent = filtered.length;
-    paymentEl.textContent = totalPayment > 0 ? totalPayment.toLocaleString() + '원' : '-';
 }
 
 function getFilteredGames() {
