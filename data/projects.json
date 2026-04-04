@@ -152,7 +152,7 @@
         "bullets": [],
         "images": [
           {
-            "file": "content/projects/kingsroad/효용/01.jpg",
+            "file": "content/projects/kingsroad/효용/BM 효용.png",
             "caption": ""
           }
         ]
@@ -173,7 +173,7 @@
         "bullets": [],
         "images": [
           {
-            "file": "content/projects/kingsroad/게임 설정/01.jpg",
+            "file": "content/projects/kingsroad/게임 설정/게임 설정.png",
             "caption": ""
           }
         ]
@@ -465,7 +465,7 @@
         "bullets": [],
         "images": [
           {
-            "file": "content/projects/kingsroad/즉시 완료/01.jpg",
+            "file": "content/projects/kingsroad/즉시 완료/즉시 완료.jpg",
             "caption": ""
           }
         ]
@@ -578,7 +578,7 @@
         "bullets": [],
         "images": [
           {
-            "file": "content/projects/kingsroad/2024 지스타 빌드 대응/01.jpg",
+            "file": "content/projects/kingsroad/2024 지스타 빌드 대응/2024 지스타 빌드 대응.jpg",
             "caption": ""
           }
         ]
@@ -615,7 +615,7 @@
         "bullets": [],
         "images": [
           {
-            "file": "content/projects/kingsroad/RP 충전 시 상품 안내/01.jpg",
+            "file": "content/projects/kingsroad/RP 충전 시 상품 안내/RP 충전 시 상품 안내.png",
             "caption": ""
           }
         ]
@@ -652,7 +652,7 @@
         "bullets": [],
         "images": [
           {
-            "file": "content/projects/kingsroad/계정 탈퇴/01.jpg",
+            "file": "content/projects/kingsroad/계정 탈퇴/계정 탈퇴.png",
             "caption": ""
           }
         ]
@@ -689,11 +689,7 @@
         "bullets": [],
         "images": [
           {
-            "file": "content/projects/kingsroad/기억의 제단 티켓 소모 형태로 로직 변경/01.jpg",
-            "caption": ""
-          },
-          {
-            "file": "content/projects/kingsroad/기억의 제단 티켓 소모 형태로 로직 변경/02.jpg",
+            "file": "content/projects/kingsroad/기억의 제단 티켓 소모 형태로 로직 변경/기억의 제단.png",
             "caption": ""
           }
         ]
@@ -714,7 +710,7 @@
         "bullets": [],
         "images": [
           {
-            "file": "content/projects/kingsroad/네임플레이트/01.jpg",
+            "file": "content/projects/kingsroad/네임플레이트/네임플레이트.png",
             "caption": ""
           }
         ]
@@ -735,7 +731,7 @@
         "bullets": [],
         "images": [
           {
-            "file": "content/projects/kingsroad/랭킹 도전 지렁이길 추가/01.jpg",
+            "file": "content/projects/kingsroad/랭킹 도전 지렁이길 추가/랭킹 도전 지렁이길 추가.png",
             "caption": ""
           }
         ]
@@ -772,11 +768,11 @@
         "bullets": [],
         "images": [
           {
-            "file": "content/projects/kingsroad/말풍선/01.jpg",
+            "file": "content/projects/kingsroad/말풍선/말풍선 1.png",
             "caption": ""
           },
           {
-            "file": "content/projects/kingsroad/말풍선/02.jpg",
+            "file": "content/projects/kingsroad/말풍선/말풍선 2.png",
             "caption": ""
           }
         ]
@@ -829,7 +825,7 @@
         "bullets": [],
         "images": [
           {
-            "file": "content/projects/kingsroad/언어/01.jpg",
+            "file": "content/projects/kingsroad/언어/언어.png",
             "caption": ""
           }
         ]
@@ -914,11 +910,11 @@
         "bullets": [],
         "images": [
           {
-            "file": "content/projects/kingsroad/웹뷰/01.jpg",
+            "file": "content/projects/kingsroad/웹뷰/웹뷰 1.png",
             "caption": ""
           },
           {
-            "file": "content/projects/kingsroad/웹뷰/02.jpg",
+            "file": "content/projects/kingsroad/웹뷰/웹뷰 2.png",
             "caption": ""
           }
         ]
@@ -939,7 +935,7 @@
         "bullets": [],
         "images": [
           {
-            "file": "content/projects/kingsroad/유물 도감/01.jpg",
+            "file": "content/projects/kingsroad/유물 도감/유물 도감.png",
             "caption": ""
           }
         ]
@@ -960,11 +956,11 @@
         "bullets": [],
         "images": [
           {
-            "file": "content/projects/kingsroad/유물 보유 효과 개선/01.jpg",
+            "file": "content/projects/kingsroad/유물 보유 효과 개선/유물 보유 효과 1.png",
             "caption": ""
           },
           {
-            "file": "content/projects/kingsroad/유물 보유 효과 개선/02.jpg",
+            "file": "content/projects/kingsroad/유물 보유 효과 개선/유물 보유 효과 2.png",
             "caption": ""
           }
         ]
@@ -1017,11 +1013,11 @@
         "bullets": [],
         "images": [
           {
-            "file": "content/projects/kingsroad/일괄 장착/01.jpg",
+            "file": "content/projects/kingsroad/일괄 장착/일괄 장착 2.png",
             "caption": ""
           },
           {
-            "file": "content/projects/kingsroad/일괄 장착/02.jpg",
+            "file": "content/projects/kingsroad/일괄 장착/일괄 장착.png",
             "caption": ""
           }
         ]
@@ -1032,7 +1028,7 @@
         "category": "Management",
         "date": "2025년 8월 21일",
         "featured": false,
-        "hidden": false,
+        "hidden": true,
         "minor": false,
         "roles": [
           "시스템 기획"
@@ -1056,7 +1052,12 @@
         "desc": "",
         "sub": "",
         "bullets": [],
-        "images": []
+        "images": [
+          {
+            "file": "content/projects/kingsroad/장벽 너머 원정 건너뛰기 기능 추가/던전.png",
+            "caption": ""
+          }
+        ]
       },
       {
         "name": "장벽 너머 원정 스테이지 생성 프로세스 추가(프리셋)",
@@ -1152,7 +1153,12 @@
         "desc": "",
         "sub": "",
         "bullets": [],
-        "images": []
+        "images": [
+          {
+            "file": "content/projects/kingsroad/캐릭터 선택 화면/캐릭터 생성 및 선택 화면 개선.png",
+            "caption": ""
+          }
+        ]
       },
       {
         "name": "커스터마이징 PC 음성 선택 기능 추가",
@@ -1185,7 +1191,12 @@
         "desc": "캐릭터의 복식을 변경할 수 있는 시스템",
         "sub": "",
         "bullets": [],
-        "images": []
+        "images": [
+          {
+            "file": "content/projects/kingsroad/코스튬/커스터마이징 개선.png",
+            "caption": ""
+          }
+        ]
       },
       {
         "name": "코스튬 장착 시 특정 헤어(투구)가 장착되도록 처리",
@@ -1203,7 +1214,7 @@
         "bullets": [],
         "images": [
           {
-            "file": "content/projects/kingsroad/코스튬 장착 시 특정 헤어(투구)가 장착되도록 처리/01.jpg",
+            "file": "content/projects/kingsroad/코스튬 장착 시 특정 헤어(투구)가 장착되도록 처리/코스튬 장착 시 특정 헤어(투구)가 장착되도록 처리.png",
             "caption": ""
           }
         ]
@@ -1224,7 +1235,7 @@
         "bullets": [],
         "images": [
           {
-            "file": "content/projects/kingsroad/패스 미션 UI에 일일 주간 탭 추가/01.jpg",
+            "file": "content/projects/kingsroad/패스 미션 UI에 일일 주간 탭 추가/패스 미션 UI에 일일 주간 탭 추가.png",
             "caption": ""
           }
         ]
@@ -1277,7 +1288,7 @@
         "bullets": [],
         "images": [
           {
-            "file": "content/projects/kingsroad/키 바인딩/01.jpg",
+            "file": "content/projects/kingsroad/키 바인딩/키 바인딩.png",
             "caption": ""
           }
         ]
@@ -1298,7 +1309,7 @@
         "bullets": [],
         "images": [
           {
-            "file": "content/projects/kingsroad/계정 연동/01.jpg",
+            "file": "content/projects/kingsroad/계정 연동/계정 연동.png",
             "caption": ""
           }
         ]
