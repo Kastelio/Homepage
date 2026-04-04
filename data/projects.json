@@ -1348,6 +1348,27 @@
             "caption": ""
           }
         ]
+      },
+      {
+        "name": "메인 메뉴 개편",
+        "order": 200,
+        "category": "Core",
+        "date": "2025년 11월 5일",
+        "featured": false,
+        "hidden": false,
+        "minor": true,
+        "roles": [
+          "시스템 기획"
+        ],
+        "desc": "",
+        "sub": "",
+        "bullets": [],
+        "images": [
+          {
+            "file": "content/projects/kingsroad/메인메뉴개편/메인 메뉴.png",
+            "caption": ""
+          }
+        ]
       }
     ],
     "misc": []
