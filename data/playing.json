@@ -13,6 +13,7 @@
     "payment_num": 33500.0,
     "thumbnail": "content/playing/Archeland/thumbnail.png",
     "current": false,
+    "current_order": 99,
     "tasting": true
   },
   {
@@ -29,6 +30,7 @@
     "payment_num": 0,
     "thumbnail": "content/playing/Assassin's Creed Origins/thumbnail.jpg",
     "current": false,
+    "current_order": 99,
     "tasting": false
   },
   {
@@ -45,6 +47,7 @@
     "payment_num": 0,
     "thumbnail": "content/playing/Baldur's Gate 3/thumbnail.jpg",
     "current": false,
+    "current_order": 99,
     "tasting": false
   },
   {
@@ -61,6 +64,7 @@
     "payment_num": 0,
     "thumbnail": "content/playing/Battle Brothers/thumbnail.jpg",
     "current": false,
+    "current_order": 99,
     "tasting": false
   },
   {
@@ -77,6 +81,7 @@
     "payment_num": 0,
     "thumbnail": "content/playing/BioShock Infinite/thumbnail.jpg",
     "current": false,
+    "current_order": 99,
     "tasting": false
   },
   {
@@ -93,6 +98,7 @@
     "payment_num": 0,
     "thumbnail": "content/playing/Borderlands 2/thumbnail.jpg",
     "current": false,
+    "current_order": 99,
     "tasting": false
   },
   {
@@ -109,6 +115,7 @@
     "payment_num": 36000.0,
     "thumbnail": "content/playing/Brawl Stars/thumbnail.jpg",
     "current": false,
+    "current_order": 99,
     "tasting": true
   },
   {
@@ -125,6 +132,7 @@
     "payment_num": 79800.0,
     "thumbnail": "content/playing/Crimson Desert/thumbnail.jpg",
     "current": true,
+    "current_order": 1,
     "tasting": false
   },
   {
@@ -141,6 +149,7 @@
     "payment_num": 0,
     "thumbnail": "content/playing/Crusader Kings III/thumbnail.jpg",
     "current": false,
+    "current_order": 99,
     "tasting": false
   },
   {
@@ -157,6 +166,7 @@
     "payment_num": 34900.0,
     "thumbnail": "content/playing/Cyberpunk 2077/thumbnail.png",
     "current": false,
+    "current_order": 99,
     "tasting": false
   },
   {
@@ -173,6 +183,7 @@
     "payment_num": 0,
     "thumbnail": "content/playing/Darkest Dungeon®/thumbnail.jpg",
     "current": false,
+    "current_order": 99,
     "tasting": false
   },
   {
@@ -189,6 +200,7 @@
     "payment_num": 0,
     "thumbnail": "content/playing/Divinity Original Sin 2/thumbnail.jpg",
     "current": false,
+    "current_order": 99,
     "tasting": false
   },
   {
@@ -205,6 +217,7 @@
     "payment_num": 0,
     "thumbnail": "content/playing/Dota 2/thumbnail.jpg",
     "current": false,
+    "current_order": 99,
     "tasting": false
   },
   {
@@ -221,6 +234,7 @@
     "payment_num": 0,
     "thumbnail": "content/playing/ELDEN RING/thumbnail.jpg",
     "current": false,
+    "current_order": 99,
     "tasting": false
   },
   {
@@ -237,6 +251,7 @@
     "payment_num": 0,
     "thumbnail": "content/playing/Eternal Return/thumbnail.png",
     "current": false,
+    "current_order": 99,
     "tasting": false
   },
   {
@@ -253,6 +268,7 @@
     "payment_num": 0,
     "thumbnail": "content/playing/Fallout 4/thumbnail.jpg",
     "current": false,
+    "current_order": 99,
     "tasting": false
   },
   {
@@ -269,6 +285,7 @@
     "payment_num": 0,
     "thumbnail": "content/playing/Fallout New Vegas/thumbnail.jpg",
     "current": false,
+    "current_order": 99,
     "tasting": false
   },
   {
@@ -285,6 +302,7 @@
     "payment_num": 0,
     "thumbnail": "content/playing/Far Cry 4/thumbnail.jpg",
     "current": false,
+    "current_order": 99,
     "tasting": false
   },
   {
@@ -301,6 +319,7 @@
     "payment_num": 0,
     "thumbnail": "content/playing/Football Manager 2016/thumbnail.jpg",
     "current": false,
+    "current_order": 99,
     "tasting": false
   },
   {
@@ -317,6 +336,7 @@
     "payment_num": 0,
     "thumbnail": "content/playing/Football Manager 2017/thumbnail.jpg",
     "current": false,
+    "current_order": 99,
     "tasting": false
   },
   {
@@ -333,6 +353,7 @@
     "payment_num": 0,
     "thumbnail": "content/playing/Football Manager 2019/thumbnail.jpg",
     "current": false,
+    "current_order": 99,
     "tasting": false
   },
   {
@@ -349,6 +370,7 @@
     "payment_num": 0,
     "thumbnail": "content/playing/Frostpunk/thumbnail.jpg",
     "current": false,
+    "current_order": 99,
     "tasting": false
   },
   {
@@ -365,6 +387,7 @@
     "payment_num": 0,
     "thumbnail": "content/playing/Grand Theft Auto V Legacy/thumbnail.jpg",
     "current": false,
+    "current_order": 99,
     "tasting": false
   },
   {
@@ -381,6 +404,7 @@
     "payment_num": 30000.0,
     "thumbnail": "content/playing/HEARTHSTONE/thumbnail.jpg",
     "current": false,
+    "current_order": 99,
     "tasting": true
   },
   {
@@ -397,6 +421,7 @@
     "payment_num": 0,
     "thumbnail": "content/playing/Heroes Of The Storm(히어로즈 오브 더 스톰)/thumbnail.png",
     "current": false,
+    "current_order": 99,
     "tasting": false
   },
   {
@@ -413,6 +438,7 @@
     "payment_num": 0,
     "thumbnail": "content/playing/Kingdom Come Deliverance/thumbnail.jpg",
     "current": false,
+    "current_order": 99,
     "tasting": false
   },
   {
@@ -429,6 +455,7 @@
     "payment_num": 148800.0,
     "thumbnail": "content/playing/League Of Legends/thumbnail.jpg",
     "current": false,
+    "current_order": 99,
     "tasting": false
   },
   {
@@ -445,6 +472,7 @@
     "payment_num": 0,
     "thumbnail": "content/playing/MISTOVER/thumbnail.jpg",
     "current": false,
+    "current_order": 99,
     "tasting": false
   },
   {
@@ -461,6 +489,7 @@
     "payment_num": 0,
     "thumbnail": "content/playing/Middle-earth™ Shadow of Mordor™/thumbnail.jpg",
     "current": false,
+    "current_order": 99,
     "tasting": false
   },
   {
@@ -477,6 +506,7 @@
     "payment_num": 0,
     "thumbnail": "content/playing/Middle-earth™ Shadow of War™/thumbnail.jpg",
     "current": false,
+    "current_order": 99,
     "tasting": false
   },
   {
@@ -493,6 +523,7 @@
     "payment_num": 0,
     "thumbnail": "content/playing/Mount & Blade II Bannerlord/thumbnail.jpg",
     "current": false,
+    "current_order": 99,
     "tasting": false
   },
   {
@@ -509,6 +540,7 @@
     "payment_num": 0,
     "thumbnail": "content/playing/Mount & Blade Warband/thumbnail.jpg",
     "current": false,
+    "current_order": 99,
     "tasting": false
   },
   {
@@ -525,6 +557,7 @@
     "payment_num": 0,
     "thumbnail": "content/playing/PUBG BATTLEGROUNDS/thumbnail.jpg",
     "current": false,
+    "current_order": 99,
     "tasting": false
   },
   {
@@ -541,6 +574,7 @@
     "payment_num": 0,
     "thumbnail": "content/playing/Palworld/thumbnail.jpg",
     "current": false,
+    "current_order": 99,
     "tasting": false
   },
   {
@@ -557,6 +591,7 @@
     "payment_num": 66000.0,
     "thumbnail": "content/playing/Path Of Exile 2(POE 2)/thumbnail.png",
     "current": false,
+    "current_order": 99,
     "tasting": false
   },
   {
@@ -573,6 +608,7 @@
     "payment_num": 0,
     "thumbnail": "content/playing/Pillars of Eternity II Deadfire/thumbnail.jpg",
     "current": false,
+    "current_order": 99,
     "tasting": false
   },
   {
@@ -589,6 +625,7 @@
     "payment_num": 0,
     "thumbnail": "content/playing/Ratropolis/thumbnail.jpg",
     "current": false,
+    "current_order": 99,
     "tasting": false
   },
   {
@@ -605,6 +642,7 @@
     "payment_num": 0,
     "thumbnail": "content/playing/Red Dead Redemption 2/thumbnail.jpg",
     "current": false,
+    "current_order": 99,
     "tasting": false
   },
   {
@@ -621,6 +659,7 @@
     "payment_num": 0,
     "thumbnail": "content/playing/RimWorld/thumbnail.jpg",
     "current": false,
+    "current_order": 99,
     "tasting": false
   },
   {
@@ -637,6 +676,7 @@
     "payment_num": 0,
     "thumbnail": "content/playing/Romance of the Three Kingdoms XIII/thumbnail.jpg",
     "current": false,
+    "current_order": 99,
     "tasting": false
   },
   {
@@ -653,6 +693,7 @@
     "payment_num": 14000.0,
     "thumbnail": "content/playing/Royal Match/thumbnail.jpg",
     "current": false,
+    "current_order": 99,
     "tasting": true
   },
   {
@@ -669,6 +710,7 @@
     "payment_num": 0,
     "thumbnail": "content/playing/Sid Meier's Civilization Beyond Earth/thumbnail.jpg",
     "current": false,
+    "current_order": 99,
     "tasting": false
   },
   {
@@ -685,6 +727,7 @@
     "payment_num": 0,
     "thumbnail": "content/playing/Sid Meier's Civilization V/thumbnail.jpg",
     "current": false,
+    "current_order": 99,
     "tasting": false
   },
   {
@@ -701,6 +744,7 @@
     "payment_num": 0,
     "thumbnail": "content/playing/South Park The Fractured But Whole/thumbnail.jpg",
     "current": false,
+    "current_order": 99,
     "tasting": false
   },
   {
@@ -717,6 +761,7 @@
     "payment_num": 0,
     "thumbnail": "content/playing/South Park™ The Stick of Truth™/thumbnail.jpg",
     "current": false,
+    "current_order": 99,
     "tasting": false
   },
   {
@@ -733,6 +778,7 @@
     "payment_num": 49800.0,
     "thumbnail": "content/playing/THRONE AND LIBERTY/thumbnail.png",
     "current": false,
+    "current_order": 99,
     "tasting": false
   },
   {
@@ -749,6 +795,7 @@
     "payment_num": 0,
     "thumbnail": "content/playing/The Elder Scrolls V Skyrim Special Edition/thumbnail.png",
     "current": false,
+    "current_order": 99,
     "tasting": false
   },
   {
@@ -765,6 +812,7 @@
     "payment_num": 0,
     "thumbnail": "content/playing/This War of Mine/thumbnail.jpg",
     "current": false,
+    "current_order": 99,
     "tasting": false
   },
   {
@@ -781,6 +829,7 @@
     "payment_num": 0,
     "thumbnail": "content/playing/Thronebreaker The Witcher Tales/thumbnail.jpg",
     "current": false,
+    "current_order": 99,
     "tasting": false
   },
   {
@@ -797,6 +846,7 @@
     "payment_num": 0,
     "thumbnail": "content/playing/Total War ATTILA/thumbnail.jpg",
     "current": false,
+    "current_order": 99,
     "tasting": false
   },
   {
@@ -813,6 +863,7 @@
     "payment_num": 0,
     "thumbnail": "content/playing/Total War ROME II - Emperor Edition/thumbnail.jpg",
     "current": false,
+    "current_order": 99,
     "tasting": false
   },
   {
@@ -829,6 +880,7 @@
     "payment_num": 0,
     "thumbnail": "content/playing/Total War THREE KINGDOMS/thumbnail.jpg",
     "current": false,
+    "current_order": 99,
     "tasting": false
   },
   {
@@ -845,6 +897,7 @@
     "payment_num": 0,
     "thumbnail": "content/playing/Total War WARHAMMER/thumbnail.jpg",
     "current": false,
+    "current_order": 99,
     "tasting": false
   },
   {
@@ -861,6 +914,7 @@
     "payment_num": 0,
     "thumbnail": "content/playing/Total War WARHAMMER II/thumbnail.jpg",
     "current": false,
+    "current_order": 99,
     "tasting": false
   },
   {
@@ -877,6 +931,7 @@
     "payment_num": 0,
     "thumbnail": "content/playing/Total War WARHAMMER III/thumbnail.jpg",
     "current": false,
+    "current_order": 99,
     "tasting": false
   },
   {
@@ -893,6 +948,7 @@
     "payment_num": 0,
     "thumbnail": "content/playing/Tropico 5/thumbnail.jpg",
     "current": false,
+    "current_order": 99,
     "tasting": false
   },
   {
@@ -909,6 +965,7 @@
     "payment_num": 39600.0,
     "thumbnail": "content/playing/World Of Warcraft/thumbnail.png",
     "current": false,
+    "current_order": 99,
     "tasting": true
   },
   {
@@ -925,6 +982,7 @@
     "payment_num": 0,
     "thumbnail": "content/playing/XCOM 2/thumbnail.jpg",
     "current": false,
+    "current_order": 99,
     "tasting": false
   },
   {
@@ -941,6 +999,7 @@
     "payment_num": 0,
     "thumbnail": "content/playing/XCOM Enemy Unknown/thumbnail.jpg",
     "current": false,
+    "current_order": 99,
     "tasting": false
   },
   {
@@ -957,6 +1016,7 @@
     "payment_num": 66000.0,
     "thumbnail": "content/playing/ヘブン バーンズ レッド(헤븐 번즈 레드)/thumbnail.png",
     "current": false,
+    "current_order": 99,
     "tasting": true
   },
   {
@@ -973,6 +1033,7 @@
     "payment_num": 29000.0,
     "thumbnail": "content/playing/メメントモリ(메멘토 모리)/thumbnail.png",
     "current": false,
+    "current_order": 99,
     "tasting": true
   },
   {
@@ -989,6 +1050,7 @@
     "payment_num": 4887000.0,
     "thumbnail": "content/playing/原神(원신)/thumbnail.png",
     "current": false,
+    "current_order": 99,
     "tasting": false
   },
   {
@@ -1005,6 +1067,7 @@
     "payment_num": 25700.0,
     "thumbnail": "content/playing/天工之劍(2X)/thumbnail.jpg",
     "current": false,
+    "current_order": 99,
     "tasting": true
   },
   {
@@ -1021,6 +1084,7 @@
     "payment_num": 2930000.0,
     "thumbnail": "content/playing/崩坏：星穹铁道(붕괴 스타레일)/thumbnail.png",
     "current": false,
+    "current_order": 99,
     "tasting": false
   },
   {
@@ -1037,6 +1101,7 @@
     "payment_num": 380900.0,
     "thumbnail": "content/playing/绝区零 · 絕區零(젠레스 존 제로)/thumbnail.png",
     "current": false,
+    "current_order": 99,
     "tasting": false
   },
   {
@@ -1053,6 +1118,7 @@
     "payment_num": 368400.0,
     "thumbnail": "content/playing/鸣潮(명조 워더링 웨이브)/thumbnail.png",
     "current": false,
+    "current_order": 99,
     "tasting": false
   },
   {
@@ -1069,6 +1135,7 @@
     "payment_num": 1600.0,
     "thumbnail": "content/playing/龙之国物语(아카디아M)/thumbnail.png",
     "current": false,
+    "current_order": 99,
     "tasting": true
   },
   {
@@ -1085,6 +1152,7 @@
     "payment_num": 157000.0,
     "thumbnail": "content/playing/가디언 테일즈/thumbnail.jpg",
     "current": false,
+    "current_order": 99,
     "tasting": false
   },
   {
@@ -1101,6 +1169,7 @@
     "payment_num": 303980.0,
     "thumbnail": "content/playing/나 혼자만 레벨업 어라이즈/thumbnail.png",
     "current": false,
+    "current_order": 99,
     "tasting": false
   },
   {
@@ -1117,6 +1186,7 @@
     "payment_num": 30000.0,
     "thumbnail": "content/playing/나이트 워커/thumbnail.png",
     "current": false,
+    "current_order": 99,
     "tasting": true
   },
   {
@@ -1133,6 +1203,7 @@
     "payment_num": 253000.0,
     "thumbnail": "content/playing/나이트크로우/thumbnail.png",
     "current": false,
+    "current_order": 99,
     "tasting": true
   },
   {
@@ -1149,6 +1220,7 @@
     "payment_num": 162600.0,
     "thumbnail": "content/playing/더 스타라이트/thumbnail.jpg",
     "current": false,
+    "current_order": 99,
     "tasting": true
   },
   {
@@ -1165,6 +1237,7 @@
     "payment_num": 500000.0,
     "thumbnail": "content/playing/던전앤파이터/thumbnail.jpg",
     "current": false,
+    "current_order": 99,
     "tasting": false
   },
   {
@@ -1181,6 +1254,7 @@
     "payment_num": 103600.0,
     "thumbnail": "content/playing/던전앤파이터 모바일/thumbnail.png",
     "current": false,
+    "current_order": 99,
     "tasting": true
   },
   {
@@ -1197,6 +1271,7 @@
     "payment_num": 97700.0,
     "thumbnail": "content/playing/디펜스 더비/thumbnail.jpg",
     "current": false,
+    "current_order": 99,
     "tasting": true
   },
   {
@@ -1213,6 +1288,7 @@
     "payment_num": 58800.0,
     "thumbnail": "content/playing/레이븐 2/thumbnail.png",
     "current": false,
+    "current_order": 99,
     "tasting": true
   },
   {
@@ -1229,6 +1305,7 @@
     "payment_num": 12098500.0,
     "thumbnail": "content/playing/로스트아크/thumbnail.png",
     "current": false,
+    "current_order": 99,
     "tasting": false
   },
   {
@@ -1245,6 +1322,7 @@
     "payment_num": 1815000.0,
     "thumbnail": "content/playing/리니지2M/thumbnail.jpg",
     "current": false,
+    "current_order": 99,
     "tasting": true
   },
   {
@@ -1261,6 +1339,7 @@
     "payment_num": 10582000.0,
     "thumbnail": "content/playing/리니지W/thumbnail.png",
     "current": false,
+    "current_order": 99,
     "tasting": false
   },
   {
@@ -1277,6 +1356,7 @@
     "payment_num": 519300.0,
     "thumbnail": "content/playing/마비노기 모바일/thumbnail.jpg",
     "current": false,
+    "current_order": 99,
     "tasting": false
   },
   {
@@ -1293,6 +1373,7 @@
     "payment_num": 0,
     "thumbnail": "content/playing/마비노기 영웅전/thumbnail.png",
     "current": false,
+    "current_order": 99,
     "tasting": false
   },
   {
@@ -1309,6 +1390,7 @@
     "payment_num": 9000.0,
     "thumbnail": "content/playing/메이플 키우기/thumbnail.jpg",
     "current": true,
+    "current_order": 3,
     "tasting": false
   },
   {
@@ -1325,6 +1407,7 @@
     "payment_num": 85100.0,
     "thumbnail": "content/playing/명일방주_ 엔드필드/thumbnail.jpg",
     "current": false,
+    "current_order": 99,
     "tasting": true
   },
   {
@@ -1341,6 +1424,7 @@
     "payment_num": 491700.0,
     "thumbnail": "content/playing/뱀피르/thumbnail.jpg",
     "current": false,
+    "current_order": 99,
     "tasting": false
   },
   {
@@ -1357,6 +1441,7 @@
     "payment_num": 33000.0,
     "thumbnail": "content/playing/블레이드 & 소울 2/thumbnail.png",
     "current": false,
+    "current_order": 99,
     "tasting": true
   },
   {
@@ -1373,6 +1458,7 @@
     "payment_num": 239900.0,
     "thumbnail": "content/playing/블루 아카이브/thumbnail.png",
     "current": false,
+    "current_order": 99,
     "tasting": false
   },
   {
@@ -1389,6 +1475,7 @@
     "payment_num": 487800.0,
     "thumbnail": "content/playing/서머너즈 워 _ 크로니클/thumbnail.jpg",
     "current": false,
+    "current_order": 99,
     "tasting": false
   },
   {
@@ -1405,6 +1492,7 @@
     "payment_num": 339200.0,
     "thumbnail": "content/playing/서머너즈 워 백년전쟁/thumbnail.png",
     "current": false,
+    "current_order": 99,
     "tasting": false
   },
   {
@@ -1421,6 +1509,7 @@
     "payment_num": 262000.0,
     "thumbnail": "content/playing/세븐나이츠 레볼루션/thumbnail.jpg",
     "current": false,
+    "current_order": 99,
     "tasting": true
   },
   {
@@ -1437,6 +1526,7 @@
     "payment_num": 12900.0,
     "thumbnail": "content/playing/세븐나이츠 키우기/thumbnail.png",
     "current": false,
+    "current_order": 99,
     "tasting": true
   },
   {
@@ -1453,6 +1543,7 @@
     "payment_num": 114380.0,
     "thumbnail": "content/playing/소울 스트라이크/thumbnail.png",
     "current": false,
+    "current_order": 99,
     "tasting": false
   },
   {
@@ -1469,6 +1560,7 @@
     "payment_num": 0,
     "thumbnail": "content/playing/승리의 여신 니케/thumbnail.png",
     "current": false,
+    "current_order": 99,
     "tasting": false
   },
   {
@@ -1485,6 +1577,7 @@
     "payment_num": 79000.0,
     "thumbnail": "content/playing/아키에이지 워/thumbnail.png",
     "current": false,
+    "current_order": 99,
     "tasting": true
   },
   {
@@ -1501,6 +1594,7 @@
     "payment_num": 67400.0,
     "thumbnail": "content/playing/어나더던전/thumbnail.png",
     "current": false,
+    "current_order": 99,
     "tasting": true
   },
   {
@@ -1517,6 +1611,7 @@
     "payment_num": 3000.0,
     "thumbnail": "content/playing/에버소울/thumbnail.png",
     "current": false,
+    "current_order": 99,
     "tasting": true
   },
   {
@@ -1533,6 +1628,7 @@
     "payment_num": 2287600.0,
     "thumbnail": "content/playing/오딘_ 발할라 라이징/thumbnail.jpg",
     "current": false,
+    "current_order": 99,
     "tasting": false
   },
   {
@@ -1549,6 +1645,7 @@
     "payment_num": 210500.0,
     "thumbnail": "content/playing/카오스 제로 나이트메어/thumbnail.jpg",
     "current": false,
+    "current_order": 99,
     "tasting": false
   },
   {
@@ -1565,6 +1662,7 @@
     "payment_num": 379900.0,
     "thumbnail": "content/playing/컴투스프로야구 V22/thumbnail.jpg",
     "current": false,
+    "current_order": 99,
     "tasting": false
   },
   {
@@ -1581,6 +1679,7 @@
     "payment_num": 2374500.0,
     "thumbnail": "content/playing/트릭컬 리바이브/thumbnail.png",
     "current": true,
+    "current_order": 2,
     "tasting": false
   },
   {
@@ -1597,6 +1696,7 @@
     "payment_num": 27228890.0,
     "thumbnail": "content/playing/프라시아 전기/thumbnail.png",
     "current": false,
+    "current_order": 99,
     "tasting": false
   },
   {
@@ -1613,6 +1713,7 @@
     "payment_num": 4000.0,
     "thumbnail": "content/playing/호연/thumbnail.png",
     "current": false,
+    "current_order": 99,
     "tasting": true
   },
   {
@@ -1629,6 +1730,7 @@
     "payment_num": 111000.0,
     "thumbnail": "content/playing/히트2/thumbnail.png",
     "current": false,
+    "current_order": 99,
     "tasting": true
   }
 ]

@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', async () => {
 });
 
 function renderNowPlaying() {
-    const current = allGames.filter(g => g.current);
+    const current = allGames.filter(g => g.current).sort((a, b) => (a.current_order || 99) - (b.current_order || 99));
     const container = document.getElementById('now-playing-section');
     if (!container) return;
     if (current.length === 0) {
