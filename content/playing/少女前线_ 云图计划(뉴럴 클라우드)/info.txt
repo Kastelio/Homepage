@@ -1,7 +1,0 @@
-name: 少女前线: 云图计划(뉴럴 클라우드)
-release: 2022년 11월 23일
-developer: SUNBORN Network Technology
-platform: Android, iOS
-package: No
-comment: 
-payment: 92500

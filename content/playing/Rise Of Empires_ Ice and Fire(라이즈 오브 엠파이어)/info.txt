@@ -1,7 +1,0 @@
-name: Rise Of Empires: Ice and Fire(라이즈 오브 엠파이어)
-release: 
-developer: 
-platform: 
-package: No
-comment: 
-payment: 144700

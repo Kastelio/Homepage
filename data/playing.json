@@ -45,21 +45,6 @@
     "current": false
   },
   {
-    "id": "Assassin's Creed_Odyssey(어쌔신 크리드__오디세이)",
-    "name": "Assassin's Creed Odyssey(어쌔신 크리드: 오디세이)",
-    "release": "2018년 10월 2일",
-    "developer": "Ubisoft Québec",
-    "platform": "PS4, Switch, Xbox",
-    "package": "No",
-    "comment": "",
-    "playtime": "",
-    "playtime_num": 0,
-    "payment": "",
-    "payment_num": 0,
-    "thumbnail": "",
-    "current": false
-  },
-  {
     "id": "Balatro",
     "name": "Balatro",
     "release": "2024",
@@ -120,21 +105,6 @@
     "current": false
   },
   {
-    "id": "Dragonheir_ Silent Gods(드래곤에어 _ 침묵의 신)",
-    "name": "Dragonheir: Silent Gods(드래곤에어 : 침묵의 신)",
-    "release": "",
-    "developer": "SGRA Studio",
-    "platform": "Android, Windows, iOS",
-    "package": "No",
-    "comment": "",
-    "playtime": "",
-    "playtime_num": 0,
-    "payment": "162400",
-    "payment_num": 162400.0,
-    "thumbnail": "",
-    "current": false
-  },
-  {
     "id": "Frostpunk Beyond the ice(프로스트펑크 비욘드 더 아이스)",
     "name": "Frostpunk Beyond the ice(프로스트펑크 비욘드 더 아이스)",
     "release": "",
@@ -150,21 +120,6 @@
     "current": false
   },
   {
-    "id": "Frostpunk_ Beyond the ice(프로스트펑크_ 비욘드 더 아이스)",
-    "name": "Frostpunk: Beyond the ice(프로스트펑크: 비욘드 더 아이스)",
-    "release": "2024년 10월 29일",
-    "developer": "넷이즈",
-    "platform": "Android, iOS",
-    "package": "No",
-    "comment": "",
-    "playtime": "",
-    "playtime_num": 0,
-    "payment": "9900",
-    "payment_num": 9900.0,
-    "thumbnail": "",
-    "current": false
-  },
-  {
     "id": "Game of Thrones Kingsroad(왕좌의 게임 킹스로드)",
     "name": "Game of Thrones Kingsroad(왕좌의 게임 킹스로드)",
     "release": "",
@@ -177,21 +132,6 @@
     "payment": "",
     "payment_num": 0,
     "thumbnail": "content/playing/Game of Thrones Kingsroad(왕좌의 게임 킹스로드)/thumbnail.png",
-    "current": false
-  },
-  {
-    "id": "Game of Thrones_ Kingsroad(왕좌의 게임_ 킹스로드)",
-    "name": "Game of Thrones: Kingsroad(왕좌의 게임: 킹스로드)",
-    "release": "",
-    "developer": "",
-    "platform": "",
-    "package": "No",
-    "comment": "",
-    "playtime": "",
-    "playtime_num": 0,
-    "payment": "",
-    "payment_num": 0,
-    "thumbnail": "",
     "current": false
   },
   {
@@ -315,21 +255,6 @@
     "current": false
   },
   {
-    "id": "Rise Of Empires_ Ice and Fire(라이즈 오브 엠파이어)",
-    "name": "Rise Of Empires: Ice and Fire(라이즈 오브 엠파이어)",
-    "release": "",
-    "developer": "",
-    "platform": "",
-    "package": "No",
-    "comment": "",
-    "playtime": "",
-    "playtime_num": 0,
-    "payment": "144700",
-    "payment_num": 144700.0,
-    "thumbnail": "",
-    "current": false
-  },
-  {
     "id": "Royal Match",
     "name": "Royal Match",
     "release": "",
@@ -372,21 +297,6 @@
     "payment": "",
     "payment_num": 0,
     "thumbnail": "content/playing/THE WITCHER 3 Wild Hunt/thumbnail.png",
-    "current": false
-  },
-  {
-    "id": "THE WITCHER_3_ Wild Hunt",
-    "name": "THE WITCHER 3: Wild Hunt",
-    "release": "2015년 5월 18일",
-    "developer": "CD PROJEKT RED",
-    "platform": "PS4, PlayStation, Windows, Xbox",
-    "package": "No",
-    "comment": "",
-    "playtime": "",
-    "playtime_num": 0,
-    "payment": "",
-    "payment_num": 0,
-    "thumbnail": "",
     "current": false
   },
   {
@@ -540,36 +450,6 @@
     "current": false
   },
   {
-    "id": "少女前线_ 云图计划(뉴럴 클라우드)",
-    "name": "少女前线: 云图计划(뉴럴 클라우드)",
-    "release": "2022년 11월 23일",
-    "developer": "SUNBORN Network Technology",
-    "platform": "Android, iOS",
-    "package": "No",
-    "comment": "",
-    "playtime": "",
-    "playtime_num": 0,
-    "payment": "92500",
-    "payment_num": 92500.0,
-    "thumbnail": "",
-    "current": false
-  },
-  {
-    "id": "尘白禁区 _ 塵白禁區(스노우 브레이크_ 포비든 존)",
-    "name": "尘白禁区 | 塵白禁區(스노우 브레이크: 포비든 존)",
-    "release": "2023년 7월 27일",
-    "developer": "Dragon Li Studios",
-    "platform": "Android, Windows, iOS",
-    "package": "No",
-    "comment": "",
-    "playtime": "",
-    "playtime_num": 0,
-    "payment": "",
-    "payment_num": 0,
-    "thumbnail": "",
-    "current": false
-  },
-  {
     "id": "尘白禁区 塵白禁區(스노우 브레이크 포비든 존)",
     "name": "尘白禁区 塵白禁區(스노우 브레이크 포비든 존)",
     "release": "",
@@ -645,21 +525,6 @@
     "current": false
   },
   {
-    "id": "重返未来_ 1999(리버스_ 1999)",
-    "name": "重返未来: 1999(리버스: 1999)",
-    "release": "2023년 10월 26일",
-    "developer": "BLUEPOCH",
-    "platform": "Android, Windows, iOS",
-    "package": "No",
-    "comment": "",
-    "playtime": "",
-    "playtime_num": 0,
-    "payment": "20500",
-    "payment_num": 20500.0,
-    "thumbnail": "",
-    "current": false
-  },
-  {
     "id": "鸣潮(명조 워더링 웨이브)",
     "name": "鸣潮(명조 워더링 웨이브)",
     "release": "",
@@ -720,21 +585,6 @@
     "current": false
   },
   {
-    "id": "나 혼자만 레벨업_ 어라이즈",
-    "name": "나 혼자만 레벨업: 어라이즈",
-    "release": "2024년 5월 8일",
-    "developer": "넷마블 네오",
-    "platform": "Android, Windows, iOS",
-    "package": "No",
-    "comment": "",
-    "playtime": "",
-    "playtime_num": 0,
-    "payment": "313880",
-    "payment_num": 313880.0,
-    "thumbnail": "",
-    "current": false
-  },
-  {
     "id": "나이트 워커",
     "name": "나이트 워커",
     "release": "2023년 1월 26일",
@@ -777,21 +627,6 @@
     "payment": "",
     "payment_num": 0,
     "thumbnail": "content/playing/낚시의 신 크루/thumbnail.png",
-    "current": false
-  },
-  {
-    "id": "낚시의 신_ 크루",
-    "name": "낚시의 신: 크루",
-    "release": "2023년 7월 20일",
-    "developer": "컴투스",
-    "platform": "Android, iOS",
-    "package": "No",
-    "comment": "",
-    "playtime": "",
-    "playtime_num": 0,
-    "payment": "",
-    "payment_num": 0,
-    "thumbnail": "",
     "current": false
   },
   {
@@ -912,21 +747,6 @@
     "payment": "",
     "payment_num": 0,
     "thumbnail": "content/playing/레전드 오브 슬라임 방치형 RPG/thumbnail.png",
-    "current": false
-  },
-  {
-    "id": "레전드 오브 슬라임_방치형 RPG",
-    "name": "레전드 오브 슬라임:방치형 RPG",
-    "release": "2022년 8월 8일",
-    "developer": "로드컴플릿",
-    "platform": "Android, iOS",
-    "package": "No",
-    "comment": "",
-    "playtime": "",
-    "playtime_num": 0,
-    "payment": "13000",
-    "payment_num": 13000.0,
-    "thumbnail": "",
     "current": false
   },
   {
@@ -1200,21 +1020,6 @@
     "current": false
   },
   {
-    "id": "서머너즈 워_ 백년전쟁",
-    "name": "서머너즈 워: 백년전쟁",
-    "release": "2021년 4월 29일",
-    "developer": "컴투스",
-    "platform": "Android, iOS",
-    "package": "No",
-    "comment": "",
-    "playtime": "",
-    "playtime_num": 0,
-    "payment": "339200",
-    "payment_num": 339200.0,
-    "thumbnail": "",
-    "current": false
-  },
-  {
     "id": "세븐나이츠 레볼루션",
     "name": "세븐나이츠 레볼루션",
     "release": "2022년 7월 28일",
@@ -1305,21 +1110,6 @@
     "current": false
   },
   {
-    "id": "스타시드_ 아스니아 트리거",
-    "name": "스타시드: 아스니아 트리거",
-    "release": "2024년 3월 28일",
-    "developer": "모히또게임즈",
-    "platform": "Android, iOS",
-    "package": "No",
-    "comment": "",
-    "playtime": "",
-    "playtime_num": 0,
-    "payment": "11000",
-    "payment_num": 11000.0,
-    "thumbnail": "",
-    "current": false
-  },
-  {
     "id": "스텔라 블레이드",
     "name": "스텔라 블레이드",
     "release": "2024",
@@ -1350,21 +1140,6 @@
     "current": false
   },
   {
-    "id": "승리의 여신_ 니케",
-    "name": "승리의 여신: 니케",
-    "release": "2022년 11월 4일",
-    "developer": "시프트업",
-    "platform": "Android, iOS",
-    "package": "No",
-    "comment": "",
-    "playtime": "",
-    "playtime_num": 0,
-    "payment": "48000",
-    "payment_num": 48000.0,
-    "thumbnail": "",
-    "current": false
-  },
-  {
     "id": "쓰론 앤 리버티",
     "name": "쓰론 앤 리버티",
     "release": "2023년 12월 7일",
@@ -1392,21 +1167,6 @@
     "payment": "",
     "payment_num": 0,
     "thumbnail": "content/playing/아스달 연대기 세 개의 세력/thumbnail.png",
-    "current": false
-  },
-  {
-    "id": "아스달 연대기_ 세 개의 세력",
-    "name": "아스달 연대기: 세 개의 세력",
-    "release": "2024년 4월 24일",
-    "developer": "넷마블에프앤씨",
-    "platform": "Android, Windows, iOS",
-    "package": "No",
-    "comment": "",
-    "playtime": "",
-    "playtime_num": 0,
-    "payment": "80000",
-    "payment_num": 80000.0,
-    "thumbnail": "",
     "current": false
   },
   {
@@ -1575,21 +1335,6 @@
     "current": false
   },
   {
-    "id": "제2의 나라_ Cross Worlds",
-    "name": "제2의 나라: Cross Worlds",
-    "release": "2021년 6월 10일",
-    "developer": "넷마블 네오",
-    "platform": "Android, Windows, iOS",
-    "package": "No",
-    "comment": "",
-    "playtime": "",
-    "playtime_num": 0,
-    "payment": "86500",
-    "payment_num": 86500.0,
-    "thumbnail": "",
-    "current": false
-  },
-  {
     "id": "제노니아 크로노브레이크",
     "name": "제노니아 크로노브레이크",
     "release": "",
@@ -1602,21 +1347,6 @@
     "payment": "",
     "payment_num": 0,
     "thumbnail": "content/playing/제노니아 크로노브레이크/thumbnail.png",
-    "current": false
-  },
-  {
-    "id": "제노니아_ 크로노브레이크",
-    "name": "제노니아: 크로노브레이크",
-    "release": "2023년 6월 27일",
-    "developer": "컴투스",
-    "platform": "Android, Windows, iOS",
-    "package": "No",
-    "comment": "",
-    "playtime": "",
-    "playtime_num": 0,
-    "payment": "6080900",
-    "payment_num": 6080900.0,
-    "thumbnail": "",
     "current": false
   },
   {
@@ -1677,21 +1407,6 @@
     "payment": "",
     "payment_num": 0,
     "thumbnail": "content/playing/쿠키런 모험의 탑/thumbnail.png",
-    "current": false
-  },
-  {
-    "id": "쿠키런_ 모험의 탑",
-    "name": "쿠키런: 모험의 탑",
-    "release": "2024년 6월 26일",
-    "developer": "데브시스터즈",
-    "platform": "Android, Windows, iOS, iPadOS",
-    "package": "No",
-    "comment": "",
-    "playtime": "",
-    "playtime_num": 0,
-    "payment": "",
-    "payment_num": 0,
-    "thumbnail": "",
     "current": false
   },
   {

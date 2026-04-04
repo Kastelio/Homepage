@@ -1,7 +1,0 @@
-name: 승리의 여신: 니케
-release: 2022년 11월 4일
-developer: 시프트업
-platform: Android, iOS
-package: No
-comment: 
-payment: 48000

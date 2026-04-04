@@ -1,7 +1,0 @@
-name: 重返未来: 1999(리버스: 1999)
-release: 2023년 10월 26일
-developer: BLUEPOCH
-platform: Android, Windows, iOS
-package: No
-comment: 
-payment: 20500
