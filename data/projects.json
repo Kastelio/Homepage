@@ -1768,6 +1768,22 @@
             "caption": ""
           }
         ]
+      },
+      {
+        "name": "가문 휘장",
+        "order": 310,
+        "category": "Growth",
+        "date": "",
+        "featured": false,
+        "hidden": false,
+        "minor": true,
+        "roles": [
+          "시스템 기획"
+        ],
+        "desc": "지원 보드의 누적 기세에 따른 스탯 추가",
+        "sub": "",
+        "bullets": [],
+        "images": []
       }
     ],
     "misc": []
