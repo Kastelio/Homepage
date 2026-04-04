@@ -107,7 +107,7 @@
     "playtime_num": 0,
     "payment": "36000",
     "payment_num": 36000.0,
-    "thumbnail": "",
+    "thumbnail": "content/playing/Brawl Stars/thumbnail.jpg",
     "current": false,
     "tasting": true
   },
@@ -379,7 +379,7 @@
     "playtime_num": 0,
     "payment": "30000",
     "payment_num": 30000.0,
-    "thumbnail": "",
+    "thumbnail": "content/playing/HEARTHSTONE/thumbnail.jpg",
     "current": false,
     "tasting": true
   },
@@ -427,7 +427,7 @@
     "playtime_num": 0,
     "payment": "148800",
     "payment_num": 148800.0,
-    "thumbnail": "",
+    "thumbnail": "content/playing/League Of Legends/thumbnail.jpg",
     "current": false,
     "tasting": false
   },
@@ -651,7 +651,7 @@
     "playtime_num": 0,
     "payment": "14000",
     "payment_num": 14000.0,
-    "thumbnail": "",
+    "thumbnail": "content/playing/Royal Match/thumbnail.jpg",
     "current": false,
     "tasting": true
   },
@@ -1003,7 +1003,7 @@
     "playtime_num": 0,
     "payment": "25700",
     "payment_num": 25700.0,
-    "thumbnail": "",
+    "thumbnail": "content/playing/天工之劍(2X)/thumbnail.jpg",
     "current": false,
     "tasting": true
   },
@@ -1083,7 +1083,7 @@
     "playtime_num": 0,
     "payment": "157000",
     "payment_num": 157000.0,
-    "thumbnail": "",
+    "thumbnail": "content/playing/가디언 테일즈/thumbnail.jpg",
     "current": false,
     "tasting": false
   },
@@ -1147,7 +1147,7 @@
     "playtime_num": 0,
     "payment": "162600",
     "payment_num": 162600.0,
-    "thumbnail": "",
+    "thumbnail": "content/playing/더 스타라이트/thumbnail.jpg",
     "current": false,
     "tasting": true
   },
@@ -1163,7 +1163,7 @@
     "playtime_num": 0,
     "payment": "500000",
     "payment_num": 500000.0,
-    "thumbnail": "",
+    "thumbnail": "content/playing/던전앤파이터/thumbnail.jpg",
     "current": false,
     "tasting": false
   },
@@ -1195,7 +1195,7 @@
     "playtime_num": 0,
     "payment": "97700",
     "payment_num": 97700.0,
-    "thumbnail": "",
+    "thumbnail": "content/playing/디펜스 더비/thumbnail.jpg",
     "current": false,
     "tasting": true
   },
@@ -1243,7 +1243,7 @@
     "playtime_num": 0,
     "payment": "1815000",
     "payment_num": 1815000.0,
-    "thumbnail": "",
+    "thumbnail": "content/playing/리니지2M/thumbnail.jpg",
     "current": false,
     "tasting": true
   },
@@ -1275,7 +1275,7 @@
     "playtime_num": 0,
     "payment": "519300",
     "payment_num": 519300.0,
-    "thumbnail": "",
+    "thumbnail": "content/playing/마비노기 모바일/thumbnail.jpg",
     "current": false,
     "tasting": false
   },
@@ -1307,7 +1307,7 @@
     "playtime_num": 0,
     "payment": "9000",
     "payment_num": 9000.0,
-    "thumbnail": "",
+    "thumbnail": "content/playing/메이플 키우기/thumbnail.jpg",
     "current": false,
     "tasting": false
   },
@@ -1323,7 +1323,7 @@
     "playtime_num": 0,
     "payment": "85100",
     "payment_num": 85100.0,
-    "thumbnail": "",
+    "thumbnail": "content/playing/명일방주_ 엔드필드/thumbnail.jpg",
     "current": false,
     "tasting": true
   },
@@ -1339,7 +1339,7 @@
     "playtime_num": 0,
     "payment": "491700",
     "payment_num": 491700.0,
-    "thumbnail": "",
+    "thumbnail": "content/playing/뱀피르/thumbnail.jpg",
     "current": false,
     "tasting": false
   },
@@ -1387,7 +1387,7 @@
     "playtime_num": 0,
     "payment": "487800",
     "payment_num": 487800.0,
-    "thumbnail": "",
+    "thumbnail": "content/playing/서머너즈 워 _ 크로니클/thumbnail.jpg",
     "current": false,
     "tasting": false
   },
@@ -1531,7 +1531,7 @@
     "playtime_num": 0,
     "payment": "2287600",
     "payment_num": 2287600.0,
-    "thumbnail": "",
+    "thumbnail": "content/playing/오딘_ 발할라 라이징/thumbnail.jpg",
     "current": false,
     "tasting": false
   },
@@ -1547,7 +1547,7 @@
     "playtime_num": 0,
     "payment": "210500",
     "payment_num": 210500.0,
-    "thumbnail": "",
+    "thumbnail": "content/playing/카오스 제로 나이트메어/thumbnail.jpg",
     "current": false,
     "tasting": false
   },
@@ -1609,11 +1609,11 @@
     "comment": "",
     "playtime": "",
     "playtime_num": 0,
-    "payment": "",
-    "payment_num": 0,
+    "payment": "4000",
+    "payment_num": 4000.0,
     "thumbnail": "content/playing/호연/thumbnail.png",
     "current": false,
-    "tasting": false
+    "tasting": true
   },
   {
     "id": "히트2",
