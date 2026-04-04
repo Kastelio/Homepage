@@ -799,7 +799,12 @@
         "desc": "",
         "sub": "",
         "bullets": [],
-        "images": []
+        "images": [
+          {
+            "file": "content/projects/kingsroad/지렁이길 특정 스테이지 처리/특정 스테이지가 해금되는 시점 처리.png",
+            "caption": ""
+          }
+        ]
       },
       {
         "name": "말풍선",
@@ -941,7 +946,12 @@
         "desc": "",
         "sub": "",
         "bullets": [],
-        "images": []
+        "images": [
+          {
+            "file": "content/projects/kingsroad/우편에 ‘영구 보관’ 기능 추가/우편에 영구 보관 기능 추가.png",
+            "caption": ""
+          }
+        ]
       },
       {
         "name": "월드맵 탐험 콘텐츠 출력 개선",
@@ -1517,7 +1527,12 @@
         "desc": "",
         "sub": "",
         "bullets": [],
-        "images": []
+        "images": [
+          {
+            "file": "content/projects/kingsroad/외부 보상/외부 보상.png",
+            "caption": ""
+          }
+        ]
       },
       {
         "name": "아이템 선택 상자 처리 개선",
@@ -1607,7 +1622,12 @@
         "desc": "중복 보상 발생 시 실패 처리 & 대체 보상 처리",
         "sub": "",
         "bullets": [],
-        "images": []
+        "images": [
+          {
+            "file": "content/projects/kingsroad/보상/보상.png",
+            "caption": ""
+          }
+        ]
       },
       {
         "name": "푸시",
@@ -1639,7 +1659,12 @@
         "desc": "점검 시간 동안 랭킹 기록이 누적되지 않도록 처리",
         "sub": "",
         "bullets": [],
-        "images": []
+        "images": [
+          {
+            "file": "content/projects/kingsroad/점검 랭킹 처리/점검 랭킹 처리.png",
+            "caption": ""
+          }
+        ]
       },
       {
         "name": "콘텐츠 타입",
@@ -1717,7 +1742,12 @@
         "desc": "",
         "sub": "",
         "bullets": [],
-        "images": []
+        "images": [
+          {
+            "file": "content/projects/kingsroad/던전 입장 메뉴 추가/던전 입장 메뉴 추가.png",
+            "caption": ""
+          }
+        ]
       },
       {
         "name": "2025 스팀 넥스트 페스트",
@@ -1783,7 +1813,16 @@
         "desc": "지원 보드의 누적 기세에 따른 스탯 추가",
         "sub": "",
         "bullets": [],
-        "images": []
+        "images": [
+          {
+            "file": "content/projects/kingsroad/가문휘장/가문 휘장 지원 보드의 누적 기세에 따른 스탯 추가 1.png",
+            "caption": ""
+          },
+          {
+            "file": "content/projects/kingsroad/가문휘장/가문 휘장 지원 보드의 누적 기세에 따른 스탯 추가 2.png",
+            "caption": ""
+          }
+        ]
       }
     ],
     "misc": []
