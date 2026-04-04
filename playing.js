@@ -1,5 +1,5 @@
 let allGames = [];
-let currentSort = 'payment';
+let currentSort = 'playtime';
 let currentTab = 'all';
 let firstRender = true;
 
@@ -81,8 +81,8 @@ function renderGames() {
 
     const filtered = getFilteredGames();
     const sorted = [...filtered].sort((a, b) => {
-        const aVal = currentSort === 'playtime' ? (a.playtime_num || 0) : (a.payment_num || 0);
-        const bVal = currentSort === 'playtime' ? (b.playtime_num || 0) : (b.payment_num || 0);
+        const aVal = a.playtime_num || 0;
+        const bVal = b.playtime_num || 0;
         return bVal - aVal;
     });
 
@@ -100,7 +100,7 @@ function renderGames() {
             : '';
 
         const paymentEl = (!isPackage && g.payment)
-            ? `<div class="game-stat"><span class="stat-label">과금</span><span class="stat-value">${Number(g.payment).toLocaleString()}원</span></div>`
+            ? `<div class="game-stat game-stat-payment"><span class="stat-label">과금</span><span class="stat-value">${Number(g.payment).toLocaleString()}원</span></div>`
             : '';
 
         return `
@@ -122,12 +122,19 @@ function renderGames() {
         });
         firstRender = false;
     }
+
+    // 모바일: 탭으로 과금 토글
+    grid.querySelectorAll('.game-card').forEach(card => {
+        card.addEventListener('click', () => {
+            card.classList.toggle('show-payment');
+        });
+    });
 }
 
 const TAB_DEFAULT_SORT = {
-    all: 'payment',
+    all: 'playtime',
     package: 'playtime',
-    live: 'payment',
+    live: 'playtime',
 };
 
 function initTabs() {
@@ -136,13 +143,7 @@ function initTabs() {
             document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
             btn.classList.add('active');
             currentTab = btn.dataset.tab;
-
-            // 탭에 따라 기본 정렬 자동 전환
-            currentSort = TAB_DEFAULT_SORT[currentTab] || 'payment';
-            document.querySelectorAll('.sort-btn').forEach(b => {
-                b.classList.toggle('active', b.dataset.sort === currentSort);
-            });
-
+            currentSort = TAB_DEFAULT_SORT[currentTab] || 'playtime';
             renderGames();
         });
     });

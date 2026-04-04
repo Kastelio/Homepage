@@ -328,6 +328,24 @@
     font-style: italic;
 }
 
+/* 과금액: 데스크탑 hover, 모바일 탭 토글 */
+.game-stat-payment {
+    opacity: 0;
+    transition: opacity 0.2s;
+}
+
+@media (hover: hover) {
+    .game-card:hover .game-stat-payment {
+        opacity: 1;
+    }
+}
+
+@media (hover: none) {
+    .game-card.show-payment .game-stat-payment {
+        opacity: 1;
+    }
+}
+
 /* Responsive */
 @media (max-width: 768px) {
     .playing-main {
