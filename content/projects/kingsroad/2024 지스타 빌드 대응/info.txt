@@ -3,5 +3,5 @@ order: 26
 category: Event
 featured: yes
 date: 2024년 9월 5일
-roles: 시스템 기획
+roles: 시스템 기획, 행사 참여
 desc: 2024 지스타 전시 빌드 준비를 위한 QA 및 빌드 대응 작업

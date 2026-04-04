@@ -3,4 +3,5 @@ order: 51
 category: UX
 date: 2025년 1월 16일
 roles: 시스템 기획
-desc:
+desc: 장신구 일괄 장착 기능 추가
+sub: 유저가 장비/장신구 장착 시 큰 고민 없이 성장 경험을 가질 수 있도록 제공

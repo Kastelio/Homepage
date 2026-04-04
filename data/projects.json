@@ -140,7 +140,7 @@
         "name": "효용",
         "order": 7,
         "category": "Core",
-        "date": "",
+        "date": "2024년 5월 21일",
         "featured": false,
         "hidden": false,
         "minor": false,
@@ -148,7 +148,7 @@
           "시스템 기획"
         ],
         "desc": "계정 또는 캐릭터에게 특정한 효용을 부여하는 시스템",
-        "sub": "효용을 획득하기 위해 특정 상품 이용 또는 콘텐츠에 참여하도록 유도",
+        "sub": "효용을 획득하기 위해 특정 상품 구매 유도",
         "bullets": [],
         "images": [
           {
@@ -166,7 +166,8 @@
         "hidden": false,
         "minor": false,
         "roles": [
-          "시스템 기획"
+          "시스템 기획",
+          "데이터 입력"
         ],
         "desc": "그래픽, 사운드, 인터페이스 등 게임 환경을 조정할 수 있는 옵션 시스템",
         "sub": "",
@@ -182,7 +183,7 @@
         "name": "튜토리얼 다시보기",
         "order": 9,
         "category": "Guide",
-        "date": "",
+        "date": "2024년 7월 5일",
         "featured": false,
         "hidden": false,
         "minor": false,
@@ -204,7 +205,7 @@
         "name": "강화(슬롯 성장)",
         "order": 10,
         "category": "Growth",
-        "date": "",
+        "date": "2025년 7월 3일",
         "featured": false,
         "hidden": false,
         "minor": false,
@@ -225,7 +226,7 @@
         "name": "교역",
         "order": 11,
         "category": "Trade",
-        "date": "",
+        "date": "2025년 9월 24일",
         "featured": false,
         "hidden": false,
         "minor": false,
@@ -233,7 +234,7 @@
           "시스템 기획"
         ],
         "desc": "보유한 자원을 비용으로 다른 자원을 획득할 수 있는 시스템",
-        "sub": "",
+        "sub": "교역소 레벨에 따라 상위 티어 재료 등장하여 영지 성장 니즈 추가 및 전투 외 필요 재료 파밍 요소 제공",
         "bullets": [],
         "images": [
           {
@@ -246,7 +247,7 @@
         "name": "단조",
         "order": 12,
         "category": "Growth",
-        "date": "",
+        "date": "2025년 9월 15일",
         "featured": false,
         "hidden": false,
         "minor": false,
@@ -254,7 +255,7 @@
           "시스템 기획"
         ],
         "desc": "장비 획득 시 최초에 부여된 기본 능력치의 단계를 상승시킬 수 있는 시스템",
-        "sub": "",
+        "sub": "최초 획득한 장비의 기본 능력치 단계가 낮아도, 추가 재화 소진을 통해 성장시킬 수 있는 대안 제공",
         "bullets": [],
         "images": [
           {
@@ -315,7 +316,7 @@
         "name": "각인 부여",
         "order": 15,
         "category": "Growth",
-        "date": "",
+        "date": "2025년 9월 2일",
         "featured": false,
         "hidden": false,
         "minor": false,
@@ -323,7 +324,7 @@
           "시스템 기획"
         ],
         "desc": "장비에 캐릭터 스킬 강화 효과를 부여하는 시스템",
-        "sub": "",
+        "sub": "장비 성장 경험 제공",
         "bullets": [],
         "images": [
           {
@@ -336,7 +337,7 @@
         "name": "각인 추출",
         "order": 16,
         "category": "Growth",
-        "date": "",
+        "date": "2025년 9월 2일",
         "featured": false,
         "hidden": false,
         "minor": false,
@@ -344,7 +345,7 @@
           "시스템 기획"
         ],
         "desc": "보유한 장비로부터 각인 효과를 추출하고, 해당 각인 효과가 부여된 장비 부품을 획득하는 시스템",
-        "sub": "",
+        "sub": "장비 파밍 니즈 제공",
         "bullets": [],
         "images": [
           {
@@ -357,16 +358,15 @@
         "name": "생산",
         "order": 17,
         "category": "Idle",
-        "date": "",
+        "date": "2025년 9월 19일",
         "featured": false,
         "hidden": false,
         "minor": false,
         "roles": [
-          "시스템 기획",
-          "데이터 입력"
+          "시스템 기획"
         ],
         "desc": "투입한 일꾼에 따라 시간당 보상을 획득하는 방치 시스템",
-        "sub": "",
+        "sub": "유저의 게임 재접속 유도",
         "bullets": [],
         "images": [
           {
@@ -483,7 +483,7 @@
           "데이터 입력"
         ],
         "desc": "게임 시작 시 스플래시 이후 최초 출력되는 화면으로, 인증 및 게임 설정 등을 진행하는 시스템",
-        "sub": "",
+        "sub": "스팀 로그인 시 모바일과 달리, SDK 로그인이 아닌 START GAME, NEW GAME 로직 추가",
         "bullets": [],
         "images": [
           {
@@ -496,7 +496,7 @@
         "name": "탈것 장비",
         "order": 23,
         "category": "Collect",
-        "date": "",
+        "date": "2024년 6월 4일",
         "featured": false,
         "hidden": false,
         "minor": false,
@@ -505,7 +505,7 @@
           "데이터 입력"
         ],
         "desc": "탈것에 장착하는 장비 아이템으로 장착한 탈것의 능력치를 강화하는 시스템",
-        "sub": "",
+        "sub": "탈것 장비 염색 기능 추가 (몰프 처리, 말 갈기 숨김 처리 병행)",
         "bullets": [],
         "images": [
           {
@@ -571,7 +571,8 @@
         "hidden": false,
         "minor": false,
         "roles": [
-          "시스템 기획"
+          "시스템 기획",
+          "행사 참여"
         ],
         "desc": "2024 지스타 전시 빌드 준비를 위한 QA 및 빌드 대응 작업",
         "sub": "",
@@ -610,8 +611,8 @@
         "roles": [
           "시스템 기획"
         ],
-        "desc": "RP 충전 시 관련 상품을 자동으로 안내하는 시스템",
-        "sub": "",
+        "desc": "RP 관련 상품을 구매하지 않았거나, 기간제 상품이 적용되지 않을 경우 상품을 노출",
+        "sub": "상품 구매 유도",
         "bullets": [],
         "images": [
           {
@@ -664,7 +665,7 @@
         "date": "2024년 11월 15일",
         "featured": false,
         "hidden": false,
-        "minor": false,
+        "minor": true,
         "roles": [
           "시스템 기획"
         ],
@@ -680,7 +681,7 @@
         "date": "2025년 6월 5일",
         "featured": false,
         "hidden": false,
-        "minor": false,
+        "minor": true,
         "roles": [
           "시스템 기획"
         ],
@@ -703,10 +704,11 @@
         "hidden": false,
         "minor": false,
         "roles": [
+          "시스템 기획",
           "데이터 입력"
         ],
-        "desc": "",
-        "sub": "",
+        "desc": "유저가 자신의 프로필을 꾸밀 수 있는 요소",
+        "sub": "파티 매칭, 랭킹 등에서 노출, 테두리, 배경, 휘장, 칭호로 구성",
         "bullets": [],
         "images": [
           {
@@ -722,7 +724,7 @@
         "date": "2025년 7월 9일",
         "featured": false,
         "hidden": false,
-        "minor": false,
+        "minor": true,
         "roles": [
           "시스템 기획"
         ],
@@ -744,6 +746,22 @@
         "featured": false,
         "hidden": false,
         "minor": false,
+        "roles": [
+          "시스템 기획"
+        ],
+        "desc": "",
+        "sub": "",
+        "bullets": [],
+        "images": []
+      },
+      {
+        "name": "지렁이길 내 특정 스테이지 처리",
+        "order": 36,
+        "category": "Dungeon",
+        "date": "2025년 7월 3일",
+        "featured": false,
+        "hidden": false,
+        "minor": true,
         "roles": [
           "시스템 기획"
         ],
@@ -818,7 +836,8 @@
         "hidden": false,
         "minor": false,
         "roles": [
-          "시스템 기획"
+          "시스템 기획",
+          "데이터 입력"
         ],
         "desc": "게임 내 표시 언어를 변경할 수 있는 언어 설정 시스템",
         "sub": "",
@@ -905,8 +924,8 @@
         "roles": [
           "시스템 기획"
         ],
-        "desc": "",
-        "sub": "",
+        "desc": "운영/서비스 측면에서 웹 형태로 정보 제공을 진행하는 시스템",
+        "sub": "Key, 플랫폼, 해당 계정의 최초 접속 국가의 국가코드 기반으로 웹뷰를 호출",
         "bullets": [],
         "images": [
           {
@@ -930,8 +949,8 @@
         "roles": [
           "시스템 기획"
         ],
-        "desc": "유물 정보를 미리 확인할 수 있는 시스템. 아직 획득하지 않은 유물을 설계도를 소모하여 획득할 수 있",
-        "sub": "",
+        "desc": "유물 정보를 미리 확인하거나, 미획득한 유물을 설계도를 통해 획득 가능",
+        "sub": "주요 성장, 수집 시스템인 유물에 대한 정보 제공",
         "bullets": [],
         "images": [
           {
@@ -951,8 +970,8 @@
         "roles": [
           "시스템 기획"
         ],
-        "desc": "유물 보유 시 적용되는 능력치 효과의 계산 방식 및 표시를 개선한 작업",
-        "sub": "",
+        "desc": "보유한 유물의 강화도 합산에 따라 레벨 상승에 따른 전체 유물 스탯 증가",
+        "sub": "다양한 유물을 획득 및 성장시킬 니즈 제공, 강화도 합산에 따른 성장 시스템의 직관성 제고",
         "bullets": [],
         "images": [
           {
@@ -1008,8 +1027,8 @@
         "roles": [
           "시스템 기획"
         ],
-        "desc": "",
-        "sub": "",
+        "desc": "장신구 일괄 장착 기능 추가",
+        "sub": "유저가 장비/장신구 장착 시 큰 고민 없이 성장 경험을 가질 수 있도록 제공",
         "bullets": [],
         "images": [
           {
@@ -1028,8 +1047,8 @@
         "category": "Management",
         "date": "2025년 8월 21일",
         "featured": false,
-        "hidden": true,
-        "minor": false,
+        "hidden": false,
+        "minor": true,
         "roles": [
           "시스템 기획"
         ],
@@ -1045,7 +1064,7 @@
         "date": "2025년 7월 23일",
         "featured": false,
         "hidden": false,
-        "minor": false,
+        "minor": true,
         "roles": [
           "시스템 기획"
         ],
@@ -1148,10 +1167,11 @@
         "hidden": false,
         "minor": false,
         "roles": [
-          "시스템 기획"
+          "시스템 기획",
+          "데이터 입력"
         ],
-        "desc": "",
-        "sub": "",
+        "desc": "타이틀 화면 이후 플레이할 캐릭터를 생성하거나 선택하는 화면",
+        "sub": "장착한 무기 출력, 캐릭터 생성 시 해당 캐릭터의 주요 스킬 정보 출력",
         "bullets": [],
         "images": [
           {
@@ -1188,7 +1208,7 @@
           "시스템 기획",
           "데이터 입력"
         ],
-        "desc": "캐릭터의 복식을 변경할 수 있는 시스템",
+        "desc": "캐릭터의 복식을 변경할 수 있는 시스템. 코스튬 장착 시 특정 투구가 장착되도록 처리",
         "sub": "",
         "bullets": [],
         "images": [
@@ -1204,7 +1224,7 @@
         "category": "Collect",
         "date": "2025년 5월 22일",
         "featured": false,
-        "hidden": false,
+        "hidden": true,
         "minor": false,
         "roles": [
           "시스템 기획"
@@ -1281,7 +1301,8 @@
         "hidden": false,
         "minor": false,
         "roles": [
-          "시스템 기획"
+          "시스템 기획",
+          "데이터 입력"
         ],
         "desc": "PC 환경에서 유저가 키를 직접 설정할 수 있는 입력 매핑 시스템",
         "sub": "",
@@ -1297,15 +1318,15 @@
         "name": "계정 연동",
         "order": 99,
         "category": "Service",
-        "date": "",
+        "date": "2024년 10월 18일",
         "featured": false,
         "hidden": false,
         "minor": false,
         "roles": [
           "시스템 기획"
         ],
-        "desc": "Google, Steam, Apple 등 외부 플랫폼 계정과 게임 계정을 연동하는 시스템. 여러 디바이스에서 동일한 계정으로 플레이를 이어갈 수 있",
-        "sub": "",
+        "desc": "Google, Steam, Apple 등 외부 플랫폼 계정과 게임 계정을 연동하는 시스템",
+        "sub": "여러 디바이스에서 동일한 계정으로 플레이를 이어갈 수 있도록 지원",
         "bullets": [],
         "images": [
           {

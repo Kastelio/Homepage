@@ -1,5 +1,7 @@
 name: 각인 추출
 order: 16
 category: Growth
+date: 2025년 9월 2일
 roles: 시스템 기획
 desc: 보유한 장비로부터 각인 효과를 추출하고, 해당 각인 효과가 부여된 장비 부품을 획득하는 시스템
+sub: 장비 파밍 니즈 제공

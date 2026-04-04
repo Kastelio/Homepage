@@ -1,0 +1,7 @@
+name: 지렁이길 내 특정 스테이지 처리
+order: 36
+category: Dungeon
+date: 2025년 7월 3일
+roles: 시스템 기획
+desc:
+minor: yes
