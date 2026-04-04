@@ -1,0 +1,7 @@
+name: 장비 교체 팝업
+order: 400
+category: Dungeon
+date: 2025년 1월 15일
+roles: 시스템 기획
+desc:
+minor: yes

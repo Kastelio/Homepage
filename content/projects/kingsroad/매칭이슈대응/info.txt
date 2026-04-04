@@ -1,0 +1,7 @@
+name: 매칭이 불가능한 콘텐츠에서 파티 초대 및 매칭 가능 이슈 대응
+order: 400
+category: Social
+date: 2025년 8월 25일
+roles: 시스템 기획
+desc:
+minor: yes

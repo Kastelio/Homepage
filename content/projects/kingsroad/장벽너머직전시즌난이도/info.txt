@@ -1,0 +1,7 @@
+name: 장벽 너머 원정 직전 시즌 달성 난이도를 기준으로 다음 시즌 해금 난이도 설정
+order: 400
+category: Dungeon
+date: 2025년 7월 23일
+roles: 시스템 기획
+desc:
+minor: yes

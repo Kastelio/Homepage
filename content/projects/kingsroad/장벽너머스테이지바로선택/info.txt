@@ -1,0 +1,7 @@
+name: 장벽 너머 원정 스테이지 바로 선택할 수 있도록 개선
+order: 400
+category: Dungeon
+date: 2025년 9월 8일
+roles: 시스템 기획
+desc:
+minor: yes

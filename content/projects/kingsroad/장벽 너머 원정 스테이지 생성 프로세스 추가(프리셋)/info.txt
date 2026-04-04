@@ -4,3 +4,4 @@ category: Dungeon
 date: 2024년 8월 12일
 roles: 시스템 기획
 desc:
+minor: yes

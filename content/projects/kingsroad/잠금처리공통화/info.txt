@@ -1,0 +1,7 @@
+name: 잠금 처리 조건에 따른 텍스트 출력 처리 공통화
+order: 400
+category: Core
+date: 2025년 7월 1일
+roles: 시스템 기획
+desc:
+minor: yes
