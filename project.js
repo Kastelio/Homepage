@@ -266,7 +266,7 @@ function initOtherSystemPopup() {
         document.getElementById('other-preview-desc').textContent = item.dataset.desc;
         document.getElementById('other-preview-date').textContent = item.dataset.date;
         popup.classList.add('visible');
-        const popupW = 280;
+        const popupW = 420;
         const offset = 14;
         let left = mouseX + offset + window.scrollX;
         if (left + popupW > window.innerWidth - 16) left = mouseX - popupW - offset + window.scrollX;
@@ -275,7 +275,7 @@ function initOtherSystemPopup() {
     };
     const move = (item, mouseX, mouseY) => {
         if (!popup.classList.contains('visible')) return;
-        const popupW = 280;
+        const popupW = 420;
         const offset = 14;
         let left = mouseX + offset + window.scrollX;
         if (left + popupW > window.innerWidth - 16) left = mouseX - popupW - offset + window.scrollX;

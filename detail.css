@@ -252,7 +252,7 @@
 #other-preview-popup {
     position: absolute;
     z-index: 9999;
-    width: 280px;
+    width: 420px;
     background: #1a1a1a;
     border: 1px solid #333;
     border-radius: 10px;
@@ -274,7 +274,7 @@
     width: 100%;
     display: block;
     object-fit: cover;
-    max-height: 180px;
+    max-height: 260px;
 }
 
 #other-preview-info {
