@@ -2,4 +2,5 @@ name: 기도사 (인터랙션 버프)
 order: 14
 category: Event
 roles: 시스템 기획
-desc: 필드 내 특정 오브젝트와 상호작용 시 버프를 획득하는 이벤트 시스템
+desc: NPC 상호작용을 통해 정해진 시간의 효과 획득
+minor: yes
