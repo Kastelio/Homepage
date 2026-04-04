@@ -2,9 +2,9 @@
   {
     "id": "homepage",
     "title": "포트폴리오 홈페이지 제작",
-    "desc": "Claude Code를 활용해 제작한 개인 포트폴리오 사이트. 프로젝트 소개, 게임 플레이리스트, Steam 자동 동기화 등을 포함.",
+    "desc": "Claude Code를 활용해 개인 포트폴리오 사이트 제작",
     "image": "assets/etc/homepage.jpg",
-    "start": "2026-03",
-    "end": "2026-04"
+    "start": "2026-03-31",
+    "end": "2026-04-05"
   }
 ]
