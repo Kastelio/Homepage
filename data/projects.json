@@ -1605,7 +1605,7 @@
         "date": "2024년 11월 22일",
         "featured": false,
         "hidden": false,
-        "minor": true,
+        "minor": false,
         "roles": [
           "시스템 기획"
         ],
