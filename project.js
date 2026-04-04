@@ -88,7 +88,7 @@ const CATEGORY_LABELS = {
     UX: 'UX', Guide: '가이드', BM: 'BM', Event: '행사',
     Service: '운영/서비스', Data: '데이터', Misc: '기타'
 };
-const CATEGORY_ORDER = ['Core','Input','Item','Launching','Environment','Character','World','Growth','Trade','Accomplishment','Collect','Dungeon','Social','Economy','Management','Idle','UX','Guide','BM','Event','Service','Data','Misc'];
+const CATEGORY_ORDER = ['Core','Input','Item','Launching','Environment','Character','World','Growth','Trade','Accomplishment','Collect','Dungeon','Social','Economy','Management','Idle','UX','Guide','BM','Service','Event','Data','Misc'];
 
 function groupByCategory(systems) {
     const grouped = {};

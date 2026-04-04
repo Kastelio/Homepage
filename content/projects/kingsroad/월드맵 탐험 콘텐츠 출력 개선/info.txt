@@ -4,3 +4,4 @@ category: World
 date: 2024년 7월 9일
 roles: 시스템 기획
 desc:
+minor: yes

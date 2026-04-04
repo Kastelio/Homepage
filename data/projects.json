@@ -606,7 +606,7 @@
         "category": "Input",
         "date": "2026년 2월 20일",
         "featured": false,
-        "hidden": false,
+        "hidden": true,
         "minor": false,
         "roles": [
           "데이터 입력"
@@ -649,7 +649,7 @@
         "date": "2025년 4월 11일",
         "featured": false,
         "hidden": false,
-        "minor": false,
+        "minor": true,
         "roles": [
           "시스템 기획"
         ],
@@ -833,7 +833,7 @@
         "date": "2024년 5월 27일",
         "featured": false,
         "hidden": false,
-        "minor": false,
+        "minor": true,
         "roles": [
           "시스템 기획"
         ],
@@ -854,7 +854,7 @@
         "date": "2025년 1월 16일",
         "featured": false,
         "hidden": false,
-        "minor": false,
+        "minor": true,
         "roles": [
           "시스템 기획"
         ],
@@ -913,7 +913,7 @@
         "date": "2025년 8월 26일",
         "featured": false,
         "hidden": false,
-        "minor": false,
+        "minor": true,
         "roles": [
           "시스템 기획"
         ],
@@ -950,7 +950,7 @@
         "date": "2024년 7월 9일",
         "featured": false,
         "hidden": false,
-        "minor": false,
+        "minor": true,
         "roles": [
           "시스템 기획"
         ],
@@ -1043,7 +1043,7 @@
         "date": "2025년 5월 13일",
         "featured": false,
         "hidden": false,
-        "minor": false,
+        "minor": true,
         "roles": [
           "시스템 기획"
         ],
@@ -1076,7 +1076,7 @@
       {
         "name": "유물 탐사",
         "order": 50,
-        "category": "Collect",
+        "category": "Trade",
         "date": "2024년 9월 11일",
         "featured": false,
         "hidden": false,
@@ -1229,7 +1229,7 @@
         "images": []
       },
       {
-        "name": "캐릭터 생성 후 다시 커스터마이징할 수 있는 기능",
+        "name": "커스터마이징",
         "order": 60,
         "category": "Character",
         "date": "2025년 4월 23일",
@@ -1362,7 +1362,7 @@
         "date": "2025년 6월 17일",
         "featured": false,
         "hidden": false,
-        "minor": false,
+        "minor": true,
         "roles": [
           "시스템 기획"
         ],

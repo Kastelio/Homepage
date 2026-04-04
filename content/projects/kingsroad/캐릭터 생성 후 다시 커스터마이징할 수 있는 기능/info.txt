@@ -1,4 +1,4 @@
-name: 캐릭터 생성 후 다시 커스터마이징할 수 있는 기능
+name: 커스터마이징
 order: 60
 category: Character
 date: 2025년 4월 23일
