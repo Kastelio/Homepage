@@ -45,25 +45,21 @@
     opacity: 0.4;
 }
 
-/* Playing page background mosaic */
-#playing-bg-grid {
+/* Playing page grid pattern background */
+.playing-main {
+    position: relative;
+}
+
+.playing-main::before {
+    content: '';
     position: fixed;
     inset: 0;
     z-index: -1;
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-    grid-auto-rows: 113px;
-    overflow: hidden;
-    opacity: 0.06;
-    filter: blur(1px) saturate(0.6);
+    background-image:
+        linear-gradient(rgba(255,255,255,0.03) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(255,255,255,0.03) 1px, transparent 1px);
+    background-size: 48px 48px;
     pointer-events: none;
-}
-
-#playing-bg-grid img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    display: block;
 }
 
 /* Now Playing */

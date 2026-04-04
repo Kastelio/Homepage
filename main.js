@@ -134,8 +134,8 @@ async function renderHeroBg() {
         const res = await fetch('./data/playing.json');
         const games = await res.json();
 
-        // 썸네일 있는 게임만 필터링 후 셔플
-        const withThumb = games.filter(g => g.thumbnail);
+        // 썸네일 있는 게임만 필터링 (찍먹 제외) 후 셔플
+        const withThumb = games.filter(g => g.thumbnail && !g.tasting);
         for (let i = withThumb.length - 1; i > 0; i--) {
             const j = Math.floor(Math.random() * (i + 1));
             [withThumb[i], withThumb[j]] = [withThumb[j], withThumb[i]];

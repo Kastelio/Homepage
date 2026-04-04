@@ -51,21 +51,6 @@ function renderNowPlaying() {
     `;
 }
 
-function renderPlayingBg() {
-    const grid = document.getElementById('playing-bg-grid');
-    if (!grid) return;
-    const withThumb = allGames.filter(g => g.thumbnail);
-    for (let i = withThumb.length - 1; i > 0; i--) {
-        const j = Math.floor(Math.random() * (i + 1));
-        [withThumb[i], withThumb[j]] = [withThumb[j], withThumb[i]];
-    }
-    const needed = Math.ceil((window.innerWidth / 200) * (window.innerHeight / 113)) + 20;
-    const tiles = [];
-    while (tiles.length < needed) tiles.push(...withThumb);
-    grid.innerHTML = tiles.slice(0, needed).map(g =>
-        `<img src="${g.thumbnail}" alt="" loading="lazy">`
-    ).join('');
-}
 
 async function loadGames() {
     const grid = document.getElementById('playing-grid');
@@ -76,7 +61,6 @@ async function loadGames() {
 
         updateStats();
         renderNowPlaying();
-        renderPlayingBg();
         renderGames();
 
     } catch (e) {
