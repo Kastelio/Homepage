@@ -1,0 +1,7 @@
+name: 업적 태스크 조건에 따른 텍스트 출력 처리 공통화
+order: 402
+category: Accomplishment
+date: 2025년 7월 2일
+roles: 시스템 기획
+desc:
+minor: yes

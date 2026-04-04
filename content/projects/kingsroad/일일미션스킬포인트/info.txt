@@ -1,0 +1,7 @@
+name: 일일 미션 보상 중 스킬포인트 획득 시 경고 팝업 출력
+order: 401
+category: Accomplishment
+date: 2025년 5월 26일
+roles: 시스템 기획
+desc:
+minor: yes

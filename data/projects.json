@@ -464,7 +464,7 @@
         "name": "즉시 완료",
         "order": 21,
         "category": "BM",
-        "date": "",
+        "date": "2024년 5월 8일",
         "featured": false,
         "hidden": false,
         "minor": false,
@@ -1670,7 +1670,7 @@
         "name": "콘텐츠 타입",
         "order": 305,
         "category": "Core",
-        "date": "",
+        "date": "2025년 9월 26일",
         "featured": false,
         "hidden": false,
         "minor": true,
@@ -1800,10 +1800,10 @@
         ]
       },
       {
-        "name": "가문 휘장",
+        "name": "가문 휘장 지원 보드의 누적 기세에 따른 스탯 추가",
         "order": 310,
         "category": "Growth",
-        "date": "",
+        "date": "2025년 8월 29일",
         "featured": false,
         "hidden": false,
         "minor": true,
@@ -1909,6 +1909,38 @@
         "order": 400,
         "category": "Dungeon",
         "date": "2025년 9월 8일",
+        "featured": false,
+        "hidden": false,
+        "minor": true,
+        "roles": [
+          "시스템 기획"
+        ],
+        "desc": "",
+        "sub": "",
+        "bullets": [],
+        "images": []
+      },
+      {
+        "name": "일일 미션 보상 중 스킬포인트 획득 시 경고 팝업 출력",
+        "order": 401,
+        "category": "Accomplishment",
+        "date": "2025년 5월 26일",
+        "featured": false,
+        "hidden": false,
+        "minor": true,
+        "roles": [
+          "시스템 기획"
+        ],
+        "desc": "",
+        "sub": "",
+        "bullets": [],
+        "images": []
+      },
+      {
+        "name": "업적 태스크 조건에 따른 텍스트 출력 처리 공통화",
+        "order": 402,
+        "category": "Accomplishment",
+        "date": "2025년 7월 2일",
         "featured": false,
         "hidden": false,
         "minor": true,

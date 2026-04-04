@@ -1,6 +1,7 @@
-name: 가문 휘장
+name: 가문 휘장 지원 보드의 누적 기세에 따른 스탯 추가
 order: 310
 category: Growth
+date: 2025년 8월 29일
 roles: 시스템 기획
 desc: 지원 보드의 누적 기세에 따른 스탯 추가
 minor: yes
