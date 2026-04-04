@@ -1,6 +1,6 @@
 name: PC 키매핑
 order: 28
-category: UX
+category: Input
 date: 2026년 2월 20일
 roles: 데이터 입력
 desc:

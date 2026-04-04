@@ -81,13 +81,14 @@ function sortByDateDesc(systems) {
 }
 
 const CATEGORY_LABELS = {
-    Core: '코어', Input: '입력', Item: '아이템', Environment: '환경',
-    World: '월드', Growth: '성장', Trade: '교환', Accomplishment: '달성',
-    Collect: '수집', Dungeon: '전투/던전', Social: '소셜', Economy: '경제',
-    Management: '경영', Idle: '방치', UX: 'UX', Guide: '가이드',
-    BM: 'BM', Event: '행사', Service: '운영/서비스', Data: '데이터', Misc: '기타'
+    Core: '코어', Input: '입력', Item: '아이템', Launching: '실행',
+    Environment: '환경', Character: '캐릭터', World: '월드', Growth: '성장',
+    Trade: '교환', Accomplishment: '달성', Collect: '수집', Dungeon: '전투/던전',
+    Social: '소셜', Economy: '경제', Management: '경영', Idle: '방치',
+    UX: 'UX', Guide: '가이드', BM: 'BM', Event: '행사',
+    Service: '운영/서비스', Data: '데이터', Misc: '기타'
 };
-const CATEGORY_ORDER = ['Core','Input','Item','Environment','World','Growth','Trade','Accomplishment','Collect','Dungeon','Social','Economy','Management','Idle','UX','Guide','BM','Event','Service','Data','Misc'];
+const CATEGORY_ORDER = ['Core','Input','Item','Launching','Environment','Character','World','Growth','Trade','Accomplishment','Collect','Dungeon','Social','Economy','Management','Idle','UX','Guide','BM','Event','Service','Data','Misc'];
 
 function groupByCategory(systems) {
     const grouped = {};

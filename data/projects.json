@@ -485,7 +485,7 @@
       {
         "name": "타이틀",
         "order": 22,
-        "category": "UX",
+        "category": "Launching",
         "date": "2024년 6월 14일",
         "featured": false,
         "hidden": false,
@@ -603,7 +603,7 @@
       {
         "name": "PC 키매핑",
         "order": 28,
-        "category": "UX",
+        "category": "Input",
         "date": "2026년 2월 20일",
         "featured": false,
         "hidden": false,
@@ -767,7 +767,7 @@
       {
         "name": "로딩 화면 로직 개선",
         "order": 36,
-        "category": "UX",
+        "category": "Launching",
         "date": "2025년 9월 29일",
         "featured": false,
         "hidden": false,
@@ -904,7 +904,7 @@
       {
         "name": "우편 보상 정렬 규칙 추가",
         "order": 43,
-        "category": "UX",
+        "category": "Core",
         "date": "2025년 8월 26일",
         "featured": false,
         "hidden": false,
@@ -925,7 +925,7 @@
       {
         "name": "우편에 ‘영구 보관’ 기능 추가",
         "order": 44,
-        "category": "UX",
+        "category": "Core",
         "date": "2024년 11월 8일",
         "featured": false,
         "hidden": false,
@@ -1226,7 +1226,7 @@
       {
         "name": "캐릭터 생성 후 다시 커스터마이징할 수 있는 기능",
         "order": 60,
-        "category": "Collect",
+        "category": "Character",
         "date": "2025년 4월 23일",
         "featured": false,
         "hidden": false,
@@ -1247,7 +1247,7 @@
       {
         "name": "캐릭터 선택 화면",
         "order": 61,
-        "category": "UX",
+        "category": "Character",
         "date": "2024년 9월 13일",
         "featured": false,
         "hidden": false,
@@ -1269,7 +1269,7 @@
       {
         "name": "커스터마이징 PC 음성 선택 기능 추가",
         "order": 62,
-        "category": "Collect",
+        "category": "Character",
         "date": "2024년 8월 5일",
         "featured": false,
         "hidden": false,
@@ -1374,7 +1374,7 @@
       {
         "name": "프롤로그 스킵 기능 구현",
         "order": 69,
-        "category": "UX",
+        "category": "Launching",
         "date": "2025년 6월 13일",
         "featured": false,
         "hidden": false,
@@ -1390,7 +1390,7 @@
       {
         "name": "키 바인딩",
         "order": 81,
-        "category": "Environment",
+        "category": "Input",
         "date": "2024년 6월 10일",
         "featured": false,
         "hidden": false,
