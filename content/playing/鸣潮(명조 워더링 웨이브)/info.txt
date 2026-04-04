@@ -1,0 +1,7 @@
+name: 명조: 워더링 웨이브
+developer: Kuro Games
+platform: Mobile, PC
+package: No
+payment: 368400
+comment: 
+playtime: 

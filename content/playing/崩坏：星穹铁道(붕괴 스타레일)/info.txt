@@ -1,0 +1,7 @@
+name: 뺕괴: 스타레일
+developer: HoYoverse
+platform: Mobile, PC
+package: No
+payment: 2930000
+comment: 
+playtime: 

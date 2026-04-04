@@ -1,0 +1,7 @@
+name: 나 혼자만 레벨업: 어라이즈
+developer: 넷마블
+platform: Mobile, PC
+package: No
+payment: 303980
+comment: 
+playtime: 

@@ -1,0 +1,7 @@
+name: 서머너즈 워: 백년전쟁
+developer: Com2uS
+platform: Mobile
+package: No
+payment: 339200
+comment: 
+playtime: 

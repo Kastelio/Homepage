@@ -381,7 +381,7 @@
     "payment_num": 30000.0,
     "thumbnail": "",
     "current": false,
-    "tasting": false
+    "tasting": true
   },
   {
     "id": "Heroes Of The Storm(히어로즈 오브 더 스톰)",
@@ -549,7 +549,7 @@
     "release": "2024년 12월 7일",
     "developer": "그라인딩 기어 게임즈",
     "platform": "PS5, Windows, Xbox",
-    "package": "No",
+    "package": "Yes",
     "comment": "",
     "playtime": "",
     "playtime_num": 0,
@@ -653,7 +653,7 @@
     "payment_num": 14000.0,
     "thumbnail": "",
     "current": false,
-    "tasting": false
+    "tasting": true
   },
   {
     "id": "Sid Meier's Civilization Beyond Earth",
@@ -1009,16 +1009,16 @@
   },
   {
     "id": "崩坏：星穹铁道(붕괴 스타레일)",
-    "name": "崩坏：星穹铁道(붕괴 스타레일)",
+    "name": "뺕괴: 스타레일",
     "release": "",
-    "developer": "",
-    "platform": "",
+    "developer": "HoYoverse",
+    "platform": "Mobile, PC",
     "package": "No",
     "comment": "",
     "playtime": "",
     "playtime_num": 0,
-    "payment": "",
-    "payment_num": 0,
+    "payment": "2930000",
+    "payment_num": 2930000.0,
     "thumbnail": "content/playing/崩坏：星穹铁道(붕괴 스타레일)/thumbnail.png",
     "current": false,
     "tasting": false
@@ -1041,16 +1041,16 @@
   },
   {
     "id": "鸣潮(명조 워더링 웨이브)",
-    "name": "鸣潮(명조 워더링 웨이브)",
+    "name": "명조: 워더링 웨이브",
     "release": "",
-    "developer": "",
-    "platform": "",
+    "developer": "Kuro Games",
+    "platform": "Mobile, PC",
     "package": "No",
     "comment": "",
     "playtime": "",
     "playtime_num": 0,
-    "payment": "",
-    "payment_num": 0,
+    "payment": "368400",
+    "payment_num": 368400.0,
     "thumbnail": "content/playing/鸣潮(명조 워더링 웨이브)/thumbnail.png",
     "current": false,
     "tasting": false
@@ -1089,16 +1089,16 @@
   },
   {
     "id": "나 혼자만 레벨업 어라이즈",
-    "name": "나 혼자만 레벨업 어라이즈",
+    "name": "나 혼자만 레벨업: 어라이즈",
     "release": "",
-    "developer": "",
-    "platform": "",
+    "developer": "넷마블",
+    "platform": "Mobile, PC",
     "package": "No",
     "comment": "",
     "playtime": "",
     "playtime_num": 0,
-    "payment": "",
-    "payment_num": 0,
+    "payment": "303980",
+    "payment_num": 303980.0,
     "thumbnail": "content/playing/나 혼자만 레벨업 어라이즈/thumbnail.png",
     "current": false,
     "tasting": false
@@ -1197,7 +1197,7 @@
     "payment_num": 97700.0,
     "thumbnail": "",
     "current": false,
-    "tasting": false
+    "tasting": true
   },
   {
     "id": "레이븐 2",
@@ -1325,7 +1325,7 @@
     "payment_num": 85100.0,
     "thumbnail": "",
     "current": false,
-    "tasting": false
+    "tasting": true
   },
   {
     "id": "뱀피르",
@@ -1393,16 +1393,16 @@
   },
   {
     "id": "서머너즈 워 백년전쟁",
-    "name": "서머너즈 워 백년전쟁",
+    "name": "서머너즈 워: 백년전쟁",
     "release": "",
-    "developer": "",
-    "platform": "",
+    "developer": "Com2uS",
+    "platform": "Mobile",
     "package": "No",
     "comment": "",
     "playtime": "",
     "playtime_num": 0,
-    "payment": "",
-    "payment_num": 0,
+    "payment": "339200",
+    "payment_num": 339200.0,
     "thumbnail": "content/playing/서머너즈 워 백년전쟁/thumbnail.png",
     "current": false,
     "tasting": false
