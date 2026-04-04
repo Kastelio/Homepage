@@ -1237,10 +1237,11 @@
         "hidden": false,
         "minor": false,
         "roles": [
-          "시스템 기획"
+          "시스템 개선",
+          "데이터 입력"
         ],
-        "desc": "",
-        "sub": "",
+        "desc": "캐릭터 생성 후 커스터마이징 재진입 기능",
+        "sub": "커스터마이징 PC 음성 선택 기능 추가",
         "bullets": [],
         "images": [
           {
@@ -1277,7 +1278,7 @@
         "category": "Character",
         "date": "2024년 8월 5일",
         "featured": false,
-        "hidden": false,
+        "hidden": true,
         "minor": false,
         "roles": [
           "시스템 기획"
