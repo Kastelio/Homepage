@@ -1,5 +1,5 @@
 let allGames = [];
-let currentTab = 'all';
+let currentTab = 'package';
 let firstRender = true;
 
 document.addEventListener('DOMContentLoaded', async () => {
