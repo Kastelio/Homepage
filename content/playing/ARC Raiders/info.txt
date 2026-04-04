@@ -1,8 +1,0 @@
-name: 아크 레이더스
-release: 2026
-developer: Nexon
-platform: PC
-package: Yes
-playtime: 2.4
-payment: 58900
-comment:

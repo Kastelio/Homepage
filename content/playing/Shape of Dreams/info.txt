@@ -1,8 +1,0 @@
-name: 쉐이프 오브 드림즈
-release: 2024
-developer: Pearl Abyss
-platform: PC, Mobile
-package: Yes
-playtime: 9.7
-payment: 27000
-comment:

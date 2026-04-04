@@ -1,8 +1,0 @@
-name: 서머너즈 워: 러쉬
-release: 2024
-developer: Com2us
-platform: PC, Android, iOS
-package: Yes
-playtime:
-payment: 12000
-comment:

@@ -1,8 +1,0 @@
-name: Balatro
-release: 2024
-developer: LocalThunk
-platform: PC, Mobile
-package: Yes
-playtime:
-payment: 14000
-comment:
