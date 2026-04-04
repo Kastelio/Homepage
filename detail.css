@@ -270,11 +270,18 @@
     transform: translateY(0);
 }
 
-#other-preview-img {
-    width: 100%;
+#other-preview-imgs {
+    display: flex;
+    gap: 2px;
+}
+
+.other-preview-img-item {
+    flex: 1;
+    min-width: 0;
     display: block;
     object-fit: cover;
     max-height: 360px;
+    width: 100%;
 }
 
 #other-preview-info {

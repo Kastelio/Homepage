@@ -229,10 +229,10 @@ function renderOtherSystems(systems) {
                 <ul class="other-system-list">
                     ${g.systems.map(s => {
                         const hasImg = s.images && s.images.length > 0;
-                        const imgSrc = hasImg ? s.images[0].file : '';
+                        const imgSrcs = hasImg ? JSON.stringify(s.images.map(i => i.file)) : '[]';
                         return `
                         <li class="other-system-item${hasImg ? ' has-preview' : ''}"
-                            ${hasImg ? `data-img="${imgSrc}" data-desc="${(s.desc || '').replace(/"/g, '&quot;')}" data-date="${s.date || ''}"` : ''}>
+                            ${hasImg ? `data-imgs='${imgSrcs}' data-desc="${(s.desc || '').replace(/"/g, '&quot;')}" data-date="${s.date || ''}"` : ''}>
                             <span class="other-system-name">${s.name}</span>
                             ${s.date ? `<span class="other-system-date">${s.date}</span>` : ''}
                         </li>`;
@@ -251,7 +251,7 @@ function initOtherSystemPopup() {
         popup = document.createElement('div');
         popup.id = 'other-preview-popup';
         popup.innerHTML = `
-            <img id="other-preview-img" src="" alt="">
+            <div id="other-preview-imgs"></div>
             <div id="other-preview-info">
                 <p id="other-preview-desc"></p>
                 <span id="other-preview-date"></span>
@@ -264,7 +264,9 @@ function initOtherSystemPopup() {
     let activeItem = null;
 
     const show = (item, mouseX, mouseY) => {
-        document.getElementById('other-preview-img').src = item.dataset.img;
+        const imgs = JSON.parse(item.dataset.imgs || '[]');
+        const container = document.getElementById('other-preview-imgs');
+        container.innerHTML = imgs.map(src => `<img src="${src}" alt="" class="other-preview-img-item">`).join('');
         document.getElementById('other-preview-desc').textContent = item.dataset.desc;
         document.getElementById('other-preview-date').textContent = item.dataset.date;
         popup.classList.add('visible');
