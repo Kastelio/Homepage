@@ -4,3 +4,4 @@ category: Input
 date: 2024년 11월 27일
 roles: 시스템 기획
 desc: PC 키매핑, 게임패드 대응
+featured: yes
