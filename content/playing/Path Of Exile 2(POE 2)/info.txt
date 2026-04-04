@@ -5,3 +5,4 @@ platform: PS5, Windows, Xbox
 package: Yes
 comment: 
 payment: 66000
+playtime: 242.8
