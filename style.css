@@ -699,6 +699,44 @@ h4,
 }
 
 @media (max-width: 480px) {
+    :root {
+        --nav-height: 108px;
+    }
+
+    .framer-nav {
+        height: var(--nav-height);
+    }
+
+    .nav-content {
+        padding: 0;
+        flex-direction: column;
+        align-items: stretch;
+        height: 100%;
+        gap: 0;
+    }
+
+    .logo-area {
+        height: 52px;
+        padding: 0 1.2rem;
+        border-bottom: 1px solid #2a2a2a;
+        flex-shrink: 0;
+    }
+
+    .nav-links {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        gap: 0;
+        height: 56px;
+        padding: 0 0.5rem;
+    }
+
+    .nav-links a {
+        font-size: 0.8rem;
+        white-space: nowrap;
+        padding: 0.3rem 0.5rem;
+    }
+
     .goal-tags {
         justify-content: center;
     }
@@ -706,19 +744,6 @@ h4,
     .goal-tag {
         flex: 0 0 calc(50% - 0.4rem);
         text-align: center;
-    }
-
-    .nav-content {
-        padding: 0 1rem;
-    }
-
-    .nav-links {
-        gap: 0.7rem;
-    }
-
-    .nav-links a {
-        font-size: 0.78rem;
-        white-space: nowrap;
     }
 
     .logo-text {
