@@ -483,7 +483,7 @@
     "current": false,
     "current_order": 99,
     "tasting": true,
-    "childhood": false
+    "childhood": true
   },
   {
     "id": "Heroes Of The Storm(히어로즈 오브 더 스톰)",
@@ -2009,7 +2009,7 @@
     "playtime_num": 0,
     "payment": "",
     "payment_num": 0,
-    "thumbnail": "content/playing/슈퍼액션히어로/thumb.jpg",
+    "thumbnail": "content/playing/슈퍼액션히어로/thumb.webp",
     "current": false,
     "current_order": 99,
     "tasting": false,
