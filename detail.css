@@ -418,22 +418,16 @@
         width: 100%;
     }
 
+    .history-cat {
+        align-self: flex-start;
+        flex-shrink: 0;
+    }
+
     .history-name {
         font-size: 0.95rem;
         color: #ddd;
         white-space: normal;
         word-break: keep-all;
-        text-align: left;
-        display: flex;
-        align-items: center;
-        gap: 0.5rem;
-        flex-wrap: wrap;
-    }
-
-    .history-cat {
-        order: -1;
-        align-self: flex-start;
-        flex-shrink: 0;
         text-align: left;
     }
 
