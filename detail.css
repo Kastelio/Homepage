@@ -505,6 +505,7 @@
     font-size: 0.8rem;
     color: #aaa;
     white-space: nowrap;
+    text-align: left;
 }
 
 .history-cat {
@@ -521,6 +522,7 @@
 .history-name {
     font-size: 0.92rem;
     color: #ccc;
+    text-align: left;
 }
 
 .history-tag {
