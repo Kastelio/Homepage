@@ -390,7 +390,7 @@ function renderHistoryToggle(allSystems) {
         const tag = s.minor ? '<span class="history-tag">기타</span>' : '';
         return `
         <div class="history-row">
-            <span class="history-date">${s.date}</span>
+            <span class="history-date">${s.date.replace(/ · /g, '<br class="date-break">')}</span>
             <span class="history-cat">${catLabel}</span>
             <span class="history-name">${s.name}${tag}</span>
         </div>`;

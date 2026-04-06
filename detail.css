@@ -416,6 +416,11 @@
         color: #777;
         text-align: left !important;
         width: 100%;
+        white-space: normal;
+    }
+
+    .history-date .date-break {
+        display: block;
     }
 
     .history-cat {
@@ -501,6 +506,10 @@
     color: #aaa;
     white-space: nowrap;
     text-align: left;
+}
+
+.history-date .date-break {
+    display: none;
 }
 
 .history-cat {
