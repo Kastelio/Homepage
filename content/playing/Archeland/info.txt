@@ -4,5 +4,5 @@ developer: Zlong Games
 platform: Android, Windows, iOS
 package: No
 comment: 
-payment: 49703
+payment: 48803
 tasting: yes
