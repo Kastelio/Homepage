@@ -2262,9 +2262,9 @@
     "payment": "900",
     "payment_num": 900.0,
     "thumbnail": "content/playing/엘트릭스/thumbnail.jpg",
-    "current": true,
-    "current_order": 5,
-    "tasting": false,
+    "current": false,
+    "current_order": 99,
+    "tasting": true,
     "childhood": false
   },
   {
