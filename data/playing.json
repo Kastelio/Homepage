@@ -156,8 +156,8 @@
     "payment": "79800",
     "payment_num": 79800.0,
     "thumbnail": "content/playing/Crimson Desert/thumbnail.jpg",
-    "current": true,
-    "current_order": 1,
+    "current": false,
+    "current_order": 99,
     "tasting": false,
     "childhood": false
   },
@@ -732,8 +732,8 @@
     "payment": "",
     "payment_num": 0,
     "thumbnail": "content/playing/Red Dead Redemption 2/thumbnail.jpg",
-    "current": false,
-    "current_order": 99,
+    "current": true,
+    "current_order": 1,
     "tasting": false,
     "childhood": false
   },
