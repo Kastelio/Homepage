@@ -1026,6 +1026,22 @@
         ]
       },
       {
+        "name": "유물 승급",
+        "order": 46,
+        "category": "Growth",
+        "date": "2026년 3월 10일",
+        "featured": false,
+        "hidden": false,
+        "minor": false,
+        "roles": [
+          "시스템 기획"
+        ],
+        "desc": "유물의 등급을 상승시키는 성장 시스템",
+        "sub": "승급 시 유물 설계도와 다양한 비용 타입을 요구하여 장기 성장 동기 부여",
+        "bullets": [],
+        "images": []
+      },
+      {
         "name": "유물 도감",
         "order": 47,
         "category": "Growth",
