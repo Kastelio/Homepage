@@ -94,7 +94,16 @@
         "desc": "순차적으로 구매하는 상품 타입으로, 이전 단계 구매 시 다음 상품이 활성화",
         "sub": "단계별 구매 유도로 유저의 지속적인 소비 패턴 형성",
         "bullets": [],
-        "images": []
+        "images": [
+          {
+            "file": "content/projects/kingsroad/릴레이 상품/01.png",
+            "caption": ""
+          },
+          {
+            "file": "content/projects/kingsroad/릴레이 상품/02.png",
+            "caption": ""
+          }
+        ]
       },
       {
         "name": "출석 상품",
@@ -131,7 +140,16 @@
         "desc": "N회 구매 시 보너스 보상을 지급하는 상품 타입",
         "sub": "반복 구매를 유도하고 구매 가치를 높이는 BM 구조",
         "bullets": [],
-        "images": []
+        "images": [
+          {
+            "file": "content/projects/kingsroad/보너스 그룹 상품/01.png",
+            "caption": ""
+          },
+          {
+            "file": "content/projects/kingsroad/보너스 그룹 상품/02.png",
+            "caption": ""
+          }
+        ]
       },
       {
         "name": "효용",
@@ -212,7 +230,32 @@
         "desc": "플레이어 간 아이템을 자유롭게 거래할 수 있는 유저 경제 시스템",
         "sub": "검색·필터, 아이템별 최저/최대 거래 단가 설정, 등록 시간 랜덤화 등 어뷰징을 방지하는 안정적인 거래 환경 설계",
         "bullets": [],
-        "images": []
+        "images": [
+          {
+            "file": "content/projects/kingsroad/거래소/01.png",
+            "caption": ""
+          },
+          {
+            "file": "content/projects/kingsroad/거래소/02.png",
+            "caption": ""
+          },
+          {
+            "file": "content/projects/kingsroad/거래소/03.png",
+            "caption": ""
+          },
+          {
+            "file": "content/projects/kingsroad/거래소/04.png",
+            "caption": ""
+          },
+          {
+            "file": "content/projects/kingsroad/거래소/05.png",
+            "caption": ""
+          },
+          {
+            "file": "content/projects/kingsroad/거래소/06.png",
+            "caption": ""
+          }
+        ]
       },
       {
         "name": "강화(슬롯 성장)",
@@ -623,7 +666,20 @@
         "desc": "인게임에서 BM 상품을 할인된 가격에 구매할 수 있는 쿠폰 시스템",
         "sub": "쿠폰 보유 시 정해진 금액/비율만큼 상품을 할인 구매 가능하게 하여 결제 전환 유도",
         "bullets": [],
-        "images": []
+        "images": [
+          {
+            "file": "content/projects/kingsroad/인게임 할인 쿠폰/01.png",
+            "caption": ""
+          },
+          {
+            "file": "content/projects/kingsroad/인게임 할인 쿠폰/02.png",
+            "caption": ""
+          },
+          {
+            "file": "content/projects/kingsroad/인게임 할인 쿠폰/03.png",
+            "caption": ""
+          }
+        ]
       },
       {
         "name": "PC 키매핑",
@@ -1026,20 +1082,37 @@
         ]
       },
       {
-        "name": "유물 승급",
+        "name": "유물 성장",
         "order": 46,
         "category": "Growth",
         "date": "2026년 3월 10일",
-        "featured": false,
+        "featured": true,
         "hidden": false,
         "minor": false,
         "roles": [
           "시스템 기획"
         ],
-        "desc": "유물의 등급을 상승시키는 성장 시스템",
-        "sub": "승급 시 유물 설계도와 다양한 비용 타입을 요구하여 장기 성장 동기 부여",
+        "desc": "유물을 강화·승급하여 캐릭터 전투력을 끌어올리는 핵심 성장 시스템",
+        "sub": "단계별 성장에 유물 설계도와 다양한 비용 타입을 요구하여 장기 성장 동기 부여",
         "bullets": [],
-        "images": []
+        "images": [
+          {
+            "file": "content/projects/kingsroad/유물 성장/01.png",
+            "caption": ""
+          },
+          {
+            "file": "content/projects/kingsroad/유물 성장/02.png",
+            "caption": ""
+          },
+          {
+            "file": "content/projects/kingsroad/유물 성장/03.png",
+            "caption": ""
+          },
+          {
+            "file": "content/projects/kingsroad/유물 성장/04.png",
+            "caption": ""
+          }
+        ]
       },
       {
         "name": "유물 도감",
