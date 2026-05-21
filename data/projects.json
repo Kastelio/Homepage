@@ -199,6 +199,22 @@
         ]
       },
       {
+        "name": "거래소",
+        "order": 9,
+        "category": "Trade",
+        "date": "2026년 1월 26일",
+        "featured": true,
+        "hidden": false,
+        "minor": false,
+        "roles": [
+          "시스템 기획"
+        ],
+        "desc": "플레이어 간 아이템을 자유롭게 거래할 수 있는 유저 경제 시스템",
+        "sub": "검색·필터, 아이템별 최저/최대 거래 단가 설정, 등록 시간 랜덤화 등 어뷰징을 방지하는 안정적인 거래 환경 설계",
+        "bullets": [],
+        "images": []
+      },
+      {
         "name": "강화(슬롯 성장)",
         "order": 10,
         "category": "Growth",
@@ -592,6 +608,22 @@
             "caption": ""
           }
         ]
+      },
+      {
+        "name": "인게임 할인 쿠폰",
+        "order": 27,
+        "category": "BM",
+        "date": "2026년 4월 10일",
+        "featured": false,
+        "hidden": false,
+        "minor": false,
+        "roles": [
+          "시스템 기획"
+        ],
+        "desc": "인게임에서 BM 상품을 할인된 가격에 구매할 수 있는 쿠폰 시스템",
+        "sub": "쿠폰 보유 시 정해진 금액/비율만큼 상품을 할인 구매 가능하게 하여 결제 전환 유도",
+        "bullets": [],
+        "images": []
       },
       {
         "name": "PC 키매핑",
