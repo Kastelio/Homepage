@@ -1252,6 +1252,22 @@
         ]
       },
       {
+        "name": "탐사 (아시아)",
+        "order": 51,
+        "category": "Trade",
+        "date": "",
+        "featured": false,
+        "hidden": true,
+        "minor": false,
+        "roles": [
+          "시스템 기획"
+        ],
+        "desc": "유물 탐사 시스템의 아시아 출시 개선 버전",
+        "sub": "",
+        "bullets": [],
+        "images": []
+      },
+      {
         "name": "일꾼 각 일꾼별로 최대 수행 가능한 생산 및 교역 횟수 지정",
         "order": 52,
         "category": "Management",
