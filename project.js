@@ -63,7 +63,7 @@ function renderHero(project) {
     const el = document.getElementById('detail-hero');
     const tagsHtml = project.tags.map(t => `<span class="detail-tag">${t}</span>`).join('');
     el.innerHTML = `
-        ${project.badge ? `<div class="detail-badge">${project.badge}</div>` : ''}
+        ${project.badge ? `<div class="detail-badge">${project.badge.split('·').map(b => `<span class="badge-line">${b.trim()}</span>`).join('')}</div>` : ''}
         <h1 class="detail-title">${project.title}</h1>
         <div class="detail-tags">${tagsHtml}</div>
         ${project.dev ? `<p class="detail-dev">${project.dev}</p>` : ''}
