@@ -2147,7 +2147,12 @@
         "desc": "거래 가능 드래곤 금화와 귀속 드래곤 금화로 재화를 분리",
         "sub": "거래소 등 경제 시스템에서 사용 가능한 재화와 캐릭터 귀속 재화를 명확히 분리",
         "bullets": [],
-        "images": []
+        "images": [
+          {
+            "file": "content/projects/kingsroad/드래곤 금화 분리/01.jpg",
+            "caption": ""
+          }
+        ]
       },
       {
         "name": "칭호",
