@@ -1,4 +1,4 @@
-name: 캐릭터 생성
+name: 캐릭터 생성 화면
 order: 58
 category: Character
 featured: yes

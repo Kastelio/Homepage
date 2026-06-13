@@ -1519,7 +1519,7 @@
         ]
       },
       {
-        "name": "캐릭터 생성",
+        "name": "캐릭터 생성 화면",
         "order": 58,
         "category": "Character",
         "date": "2026년 2월 2일",
@@ -1606,7 +1606,7 @@
           "데이터 입력"
         ],
         "desc": "타이틀 화면 이후 플레이할 캐릭터를 생성하거나 선택하는 화면",
-        "sub": "장착한 무기 출력, 캐릭터 생성 시 해당 캐릭터의 주요 스킬 정보 출력",
+        "sub": "장착한 무기 출력",
         "bullets": [],
         "images": [
           {
@@ -1959,7 +1959,16 @@
         "desc": "",
         "sub": "",
         "bullets": [],
-        "images": []
+        "images": [
+          {
+            "file": "content/projects/kingsroad/푸시/01.jpg",
+            "caption": ""
+          },
+          {
+            "file": "content/projects/kingsroad/푸시/02.jpg",
+            "caption": ""
+          }
+        ]
       },
       {
         "name": "점검 랭킹 처리",
@@ -2303,7 +2312,12 @@
         "desc": "",
         "sub": "",
         "bullets": [],
-        "images": []
+        "images": [
+          {
+            "file": "content/projects/kingsroad/잠금처리공통화/01.jpg",
+            "caption": ""
+          }
+        ]
       },
       {
         "name": "장벽 너머 원정 직전 시즌 달성 난이도를 기준으로 다음 시즌 해금 난이도 설정",
