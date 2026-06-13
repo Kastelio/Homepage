@@ -3,8 +3,6 @@ release:
 developer: 에이블게임즈
 platform: 
 package: No
-comment: 
+comment:
 payment: 9000
-current: yes
 order: 3
-current_order: 4

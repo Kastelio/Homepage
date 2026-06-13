@@ -1,0 +1,9 @@
+name: 운빨존많겜
+release: 2024년 4월 18일
+developer: Netmarble
+platform: Android, iOS
+package: No
+payment: 134100
+comment:
+current: yes
+current_order: 3
