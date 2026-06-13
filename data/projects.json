@@ -173,6 +173,10 @@
           {
             "file": "content/projects/kingsroad/서비스 준비/01.jpg",
             "caption": ""
+          },
+          {
+            "file": "content/projects/kingsroad/서비스 준비/02.jpg",
+            "caption": ""
           }
         ]
       },
@@ -217,7 +221,11 @@
         "bullets": [],
         "images": [
           {
-            "file": "content/projects/kingsroad/효용/BM 효용.png",
+            "file": "content/projects/kingsroad/효용/01.jpg",
+            "caption": ""
+          },
+          {
+            "file": "content/projects/kingsroad/효용/02.jpg",
             "caption": ""
           }
         ]
@@ -610,6 +618,35 @@
         ]
       },
       {
+        "name": "스플래시",
+        "order": 21,
+        "category": "Launching",
+        "date": "2024년 11월 15일",
+        "featured": true,
+        "hidden": false,
+        "minor": false,
+        "roles": [
+          "시스템 기획"
+        ],
+        "desc": "게임 실행 시 게임 BI, 회사, IP 홀더, 엔진 스플래시를 순차 출력",
+        "sub": "국가별 BI 분기, 광과민성 문구 등 컴플라이언스 요건에 따른 화면 분기 처리",
+        "bullets": [],
+        "images": [
+          {
+            "file": "content/projects/kingsroad/스플래시/01.jpg",
+            "caption": ""
+          },
+          {
+            "file": "content/projects/kingsroad/스플래시/02.jpg",
+            "caption": ""
+          },
+          {
+            "file": "content/projects/kingsroad/스플래시/03.jpg",
+            "caption": ""
+          }
+        ]
+      },
+      {
         "name": "타이틀",
         "order": 22,
         "category": "Launching",
@@ -626,7 +663,19 @@
         "bullets": [],
         "images": [
           {
-            "file": "content/projects/kingsroad/타이틀/01.png",
+            "file": "content/projects/kingsroad/타이틀/01.jpg",
+            "caption": ""
+          },
+          {
+            "file": "content/projects/kingsroad/타이틀/02.jpg",
+            "caption": ""
+          },
+          {
+            "file": "content/projects/kingsroad/타이틀/03.jpg",
+            "caption": ""
+          },
+          {
+            "file": "content/projects/kingsroad/타이틀/04.jpg",
             "caption": ""
           }
         ]
@@ -1972,7 +2021,24 @@
         "desc": "프롤로그 패치 파일 별도 분리, 분할 다운로드, 플레이 중 다운로드 기능 추가",
         "sub": "",
         "bullets": [],
-        "images": []
+        "images": [
+          {
+            "file": "content/projects/kingsroad/패치프로세스/01.jpg",
+            "caption": ""
+          },
+          {
+            "file": "content/projects/kingsroad/패치프로세스/02.jpg",
+            "caption": ""
+          },
+          {
+            "file": "content/projects/kingsroad/패치프로세스/03.jpg",
+            "caption": ""
+          },
+          {
+            "file": "content/projects/kingsroad/패치프로세스/04.jpg",
+            "caption": ""
+          }
+        ]
       },
       {
         "name": "콘텐츠 타입",
@@ -2253,7 +2319,12 @@
         "desc": "",
         "sub": "",
         "bullets": [],
-        "images": []
+        "images": [
+          {
+            "file": "content/projects/kingsroad/잠금처리조건추가/01.jpg",
+            "caption": ""
+          }
+        ]
       },
       {
         "name": "장벽 너머 원정 직전 시즌 달성 난이도를 기준으로 다음 시즌 해금 난이도 설정",
@@ -2333,7 +2404,12 @@
         "desc": "",
         "sub": "",
         "bullets": [],
-        "images": []
+        "images": [
+          {
+            "file": "content/projects/kingsroad/업적태스크공통화/01.jpg",
+            "caption": ""
+          }
+        ]
       }
     ],
     "misc": []

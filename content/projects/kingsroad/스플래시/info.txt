@@ -1,0 +1,8 @@
+name: 스플래시
+order: 21
+category: Launching
+featured: yes
+date: 2024년 11월 15일
+roles: 시스템 기획
+desc: 게임 실행 시 게임 BI, 회사, IP 홀더, 엔진 스플래시를 순차 출력
+sub: 국가별 BI 분기, 광과민성 문구 등 컴플라이언스 요건에 따른 화면 분기 처리
