@@ -3,6 +3,6 @@ order: 32
 category: Dungeon
 featured: yes
 date: 2024년 8월 12일
-roles: 시스템 기획
+roles: 시스템 개선
 desc: 시즌별로 갱신되는 PvE 도전 콘텐츠
 sub: 프리셋 기반 스테이지 생성 프로세스, 스테이지 바로 선택
