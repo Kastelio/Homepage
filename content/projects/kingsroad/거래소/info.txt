@@ -1,6 +1,6 @@
 name: 거래소
 order: 9
-category: Trade
+category: Economy
 featured: yes
 date: 2026년 1월 26일
 roles: 시스템 기획

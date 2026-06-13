@@ -302,7 +302,7 @@
       {
         "name": "거래소",
         "order": 9,
-        "category": "Trade",
+        "category": "Economy",
         "date": "2026년 1월 26일",
         "featured": true,
         "hidden": false,
@@ -1365,7 +1365,7 @@
       {
         "name": "유물 탐사",
         "order": 50,
-        "category": "Trade",
+        "category": "Idle",
         "date": "2024년 9월 11일",
         "featured": false,
         "hidden": false,
@@ -1419,7 +1419,7 @@
       {
         "name": "탐사",
         "order": 51,
-        "category": "Trade",
+        "category": "Idle",
         "date": "2026년 5월 14일",
         "featured": true,
         "hidden": false,

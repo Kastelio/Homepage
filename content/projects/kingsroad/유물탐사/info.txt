@@ -1,6 +1,6 @@
 name: 유물 탐사
 order: 50
-category: Trade
+category: Idle
 date: 2024년 9월 11일
 roles: 시스템 기획
 desc: 유물 설계도/유물을 획득하는 파밍 시스템. 웨스턴에서는 '유물 탐사'였으나, 아시아에서는 '탐사'로 명칭 변경

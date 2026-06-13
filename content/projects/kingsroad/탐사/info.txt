@@ -1,6 +1,6 @@
 name: 탐사
 order: 51
-category: Trade
+category: Idle
 featured: yes
 date: 2026년 5월 14일
 roles: 시스템 기획
