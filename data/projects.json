@@ -206,6 +206,27 @@
         ]
       },
       {
+        "name": "기기 등록",
+        "order": 6,
+        "category": "Service",
+        "date": "2025년 12월 16일",
+        "featured": true,
+        "hidden": false,
+        "minor": false,
+        "roles": [
+          "시스템 기획"
+        ],
+        "desc": "거래소 판매·정산 등 민감 기능 이용 시 본인 기기 여부를 확인하는 보안 시스템",
+        "sub": "자금결제법 대응의 일환으로, 등록된 기기에서만 거래 관련 기능을 이용하도록 제한",
+        "bullets": [],
+        "images": [
+          {
+            "file": "content/projects/kingsroad/기기 등록/01.jpg",
+            "caption": ""
+          }
+        ]
+      },
+      {
         "name": "효용",
         "order": 7,
         "category": "Core",
@@ -1884,7 +1905,12 @@
         "desc": "",
         "sub": "",
         "bullets": [],
-        "images": []
+        "images": [
+          {
+            "file": "content/projects/kingsroad/로그아웃/01.jpg",
+            "caption": ""
+          }
+        ]
       },
       {
         "name": "외부 보상 (리딤코드)",
