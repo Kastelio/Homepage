@@ -1,6 +1,6 @@
 name: 칭호
 order: 321
-category: Growth
+category: Collect
 minor: yes
 date: 2025년 12월 23일
 roles: 시스템 기획
