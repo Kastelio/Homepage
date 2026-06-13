@@ -1,0 +1,8 @@
+name: 서비스 준비
+order: 5
+category: Service
+featured: yes
+date: 2025년 12월 15일
+roles: 시스템 기획
+desc: 글로벌 출시를 위한 컴플라이언스 시스템 설계
+sub: 자금결제법(JP/TW), 게임 이용등급 표시, 과몰입 예방, 기기 등록 등 국가별 운영 요건 대응

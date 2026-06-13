@@ -1,0 +1,8 @@
+name: 수량 결제
+order: 320
+category: Service
+minor: yes
+date: 2026년 3월 16일
+roles: 시스템 기획
+desc: 동일 상품을 여러 개 한 번에 결제하는 기능
+sub: 상품 구매 흐름의 결제 효율 개선

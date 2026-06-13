@@ -1,0 +1,8 @@
+name: 채팅 언어 필터
+order: 320
+category: Social
+minor: yes
+date: 2026년 5월 14일
+roles: 시스템 기획
+desc: 채팅 메시지를 본인 언어/전체 언어로 필터링하는 옵션
+sub: 다국가 서비스 환경에서 원하는 언어 범위로 채팅을 필터링

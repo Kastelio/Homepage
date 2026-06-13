@@ -1,0 +1,8 @@
+name: 제작 (대성공/성공/실패)
+order: 320
+category: Growth
+minor: yes
+date: 2026년 1월 8일
+roles: 시스템 기획
+desc: 제작 결과에 대성공·성공·실패 개념을 도입
+sub: 동일 재료로도 결과에 변동을 부여하여 제작 행위에 기대감 추가

@@ -1,0 +1,8 @@
+name: 바로가기
+order: 320
+category: UX
+minor: yes
+date: 2026년 1월 12일
+roles: 시스템 기획
+desc: 다양한 UI/콘텐츠로 한 번에 이동할 수 있는 네비게이션 인프라
+sub: ELinkType/EContentsType 기반 라우팅 및 매개변수 설계

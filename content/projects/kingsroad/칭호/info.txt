@@ -1,0 +1,8 @@
+name: 칭호
+order: 321
+category: Growth
+minor: yes
+date: 2025년 12월 23일
+roles: 시스템 기획
+desc: 캐릭터에 스탯을 부여하거나 표시용으로 설정 가능한 칭호 시스템
+sub: 장착 효과·보유 효과 분리, 스탯 필터, 표시용/장착 분리 운영

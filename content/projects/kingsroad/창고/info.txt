@@ -1,0 +1,8 @@
+name: 창고
+order: 1
+category: Convenience
+featured: yes
+date: 2026년 3월 17일
+roles: 시스템 기획
+desc: 캐릭터 인벤토리 부담을 줄이는 아이템 보관 시스템
+sub: 일괄 보관, NPC 상호작용, 기간제 아이템 보관, 잡동사니 일괄 처분 등 편의 기능 통합

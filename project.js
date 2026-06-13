@@ -86,10 +86,10 @@ const CATEGORY_LABELS = {
     Environment: '환경', Character: '캐릭터', World: '월드', Growth: '성장',
     Trade: '교환', Accomplishment: '달성', Collect: '수집', Dungeon: '전투/던전',
     Social: '소셜', Economy: '경제', Management: '경영', Idle: '방치',
-    UX: 'UX', Guide: '가이드', BM: 'BM', Event: '행사',
+    UX: 'UX', Convenience: '편의성', Guide: '가이드', BM: 'BM', Event: '행사',
     Service: '운영/서비스', Data: '데이터', Misc: '기타'
 };
-const CATEGORY_ORDER = ['Core','Input','Item','Launching','Environment','Character','World','Growth','Trade','Accomplishment','Collect','Dungeon','Social','Economy','Management','Idle','UX','Guide','BM','Service','Event','Data','Misc'];
+const CATEGORY_ORDER = ['Core','Input','Item','Launching','Environment','Character','World','Growth','Trade','Accomplishment','Collect','Dungeon','Social','Economy','Management','Idle','UX','Convenience','Guide','BM','Service','Event','Data','Misc'];
 
 function groupByCategory(systems) {
     const grouped = {};
