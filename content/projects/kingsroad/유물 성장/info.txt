@@ -2,7 +2,7 @@ name: 유물 성장
 order: 46
 category: Growth
 featured: yes
-date: 2026년 3월 10일
+date: 2026년 2월 3일
 roles: 시스템 기획
 desc: 유물을 강화·승급하여 캐릭터 전투력을 끌어올리는 핵심 성장 시스템
 sub: 단계별 성장에 유물 설계도와 다양한 비용 타입을 요구하여 장기 성장 동기 부여

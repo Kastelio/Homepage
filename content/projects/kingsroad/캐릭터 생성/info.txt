@@ -1,0 +1,8 @@
+name: 캐릭터 생성
+order: 58
+category: Character
+featured: yes
+date: 2026년 2월 2일
+roles: 시스템 기획
+desc: 캐릭터 생성 화면에서 클래스 선택을 돕는 정보 제공 시스템
+sub: 스킬 영상, 무기 타입 설명, 미리보기 의상 등을 통해 클래스 선택 이해도 향상

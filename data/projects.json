@@ -680,6 +680,22 @@
         ]
       },
       {
+        "name": "탈것 장비 염색",
+        "order": 24,
+        "category": "Collect",
+        "date": "2026년 2월 3일",
+        "featured": true,
+        "hidden": false,
+        "minor": false,
+        "roles": [
+          "시스템 기획"
+        ],
+        "desc": "보유한 탈것 장비(마구)를 원하는 색상으로 염색하는 커스터마이징 기능",
+        "sub": "안장·고삐 부위별 염색, 영웅 등급 등 특정 마구에 대한 예외 처리 포함",
+        "bullets": [],
+        "images": []
+      },
+      {
         "name": "훈련장",
         "order": 25,
         "category": "Guide",
@@ -1160,7 +1176,7 @@
         "name": "유물 성장",
         "order": 46,
         "category": "Growth",
-        "date": "2026년 3월 10일",
+        "date": "2026년 2월 3일",
         "featured": true,
         "hidden": false,
         "minor": false,
@@ -1431,6 +1447,22 @@
             "caption": ""
           }
         ]
+      },
+      {
+        "name": "캐릭터 생성",
+        "order": 58,
+        "category": "Character",
+        "date": "2026년 2월 2일",
+        "featured": true,
+        "hidden": false,
+        "minor": false,
+        "roles": [
+          "시스템 기획"
+        ],
+        "desc": "캐릭터 생성 화면에서 클래스 선택을 돕는 정보 제공 시스템",
+        "sub": "스킬 영상, 무기 타입 설명, 미리보기 의상 등을 통해 클래스 선택 이해도 향상",
+        "bullets": [],
+        "images": []
       },
       {
         "name": "조작",
