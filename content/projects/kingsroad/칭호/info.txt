@@ -1,7 +1,7 @@
 name: 칭호
-order: 321
+order: 26
 category: Collect
-minor: yes
+featured: yes
 date: 2025년 12월 23일
 roles: 시스템 기획
 desc: 캐릭터에 스탯을 부여하거나 표시용으로 설정 가능한 칭호 시스템

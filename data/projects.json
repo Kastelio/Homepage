@@ -793,6 +793,27 @@
         ]
       },
       {
+        "name": "칭호",
+        "order": 26,
+        "category": "Collect",
+        "date": "2025년 12월 23일",
+        "featured": true,
+        "hidden": false,
+        "minor": false,
+        "roles": [
+          "시스템 기획"
+        ],
+        "desc": "캐릭터에 스탯을 부여하거나 표시용으로 설정 가능한 칭호 시스템",
+        "sub": "장착 효과·보유 효과 분리, 스탯 필터, 표시용/장착 분리 운영",
+        "bullets": [],
+        "images": [
+          {
+            "file": "content/projects/kingsroad/칭호/01.jpg",
+            "caption": ""
+          }
+        ]
+      },
+      {
         "name": "인게임 할인 쿠폰",
         "order": 27,
         "category": "BM",
@@ -2253,27 +2274,6 @@
         ]
       },
       {
-        "name": "칭호",
-        "order": 321,
-        "category": "Collect",
-        "date": "2025년 12월 23일",
-        "featured": false,
-        "hidden": false,
-        "minor": true,
-        "roles": [
-          "시스템 기획"
-        ],
-        "desc": "캐릭터에 스탯을 부여하거나 표시용으로 설정 가능한 칭호 시스템",
-        "sub": "장착 효과·보유 효과 분리, 스탯 필터, 표시용/장착 분리 운영",
-        "bullets": [],
-        "images": [
-          {
-            "file": "content/projects/kingsroad/칭호/01.jpg",
-            "caption": ""
-          }
-        ]
-      },
-      {
         "name": "장비 교체 팝업",
         "order": 400,
         "category": "Dungeon",
@@ -2304,27 +2304,6 @@
         "sub": "",
         "bullets": [],
         "images": []
-      },
-      {
-        "name": "잠금 처리 조건 추가",
-        "order": 400,
-        "category": "Core",
-        "date": "2025년 9월 26일",
-        "featured": false,
-        "hidden": false,
-        "minor": true,
-        "roles": [
-          "시스템 기획"
-        ],
-        "desc": "",
-        "sub": "",
-        "bullets": [],
-        "images": [
-          {
-            "file": "content/projects/kingsroad/잠금처리조건추가/01.jpg",
-            "caption": ""
-          }
-        ]
       },
       {
         "name": "장벽 너머 원정 직전 시즌 달성 난이도를 기준으로 다음 시즌 해금 난이도 설정",
@@ -2363,22 +2342,6 @@
         "order": 400,
         "category": "Dungeon",
         "date": "2025년 9월 8일",
-        "featured": false,
-        "hidden": false,
-        "minor": true,
-        "roles": [
-          "시스템 기획"
-        ],
-        "desc": "",
-        "sub": "",
-        "bullets": [],
-        "images": []
-      },
-      {
-        "name": "일일 미션 보상 중 스킬포인트 획득 시 경고 팝업 출력",
-        "order": 401,
-        "category": "Accomplishment",
-        "date": "2025년 5월 26일",
         "featured": false,
         "hidden": false,
         "minor": true,
