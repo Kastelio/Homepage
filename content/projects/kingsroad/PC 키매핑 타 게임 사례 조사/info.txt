@@ -1,7 +1,0 @@
-name: PC 키매핑
-order: 28
-category: Input
-date: 2026년 2월 20일
-roles: 데이터 입력
-desc:
-hidden: yes

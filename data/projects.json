@@ -843,27 +843,6 @@
         ]
       },
       {
-        "name": "PC 키매핑",
-        "order": 28,
-        "category": "Input",
-        "date": "2026년 2월 20일",
-        "featured": false,
-        "hidden": true,
-        "minor": false,
-        "roles": [
-          "데이터 입력"
-        ],
-        "desc": "",
-        "sub": "",
-        "bullets": [],
-        "images": [
-          {
-            "file": "content/projects/kingsroad/PC 키매핑 타 게임 사례 조사/PC 키매핑.png",
-            "caption": ""
-          }
-        ]
-      },
-      {
         "name": "RP 충전 시 상품 안내",
         "order": 29,
         "category": "BM",
@@ -1451,7 +1430,20 @@
         "desc": "유물 설계도/유물을 획득하는 파밍 시스템 (아시아 출시 기준 명칭, 웨스턴의 '유물 탐사'에서 변경)",
         "sub": "",
         "bullets": [],
-        "images": []
+        "images": [
+          {
+            "file": "content/projects/kingsroad/탐사/01.jpg",
+            "caption": ""
+          },
+          {
+            "file": "content/projects/kingsroad/탐사/02.jpg",
+            "caption": ""
+          },
+          {
+            "file": "content/projects/kingsroad/탐사/03.jpg",
+            "caption": ""
+          }
+        ]
       },
       {
         "name": "일꾼 각 일꾼별로 최대 수행 가능한 생산 및 교역 횟수 지정",
@@ -1590,6 +1582,10 @@
         "bullets": [],
         "images": [
           {
+            "file": "content/projects/kingsroad/캐릭터 생성 후 다시 커스터마이징할 수 있는 기능/01.jpg",
+            "caption": ""
+          },
+          {
             "file": "content/projects/kingsroad/캐릭터 생성 후 다시 커스터마이징할 수 있는 기능/01.png",
             "caption": ""
           },
@@ -1634,22 +1630,6 @@
         ]
       },
       {
-        "name": "커스터마이징 PC 음성 선택 기능 추가",
-        "order": 62,
-        "category": "Character",
-        "date": "2024년 8월 5일",
-        "featured": false,
-        "hidden": true,
-        "minor": false,
-        "roles": [
-          "시스템 기획"
-        ],
-        "desc": "캐릭터 음성을 선호에 따라 변경할 수 있는 기능",
-        "sub": "",
-        "bullets": [],
-        "images": []
-      },
-      {
         "name": "코스튬",
         "order": 63,
         "category": "Collect",
@@ -1681,7 +1661,7 @@
         "category": "Collect",
         "date": "2025년 5월 22일",
         "featured": false,
-        "hidden": true,
+        "hidden": false,
         "minor": false,
         "roles": [
           "시스템 기획"
@@ -1691,7 +1671,15 @@
         "bullets": [],
         "images": [
           {
-            "file": "content/projects/kingsroad/코스튬 장착 시 특정 헤어(투구)가 장착되도록 처리/코스튬 장착 시 특정 헤어(투구)가 장착되도록 처리.png",
+            "file": "content/projects/kingsroad/코스튬 장착 시 특정 헤어(투구)가 장착되도록 처리/01.jpg",
+            "caption": ""
+          },
+          {
+            "file": "content/projects/kingsroad/코스튬 장착 시 특정 헤어(투구)가 장착되도록 처리/02.jpg",
+            "caption": ""
+          },
+          {
+            "file": "content/projects/kingsroad/코스튬 장착 시 특정 헤어(투구)가 장착되도록 처리/03.jpg",
             "caption": ""
           }
         ]
@@ -2098,7 +2086,12 @@
         "desc": "캐릭터가 위치한 월드 또는 캐릭터 상태에 따라 콘텐츠 접근 여부를 관리",
         "sub": "",
         "bullets": [],
-        "images": []
+        "images": [
+          {
+            "file": "content/projects/kingsroad/콘텐츠 타입/01.jpg",
+            "caption": ""
+          }
+        ]
       },
       {
         "name": "던전 입장 메뉴 추가",
