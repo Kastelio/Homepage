@@ -943,6 +943,22 @@
         "images": []
       },
       {
+        "name": "장벽 너머 원정",
+        "order": 32,
+        "category": "Dungeon",
+        "date": "2024년 8월 12일",
+        "featured": true,
+        "hidden": false,
+        "minor": false,
+        "roles": [
+          "시스템 기획"
+        ],
+        "desc": "시즌별로 갱신되는 PvE 도전 콘텐츠",
+        "sub": "프리셋 기반 스테이지 생성 프로세스, 시즌 난이도 해금 규칙, 플레이 시간 출력 등 시즌 운영 구조 설계",
+        "bullets": [],
+        "images": []
+      },
+      {
         "name": "기억의 제단 티켓 소모 형태로 로직 변경",
         "order": 33,
         "category": "Dungeon",
@@ -1028,7 +1044,7 @@
         ]
       },
       {
-        "name": "특정 스테이지가 해금되는 시점을 설정할 수 있도록 처리",
+        "name": "지렁이길 특정 스테이지가 해금되는 시점을 설정할 수 있도록 처리",
         "order": 36,
         "category": "Dungeon",
         "date": "2025년 7월 3일",
@@ -1464,22 +1480,6 @@
             "caption": ""
           }
         ]
-      },
-      {
-        "name": "장벽 너머 원정 스테이지 생성 프로세스 추가(프리셋)",
-        "order": 55,
-        "category": "Dungeon",
-        "date": "2024년 8월 12일",
-        "featured": false,
-        "hidden": false,
-        "minor": true,
-        "roles": [
-          "시스템 기획"
-        ],
-        "desc": "",
-        "sub": "",
-        "bullets": [],
-        "images": []
       },
       {
         "name": "장벽 너머 원정 플레이 시간 출력",
