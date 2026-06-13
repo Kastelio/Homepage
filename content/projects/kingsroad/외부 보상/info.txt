@@ -1,4 +1,4 @@
-name: 외부 보상
+name: 외부 보상 (리딤코드)
 order: 301
 category: Service
 date: 2024년 10월 21일

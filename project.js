@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         const sorted = sortByDateDesc(project.systems.filter(s => !s.hidden));
         const mainSystems = sorted.filter(s => ((s.images && s.images.length > 0) || s.featured) && !s.minor);
         const otherSystems = sorted.filter(s => ((!s.images || s.images.length === 0) && !s.featured) || s.minor);
-        renderTOC(mainSystems);
+        renderTOC(mainSystems, otherSystems.length);
         renderSystems(mainSystems);
         renderOtherSystems(otherSystems);
         renderMisc(project.misc);
@@ -110,10 +110,14 @@ function groupByCategory(systems) {
     return result;
 }
 
-function renderTOC(systems) {
+function renderTOC(systems, otherCount = 0) {
     if (!systems || systems.length === 0) return;
     const el = document.getElementById('detail-toc');
     if (!el) return;
+
+    const etcLink = otherCount > 0
+        ? `<a href="#detail-misc-systems" class="toc-link toc-etc-link">Etc (${otherCount}건)</a>`
+        : '';
 
     const hasCat = systems.some(s => s.category);
     if (!hasCat) {
@@ -122,6 +126,7 @@ function renderTOC(systems) {
                 <span class="toc-label">시스템</span>
                 <div class="toc-links">
                     ${systems.map((s, i) => `<a href="#system-${i}" class="toc-link">${s.name}</a>`).join('')}
+                    ${etcLink}
                 </div>
             </nav>
         `;
@@ -137,6 +142,7 @@ function renderTOC(systems) {
                     <span class="toc-cat-label">${g.label}</span>
                     ${g.systems.map(s => `<a href="#system-${s._idx}" class="toc-link">${s.name}</a>`).join('')}
                 `).join('')}
+                ${etcLink}
             </div>
         </nav>
     `;

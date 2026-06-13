@@ -843,6 +843,31 @@
         ]
       },
       {
+        "name": "푸시",
+        "order": 28,
+        "category": "Service",
+        "date": "2024년 12월 13일",
+        "featured": false,
+        "hidden": false,
+        "minor": false,
+        "roles": [
+          "시스템 기획"
+        ],
+        "desc": "",
+        "sub": "",
+        "bullets": [],
+        "images": [
+          {
+            "file": "content/projects/kingsroad/푸시/01.jpg",
+            "caption": ""
+          },
+          {
+            "file": "content/projects/kingsroad/푸시/02.jpg",
+            "caption": ""
+          }
+        ]
+      },
+      {
         "name": "RP 충전 시 상품 안내",
         "order": 29,
         "category": "BM",
@@ -1832,7 +1857,7 @@
         "images": []
       },
       {
-        "name": "외부 보상",
+        "name": "외부 보상 (리딤코드)",
         "order": 301,
         "category": "Service",
         "date": "2024년 10월 21일",
@@ -1943,31 +1968,6 @@
         "images": [
           {
             "file": "content/projects/kingsroad/보상/보상.png",
-            "caption": ""
-          }
-        ]
-      },
-      {
-        "name": "푸시",
-        "order": 304,
-        "category": "Service",
-        "date": "2024년 12월 13일",
-        "featured": false,
-        "hidden": false,
-        "minor": true,
-        "roles": [
-          "시스템 기획"
-        ],
-        "desc": "",
-        "sub": "",
-        "bullets": [],
-        "images": [
-          {
-            "file": "content/projects/kingsroad/푸시/01.jpg",
-            "caption": ""
-          },
-          {
-            "file": "content/projects/kingsroad/푸시/02.jpg",
             "caption": ""
           }
         ]

@@ -1269,6 +1269,13 @@ h4,
     margin-top: 0.3rem;
 }
 
+.toc-etc-link {
+    flex-basis: 100%;
+    margin-top: 0.6rem;
+    text-align: center;
+    box-sizing: border-box;
+}
+
 /* System Category Group */
 .system-category-group {
     margin-bottom: 3rem;
