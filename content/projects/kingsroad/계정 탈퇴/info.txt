@@ -3,4 +3,4 @@ order: 31
 category: Service
 date: 2024년 9월 25일
 roles: 시스템 기획
-desc:
+desc: 계정 탈퇴 신청 및 처리 과정을 안내하는 시스템
