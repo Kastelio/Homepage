@@ -954,9 +954,18 @@
           "시스템 기획"
         ],
         "desc": "시즌별로 갱신되는 PvE 도전 콘텐츠",
-        "sub": "프리셋 기반 스테이지 생성 프로세스, 시즌 난이도 해금 규칙, 플레이 시간 출력 등 시즌 운영 구조 설계",
+        "sub": "프리셋 기반 스테이지 생성 프로세스, 스테이지 바로 선택",
         "bullets": [],
-        "images": []
+        "images": [
+          {
+            "file": "content/projects/kingsroad/장벽 너머 원정 스테이지 생성 프로세스 추가(프리셋)/01.jpg",
+            "caption": ""
+          },
+          {
+            "file": "content/projects/kingsroad/장벽 너머 원정 스테이지 생성 프로세스 추가(프리셋)/02.jpg",
+            "caption": ""
+          }
+        ]
       },
       {
         "name": "기억의 제단 티켓 소모 형태로 로직 변경",
@@ -2259,7 +2268,12 @@
         "desc": "동일 상품을 여러 개 한 번에 결제하는 기능",
         "sub": "상품 구매 흐름의 결제 효율 개선",
         "bullets": [],
-        "images": []
+        "images": [
+          {
+            "file": "content/projects/kingsroad/수량 결제/01.jpg",
+            "caption": ""
+          }
+        ]
       },
       {
         "name": "드래곤 금화 분리 (귀속/거래 가능)",
@@ -2340,22 +2354,6 @@
         "order": 400,
         "category": "Social",
         "date": "2025년 8월 25일",
-        "featured": false,
-        "hidden": false,
-        "minor": true,
-        "roles": [
-          "시스템 기획"
-        ],
-        "desc": "",
-        "sub": "",
-        "bullets": [],
-        "images": []
-      },
-      {
-        "name": "장벽 너머 원정 스테이지 바로 선택할 수 있도록 개선",
-        "order": 400,
-        "category": "Dungeon",
-        "date": "2025년 9월 8일",
         "featured": false,
         "hidden": false,
         "minor": true,
