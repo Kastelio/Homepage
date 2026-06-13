@@ -1,0 +1,8 @@
+name: 유물 성장 도감
+order: 47
+category: Growth
+featured: yes
+date: 2026년 5월 14일
+roles: 시스템 기획
+desc: 등급별 유물 성장 횟수에 따라 특정 효과를 얻고, 보유하지 않은 유물을 미리 확인해볼 수 있는 시스템
+sub:
