@@ -1,0 +1,8 @@
+name: 탐사
+order: 51
+category: Trade
+featured: yes
+date: 2026년 5월 14일
+roles: 시스템 기획
+desc: 유물 설계도/유물을 획득하는 파밍 시스템 (아시아 출시 기준 명칭, 웨스턴의 '유물 탐사'에서 변경)
+sub:

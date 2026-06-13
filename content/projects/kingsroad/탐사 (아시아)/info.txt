@@ -1,7 +1,0 @@
-name: 탐사 (아시아)
-order: 51
-category: Trade
-hidden: yes
-roles: 시스템 기획
-desc: 유물 탐사 시스템의 아시아 출시 개선 버전
-sub:
