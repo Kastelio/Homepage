@@ -50,7 +50,20 @@
         "desc": "캐릭터 인벤토리 부담을 줄이는 아이템 보관 시스템",
         "sub": "일괄 보관, NPC 상호작용, 기간제 아이템 보관, 잡동사니 일괄 처분 등 편의 기능 통합",
         "bullets": [],
-        "images": []
+        "images": [
+          {
+            "file": "content/projects/kingsroad/창고/01.png",
+            "caption": ""
+          },
+          {
+            "file": "content/projects/kingsroad/창고/02.png",
+            "caption": ""
+          },
+          {
+            "file": "content/projects/kingsroad/창고/03.png",
+            "caption": ""
+          }
+        ]
       },
       {
         "name": "획득처",
@@ -156,7 +169,12 @@
         "desc": "글로벌 출시를 위한 컴플라이언스 시스템 설계",
         "sub": "자금결제법(JP/TW), 게임 이용등급 표시, 과몰입 예방, 기기 등록 등 국가별 운영 요건 대응",
         "bullets": [],
-        "images": []
+        "images": [
+          {
+            "file": "content/projects/kingsroad/서비스 준비/01.png",
+            "caption": ""
+          }
+        ]
       },
       {
         "name": "보너스 그룹 상품",
@@ -240,7 +258,16 @@
         "desc": "일정 기간 동안 다양한 효용을 통합 제공하는 BM 상품",
         "sub": "월간 지원 등 기간형 상품 구조 설계 및 효용 그룹 연동",
         "bullets": [],
-        "images": []
+        "images": [
+          {
+            "file": "content/projects/kingsroad/기간형 상품 (통합 지원)/01.png",
+            "caption": ""
+          },
+          {
+            "file": "content/projects/kingsroad/기간형 상품 (통합 지원)/02.png",
+            "caption": ""
+          }
+        ]
       },
       {
         "name": "튜토리얼 다시보기",
@@ -2041,7 +2068,12 @@
         "desc": "다양한 UI/콘텐츠로 한 번에 이동할 수 있는 네비게이션 인프라",
         "sub": "ELinkType/EContentsType 기반 라우팅 및 매개변수 설계",
         "bullets": [],
-        "images": []
+        "images": [
+          {
+            "file": "content/projects/kingsroad/바로가기/01.png",
+            "caption": ""
+          }
+        ]
       },
       {
         "name": "제작 (대성공/성공/실패)",
@@ -2057,7 +2089,12 @@
         "desc": "제작 결과에 대성공·성공·실패 개념을 도입",
         "sub": "동일 재료로도 결과에 변동을 부여하여 제작 행위에 기대감 추가",
         "bullets": [],
-        "images": []
+        "images": [
+          {
+            "file": "content/projects/kingsroad/제작 (대성공)/01.png",
+            "caption": ""
+          }
+        ]
       },
       {
         "name": "채팅 언어 필터",
@@ -2073,7 +2110,12 @@
         "desc": "채팅 메시지를 본인 언어/전체 언어로 필터링하는 옵션",
         "sub": "다국가 서비스 환경에서 원하는 언어 범위로 채팅을 필터링",
         "bullets": [],
-        "images": []
+        "images": [
+          {
+            "file": "content/projects/kingsroad/채팅 언어 필터/01.png",
+            "caption": ""
+          }
+        ]
       },
       {
         "name": "수량 결제",
@@ -2121,7 +2163,12 @@
         "desc": "캐릭터에 스탯을 부여하거나 표시용으로 설정 가능한 칭호 시스템",
         "sub": "장착 효과·보유 효과 분리, 스탯 필터, 표시용/장착 분리 운영",
         "bullets": [],
-        "images": []
+        "images": [
+          {
+            "file": "content/projects/kingsroad/칭호/01.png",
+            "caption": ""
+          }
+        ]
       },
       {
         "name": "장비 교체 팝업",
