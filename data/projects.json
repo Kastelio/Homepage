@@ -14,20 +14,7 @@
     "thumbnail": "assets/kingsroad.jpg",
     "card_class": "got-card",
     "summary": "시스템 기획 · BM · UX · 서비스 · 데이터 입력",
-    "stats": [
-      {
-        "value": "60+",
-        "label": "시스템 기획"
-      },
-      {
-        "value": "4",
-        "label": "권역 런칭"
-      },
-      {
-        "value": "UE5",
-        "label": "엔진"
-      }
-    ],
+    "tagline": "성장·BM·UX·서비스 등 폭넓은 시스템 기획에 참여한 액션 RPG",
     "systems": [
       {
         "name": "효과 상세 정보 팝업",
@@ -2481,20 +2468,7 @@
     "thumbnail": "assets/zenonia.jpg",
     "card_class": "",
     "summary": "시스템 기획 · 데이터 구성 및 밸런싱",
-    "stats": [
-      {
-        "value": "10+",
-        "label": "시스템 기획"
-      },
-      {
-        "value": "MMORPG",
-        "label": "장르"
-      },
-      {
-        "value": "UE4",
-        "label": "엔진"
-      }
-    ],
+    "tagline": "MMORPG에서 시스템 기획과 데이터 구성을 담당",
     "systems": [
       {
         "name": "업적",
