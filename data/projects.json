@@ -17,27 +17,6 @@
     "tagline": "성장, BM, 코어, 운영/서비스 등 폭넓은 시스템 기획에 참여한 액션 RPG",
     "systems": [
       {
-        "name": "효과 상세 정보 팝업",
-        "order": 1,
-        "category": "UX",
-        "date": "2024년 4월 25일",
-        "featured": false,
-        "hidden": false,
-        "minor": false,
-        "roles": [
-          "시스템 기획"
-        ],
-        "desc": "PC에 적용된 효과를 출력하는 시스템으로, 자신의 캐릭터에 부여된 효과에 대한 정보를 제공",
-        "sub": "",
-        "bullets": [],
-        "images": [
-          {
-            "file": "content/projects/kingsroad/효과상세팝업/01.png",
-            "caption": ""
-          }
-        ]
-      },
-      {
         "name": "창고",
         "order": 1,
         "category": "Convenience",
@@ -62,6 +41,27 @@
           },
           {
             "file": "content/projects/kingsroad/창고/03.jpg",
+            "caption": ""
+          }
+        ]
+      },
+      {
+        "name": "효과 상세 정보 팝업",
+        "order": 1,
+        "category": "UX",
+        "date": "2024년 4월 25일",
+        "featured": false,
+        "hidden": false,
+        "minor": false,
+        "roles": [
+          "시스템 기획"
+        ],
+        "desc": "PC에 적용된 효과를 출력하는 시스템으로, 자신의 캐릭터에 부여된 효과에 대한 정보를 제공",
+        "sub": "",
+        "bullets": [],
+        "images": [
+          {
+            "file": "content/projects/kingsroad/효과상세팝업/01.png",
             "caption": ""
           }
         ]
@@ -136,27 +136,6 @@
         ]
       },
       {
-        "name": "출석 상품",
-        "order": 5,
-        "category": "BM",
-        "date": "2024년 5월 24일",
-        "featured": false,
-        "hidden": false,
-        "minor": false,
-        "roles": [
-          "시스템 기획"
-        ],
-        "desc": "출석 횟수에 따라 보상이 지급되는 상품 타입",
-        "sub": "",
-        "bullets": [],
-        "images": [
-          {
-            "file": "content/projects/kingsroad/출석 상품/01.png",
-            "caption": ""
-          }
-        ]
-      },
-      {
         "name": "서비스 준비",
         "order": 5,
         "category": "Service",
@@ -182,26 +161,22 @@
         ]
       },
       {
-        "name": "보너스 그룹 상품",
-        "order": 6,
+        "name": "출석 상품",
+        "order": 5,
         "category": "BM",
         "date": "2024년 5월 24일",
-        "featured": true,
+        "featured": false,
         "hidden": false,
         "minor": false,
         "roles": [
           "시스템 기획"
         ],
-        "desc": "N회 구매 시 보너스 보상을 지급하는 상품 타입",
-        "sub": "반복 구매를 유도하고 구매 가치를 높이는 BM 구조",
+        "desc": "출석 횟수에 따라 보상이 지급되는 상품 타입",
+        "sub": "",
         "bullets": [],
         "images": [
           {
-            "file": "content/projects/kingsroad/보너스 그룹 상품/01.jpg",
-            "caption": ""
-          },
-          {
-            "file": "content/projects/kingsroad/보너스 그룹 상품/02.jpg",
+            "file": "content/projects/kingsroad/출석 상품/01.png",
             "caption": ""
           }
         ]
@@ -223,6 +198,31 @@
         "images": [
           {
             "file": "content/projects/kingsroad/기기 등록/01.jpg",
+            "caption": ""
+          }
+        ]
+      },
+      {
+        "name": "보너스 그룹 상품",
+        "order": 6,
+        "category": "BM",
+        "date": "2024년 5월 24일",
+        "featured": true,
+        "hidden": false,
+        "minor": false,
+        "roles": [
+          "시스템 기획"
+        ],
+        "desc": "N회 구매 시 보너스 보상을 지급하는 상품 타입",
+        "sub": "반복 구매를 유도하고 구매 가치를 높이는 BM 구조",
+        "bullets": [],
+        "images": [
+          {
+            "file": "content/projects/kingsroad/보너스 그룹 상품/01.jpg",
+            "caption": ""
+          },
+          {
+            "file": "content/projects/kingsroad/보너스 그룹 상품/02.jpg",
             "caption": ""
           }
         ]
@@ -300,28 +300,6 @@
         ]
       },
       {
-        "name": "튜토리얼 다시보기",
-        "order": 9,
-        "category": "Guide",
-        "date": "2024년 7월 5일",
-        "featured": false,
-        "hidden": false,
-        "minor": false,
-        "roles": [
-          "시스템 기획",
-          "데이터 입력"
-        ],
-        "desc": "플레이에 필요한 각종 콘텐츠에 대해 학습을 지원하는 시스템",
-        "sub": "",
-        "bullets": [],
-        "images": [
-          {
-            "file": "content/projects/kingsroad/튜토리얼 다시보기/01.jpg",
-            "caption": ""
-          }
-        ]
-      },
-      {
         "name": "거래소",
         "order": 9,
         "category": "Economy",
@@ -358,6 +336,28 @@
           },
           {
             "file": "content/projects/kingsroad/거래소/06.jpg",
+            "caption": ""
+          }
+        ]
+      },
+      {
+        "name": "튜토리얼 다시보기",
+        "order": 9,
+        "category": "Guide",
+        "date": "2024년 7월 5일",
+        "featured": false,
+        "hidden": false,
+        "minor": false,
+        "roles": [
+          "시스템 기획",
+          "데이터 입력"
+        ],
+        "desc": "플레이에 필요한 각종 콘텐츠에 대해 학습을 지원하는 시스템",
+        "sub": "",
+        "bullets": [],
+        "images": [
+          {
+            "file": "content/projects/kingsroad/튜토리얼 다시보기/01.jpg",
             "caption": ""
           }
         ]
@@ -618,28 +618,6 @@
         ]
       },
       {
-        "name": "즉시 완료",
-        "order": 21,
-        "category": "BM",
-        "date": "2024년 5월 8일",
-        "featured": false,
-        "hidden": false,
-        "minor": false,
-        "roles": [
-          "시스템 기획",
-          "데이터 입력"
-        ],
-        "desc": "자원을 소모해 시간이 소요되는 콘텐츠를 즉시 완료하는 시스템",
-        "sub": "",
-        "bullets": [],
-        "images": [
-          {
-            "file": "content/projects/kingsroad/즉시 완료/즉시 완료.jpg",
-            "caption": ""
-          }
-        ]
-      },
-      {
         "name": "스플래시",
         "order": 21,
         "category": "Launching",
@@ -664,6 +642,28 @@
           },
           {
             "file": "content/projects/kingsroad/스플래시/03.jpg",
+            "caption": ""
+          }
+        ]
+      },
+      {
+        "name": "즉시 완료",
+        "order": 21,
+        "category": "BM",
+        "date": "2024년 5월 8일",
+        "featured": false,
+        "hidden": false,
+        "minor": false,
+        "roles": [
+          "시스템 기획",
+          "데이터 입력"
+        ],
+        "desc": "자원을 소모해 시간이 소요되는 콘텐츠를 즉시 완료하는 시스템",
+        "sub": "",
+        "bullets": [],
+        "images": [
+          {
+            "file": "content/projects/kingsroad/즉시 완료/즉시 완료.jpg",
             "caption": ""
           }
         ]
@@ -729,6 +729,22 @@
         ]
       },
       {
+        "name": "탈것 장비 염색",
+        "order": 24,
+        "category": "Collect",
+        "date": "2026년 2월 3일",
+        "featured": true,
+        "hidden": false,
+        "minor": false,
+        "roles": [
+          "시스템 기획"
+        ],
+        "desc": "보유한 탈것 장비(마구)를 원하는 색상으로 염색하는 커스터마이징 기능",
+        "sub": "안장·고삐 부위별 염색, 몰프 처리 및 말 갈기 숨김 처리 병행",
+        "bullets": [],
+        "images": []
+      },
+      {
         "name": "확률 고지",
         "order": 24,
         "category": "Service",
@@ -749,22 +765,6 @@
             "caption": ""
           }
         ]
-      },
-      {
-        "name": "탈것 장비 염색",
-        "order": 24,
-        "category": "Collect",
-        "date": "2026년 2월 3일",
-        "featured": true,
-        "hidden": false,
-        "minor": false,
-        "roles": [
-          "시스템 기획"
-        ],
-        "desc": "보유한 탈것 장비(마구)를 원하는 색상으로 염색하는 커스터마이징 기능",
-        "sub": "안장·고삐 부위별 염색, 몰프 처리 및 말 갈기 숨김 처리 병행",
-        "bullets": [],
-        "images": []
       },
       {
         "name": "훈련장",
@@ -1914,27 +1914,6 @@
         ]
       },
       {
-        "name": "외부 보상 (리딤코드)",
-        "order": 301,
-        "category": "Service",
-        "date": "2024년 10월 21일",
-        "featured": false,
-        "hidden": false,
-        "minor": true,
-        "roles": [
-          "시스템 기획"
-        ],
-        "desc": "",
-        "sub": "",
-        "bullets": [],
-        "images": [
-          {
-            "file": "content/projects/kingsroad/외부 보상/외부 보상.png",
-            "caption": ""
-          }
-        ]
-      },
-      {
         "name": "아이템 선택 상자 처리 개선",
         "order": 301,
         "category": "Item",
@@ -1951,6 +1930,27 @@
         "images": [
           {
             "file": "content/projects/kingsroad/아이템선택상자/아이템 선택 상자 아이템 사용 시 처리 개선.png",
+            "caption": ""
+          }
+        ]
+      },
+      {
+        "name": "외부 보상 (리딤코드)",
+        "order": 301,
+        "category": "Service",
+        "date": "2024년 10월 21일",
+        "featured": false,
+        "hidden": false,
+        "minor": true,
+        "roles": [
+          "시스템 기획"
+        ],
+        "desc": "",
+        "sub": "",
+        "bullets": [],
+        "images": [
+          {
+            "file": "content/projects/kingsroad/외부 보상/외부 보상.png",
             "caption": ""
           }
         ]
@@ -1993,22 +1993,6 @@
         ]
       },
       {
-        "name": "부활",
-        "order": 303,
-        "category": "Core",
-        "date": "2024년 11월 22일",
-        "featured": false,
-        "hidden": true,
-        "minor": true,
-        "roles": [
-          "시스템 기획"
-        ],
-        "desc": "사망 시 부활까지 N초 간 대기해야하는 로직 추가, 사망 횟수가 증가할수록 부활 대기 시간 증가",
-        "sub": "",
-        "bullets": [],
-        "images": []
-      },
-      {
         "name": "보상",
         "order": 303,
         "category": "Core",
@@ -2028,6 +2012,22 @@
             "caption": ""
           }
         ]
+      },
+      {
+        "name": "부활",
+        "order": 303,
+        "category": "Core",
+        "date": "2024년 11월 22일",
+        "featured": false,
+        "hidden": true,
+        "minor": true,
+        "roles": [
+          "시스템 기획"
+        ],
+        "desc": "사망 시 부활까지 N초 간 대기해야하는 로직 추가, 사망 횟수가 증가할수록 부활 대기 시간 증가",
+        "sub": "",
+        "bullets": [],
+        "images": []
       },
       {
         "name": "점검 랭킹 처리",
@@ -2097,6 +2097,27 @@
         ]
       },
       {
+        "name": "콘텐츠 타입",
+        "order": 306,
+        "category": "Core",
+        "date": "2025년 9월 26일",
+        "featured": false,
+        "hidden": false,
+        "minor": true,
+        "roles": [
+          "시스템 기획"
+        ],
+        "desc": "캐릭터가 위치한 월드 또는 캐릭터 상태에 따라 콘텐츠 접근 여부를 관리",
+        "sub": "",
+        "bullets": [],
+        "images": [
+          {
+            "file": "content/projects/kingsroad/콘텐츠 타입/01.jpg",
+            "caption": ""
+          }
+        ]
+      },
+      {
         "name": "패치 프로세스",
         "order": 306,
         "category": "Launching",
@@ -2125,27 +2146,6 @@
           },
           {
             "file": "content/projects/kingsroad/패치프로세스/04.jpg",
-            "caption": ""
-          }
-        ]
-      },
-      {
-        "name": "콘텐츠 타입",
-        "order": 306,
-        "category": "Core",
-        "date": "2025년 9월 26일",
-        "featured": false,
-        "hidden": false,
-        "minor": true,
-        "roles": [
-          "시스템 기획"
-        ],
-        "desc": "캐릭터가 위치한 월드 또는 캐릭터 상태에 따라 콘텐츠 접근 여부를 관리",
-        "sub": "",
-        "bullets": [],
-        "images": [
-          {
-            "file": "content/projects/kingsroad/콘텐츠 타입/01.jpg",
             "caption": ""
           }
         ]
@@ -2247,6 +2247,27 @@
         ]
       },
       {
+        "name": "드래곤 금화 분리 (귀속/거래 가능)",
+        "order": 320,
+        "category": "Core",
+        "date": "2026년 1월 9일",
+        "featured": false,
+        "hidden": false,
+        "minor": true,
+        "roles": [
+          "시스템 기획"
+        ],
+        "desc": "거래 가능 드래곤 금화와 귀속 드래곤 금화로 재화를 분리",
+        "sub": "거래소 등 경제 시스템에서 사용 가능한 재화와 캐릭터 귀속 재화를 명확히 분리",
+        "bullets": [],
+        "images": [
+          {
+            "file": "content/projects/kingsroad/드래곤 금화 분리/01.jpg",
+            "caption": ""
+          }
+        ]
+      },
+      {
         "name": "바로가기",
         "order": 320,
         "category": "UX",
@@ -2263,6 +2284,27 @@
         "images": [
           {
             "file": "content/projects/kingsroad/바로가기/01.jpg",
+            "caption": ""
+          }
+        ]
+      },
+      {
+        "name": "수량 결제",
+        "order": 320,
+        "category": "Service",
+        "date": "2026년 3월 16일",
+        "featured": false,
+        "hidden": false,
+        "minor": true,
+        "roles": [
+          "시스템 기획"
+        ],
+        "desc": "동일 상품을 여러 개 한 번에 결제하는 기능",
+        "sub": "상품 구매 흐름의 결제 효율 개선",
+        "bullets": [],
+        "images": [
+          {
+            "file": "content/projects/kingsroad/수량 결제/01.jpg",
             "caption": ""
           }
         ]
@@ -2310,71 +2352,20 @@
         ]
       },
       {
-        "name": "수량 결제",
-        "order": 320,
-        "category": "Service",
-        "date": "2026년 3월 16일",
-        "featured": false,
-        "hidden": false,
-        "minor": true,
-        "roles": [
-          "시스템 기획"
-        ],
-        "desc": "동일 상품을 여러 개 한 번에 결제하는 기능",
-        "sub": "상품 구매 흐름의 결제 효율 개선",
-        "bullets": [],
-        "images": [
-          {
-            "file": "content/projects/kingsroad/수량 결제/01.jpg",
-            "caption": ""
-          }
-        ]
-      },
-      {
-        "name": "드래곤 금화 분리 (귀속/거래 가능)",
-        "order": 320,
-        "category": "Core",
-        "date": "2026년 1월 9일",
-        "featured": false,
-        "hidden": false,
-        "minor": true,
-        "roles": [
-          "시스템 기획"
-        ],
-        "desc": "거래 가능 드래곤 금화와 귀속 드래곤 금화로 재화를 분리",
-        "sub": "거래소 등 경제 시스템에서 사용 가능한 재화와 캐릭터 귀속 재화를 명확히 분리",
-        "bullets": [],
-        "images": [
-          {
-            "file": "content/projects/kingsroad/드래곤 금화 분리/01.jpg",
-            "caption": ""
-          }
-        ]
-      },
-      {
-        "name": "장비 교체 팝업",
+        "name": "매칭이 불가능한 콘텐츠에서 파티 초대 및 매칭 가능 이슈 대응",
         "order": 400,
-        "category": "Convenience",
-        "date": "2025년 1월 15일",
+        "category": "Social",
+        "date": "2025년 8월 25일",
         "featured": false,
         "hidden": false,
         "minor": true,
         "roles": [
           "시스템 기획"
         ],
-        "desc": "장비 획득 시 더 나은 장비를 추천하고 세트 효과·랭크 정보를 함께 보여주는 교체 안내 팝업",
+        "desc": "",
         "sub": "",
         "bullets": [],
-        "images": [
-          {
-            "file": "content/projects/kingsroad/장비교체팝업/01.jpg",
-            "caption": ""
-          },
-          {
-            "file": "content/projects/kingsroad/장비교체팝업/02.jpg",
-            "caption": ""
-          }
-        ]
+        "images": []
       },
       {
         "name": "잠금 처리 조건에 따른 텍스트 출력 처리 공통화",
@@ -2414,20 +2405,29 @@
         "images": []
       },
       {
-        "name": "매칭이 불가능한 콘텐츠에서 파티 초대 및 매칭 가능 이슈 대응",
+        "name": "장비 교체 팝업",
         "order": 400,
-        "category": "Social",
-        "date": "2025년 8월 25일",
+        "category": "Convenience",
+        "date": "2025년 1월 15일",
         "featured": false,
         "hidden": false,
         "minor": true,
         "roles": [
           "시스템 기획"
         ],
-        "desc": "",
+        "desc": "장비 획득 시 더 나은 장비를 추천하고 세트 효과·랭크 정보를 함께 보여주는 교체 안내 팝업",
         "sub": "",
         "bullets": [],
-        "images": []
+        "images": [
+          {
+            "file": "content/projects/kingsroad/장비교체팝업/01.jpg",
+            "caption": ""
+          },
+          {
+            "file": "content/projects/kingsroad/장비교체팝업/02.jpg",
+            "caption": ""
+          }
+        ]
       },
       {
         "name": "업적 태스크 조건에 따른 텍스트 출력 처리 공통화",
