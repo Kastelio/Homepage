@@ -62,11 +62,19 @@ function hideLoading() {
 function renderHero(project) {
     const el = document.getElementById('detail-hero');
     const tagsHtml = project.tags.map(t => `<span class="detail-tag">${t}</span>`).join('');
+    const statsHtml = (project.stats && project.stats.length)
+        ? `<div class="detail-stats">${project.stats.map(s => `
+            <div class="detail-stat">
+                <span class="detail-stat-value">${s.value}</span>
+                <span class="detail-stat-label">${s.label}</span>
+            </div>`).join('')}</div>`
+        : '';
     el.innerHTML = `
         ${project.badge ? `<div class="detail-badge">${project.badge.split('·').map(b => `<span class="badge-line">${b.trim()}</span>`).join('')}</div>` : ''}
         <h1 class="detail-title">${project.title}</h1>
         <div class="detail-tags">${tagsHtml}</div>
         ${project.dev ? `<p class="detail-dev">${project.dev}</p>` : ''}
+        ${statsHtml}
     `;
 }
 

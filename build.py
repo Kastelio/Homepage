@@ -131,6 +131,15 @@ def build_project(project_id, project_folder):
             rel_path = f"content/projects/{project_id}/기타/{img}"
             misc_images.append({"file": rel_path, "caption": ""})
 
+    # stats: "값|라벨, 값|라벨" 형식 → [{"value": ..., "label": ...}]
+    stats = []
+    for item in info.get("stats", "").split(","):
+        item = item.strip()
+        if not item or "|" not in item:
+            continue
+        value, _, label = item.partition("|")
+        stats.append({"value": value.strip(), "label": label.strip()})
+
     project = {
         "id": project_id,
         "title": info.get("title", project_id),
@@ -141,6 +150,7 @@ def build_project(project_id, project_folder):
         "thumbnail": info.get("thumbnail", f"content/projects/{project_id}/기타/thumbnail.jpg"),
         "card_class": info.get("card_class", ""),
         "summary": info.get("summary", ""),
+        "stats": stats,
         "systems": systems,
         "misc": misc_images,
     }
