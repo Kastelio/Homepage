@@ -6,7 +6,44 @@ document.addEventListener('DOMContentLoaded', async () => {
     initScrollButtons();
     initGoalHover();
     renderHeroBg();
+    initCareerDuration();
 });
+
+// 경력 기간 자동 계산: "2022.01 - 2024.03" / "2024.04 - Present" → N년 M개월
+function initCareerDuration() {
+    const parseYM = (str) => {
+        const t = str.trim();
+        if (/present|현재/i.test(t)) {
+            const now = new Date();
+            return now.getFullYear() * 12 + (now.getMonth() + 1);
+        }
+        const m = t.match(/(\d{4})\.\s*(\d{1,2})/);
+        if (!m) return null;
+        return (+m[1]) * 12 + (+m[2]);
+    };
+
+    document.querySelectorAll('.timeline-date').forEach(el => {
+        if (el.querySelector('.timeline-duration')) return;
+        const parts = el.textContent.split(/[-~–]/);
+        if (parts.length < 2) return;
+        const start = parseYM(parts[0]);
+        const end = parseYM(parts[1]);
+        if (start == null || end == null || end < start) return;
+
+        const months = end - start + 1; // 시작·종료월 포함
+        const y = Math.floor(months / 12);
+        const mo = months % 12;
+        let label = '';
+        if (y > 0) label += `${y}년`;
+        if (mo > 0) label += `${y > 0 ? ' ' : ''}${mo}개월`;
+        if (!label) return;
+
+        const span = document.createElement('span');
+        span.className = 'timeline-duration';
+        span.textContent = label;
+        el.appendChild(span);
+    });
+}
 
 function initNav() {
     const nav = document.querySelector('.framer-nav');

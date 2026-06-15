@@ -522,6 +522,14 @@ h4,
     text-align: right;
 }
 
+.timeline-duration {
+    display: block;
+    margin-top: 0.25rem;
+    font-size: 0.85rem;
+    font-weight: 400;
+    color: var(--text-secondary);
+}
+
 .timeline-item .role {
     color: var(--text-secondary);
     font-family: 'Inter', sans-serif;
