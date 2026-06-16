@@ -28,7 +28,7 @@ def fetch_steam_playtime():
         url = (
             f"https://api.steampowered.com/IPlayerService/GetOwnedGames/v1/"
             f"?key={STEAM_API_KEY}&steamid={STEAM_ID}"
-            f"&include_appinfo=true&format=json"
+            f"&include_appinfo=true&include_played_free_games=true&format=json"
         )
         req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
         with urllib.request.urlopen(req, timeout=10) as r:
@@ -169,16 +169,16 @@ def build_playing():
                 thumbnail = f"content/playing/{entry}/{fname}"
                 break
 
-        # playtime: package 게임은 Steam API 우선, 없으면 info.txt
+        # playtime: appid 있거나 package 게임이면 Steam API 우선, 없으면 info.txt
         is_package = info.get("package", "No").lower() == "yes"
+        appid = info.get("appid", "")
         playtime_raw = info.get("playtime", "")
-        if is_package and steam_by_appid:
-            appid = info.get("appid", "")
+        if steam_by_appid and (is_package or appid):
             steam_minutes = None
             if appid:
                 steam_minutes = steam_by_appid.get(int(appid))
-            if steam_minutes is None:
-                # 이름으로 매칭 시도
+            if steam_minutes is None and is_package:
+                # 이름으로 매칭 시도 (package 게임만 — 라이브 게임은 appid 필수)
                 game_name = info.get("name", entry)
                 key = _normalize(game_name)
                 steam_minutes = steam_by_name.get(key)

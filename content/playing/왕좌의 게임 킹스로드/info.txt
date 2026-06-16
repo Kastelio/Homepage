@@ -1,0 +1,10 @@
+name: 왕좌의 게임: 킹스로드
+release: 2025년 3월 26일
+developer: NetmarbleNeo
+platform: PC, Android, iOS
+package: No
+appid: 4214820
+payment: 0
+comment: 직접 개발에 참여한 게임
+current: yes
+current_order: 1
