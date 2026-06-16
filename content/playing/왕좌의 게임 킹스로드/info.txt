@@ -4,7 +4,7 @@ developer: NetmarbleNeo
 platform: PC, Android, iOS
 package: No
 appid: 4214820
-payment: 0
-comment: 직접 개발에 참여한 게임
+payment:
+comment:
 current: yes
 current_order: 1
