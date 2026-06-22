@@ -141,20 +141,22 @@ document.addEventListener('DOMContentLoaded', async () => {
     initScrollButtons();
 });
 
-// 게임 → 화면 인덱스 구성 (Etc 카테고리 제외)
+// 게임 → 화면 인덱스 구성 (한글명 기준 병합, Etc/비게임 제외)
 function buildGameIndex() {
-    const map = {};
+    const map = {};  // 한글명 -> { 카테고리 -> images[] }
     ARCHIVE.categories.forEach(c => {
         if (ETC_CATS.has(c.name)) return;
         c.games.forEach(g => {
             if (g.name.startsWith('_')) return; // 비게임 폴더(_, _NoGame...) 제외
-            (map[g.name] = map[g.name] || []).push({ cat: c.name, images: g.images });
+            const ko = gameKo(g.name);
+            const byCat = (map[ko] = map[ko] || {});
+            byCat[c.name] = (byCat[c.name] || []).concat(g.images);
         });
     });
-    GAME_INDEX = Object.entries(map).map(([name, screens]) => ({
-        name, screens,
-        image_count: screens.reduce((s, x) => s + x.images.length, 0),
-    })).sort((a, b) => b.image_count - a.image_count);
+    GAME_INDEX = Object.entries(map).map(([name, byCat]) => {
+        const screens = Object.entries(byCat).map(([cat, images]) => ({ cat, images }));
+        return { name, screens, image_count: screens.reduce((s, x) => s + x.images.length, 0) };
+    }).sort((a, b) => b.image_count - a.image_count);
 }
 
 function initViewToggle() {
