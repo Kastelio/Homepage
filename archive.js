@@ -88,7 +88,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         const res = await fetch('./data/archive.json');
         ARCHIVE = await res.json();
         // 표시 제외 카테고리
-        const HIDE = new Set(['level_art']);
+        const HIDE = new Set(['level_art', 'meme']);
         ARCHIVE.categories = ARCHIVE.categories.filter(c => !HIDE.has(c.name));
     } catch (e) {
         console.error(e);
