@@ -48,6 +48,32 @@ const CAT_KO = {
     level_art: '레벨 아트', meme: '밈', monster: '몬스터',
 };
 
+// 분류 체계(22개) — system_classification.md 기준. 각 그룹에 UI 화면 유형을 배속.
+const GROUP_DEF = [
+    ['Core', '코어', ['Inventory','ItemDetail','ItemEquip','Storage','Loot','Reward','Mail','Shortcut','Matchmaking','EffectInfo','BuffInfo','InteractionBuff','item','Stats','Status','Currency','Notification','Search','Database','Protocol','Log','Note']],
+    ['Input', '입력', ['KeyBinding']],
+    ['Launching', '실행', ['Title','Launcher','PatchProcess','Benchmark','Loading','Steam','Settings','Account','Lobby','EventLobby','Queue','Channel','Home','MainScreen','MainMenu','Menu','Navigation','HamburgerMenu','ContentMenu','SystemMenu','Play','_PCCafe','HUD']],
+    ['Character', '캐릭터', ['CharacterCreate','CharacterSelect','Customizing','CharacterInfo','CharacterSkill','Class','ClassChange','ClassTree','Appearance','Death','Hero','HeroRating','Guardian','Pet','Mount','NPC','monster','MonsterSummon','Skill']],
+    ['World', '월드', ['Field','FieldEvent','Map']],
+    ['Growth', '성장', ['Enhancement','Refine','Synthesis','Decompose','Rune','Artifact','Constellation','Astrology','Alchemy','Cooking','WeaponMastery','QualityUpgrade','Training','DailyTraining','GrowthEvent','CharacterLevel','CharacterAscension','HeroLevel','GuardianPromotion','PerkPoint','Trait','TraitPoint','TravelLevel','SoulCore','Cyberware','Card','Heritage','Lifestyle','equipment','Altar']],
+    ['Trade', '교환', ['Crafting','Construction']],
+    ['Accomplishment', '달성', ['Achievement','Mission','Journal','Ranking','Quest','Challenge','Statistics','Attendance']],
+    ['Collect', '수집', ['Collection','Encyclopedia','Gallery','Profile','Title_Badge','Emote','Gift','Cinematic','Dialogue','Story','Lore','Media','Memoir','Timeline','HeroLibrary','AdventureBook','book']],
+    ['Dungeon', '전투/던전', ['Battle','Boss','FieldBoss','Arena','PvP','BattleGround','SiegeBattle','Raid','Dungeon','BaseDefense','Rally','Field_Battle','Exploration','Simulation','MatchResult','Multiplayer','BattleContentMenu','TeamFormation','Stage','WarArchive']],
+    ['Social', '소셜', ['Chat','Friend','Party','Guild','GuildAuction','Community','Affinity','Reputation']],
+    ['Economy', '경제', ['Exchange','TradingPort']],
+    ['Management', '경영', ['Housing','Camp','Council','Courtiers','RoyalCourt','Feudal','Family','Culture','Faction','Military','Decision','Scheme','StrategicMeeting','Faith','Farm']],
+    ['Idle', '방치', ['Production','OfflinePlay','ResourceCollection','StaminaCharge','Dispatch']],
+    ['UX', 'UX', ['PowerSaving','Scan','NumericInput','AIAssistant']],
+    ['Guide', '가이드', ['Tutorial','Guide','GameTips','GrowthGuide','DropInfo']],
+    ['BM', 'BM', ['Shop','CashShop','SpecialOffer','StepUpOffer','ConditionalOffer','MilestoneOffer','FirstPurchase','StarterPack','Subscription','SeasonPass','Gacha','GachaProbability','GuardianSummon','Purchase','VIP']],
+    ['Event', '이벤트', ['Event','InGameEvent','PreRegistration','Minigame']],
+    ['Service', '운영/서비스', ['Account_Login','WebView','Push','Notice']],
+    ['Misc', '기타', ['PhotoMode','Replay','Tarot','InGameComputer','_Modding','level_art','meme']],
+];
+const GROUP_OF = {};
+GROUP_DEF.forEach(([key, , members]) => members.forEach(m => { GROUP_OF[m] = key; }));
+
 function catKo(name) { return CAT_KO[name] || name; }
 function catLabel(name) {
     const ko = CAT_KO[name];
@@ -104,21 +130,46 @@ function renderConstruction(info) {
 
 function renderSidebar() {
     const list = document.getElementById('archive-cat-list');
-    list.innerHTML = ARCHIVE.categories.map(c => `
+    const byName = Object.fromEntries(ARCHIVE.categories.map(c => [c.name, c]));
+
+    // 분류 그룹별로 카테고리 배속 (정의 순서 유지). 미배속은 기타로.
+    const buckets = {};
+    GROUP_DEF.forEach(([key]) => { buckets[key] = []; });
+    ARCHIVE.categories.forEach(c => {
+        const g = GROUP_OF[c.name] || 'Misc';
+        (buckets[g] || buckets['Misc']).push(c);
+    });
+
+    const liOf = (c) => `
         <li>
             <a class="archive-cat-link" href="#${encodeURIComponent(c.name)}"
                data-cat="${c.name}" data-search="${(catKo(c.name) + ' ' + c.name).toLowerCase()}">
                 <span class="cat-link-label">${catLabel(c.name)}</span>
                 <span class="cat-link-count">${c.image_count}</span>
             </a>
-        </li>`).join('');
+        </li>`;
+
+    list.innerHTML = GROUP_DEF.map(([key, label]) => {
+        const items = buckets[key];
+        if (!items.length) return '';
+        return `<li class="archive-group" data-group="${key}">
+            <div class="archive-group-header">${label}</div>
+            <ul class="archive-group-items">${items.map(liOf).join('')}</ul>
+        </li>`;
+    }).join('');
 
     const search = document.getElementById('archive-search');
     if (search) {
         search.addEventListener('input', () => {
             const q = search.value.trim().toLowerCase();
-            list.querySelectorAll('.archive-cat-link').forEach(el => {
-                el.parentElement.style.display = el.dataset.search.includes(q) ? '' : 'none';
+            list.querySelectorAll('.archive-group').forEach(group => {
+                let any = false;
+                group.querySelectorAll('.archive-cat-link').forEach(el => {
+                    const show = el.dataset.search.includes(q);
+                    el.parentElement.style.display = show ? '' : 'none';
+                    if (show) any = true;
+                });
+                group.style.display = any ? '' : 'none';
             });
         });
     }
