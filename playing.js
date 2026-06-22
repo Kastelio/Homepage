@@ -128,9 +128,13 @@ function renderGames() {
             ? `<div class="game-stat game-stat-payment"><span class="stat-label">과금</span><span class="stat-value">${Number(g.payment).toLocaleString()}원</span></div>`
             : '';
 
+        const endingEl = g.ending
+            ? `<span class="ending-medal" title="엔딩 클리어">🏅 엔딩</span>`
+            : '';
+
         return `
             <div class="game-card${firstRender ? ' page-card-enter' : ''}">
-                <div class="game-thumb-wrapper">${thumb}</div>
+                <div class="game-thumb-wrapper">${thumb}${endingEl}</div>
                 <div class="game-info">
                     <div class="game-name">${g.name}</div>
                     ${g.developer ? `<div class="game-developer">${g.developer}</div>` : ''}

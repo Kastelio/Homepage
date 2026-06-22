@@ -1,3 +1,4 @@
 name: Red Dead Redemption 2
 package: Yes
 playtime: 44.4
+ending: yes

@@ -214,6 +214,7 @@ def build_playing():
             "current_order": int(info.get("current_order", info.get("order", 99))) if info.get("current", "").lower() == "yes" else 99,
             "tasting": info.get("tasting", "").lower() == "yes",
             "childhood": info.get("childhood", "").lower() == "yes",
+            "ending": info.get("ending", "").lower() == "yes",
         })
     return games
 

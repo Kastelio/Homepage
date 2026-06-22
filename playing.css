@@ -413,3 +413,23 @@ body:has(.playing-main) {
         flex-wrap: wrap;
     }
 }
+
+/* 엔딩 클리어 금메달 배지 */
+.ending-medal {
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.2rem;
+    padding: 0.22rem 0.55rem;
+    font-size: 0.72rem;
+    font-weight: 700;
+    color: #5a4500;
+    background: linear-gradient(135deg, #ffe9a3 0%, #f5c542 45%, #c8920a 100%);
+    border: 1px solid #ffe9a3;
+    border-radius: 20px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.45), inset 0 1px 1px rgba(255, 255, 255, 0.6);
+    letter-spacing: 0.3px;
+    pointer-events: none;
+}
