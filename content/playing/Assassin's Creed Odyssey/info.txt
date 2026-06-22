@@ -1,0 +1,6 @@
+name: Assassin's Creed Odyssey
+developer: Ubisoft
+platform: PC
+package: Yes
+appid: 812140
+playtime: 74.9

@@ -1,0 +1,7 @@
+name: Portal 2
+developer: Valve
+platform: PC
+package: Yes
+appid: 620
+playtime: 6.5
+ending: yes

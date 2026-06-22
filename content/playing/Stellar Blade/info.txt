@@ -1,0 +1,6 @@
+name: Stellar Blade
+developer: SHIFT UP
+platform: PC
+package: Yes
+appid: 3489700
+playtime: 8.3

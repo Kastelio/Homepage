@@ -1,0 +1,6 @@
+name: Prison Architect
+developer: Introversion Software
+platform: PC
+package: Yes
+appid: 233450
+playtime: 9.2

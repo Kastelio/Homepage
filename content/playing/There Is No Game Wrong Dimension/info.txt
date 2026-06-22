@@ -1,0 +1,7 @@
+name: There Is No Game: Wrong Dimension
+developer: Draw Me A Pixel
+platform: PC
+package: Yes
+appid: 1240210
+playtime: 8.5
+ending: yes

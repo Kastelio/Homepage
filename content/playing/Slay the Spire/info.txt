@@ -1,0 +1,6 @@
+name: Slay the Spire
+developer: Mega Crit Games
+platform: PC
+package: Yes
+appid: 646570
+playtime: 26.7
