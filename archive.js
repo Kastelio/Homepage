@@ -81,17 +81,13 @@ const TAB_INFO = {
 
 function initTabs() {
     const tabs = document.querySelectorAll('.archive-tab');
-    const catList = document.getElementById('archive-cat-list');
-    const docsList = document.getElementById('archive-docs-list');
-    const search = document.getElementById('archive-search');
+    const sidebar = document.getElementById('archive-sidebar');
     tabs.forEach(tab => {
         tab.addEventListener('click', () => {
             tabs.forEach(t => t.classList.remove('active'));
             tab.classList.add('active');
             const isUI = tab.dataset.tab === 'ui';
-            catList.style.display = isUI ? '' : 'none';
-            docsList.style.display = isUI ? 'none' : 'block';
-            search.style.display = isUI ? '' : 'none';
+            sidebar.style.display = isUI ? '' : 'none';
             if (isUI) { route(); }
             else { renderConstruction(TAB_INFO[tab.dataset.tab]); }
         });
@@ -146,7 +142,6 @@ function renderOverview() {
     const el = document.getElementById('archive-content');
     el.innerHTML = `
         <div class="archive-header">
-            <h1 class="archive-title">Archive</h1>
             <p class="archive-subtitle">화면 유형별로 분류한 게임 UI 레퍼런스</p>
             <div class="archive-stats">
                 <span class="archive-stat"><b>${ARCHIVE.total_categories}</b>화면 유형</span>
