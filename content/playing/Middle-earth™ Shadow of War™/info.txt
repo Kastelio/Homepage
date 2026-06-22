@@ -1,3 +1,4 @@
 name: Middle-earth™: Shadow of War™
 package: Yes
 playtime: 55.9
+ending: yes

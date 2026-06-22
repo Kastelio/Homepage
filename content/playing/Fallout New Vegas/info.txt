@@ -1,3 +1,4 @@
 name: Fallout: New Vegas
 package: Yes
 playtime: 45.2
+ending: yes

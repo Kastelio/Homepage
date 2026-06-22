@@ -1,3 +1,4 @@
 name: XCOM 2
 package: Yes
 playtime: 56.4
+ending: yes

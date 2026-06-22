@@ -1,3 +1,4 @@
 name: BioShock Infinite
 package: Yes
 playtime: 15.0
+ending: yes

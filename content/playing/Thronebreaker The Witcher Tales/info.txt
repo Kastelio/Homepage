@@ -1,3 +1,4 @@
 name: Thronebreaker: The Witcher Tales
 package: Yes
 playtime: 30.9
+ending: yes

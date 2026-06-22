@@ -1,3 +1,4 @@
 name: Middle-earth™: Shadow of Mordor™
 package: Yes
 playtime: 24.4
+ending: yes

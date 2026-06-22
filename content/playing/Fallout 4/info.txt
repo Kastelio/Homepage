@@ -1,3 +1,4 @@
 name: Fallout 4
 package: Yes
 playtime: 285.9
+ending: yes

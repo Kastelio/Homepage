@@ -1,3 +1,4 @@
 name: Borderlands 2
 package: Yes
 playtime: 29.8
+ending: yes

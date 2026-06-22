@@ -35,7 +35,7 @@
     "current_order": 99,
     "tasting": false,
     "childhood": false,
-    "ending": false
+    "ending": true
   },
   {
     "id": "Baldur's Gate 3",
@@ -92,7 +92,7 @@
     "current_order": 99,
     "tasting": false,
     "childhood": false,
-    "ending": false
+    "ending": true
   },
   {
     "id": "Borderlands 2",
@@ -111,7 +111,7 @@
     "current_order": 99,
     "tasting": false,
     "childhood": false,
-    "ending": false
+    "ending": true
   },
   {
     "id": "Brawl Stars",
@@ -187,7 +187,7 @@
     "current_order": 99,
     "tasting": false,
     "childhood": false,
-    "ending": false
+    "ending": true
   },
   {
     "id": "Cyberpunk 2077",
@@ -197,8 +197,8 @@
     "platform": "PlayStation, Steam Deck, Windows, Xbox, macOS",
     "package": "Yes",
     "comment": "",
-    "playtime": "204.9",
-    "playtime_num": 204.9,
+    "playtime": "205.1",
+    "playtime_num": 205.1,
     "payment": "34900",
     "payment_num": 34900.0,
     "thumbnail": "content/playing/Cyberpunk 2077/thumbnail.png",
@@ -282,7 +282,7 @@
     "current_order": 99,
     "tasting": false,
     "childhood": false,
-    "ending": false
+    "ending": true
   },
   {
     "id": "Eternal Return",
@@ -320,7 +320,7 @@
     "current_order": 99,
     "tasting": false,
     "childhood": false,
-    "ending": false
+    "ending": true
   },
   {
     "id": "Fallout New Vegas",
@@ -339,7 +339,7 @@
     "current_order": 99,
     "tasting": false,
     "childhood": false,
-    "ending": false
+    "ending": true
   },
   {
     "id": "Far Cry 4",
@@ -605,7 +605,7 @@
     "current_order": 99,
     "tasting": false,
     "childhood": false,
-    "ending": false
+    "ending": true
   },
   {
     "id": "Middle-earth™ Shadow of War™",
@@ -624,7 +624,7 @@
     "current_order": 99,
     "tasting": false,
     "childhood": false,
-    "ending": false
+    "ending": true
   },
   {
     "id": "Mount & Blade II Bannerlord",
@@ -776,7 +776,7 @@
     "current_order": 99,
     "tasting": false,
     "childhood": false,
-    "ending": true
+    "ending": false
   },
   {
     "id": "RimWorld",
@@ -909,7 +909,7 @@
     "current_order": 99,
     "tasting": false,
     "childhood": false,
-    "ending": false
+    "ending": true
   },
   {
     "id": "THRONE AND LIBERTY",
@@ -947,7 +947,7 @@
     "current_order": 99,
     "tasting": false,
     "childhood": false,
-    "ending": false
+    "ending": true
   },
   {
     "id": "This War of Mine",
@@ -985,7 +985,7 @@
     "current_order": 99,
     "tasting": false,
     "childhood": false,
-    "ending": false
+    "ending": true
   },
   {
     "id": "Total War ATTILA",
@@ -1004,7 +1004,7 @@
     "current_order": 99,
     "tasting": false,
     "childhood": false,
-    "ending": false
+    "ending": true
   },
   {
     "id": "Total War ROME II - Emperor Edition",
@@ -1023,7 +1023,7 @@
     "current_order": 99,
     "tasting": false,
     "childhood": false,
-    "ending": false
+    "ending": true
   },
   {
     "id": "Total War THREE KINGDOMS",
@@ -1042,7 +1042,7 @@
     "current_order": 99,
     "tasting": false,
     "childhood": false,
-    "ending": false
+    "ending": true
   },
   {
     "id": "Total War WARHAMMER",
@@ -1061,7 +1061,7 @@
     "current_order": 99,
     "tasting": false,
     "childhood": false,
-    "ending": false
+    "ending": true
   },
   {
     "id": "Total War WARHAMMER II",
@@ -1080,7 +1080,7 @@
     "current_order": 99,
     "tasting": false,
     "childhood": false,
-    "ending": false
+    "ending": true
   },
   {
     "id": "Total War WARHAMMER III",
@@ -1099,7 +1099,7 @@
     "current_order": 99,
     "tasting": false,
     "childhood": false,
-    "ending": false
+    "ending": true
   },
   {
     "id": "Tropico 5",
@@ -1156,7 +1156,7 @@
     "current_order": 99,
     "tasting": false,
     "childhood": false,
-    "ending": false
+    "ending": true
   },
   {
     "id": "XCOM Enemy Unknown",
@@ -1175,7 +1175,7 @@
     "current_order": 99,
     "tasting": false,
     "childhood": false,
-    "ending": false
+    "ending": true
   },
   {
     "id": "ヘブン バーンズ レッド(헤븐 번즈 레드)",

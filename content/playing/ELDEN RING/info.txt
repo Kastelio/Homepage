@@ -5,3 +5,4 @@ platform:
 package: Yes
 comment: 
 playtime: 95.7
+ending: yes

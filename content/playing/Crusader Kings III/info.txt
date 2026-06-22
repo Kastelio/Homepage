@@ -1,3 +1,4 @@
 name: Crusader Kings III
 package: Yes
 playtime: 565.2
+ending: yes

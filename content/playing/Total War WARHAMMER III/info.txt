@@ -1,3 +1,4 @@
 name: Total War: WARHAMMER III
 package: Yes
 playtime: 105.7
+ending: yes

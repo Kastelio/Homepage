@@ -1,3 +1,4 @@
 name: XCOM: Enemy Unknown
 package: Yes
 playtime: 13.2
+ending: yes

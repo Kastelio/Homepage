@@ -1,3 +1,4 @@
 name: South Park™: The Stick of Truth™
 package: Yes
 playtime: 29.5
+ending: yes
