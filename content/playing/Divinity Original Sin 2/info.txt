@@ -1,3 +1,4 @@
 name: Divinity: Original Sin 2
 package: Yes
 playtime: 148.1
+ending: yes

@@ -216,8 +216,8 @@
     "platform": "PlayStation, Steam Deck, Windows, Xbox, macOS",
     "package": "Yes",
     "comment": "",
-    "playtime": "205.1",
-    "playtime_num": 205.1,
+    "playtime": "205.4",
+    "playtime_num": 205.4,
     "payment": "34900",
     "payment_num": 34900.0,
     "thumbnail": "content/playing/Cyberpunk 2077/thumbnail.png",
@@ -263,7 +263,7 @@
     "current_order": 99,
     "tasting": false,
     "childhood": false,
-    "ending": false
+    "ending": true
   },
   {
     "id": "Dota 2",
