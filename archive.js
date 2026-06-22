@@ -87,6 +87,9 @@ document.addEventListener('DOMContentLoaded', async () => {
     try {
         const res = await fetch('./data/archive.json');
         ARCHIVE = await res.json();
+        // 표시 제외 카테고리
+        const HIDE = new Set(['level_art']);
+        ARCHIVE.categories = ARCHIVE.categories.filter(c => !HIDE.has(c.name));
     } catch (e) {
         console.error(e);
         document.getElementById('archive-content').innerHTML = '<p class="archive-empty">아카이브를 불러오지 못했습니다.</p>';
