@@ -156,7 +156,7 @@ function buildGameIndex() {
     GAME_INDEX = Object.entries(map).map(([name, byCat]) => {
         const screens = Object.entries(byCat).map(([cat, images]) => ({ cat, images }));
         return { name, screens, image_count: screens.reduce((s, x) => s + x.images.length, 0) };
-    }).sort((a, b) => b.image_count - a.image_count);
+    }).sort((a, b) => a.name.localeCompare(b.name, 'ko'));
 }
 
 function initViewToggle() {
