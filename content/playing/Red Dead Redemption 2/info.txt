@@ -1,3 +1,5 @@
 name: Red Dead Redemption 2
 package: Yes
+appid: 1174180
 playtime: 44.4
+ending: yes

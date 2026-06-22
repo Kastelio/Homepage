@@ -1,3 +1,5 @@
-name: Grand Theft Auto V Legacy
+name: Grand Theft Auto V
 package: Yes
+appid: 271590
 playtime: 52.0
+ending: yes

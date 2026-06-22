@@ -1,0 +1,7 @@
+name: The Witcher 3: Wild Hunt
+developer: CD PROJEKT RED
+platform: PC
+package: Yes
+appid: 292030
+playtime: 195.5
+ending: yes

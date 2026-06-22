@@ -476,7 +476,7 @@
   },
   {
     "id": "Grand Theft Auto V Legacy",
-    "name": "Grand Theft Auto V Legacy",
+    "name": "Grand Theft Auto V",
     "release": "",
     "developer": "",
     "platform": "",
@@ -491,7 +491,7 @@
     "current_order": 99,
     "tasting": false,
     "childhood": false,
-    "ending": false
+    "ending": true
   },
   {
     "id": "HEARTHSTONE",
@@ -776,7 +776,7 @@
     "current_order": 99,
     "tasting": false,
     "childhood": false,
-    "ending": false
+    "ending": true
   },
   {
     "id": "RimWorld",
@@ -943,6 +943,25 @@
     "payment": "",
     "payment_num": 0,
     "thumbnail": "content/playing/The Elder Scrolls V Skyrim Special Edition/thumbnail.png",
+    "current": false,
+    "current_order": 99,
+    "tasting": false,
+    "childhood": false,
+    "ending": true
+  },
+  {
+    "id": "The Witcher 3 Wild Hunt",
+    "name": "The Witcher 3: Wild Hunt",
+    "release": "",
+    "developer": "CD PROJEKT RED",
+    "platform": "PC",
+    "package": "Yes",
+    "comment": "",
+    "playtime": "195.5",
+    "playtime_num": 195.5,
+    "payment": "",
+    "payment_num": 0,
+    "thumbnail": "",
     "current": false,
     "current_order": 99,
     "tasting": false,
