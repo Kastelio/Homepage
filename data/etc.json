@@ -6,19 +6,5 @@
     "image": "assets/etc/homepage.jpg",
     "start": "2026-03-31",
     "end": "2026-04-05"
-  },
-  {
-    "id": "meme",
-    "title": "밈(meme)",
-    "desc": "재밌어서 모아둔 게임 밈 모음",
-    "image": "assets/etc/meme/001.webp",
-    "images": [
-      "assets/etc/meme/001.webp",
-      "assets/etc/meme/002.webp",
-      "assets/etc/meme/003.webp",
-      "assets/etc/meme/004.webp"
-    ],
-    "dateLabel": "취향 모음",
-    "end": "2026-06-22"
   }
 ]

@@ -87,8 +87,8 @@ document.addEventListener('DOMContentLoaded', async () => {
     try {
         const res = await fetch('./data/archive.json');
         ARCHIVE = await res.json();
-        // 표시 제외 카테고리
-        const HIDE = new Set(['level_art', 'meme']);
+        // 완전 제외 카테고리
+        const HIDE = new Set(['level_art']);
         ARCHIVE.categories = ARCHIVE.categories.filter(c => !HIDE.has(c.name));
     } catch (e) {
         console.error(e);
@@ -107,6 +107,9 @@ const TAB_INFO = {
     system: { ko: '시스템 레퍼런스', en: 'System Reference' },
 };
 
+// Etc 탭에 둘 카테고리 (레퍼런스 아님 — 취향/재미)
+const ETC_CATS = new Set(['meme']);
+
 function initTabs() {
     const tabs = document.querySelectorAll('.archive-tab');
     const sidebar = document.getElementById('archive-sidebar');
@@ -117,9 +120,30 @@ function initTabs() {
             const isUI = tab.dataset.tab === 'ui';
             sidebar.style.display = isUI ? '' : 'none';
             if (isUI) { route(); }
+            else if (tab.dataset.tab === 'etc') { renderEtc(); }
             else { renderConstruction(TAB_INFO[tab.dataset.tab]); }
         });
     });
+}
+
+function renderEtc() {
+    const el = document.getElementById('archive-content');
+    const cats = ARCHIVE.categories.filter(c => ETC_CATS.has(c.name));
+    el.innerHTML = `
+        <div class="archive-header" style="text-align:left;">
+            <h1 class="archive-title">Etc</h1>
+            <p class="archive-subtitle">레퍼런스 외 — 취향/재미 모음</p>
+        </div>
+        ${cats.map(c => `
+            <div class="archive-game-group">
+                <span class="archive-game-label">${catKo(c.name)} <span class="cat-en">(${c.name})</span><span class="archive-game-count">${c.image_count}</span></span>
+                <div class="archive-img-grid">
+                    ${c.games.flatMap(g => g.images).map(src => `
+                        <div class="archive-img-item" data-full="${encPath(src)}">
+                            <img src="${encPath(src)}" alt="${c.name}" loading="lazy">
+                        </div>`).join('')}
+                </div>
+            </div>`).join('')}`;
 }
 
 function renderConstruction(info) {
@@ -138,6 +162,7 @@ function renderSidebar() {
     const buckets = {};
     GROUP_DEF.forEach(([key]) => { buckets[key] = []; });
     ARCHIVE.categories.forEach(c => {
+        if (ETC_CATS.has(c.name)) return;
         const g = GROUP_OF[c.name] || 'Misc';
         (buckets[g] || buckets['Misc']).push(c);
     });
@@ -203,7 +228,7 @@ function renderOverview() {
             </div>
         </div>
         <div class="archive-cat-grid">
-            ${ARCHIVE.categories.map(c => {
+            ${ARCHIVE.categories.filter(c => !ETC_CATS.has(c.name)).map(c => {
                 const cover = c.games[0]?.images[0] || '';
                 return `
                 <a class="archive-cat-card" href="#${encodeURIComponent(c.name)}">
