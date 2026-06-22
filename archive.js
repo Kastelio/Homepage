@@ -104,8 +104,7 @@ document.addEventListener('DOMContentLoaded', async () => {
 });
 
 const TAB_INFO = {
-    review: { ko: '게임 리뷰', en: 'Game Reviews' },
-    docs: { ko: '기획서', en: 'Design Docs' },
+    system: { ko: '시스템 레퍼런스', en: 'System Reference' },
 };
 
 function initTabs() {
