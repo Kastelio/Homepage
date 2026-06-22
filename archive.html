@@ -52,7 +52,11 @@
 
             <div class="archive-layout">
                 <aside class="archive-sidebar" id="archive-sidebar">
-                    <input type="text" id="archive-search" class="archive-search" placeholder="화면 유형 검색...">
+                    <div class="archive-viewtoggle">
+                        <button class="archive-vt active" data-view="screen">화면별</button>
+                        <button class="archive-vt" data-view="game">게임별</button>
+                    </div>
+                    <input type="text" id="archive-search" class="archive-search" placeholder="검색...">
                     <ul class="archive-cat-list" id="archive-cat-list"></ul>
                 </aside>
 

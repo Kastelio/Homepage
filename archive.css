@@ -51,6 +51,33 @@
     flex-direction: column;
 }
 
+.archive-viewtoggle {
+    display: flex;
+    gap: 0.3rem;
+    margin-bottom: 0.6rem;
+    background-color: #1a1a1a;
+    border: 1px solid #383838;
+    border-radius: 8px;
+    padding: 0.2rem;
+}
+.archive-vt {
+    flex: 1;
+    padding: 0.4rem;
+    background: none;
+    border: none;
+    border-radius: 6px;
+    color: var(--text-muted);
+    font-size: 0.82rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.15s;
+}
+.archive-vt:hover { color: var(--text-light); }
+.archive-vt.active {
+    background-color: var(--accent-yellow);
+    color: #111;
+}
+
 .archive-search {
     width: 100%;
     padding: 0.55rem 0.85rem;

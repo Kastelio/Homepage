@@ -82,6 +82,8 @@ function catLabel(name) {
 function encPath(p) { return p.split('/').map(encodeURIComponent).join('/'); }
 
 let ARCHIVE = null;
+let VIEW = 'screen';      // 'screen' | 'game'
+let GAME_INDEX = [];      // [{name, screens:[{cat, images}], image_count}]
 
 document.addEventListener('DOMContentLoaded', async () => {
     try {
@@ -90,18 +92,45 @@ document.addEventListener('DOMContentLoaded', async () => {
         // 완전 제외 카테고리
         const HIDE = new Set(['level_art']);
         ARCHIVE.categories = ARCHIVE.categories.filter(c => !HIDE.has(c.name));
+        buildGameIndex();
     } catch (e) {
         console.error(e);
         document.getElementById('archive-content').innerHTML = '<p class="archive-empty">아카이브를 불러오지 못했습니다.</p>';
         return;
     }
-    renderSidebar();
     initTabs();
+    initViewToggle();
+    initSearch();
     route();
     window.addEventListener('hashchange', route);
     initLightbox();
     initScrollButtons();
 });
+
+// 게임 → 화면 인덱스 구성 (Etc 카테고리 제외)
+function buildGameIndex() {
+    const map = {};
+    ARCHIVE.categories.forEach(c => {
+        if (ETC_CATS.has(c.name)) return;
+        c.games.forEach(g => {
+            (map[g.name] = map[g.name] || []).push({ cat: c.name, images: g.images });
+        });
+    });
+    GAME_INDEX = Object.entries(map).map(([name, screens]) => ({
+        name, screens,
+        image_count: screens.reduce((s, x) => s + x.images.length, 0),
+    })).sort((a, b) => b.image_count - a.image_count);
+}
+
+function initViewToggle() {
+    document.querySelectorAll('.archive-vt').forEach(btn => {
+        btn.addEventListener('click', () => {
+            const v = btn.dataset.view;
+            if (v === VIEW) return;
+            location.hash = (v === 'game') ? '#@' : '';
+        });
+    });
+}
 
 const TAB_INFO = {
     system: { ko: '시스템 레퍼런스', en: 'System Reference' },
@@ -155,8 +184,28 @@ function renderConstruction(info) {
 }
 
 function renderSidebar() {
+    // 뷰 토글 활성화 동기화
+    document.querySelectorAll('.archive-vt').forEach(b => b.classList.toggle('active', b.dataset.view === VIEW));
+    const search = document.getElementById('archive-search');
+    if (search) search.placeholder = VIEW === 'game' ? '게임 검색...' : '화면 유형 검색...';
+    if (VIEW === 'game') return renderGameSidebar();
+    renderScreenSidebar();
+}
+
+function renderGameSidebar() {
     const list = document.getElementById('archive-cat-list');
-    const byName = Object.fromEntries(ARCHIVE.categories.map(c => [c.name, c]));
+    list.innerHTML = GAME_INDEX.map(g => `
+        <li>
+            <a class="archive-cat-link" href="#@${encodeURIComponent(g.name)}"
+               data-cat="@${g.name}" data-search="${g.name.toLowerCase()}">
+                <span class="cat-link-label">${g.name}</span>
+                <span class="cat-link-count">${g.image_count}</span>
+            </a>
+        </li>`).join('');
+}
+
+function renderScreenSidebar() {
+    const list = document.getElementById('archive-cat-list');
 
     // 분류 그룹별로 카테고리 배속 (정의 순서 유지). 미배속은 기타로.
     const buckets = {};
@@ -184,36 +233,92 @@ function renderSidebar() {
             <ul class="archive-group-items">${items.map(liOf).join('')}</ul>
         </li>`;
     }).join('');
+}
 
+// 검색: 한 번만 바인딩, 현재 사이드바(그룹/플랫 모두) 대상으로 필터
+function initSearch() {
     const search = document.getElementById('archive-search');
-    if (search) {
-        search.addEventListener('input', () => {
-            const q = search.value.trim().toLowerCase();
-            list.querySelectorAll('.archive-group').forEach(group => {
-                let any = false;
-                group.querySelectorAll('.archive-cat-link').forEach(el => {
-                    const show = el.dataset.search.includes(q);
-                    el.parentElement.style.display = show ? '' : 'none';
-                    if (show) any = true;
-                });
-                group.style.display = any ? '' : 'none';
-            });
+    const list = document.getElementById('archive-cat-list');
+    if (!search) return;
+    search.addEventListener('input', () => {
+        const q = search.value.trim().toLowerCase();
+        list.querySelectorAll('.archive-cat-link').forEach(el => {
+            el.parentElement.style.display = el.dataset.search.includes(q) ? '' : 'none';
         });
-    }
+        list.querySelectorAll('.archive-group').forEach(group => {
+            const any = [...group.querySelectorAll('.archive-cat-link')]
+                .some(el => el.parentElement.style.display !== 'none');
+            group.style.display = any ? '' : 'none';
+        });
+    });
 }
 
 function route() {
     const raw = location.hash.replace(/^#/, '');
-    const name = raw ? decodeURIComponent(raw) : '';
-    // 사이드바 활성화
+    const isGame = raw.startsWith('@');
+    VIEW = isGame ? 'game' : 'screen';
+    renderSidebar();
+
+    const sel = isGame ? '@' + decodeURIComponent(raw.slice(1)) : decodeURIComponent(raw);
     document.querySelectorAll('.archive-cat-link').forEach(el => {
-        el.classList.toggle('active', el.dataset.cat === name);
+        el.classList.toggle('active', el.dataset.cat === sel);
     });
-    if (!name) { renderOverview(); return; }
-    const cat = ARCHIVE.categories.find(c => c.name === name);
-    if (!cat) { renderOverview(); return; }
-    renderCategory(cat);
+
+    if (isGame) {
+        const gname = decodeURIComponent(raw.slice(1));
+        if (!gname) { renderGameOverview(); return; }
+        const g = GAME_INDEX.find(x => x.name === gname);
+        g ? renderGame(g) : renderGameOverview();
+    } else {
+        const name = decodeURIComponent(raw);
+        if (!name) { renderOverview(); return; }
+        const cat = ARCHIVE.categories.find(c => c.name === name);
+        cat ? renderCategory(cat) : renderOverview();
+    }
     window.scrollTo({ top: 0 });
+}
+
+function renderGameOverview() {
+    const el = document.getElementById('archive-content');
+    el.innerHTML = `
+        <div class="archive-header">
+            <p class="archive-subtitle">게임별로 보는 UI 레퍼런스</p>
+            <div class="archive-stats">
+                <span class="archive-stat"><b>${GAME_INDEX.length}</b>게임</span>
+            </div>
+        </div>
+        <div class="archive-cat-grid">
+            ${GAME_INDEX.map(g => {
+                const cover = g.screens[0]?.images[0] || '';
+                return `
+                <a class="archive-cat-card" href="#@${encodeURIComponent(g.name)}">
+                    ${cover ? `<img class="archive-cat-thumb" src="${encPath(cover)}" alt="${g.name}" loading="lazy">` : '<div class="archive-cat-thumb"></div>'}
+                    <div class="archive-cat-info">
+                        <div class="archive-cat-name">${g.name}</div>
+                        <div class="archive-cat-meta">${g.screens.length} screens · ${g.image_count} shots</div>
+                    </div>
+                </a>`;
+            }).join('')}
+        </div>`;
+}
+
+function renderGame(g) {
+    const el = document.getElementById('archive-content');
+    el.innerHTML = `
+        <div class="archive-header" style="text-align:left;">
+            <h1 class="archive-title">${g.name}</h1>
+            <p class="archive-subtitle">${g.screens.length} screens · ${g.image_count} shots</p>
+        </div>
+        ${g.screens.map(s => `
+            <div class="archive-game-group">
+                <span class="archive-game-label">${catLabel(s.cat)}<span class="archive-game-count">${s.images.length}</span></span>
+                <div class="archive-img-grid">
+                    ${s.images.map(src => `
+                        <div class="archive-img-item" data-full="${encPath(src)}">
+                            <img src="${encPath(src)}" alt="${s.cat}" loading="lazy">
+                        </div>`).join('')}
+                </div>
+            </div>`).join('')}`;
 }
 
 function renderOverview() {
