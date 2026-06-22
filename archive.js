@@ -175,38 +175,82 @@ const TAB_INFO = {
 
 // Etc 탭에 둘 카테고리 (레퍼런스 아님 — 취향/재미)
 const ETC_CATS = new Set(['meme']);
+let etcSel = '';   // 선택된 하위분류 ('' = 전체)
+
+// Etc 하위분류 목록 (카테고리의 games = 하위분류)
+function etcSubs() {
+    const subs = [];
+    ARCHIVE.categories.filter(c => ETC_CATS.has(c.name)).forEach(c => {
+        c.games.forEach(g => subs.push({ name: g.name, images: g.images }));
+    });
+    return subs;
+}
 
 function initTabs() {
     const tabs = document.querySelectorAll('.archive-tab');
     const sidebar = document.getElementById('archive-sidebar');
+    const vt = document.querySelector('.archive-viewtoggle');
+    const search = document.getElementById('archive-search');
     tabs.forEach(tab => {
         tab.addEventListener('click', () => {
             tabs.forEach(t => t.classList.remove('active'));
             tab.classList.add('active');
-            const isUI = tab.dataset.tab === 'ui';
-            sidebar.style.display = isUI ? '' : 'none';
-            if (isUI) { route(); }
-            else if (tab.dataset.tab === 'etc') { renderEtc(); }
-            else { renderConstruction(TAB_INFO[tab.dataset.tab]); }
+            const t = tab.dataset.tab;
+            if (t === 'ui') {
+                sidebar.style.display = '';
+                if (vt) vt.style.display = '';
+                if (search) search.style.display = '';
+                route();
+            } else if (t === 'etc') {
+                sidebar.style.display = '';
+                if (vt) vt.style.display = 'none';
+                if (search) search.style.display = 'none';
+                etcSel = '';
+                renderEtcSidebar();
+                renderEtc();
+            } else {
+                sidebar.style.display = 'none';
+                renderConstruction(TAB_INFO[t]);
+            }
+        });
+    });
+}
+
+function renderEtcSidebar() {
+    const list = document.getElementById('archive-cat-list');
+    list.innerHTML = etcSubs().map(s => `
+        <li>
+            <a class="archive-cat-link${s.name === etcSel ? ' active' : ''}" data-etc="${s.name}" href="javascript:void 0">
+                <span class="cat-link-label">${s.name}</span>
+                <span class="cat-link-count">${s.images.length}</span>
+            </a>
+        </li>`).join('');
+    list.querySelectorAll('[data-etc]').forEach(el => {
+        el.addEventListener('click', (e) => {
+            e.preventDefault();
+            etcSel = (etcSel === el.dataset.etc) ? '' : el.dataset.etc; // 재클릭 시 전체
+            renderEtcSidebar();
+            renderEtc();
         });
     });
 }
 
 function renderEtc() {
     const el = document.getElementById('archive-content');
-    const cats = ARCHIVE.categories.filter(c => ETC_CATS.has(c.name));
+    let subs = etcSubs();
+    if (etcSel) subs = subs.filter(s => s.name === etcSel);
     el.innerHTML = `
         <div class="archive-header" style="text-align:left;">
             <h1 class="archive-title">Etc</h1>
             <p class="archive-subtitle">레퍼런스 외 — 취향/재미 모음</p>
         </div>
-        ${cats.map(c => `
+        ${subs.map(s => `
             <div class="archive-game-group">
-                <span class="archive-game-label">${catKo(c.name)} <span class="cat-en">(${c.name})</span><span class="archive-game-count">${c.image_count}</span></span>
+                <span class="archive-game-label">${s.name}<span class="archive-game-count">${s.images.length}</span></span>
                 <div class="archive-img-grid">
-                    ${c.games.flatMap(g => g.images).map(src => `
+                    ${s.images.map(src => `
                         <div class="archive-img-item" data-full="${encPath(src)}">
-                            <img src="${encPath(src)}" alt="${c.name}" loading="lazy">
+                            <img src="${encPath(src)}" alt="${s.name}" loading="lazy">
                         </div>`).join('')}
                 </div>
             </div>`).join('')}`;
