@@ -241,8 +241,8 @@ function renderEtc() {
     if (etcSel) subs = subs.filter(s => s.name === etcSel);
     el.innerHTML = `
         <div class="archive-header" style="text-align:left;">
-            <h1 class="archive-title">Etc</h1>
-            <p class="archive-subtitle">레퍼런스 외 — 취향/재미 모음</p>
+            <h1 class="archive-title">밈 레퍼런스 <span class="cat-en-big">(Meme)</span></h1>
+            <p class="archive-subtitle">재미있게 본 게임 밈 모음</p>
         </div>
         ${subs.map(s => `
             <div class="archive-game-group">
