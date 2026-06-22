@@ -74,6 +74,11 @@ document.addEventListener('DOMContentLoaded', async () => {
     initScrollButtons();
 });
 
+const TAB_INFO = {
+    review: { ko: '게임 리뷰', en: 'Game Reviews' },
+    docs: { ko: '기획서', en: 'Design Docs' },
+};
+
 function initTabs() {
     const tabs = document.querySelectorAll('.archive-tab');
     const catList = document.getElementById('archive-cat-list');
@@ -88,18 +93,17 @@ function initTabs() {
             docsList.style.display = isUI ? 'none' : 'block';
             search.style.display = isUI ? '' : 'none';
             if (isUI) { route(); }
-            else { renderDocsPlaceholder(); }
+            else { renderConstruction(TAB_INFO[tab.dataset.tab]); }
         });
     });
 }
 
-function renderDocsPlaceholder() {
+function renderConstruction(info) {
     document.getElementById('archive-content').innerHTML = `
         <div class="archive-header">
-            <h1 class="archive-title">기획서 <span class="cat-en-big">(Design Docs)</span></h1>
-            <p class="archive-subtitle">직접 작성한 시스템 기획서 — 준비 중입니다</p>
+            <h1 class="archive-title">${info.ko} <span class="cat-en-big">(${info.en})</span></h1>
         </div>
-        <p class="archive-empty">곧 시스템 기획서가 이곳에 추가됩니다.</p>`;
+        <p class="archive-empty" style="font-size:1.3rem;">🚧 공사중</p>`;
 }
 
 function renderSidebar() {
