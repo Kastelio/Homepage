@@ -2,6 +2,5 @@ name: Fallout 3
 developer: Bethesda Game Studios
 platform: PC
 package: Yes
-appid: 22370
-playtime: 1.6
+playtime:
 ending: yes
