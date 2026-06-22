@@ -433,3 +433,33 @@ body:has(.playing-main) {
     letter-spacing: 0.3px;
     pointer-events: none;
 }
+
+/* 엔딩 스크린샷 있는 메달 (클릭/호버 가능) */
+.ending-medal.has-shot {
+    pointer-events: auto;
+    cursor: pointer;
+}
+.ending-medal.has-shot::after {
+    content: " 👁";
+    font-size: 0.7rem;
+}
+
+/* PC 호버 미리보기 팝업 */
+#ending-pop {
+    position: fixed;
+    z-index: 3000;
+    display: none;
+    padding: 4px;
+    background: #000;
+    border: 1px solid #f5c542;
+    border-radius: 8px;
+    box-shadow: 0 8px 28px rgba(0, 0, 0, 0.6);
+    pointer-events: none;
+}
+#ending-pop.show { display: block; }
+#ending-pop img {
+    display: block;
+    max-width: 380px;
+    max-height: 280px;
+    border-radius: 4px;
+}

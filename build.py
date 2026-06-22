@@ -162,12 +162,17 @@ def build_playing():
             continue
         info = parse_info(os.path.join(entry_path, "info.txt"))
 
-        # 썸네일
+        # 썸네일 + 엔딩 이미지 (ending.* 는 썸네일에서 제외, 엔딩샷으로 분리)
         thumbnail = ""
-        for fname in os.listdir(entry_path):
-            if os.path.splitext(fname)[1].lower() in IMAGE_EXTS:
-                thumbnail = f"content/playing/{entry}/{fname}"
-                break
+        ending_image = ""
+        for fname in sorted(os.listdir(entry_path)):
+            if os.path.splitext(fname)[1].lower() not in IMAGE_EXTS:
+                continue
+            rel = f"content/playing/{entry}/{fname}"
+            if os.path.splitext(fname)[0].lower() == "ending":
+                ending_image = rel
+            elif not thumbnail:
+                thumbnail = rel
 
         # playtime: appid 있거나 package 게임이면 Steam API 우선, 없으면 info.txt
         is_package = info.get("package", "No").lower() == "yes"
@@ -215,6 +220,7 @@ def build_playing():
             "tasting": info.get("tasting", "").lower() == "yes",
             "childhood": info.get("childhood", "").lower() == "yes",
             "ending": info.get("ending", "").lower() == "yes",
+            "ending_image": ending_image,
         })
     return games
 

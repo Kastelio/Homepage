@@ -6,7 +6,18 @@ document.addEventListener('DOMContentLoaded', async () => {
     await loadGames();
     initTabs();
     initScrollButtons();
+    initEndingLightbox();
 });
+
+// 엔딩 라이트박스 닫기 (1회 바인딩)
+function initEndingLightbox() {
+    const lb = document.getElementById('ending-lightbox');
+    if (!lb) return;
+    const close = () => lb.style.display = 'none';
+    lb.querySelector('.lightbox-close')?.addEventListener('click', close);
+    lb.addEventListener('click', (e) => { if (e.target === lb) close(); });
+    document.addEventListener('keydown', (e) => { if (e.key === 'Escape') close(); });
+}
 
 function renderNowPlaying() {
     const current = allGames.filter(g => g.current).sort((a, b) => (a.current_order || 99) - (b.current_order || 99));
@@ -129,7 +140,7 @@ function renderGames() {
             : '';
 
         const endingEl = g.ending
-            ? `<span class="ending-medal" title="엔딩 클리어">🏅 엔딩</span>`
+            ? `<span class="ending-medal${g.ending_image ? ' has-shot' : ''}" title="엔딩 클리어"${g.ending_image ? ` data-shot="${g.ending_image}"` : ''}>🏅 엔딩</span>`
             : '';
 
         return `
@@ -162,6 +173,46 @@ function renderGames() {
         card.addEventListener('click', () => {
             card.classList.toggle('show-payment');
         });
+    });
+
+    initEndingShots();
+}
+
+// 엔딩 스크린샷: PC는 호버 미리보기, 모바일은 클릭 라이트박스
+function initEndingShots() {
+    const isHover = window.matchMedia('(hover: hover)').matches;
+
+    let pop = document.getElementById('ending-pop');
+    if (!pop) {
+        pop = document.createElement('div');
+        pop.id = 'ending-pop';
+        pop.innerHTML = '<img alt="엔딩 스크린샷">';
+        document.body.appendChild(pop);
+    }
+    const popImg = pop.querySelector('img');
+    const lb = document.getElementById('ending-lightbox');
+    const lbImg = document.getElementById('ending-lightbox-img');
+
+    document.querySelectorAll('.ending-medal.has-shot').forEach(medal => {
+        const src = medal.dataset.shot;
+        if (isHover) {
+            medal.addEventListener('mouseenter', () => { popImg.src = src; pop.classList.add('show'); });
+            medal.addEventListener('mousemove', (e) => {
+                const pad = 14;
+                let x = e.clientX + pad, y = e.clientY + pad;
+                const w = pop.offsetWidth, h = pop.offsetHeight;
+                if (x + w > innerWidth) x = e.clientX - w - pad;
+                if (y + h > innerHeight) y = e.clientY - h - pad;
+                pop.style.left = x + 'px';
+                pop.style.top = y + 'px';
+            });
+            medal.addEventListener('mouseleave', () => pop.classList.remove('show'));
+        } else {
+            medal.addEventListener('click', (e) => {
+                e.stopPropagation();
+                if (lb && lbImg) { lbImg.src = src; lb.style.display = 'flex'; }
+            });
+        }
     });
 }
 

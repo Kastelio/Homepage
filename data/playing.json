@@ -16,7 +16,8 @@
     "current_order": 99,
     "tasting": true,
     "childhood": false,
-    "ending": false
+    "ending": false,
+    "ending_image": ""
   },
   {
     "id": "Assassin's Creed Odyssey",
@@ -35,7 +36,8 @@
     "current_order": 99,
     "tasting": false,
     "childhood": false,
-    "ending": false
+    "ending": false,
+    "ending_image": ""
   },
   {
     "id": "Assassin's Creed Origins",
@@ -54,7 +56,8 @@
     "current_order": 99,
     "tasting": false,
     "childhood": false,
-    "ending": true
+    "ending": true,
+    "ending_image": ""
   },
   {
     "id": "Baldur's Gate 3",
@@ -73,7 +76,8 @@
     "current_order": 99,
     "tasting": false,
     "childhood": false,
-    "ending": false
+    "ending": false,
+    "ending_image": ""
   },
   {
     "id": "Battle Brothers",
@@ -92,7 +96,8 @@
     "current_order": 99,
     "tasting": false,
     "childhood": false,
-    "ending": false
+    "ending": false,
+    "ending_image": ""
   },
   {
     "id": "BioShock Infinite",
@@ -111,7 +116,8 @@
     "current_order": 99,
     "tasting": false,
     "childhood": false,
-    "ending": true
+    "ending": true,
+    "ending_image": ""
   },
   {
     "id": "Borderlands 2",
@@ -130,7 +136,8 @@
     "current_order": 99,
     "tasting": false,
     "childhood": false,
-    "ending": true
+    "ending": true,
+    "ending_image": ""
   },
   {
     "id": "Brawl Stars",
@@ -149,7 +156,8 @@
     "current_order": 99,
     "tasting": true,
     "childhood": false,
-    "ending": false
+    "ending": false,
+    "ending_image": ""
   },
   {
     "id": "C9",
@@ -168,7 +176,8 @@
     "current_order": 99,
     "tasting": false,
     "childhood": true,
-    "ending": false
+    "ending": false,
+    "ending_image": ""
   },
   {
     "id": "Crimson Desert",
@@ -187,7 +196,8 @@
     "current_order": 99,
     "tasting": false,
     "childhood": false,
-    "ending": false
+    "ending": false,
+    "ending_image": ""
   },
   {
     "id": "Crusader Kings III",
@@ -206,7 +216,8 @@
     "current_order": 99,
     "tasting": false,
     "childhood": false,
-    "ending": true
+    "ending": true,
+    "ending_image": ""
   },
   {
     "id": "Cyberpunk 2077",
@@ -225,7 +236,8 @@
     "current_order": 2,
     "tasting": false,
     "childhood": false,
-    "ending": false
+    "ending": false,
+    "ending_image": ""
   },
   {
     "id": "Darkest Dungeon®",
@@ -244,7 +256,8 @@
     "current_order": 99,
     "tasting": false,
     "childhood": false,
-    "ending": false
+    "ending": false,
+    "ending_image": ""
   },
   {
     "id": "Divinity Original Sin 2",
@@ -263,7 +276,8 @@
     "current_order": 99,
     "tasting": false,
     "childhood": false,
-    "ending": true
+    "ending": true,
+    "ending_image": ""
   },
   {
     "id": "Dota 2",
@@ -282,7 +296,8 @@
     "current_order": 99,
     "tasting": false,
     "childhood": false,
-    "ending": false
+    "ending": false,
+    "ending_image": ""
   },
   {
     "id": "ELDEN RING",
@@ -301,7 +316,8 @@
     "current_order": 99,
     "tasting": false,
     "childhood": false,
-    "ending": true
+    "ending": true,
+    "ending_image": ""
   },
   {
     "id": "Eternal Return",
@@ -320,7 +336,8 @@
     "current_order": 99,
     "tasting": false,
     "childhood": false,
-    "ending": false
+    "ending": false,
+    "ending_image": ""
   },
   {
     "id": "Fallout 3",
@@ -339,7 +356,8 @@
     "current_order": 99,
     "tasting": false,
     "childhood": false,
-    "ending": true
+    "ending": true,
+    "ending_image": ""
   },
   {
     "id": "Fallout 4",
@@ -358,7 +376,8 @@
     "current_order": 99,
     "tasting": false,
     "childhood": false,
-    "ending": true
+    "ending": true,
+    "ending_image": ""
   },
   {
     "id": "Fallout New Vegas",
@@ -377,7 +396,8 @@
     "current_order": 99,
     "tasting": false,
     "childhood": false,
-    "ending": true
+    "ending": true,
+    "ending_image": ""
   },
   {
     "id": "Far Cry 4",
@@ -396,7 +416,8 @@
     "current_order": 99,
     "tasting": false,
     "childhood": false,
-    "ending": false
+    "ending": false,
+    "ending_image": ""
   },
   {
     "id": "Football Manager 2016",
@@ -415,7 +436,8 @@
     "current_order": 99,
     "tasting": false,
     "childhood": false,
-    "ending": false
+    "ending": false,
+    "ending_image": ""
   },
   {
     "id": "Football Manager 2017",
@@ -434,7 +456,8 @@
     "current_order": 99,
     "tasting": false,
     "childhood": false,
-    "ending": false
+    "ending": false,
+    "ending_image": ""
   },
   {
     "id": "Football Manager 2019",
@@ -453,7 +476,8 @@
     "current_order": 99,
     "tasting": false,
     "childhood": false,
-    "ending": false
+    "ending": false,
+    "ending_image": ""
   },
   {
     "id": "Frostpunk",
@@ -472,7 +496,8 @@
     "current_order": 99,
     "tasting": false,
     "childhood": false,
-    "ending": false
+    "ending": false,
+    "ending_image": ""
   },
   {
     "id": "GTA 4",
@@ -491,7 +516,8 @@
     "current_order": 99,
     "tasting": false,
     "childhood": true,
-    "ending": false
+    "ending": false,
+    "ending_image": ""
   },
   {
     "id": "GTA 바이스 시티",
@@ -510,7 +536,8 @@
     "current_order": 99,
     "tasting": false,
     "childhood": true,
-    "ending": false
+    "ending": false,
+    "ending_image": ""
   },
   {
     "id": "Grand Theft Auto V Legacy",
@@ -529,7 +556,8 @@
     "current_order": 99,
     "tasting": false,
     "childhood": false,
-    "ending": true
+    "ending": true,
+    "ending_image": ""
   },
   {
     "id": "HEARTHSTONE",
@@ -548,7 +576,8 @@
     "current_order": 99,
     "tasting": true,
     "childhood": true,
-    "ending": false
+    "ending": false,
+    "ending_image": ""
   },
   {
     "id": "Heroes Of The Storm(히어로즈 오브 더 스톰)",
@@ -567,7 +596,8 @@
     "current_order": 99,
     "tasting": false,
     "childhood": true,
-    "ending": false
+    "ending": false,
+    "ending_image": ""
   },
   {
     "id": "Kingdom Come Deliverance",
@@ -586,7 +616,8 @@
     "current_order": 99,
     "tasting": false,
     "childhood": false,
-    "ending": false
+    "ending": false,
+    "ending_image": ""
   },
   {
     "id": "League Of Legends",
@@ -605,7 +636,8 @@
     "current_order": 99,
     "tasting": false,
     "childhood": true,
-    "ending": false
+    "ending": false,
+    "ending_image": ""
   },
   {
     "id": "MISTOVER",
@@ -624,7 +656,8 @@
     "current_order": 99,
     "tasting": false,
     "childhood": false,
-    "ending": false
+    "ending": false,
+    "ending_image": ""
   },
   {
     "id": "Middle-earth™ Shadow of Mordor™",
@@ -643,7 +676,8 @@
     "current_order": 99,
     "tasting": false,
     "childhood": false,
-    "ending": true
+    "ending": true,
+    "ending_image": ""
   },
   {
     "id": "Middle-earth™ Shadow of War™",
@@ -662,7 +696,8 @@
     "current_order": 99,
     "tasting": false,
     "childhood": false,
-    "ending": true
+    "ending": true,
+    "ending_image": ""
   },
   {
     "id": "Mount & Blade II Bannerlord",
@@ -681,7 +716,8 @@
     "current_order": 99,
     "tasting": false,
     "childhood": false,
-    "ending": false
+    "ending": false,
+    "ending_image": ""
   },
   {
     "id": "Mount & Blade Warband",
@@ -700,7 +736,8 @@
     "current_order": 99,
     "tasting": false,
     "childhood": false,
-    "ending": false
+    "ending": false,
+    "ending_image": ""
   },
   {
     "id": "PUBG BATTLEGROUNDS",
@@ -719,7 +756,8 @@
     "current_order": 99,
     "tasting": false,
     "childhood": false,
-    "ending": false
+    "ending": false,
+    "ending_image": ""
   },
   {
     "id": "Palworld",
@@ -738,7 +776,8 @@
     "current_order": 99,
     "tasting": false,
     "childhood": false,
-    "ending": false
+    "ending": false,
+    "ending_image": ""
   },
   {
     "id": "Path Of Exile 2(POE 2)",
@@ -757,7 +796,8 @@
     "current_order": 99,
     "tasting": false,
     "childhood": false,
-    "ending": false
+    "ending": false,
+    "ending_image": ""
   },
   {
     "id": "Pillars of Eternity II Deadfire",
@@ -776,7 +816,8 @@
     "current_order": 99,
     "tasting": false,
     "childhood": false,
-    "ending": false
+    "ending": false,
+    "ending_image": ""
   },
   {
     "id": "Portal 2",
@@ -795,7 +836,8 @@
     "current_order": 99,
     "tasting": false,
     "childhood": false,
-    "ending": true
+    "ending": true,
+    "ending_image": ""
   },
   {
     "id": "Prison Architect",
@@ -814,7 +856,8 @@
     "current_order": 99,
     "tasting": false,
     "childhood": false,
-    "ending": false
+    "ending": false,
+    "ending_image": ""
   },
   {
     "id": "Ratropolis",
@@ -833,7 +876,8 @@
     "current_order": 99,
     "tasting": false,
     "childhood": false,
-    "ending": false
+    "ending": false,
+    "ending_image": ""
   },
   {
     "id": "Red Dead Redemption 2",
@@ -852,7 +896,8 @@
     "current_order": 99,
     "tasting": false,
     "childhood": false,
-    "ending": true
+    "ending": true,
+    "ending_image": ""
   },
   {
     "id": "RimWorld",
@@ -871,7 +916,8 @@
     "current_order": 99,
     "tasting": false,
     "childhood": false,
-    "ending": false
+    "ending": false,
+    "ending_image": ""
   },
   {
     "id": "Romance of the Three Kingdoms XIII",
@@ -890,7 +936,8 @@
     "current_order": 99,
     "tasting": false,
     "childhood": false,
-    "ending": false
+    "ending": false,
+    "ending_image": ""
   },
   {
     "id": "Royal Match",
@@ -909,7 +956,8 @@
     "current_order": 99,
     "tasting": true,
     "childhood": false,
-    "ending": false
+    "ending": false,
+    "ending_image": ""
   },
   {
     "id": "Sid Meier's Civilization Beyond Earth",
@@ -928,7 +976,8 @@
     "current_order": 99,
     "tasting": false,
     "childhood": false,
-    "ending": false
+    "ending": false,
+    "ending_image": ""
   },
   {
     "id": "Sid Meier's Civilization V",
@@ -947,7 +996,8 @@
     "current_order": 99,
     "tasting": false,
     "childhood": false,
-    "ending": false
+    "ending": false,
+    "ending_image": ""
   },
   {
     "id": "Slay the Spire",
@@ -966,7 +1016,8 @@
     "current_order": 99,
     "tasting": false,
     "childhood": false,
-    "ending": false
+    "ending": false,
+    "ending_image": ""
   },
   {
     "id": "South Park The Fractured But Whole",
@@ -985,7 +1036,8 @@
     "current_order": 99,
     "tasting": false,
     "childhood": false,
-    "ending": false
+    "ending": false,
+    "ending_image": ""
   },
   {
     "id": "South Park™ The Stick of Truth™",
@@ -1004,7 +1056,8 @@
     "current_order": 99,
     "tasting": false,
     "childhood": false,
-    "ending": true
+    "ending": true,
+    "ending_image": ""
   },
   {
     "id": "Stellar Blade",
@@ -1023,7 +1076,8 @@
     "current_order": 99,
     "tasting": false,
     "childhood": false,
-    "ending": false
+    "ending": false,
+    "ending_image": ""
   },
   {
     "id": "THRONE AND LIBERTY",
@@ -1042,7 +1096,8 @@
     "current_order": 99,
     "tasting": false,
     "childhood": false,
-    "ending": false
+    "ending": false,
+    "ending_image": ""
   },
   {
     "id": "The Elder Scrolls V Skyrim Special Edition",
@@ -1061,7 +1116,8 @@
     "current_order": 99,
     "tasting": false,
     "childhood": false,
-    "ending": true
+    "ending": true,
+    "ending_image": ""
   },
   {
     "id": "The Witcher 3 Wild Hunt",
@@ -1080,7 +1136,8 @@
     "current_order": 99,
     "tasting": false,
     "childhood": false,
-    "ending": true
+    "ending": true,
+    "ending_image": ""
   },
   {
     "id": "There Is No Game Wrong Dimension",
@@ -1099,7 +1156,8 @@
     "current_order": 99,
     "tasting": false,
     "childhood": false,
-    "ending": true
+    "ending": true,
+    "ending_image": ""
   },
   {
     "id": "This War of Mine",
@@ -1118,7 +1176,8 @@
     "current_order": 99,
     "tasting": false,
     "childhood": false,
-    "ending": false
+    "ending": false,
+    "ending_image": ""
   },
   {
     "id": "Thronebreaker The Witcher Tales",
@@ -1137,7 +1196,8 @@
     "current_order": 99,
     "tasting": false,
     "childhood": false,
-    "ending": true
+    "ending": true,
+    "ending_image": ""
   },
   {
     "id": "Total War ATTILA",
@@ -1156,7 +1216,8 @@
     "current_order": 99,
     "tasting": false,
     "childhood": false,
-    "ending": true
+    "ending": true,
+    "ending_image": ""
   },
   {
     "id": "Total War ROME II - Emperor Edition",
@@ -1175,7 +1236,8 @@
     "current_order": 99,
     "tasting": false,
     "childhood": false,
-    "ending": true
+    "ending": true,
+    "ending_image": ""
   },
   {
     "id": "Total War THREE KINGDOMS",
@@ -1194,7 +1256,8 @@
     "current_order": 99,
     "tasting": false,
     "childhood": false,
-    "ending": true
+    "ending": true,
+    "ending_image": ""
   },
   {
     "id": "Total War WARHAMMER",
@@ -1213,7 +1276,8 @@
     "current_order": 99,
     "tasting": false,
     "childhood": false,
-    "ending": true
+    "ending": true,
+    "ending_image": ""
   },
   {
     "id": "Total War WARHAMMER II",
@@ -1232,7 +1296,8 @@
     "current_order": 99,
     "tasting": false,
     "childhood": false,
-    "ending": true
+    "ending": true,
+    "ending_image": ""
   },
   {
     "id": "Total War WARHAMMER III",
@@ -1251,7 +1316,8 @@
     "current_order": 99,
     "tasting": false,
     "childhood": false,
-    "ending": true
+    "ending": true,
+    "ending_image": ""
   },
   {
     "id": "Tropico 5",
@@ -1270,7 +1336,8 @@
     "current_order": 99,
     "tasting": false,
     "childhood": false,
-    "ending": false
+    "ending": false,
+    "ending_image": ""
   },
   {
     "id": "World Of Warcraft",
@@ -1289,7 +1356,8 @@
     "current_order": 99,
     "tasting": true,
     "childhood": false,
-    "ending": false
+    "ending": false,
+    "ending_image": ""
   },
   {
     "id": "XCOM 2",
@@ -1308,7 +1376,8 @@
     "current_order": 99,
     "tasting": false,
     "childhood": false,
-    "ending": true
+    "ending": true,
+    "ending_image": ""
   },
   {
     "id": "XCOM Enemy Unknown",
@@ -1327,7 +1396,8 @@
     "current_order": 99,
     "tasting": false,
     "childhood": false,
-    "ending": true
+    "ending": true,
+    "ending_image": ""
   },
   {
     "id": "ヘブン バーンズ レッド(헤븐 번즈 레드)",
@@ -1346,7 +1416,8 @@
     "current_order": 99,
     "tasting": true,
     "childhood": false,
-    "ending": false
+    "ending": false,
+    "ending_image": ""
   },
   {
     "id": "メメントモリ(메멘토 모리)",
@@ -1365,7 +1436,8 @@
     "current_order": 99,
     "tasting": true,
     "childhood": false,
-    "ending": false
+    "ending": false,
+    "ending_image": ""
   },
   {
     "id": "原神(원신)",
@@ -1384,7 +1456,8 @@
     "current_order": 99,
     "tasting": false,
     "childhood": false,
-    "ending": false
+    "ending": false,
+    "ending_image": ""
   },
   {
     "id": "天工之劍(2X)",
@@ -1403,7 +1476,8 @@
     "current_order": 99,
     "tasting": true,
     "childhood": false,
-    "ending": false
+    "ending": false,
+    "ending_image": ""
   },
   {
     "id": "崩坏：星穹铁道(붕괴 스타레일)",
@@ -1422,7 +1496,8 @@
     "current_order": 99,
     "tasting": false,
     "childhood": false,
-    "ending": false
+    "ending": false,
+    "ending_image": ""
   },
   {
     "id": "绝区零 · 絕區零(젠레스 존 제로)",
@@ -1441,7 +1516,8 @@
     "current_order": 99,
     "tasting": false,
     "childhood": false,
-    "ending": false
+    "ending": false,
+    "ending_image": ""
   },
   {
     "id": "鸣潮(명조 워더링 웨이브)",
@@ -1460,7 +1536,8 @@
     "current_order": 99,
     "tasting": false,
     "childhood": false,
-    "ending": false
+    "ending": false,
+    "ending_image": ""
   },
   {
     "id": "龙之国物语(아카디아M)",
@@ -1479,7 +1556,8 @@
     "current_order": 99,
     "tasting": true,
     "childhood": false,
-    "ending": false
+    "ending": false,
+    "ending_image": ""
   },
   {
     "id": "가디언 테일즈",
@@ -1498,7 +1576,8 @@
     "current_order": 99,
     "tasting": false,
     "childhood": false,
-    "ending": false
+    "ending": false,
+    "ending_image": ""
   },
   {
     "id": "건즈",
@@ -1517,7 +1596,8 @@
     "current_order": 99,
     "tasting": false,
     "childhood": true,
-    "ending": false
+    "ending": false,
+    "ending_image": ""
   },
   {
     "id": "겟엠프드",
@@ -1536,7 +1616,8 @@
     "current_order": 99,
     "tasting": false,
     "childhood": true,
-    "ending": false
+    "ending": false,
+    "ending_image": ""
   },
   {
     "id": "나 혼자만 레벨업 어라이즈",
@@ -1555,7 +1636,8 @@
     "current_order": 99,
     "tasting": false,
     "childhood": false,
-    "ending": false
+    "ending": false,
+    "ending_image": ""
   },
   {
     "id": "나이트 워커",
@@ -1574,7 +1656,8 @@
     "current_order": 99,
     "tasting": true,
     "childhood": false,
-    "ending": false
+    "ending": false,
+    "ending_image": ""
   },
   {
     "id": "나이트크로우",
@@ -1593,7 +1676,8 @@
     "current_order": 99,
     "tasting": true,
     "childhood": false,
-    "ending": false
+    "ending": false,
+    "ending_image": ""
   },
   {
     "id": "다크에덴",
@@ -1612,7 +1696,8 @@
     "current_order": 99,
     "tasting": false,
     "childhood": true,
-    "ending": false
+    "ending": false,
+    "ending_image": ""
   },
   {
     "id": "더 스타라이트",
@@ -1631,7 +1716,8 @@
     "current_order": 99,
     "tasting": true,
     "childhood": false,
-    "ending": false
+    "ending": false,
+    "ending_image": ""
   },
   {
     "id": "던전앤파이터",
@@ -1650,7 +1736,8 @@
     "current_order": 99,
     "tasting": false,
     "childhood": true,
-    "ending": false
+    "ending": false,
+    "ending_image": ""
   },
   {
     "id": "던전앤파이터 모바일",
@@ -1669,7 +1756,8 @@
     "current_order": 99,
     "tasting": true,
     "childhood": false,
-    "ending": false
+    "ending": false,
+    "ending_image": ""
   },
   {
     "id": "디아블로 1",
@@ -1688,7 +1776,8 @@
     "current_order": 99,
     "tasting": false,
     "childhood": true,
-    "ending": false
+    "ending": false,
+    "ending_image": ""
   },
   {
     "id": "디아블로 2",
@@ -1707,7 +1796,8 @@
     "current_order": 99,
     "tasting": false,
     "childhood": true,
-    "ending": false
+    "ending": false,
+    "ending_image": ""
   },
   {
     "id": "디아블로 3",
@@ -1726,7 +1816,8 @@
     "current_order": 99,
     "tasting": false,
     "childhood": true,
-    "ending": false
+    "ending": false,
+    "ending_image": ""
   },
   {
     "id": "디아블로 3 영혼을 거두는 자",
@@ -1745,7 +1836,8 @@
     "current_order": 99,
     "tasting": false,
     "childhood": true,
-    "ending": false
+    "ending": false,
+    "ending_image": ""
   },
   {
     "id": "디펜스 더비",
@@ -1764,7 +1856,8 @@
     "current_order": 99,
     "tasting": true,
     "childhood": false,
-    "ending": false
+    "ending": false,
+    "ending_image": ""
   },
   {
     "id": "레이븐 2",
@@ -1783,7 +1876,8 @@
     "current_order": 99,
     "tasting": true,
     "childhood": false,
-    "ending": false
+    "ending": false,
+    "ending_image": ""
   },
   {
     "id": "로스트아크",
@@ -1802,7 +1896,8 @@
     "current_order": 99,
     "tasting": false,
     "childhood": false,
-    "ending": false
+    "ending": false,
+    "ending_image": ""
   },
   {
     "id": "롤러코스터 타이쿤",
@@ -1821,7 +1916,8 @@
     "current_order": 99,
     "tasting": false,
     "childhood": true,
-    "ending": false
+    "ending": false,
+    "ending_image": ""
   },
   {
     "id": "리니지2M",
@@ -1840,7 +1936,8 @@
     "current_order": 99,
     "tasting": true,
     "childhood": false,
-    "ending": false
+    "ending": false,
+    "ending_image": ""
   },
   {
     "id": "리니지W",
@@ -1859,7 +1956,8 @@
     "current_order": 99,
     "tasting": false,
     "childhood": false,
-    "ending": false
+    "ending": false,
+    "ending_image": ""
   },
   {
     "id": "리듬스타",
@@ -1878,7 +1976,8 @@
     "current_order": 99,
     "tasting": false,
     "childhood": true,
-    "ending": false
+    "ending": false,
+    "ending_image": ""
   },
   {
     "id": "마비노기 모바일",
@@ -1897,7 +1996,8 @@
     "current_order": 99,
     "tasting": false,
     "childhood": false,
-    "ending": false
+    "ending": false,
+    "ending_image": ""
   },
   {
     "id": "마비노기 영웅전",
@@ -1916,7 +2016,8 @@
     "current_order": 99,
     "tasting": false,
     "childhood": true,
-    "ending": false
+    "ending": false,
+    "ending_image": ""
   },
   {
     "id": "마인크래프트",
@@ -1935,7 +2036,8 @@
     "current_order": 99,
     "tasting": false,
     "childhood": true,
-    "ending": false
+    "ending": false,
+    "ending_image": ""
   },
   {
     "id": "메이플 키우기",
@@ -1954,7 +2056,8 @@
     "current_order": 99,
     "tasting": false,
     "childhood": false,
-    "ending": false
+    "ending": false,
+    "ending_image": ""
   },
   {
     "id": "메이플스토리",
@@ -1973,7 +2076,8 @@
     "current_order": 99,
     "tasting": false,
     "childhood": true,
-    "ending": false
+    "ending": false,
+    "ending_image": ""
   },
   {
     "id": "명일방주_ 엔드필드",
@@ -1992,7 +2096,8 @@
     "current_order": 99,
     "tasting": true,
     "childhood": false,
-    "ending": false
+    "ending": false,
+    "ending_image": ""
   },
   {
     "id": "몬길_ 스타 다이브",
@@ -2011,7 +2116,8 @@
     "current_order": 99,
     "tasting": false,
     "childhood": false,
-    "ending": false
+    "ending": false,
+    "ending_image": ""
   },
   {
     "id": "믹스마스터",
@@ -2030,7 +2136,8 @@
     "current_order": 99,
     "tasting": false,
     "childhood": true,
-    "ending": false
+    "ending": false,
+    "ending_image": ""
   },
   {
     "id": "바람의 나라",
@@ -2049,7 +2156,8 @@
     "current_order": 99,
     "tasting": false,
     "childhood": true,
-    "ending": false
+    "ending": false,
+    "ending_image": ""
   },
   {
     "id": "배틀필드 온라인",
@@ -2068,7 +2176,8 @@
     "current_order": 99,
     "tasting": false,
     "childhood": true,
-    "ending": false
+    "ending": false,
+    "ending_image": ""
   },
   {
     "id": "뱀피르",
@@ -2087,7 +2196,8 @@
     "current_order": 99,
     "tasting": false,
     "childhood": false,
-    "ending": false
+    "ending": false,
+    "ending_image": ""
   },
   {
     "id": "버블보블",
@@ -2106,7 +2216,8 @@
     "current_order": 99,
     "tasting": false,
     "childhood": true,
-    "ending": false
+    "ending": false,
+    "ending_image": ""
   },
   {
     "id": "부족전쟁",
@@ -2125,7 +2236,8 @@
     "current_order": 99,
     "tasting": false,
     "childhood": true,
-    "ending": false
+    "ending": false,
+    "ending_image": ""
   },
   {
     "id": "블레이드 & 소울 2",
@@ -2144,7 +2256,8 @@
     "current_order": 99,
     "tasting": true,
     "childhood": false,
-    "ending": false
+    "ending": false,
+    "ending_image": ""
   },
   {
     "id": "블루 아카이브",
@@ -2163,7 +2276,8 @@
     "current_order": 99,
     "tasting": false,
     "childhood": false,
-    "ending": false
+    "ending": false,
+    "ending_image": ""
   },
   {
     "id": "서든어택",
@@ -2182,7 +2296,8 @@
     "current_order": 99,
     "tasting": false,
     "childhood": true,
-    "ending": false
+    "ending": false,
+    "ending_image": ""
   },
   {
     "id": "서머너즈 워 _ 크로니클",
@@ -2201,7 +2316,8 @@
     "current_order": 99,
     "tasting": false,
     "childhood": false,
-    "ending": false
+    "ending": false,
+    "ending_image": ""
   },
   {
     "id": "서머너즈 워 백년전쟁",
@@ -2220,7 +2336,8 @@
     "current_order": 99,
     "tasting": false,
     "childhood": false,
-    "ending": false
+    "ending": false,
+    "ending_image": ""
   },
   {
     "id": "세븐나이츠 레볼루션",
@@ -2239,7 +2356,8 @@
     "current_order": 99,
     "tasting": true,
     "childhood": false,
-    "ending": false
+    "ending": false,
+    "ending_image": ""
   },
   {
     "id": "세븐나이츠 키우기",
@@ -2258,7 +2376,8 @@
     "current_order": 99,
     "tasting": true,
     "childhood": false,
-    "ending": false
+    "ending": false,
+    "ending_image": ""
   },
   {
     "id": "소울 스트라이크",
@@ -2277,7 +2396,8 @@
     "current_order": 99,
     "tasting": false,
     "childhood": false,
-    "ending": false
+    "ending": false,
+    "ending_image": ""
   },
   {
     "id": "슈퍼액션히어로",
@@ -2296,7 +2416,8 @@
     "current_order": 99,
     "tasting": false,
     "childhood": true,
-    "ending": false
+    "ending": false,
+    "ending_image": ""
   },
   {
     "id": "스타크래프트",
@@ -2315,7 +2436,8 @@
     "current_order": 99,
     "tasting": false,
     "childhood": true,
-    "ending": false
+    "ending": false,
+    "ending_image": ""
   },
   {
     "id": "스타크래프트 2",
@@ -2334,7 +2456,8 @@
     "current_order": 99,
     "tasting": false,
     "childhood": true,
-    "ending": false
+    "ending": false,
+    "ending_image": ""
   },
   {
     "id": "승리의 여신 니케",
@@ -2353,7 +2476,8 @@
     "current_order": 99,
     "tasting": false,
     "childhood": false,
-    "ending": false
+    "ending": false,
+    "ending_image": ""
   },
   {
     "id": "아발론 온라인",
@@ -2372,7 +2496,8 @@
     "current_order": 99,
     "tasting": false,
     "childhood": true,
-    "ending": false
+    "ending": false,
+    "ending_image": ""
   },
   {
     "id": "아키에이지 워",
@@ -2391,7 +2516,8 @@
     "current_order": 99,
     "tasting": true,
     "childhood": false,
-    "ending": false
+    "ending": false,
+    "ending_image": ""
   },
   {
     "id": "액션퍼즐패밀리",
@@ -2410,7 +2536,8 @@
     "current_order": 99,
     "tasting": false,
     "childhood": true,
-    "ending": false
+    "ending": false,
+    "ending_image": ""
   },
   {
     "id": "야채부락리",
@@ -2429,7 +2556,8 @@
     "current_order": 99,
     "tasting": false,
     "childhood": true,
-    "ending": false
+    "ending": false,
+    "ending_image": ""
   },
   {
     "id": "어나더던전",
@@ -2448,7 +2576,8 @@
     "current_order": 99,
     "tasting": true,
     "childhood": false,
-    "ending": false
+    "ending": false,
+    "ending_image": ""
   },
   {
     "id": "에버소울",
@@ -2467,7 +2596,8 @@
     "current_order": 99,
     "tasting": true,
     "childhood": false,
-    "ending": false
+    "ending": false,
+    "ending_image": ""
   },
   {
     "id": "에이지 오브 엠파이어 2",
@@ -2486,7 +2616,8 @@
     "current_order": 99,
     "tasting": false,
     "childhood": true,
-    "ending": false
+    "ending": false,
+    "ending_image": ""
   },
   {
     "id": "에이지 오브 엠파이어 3",
@@ -2505,7 +2636,8 @@
     "current_order": 99,
     "tasting": false,
     "childhood": true,
-    "ending": false
+    "ending": false,
+    "ending_image": ""
   },
   {
     "id": "엘더스크롤 4 오블리비언",
@@ -2524,7 +2656,8 @@
     "current_order": 99,
     "tasting": false,
     "childhood": true,
-    "ending": false
+    "ending": false,
+    "ending_image": ""
   },
   {
     "id": "엘리온",
@@ -2543,7 +2676,8 @@
     "current_order": 99,
     "tasting": false,
     "childhood": true,
-    "ending": false
+    "ending": false,
+    "ending_image": ""
   },
   {
     "id": "엘트릭스",
@@ -2562,7 +2696,8 @@
     "current_order": 99,
     "tasting": true,
     "childhood": false,
-    "ending": false
+    "ending": false,
+    "ending_image": ""
   },
   {
     "id": "영웅서기3 대지의 성흔",
@@ -2581,7 +2716,8 @@
     "current_order": 99,
     "tasting": false,
     "childhood": true,
-    "ending": false
+    "ending": false,
+    "ending_image": ""
   },
   {
     "id": "오딘_ 발할라 라이징",
@@ -2600,7 +2736,8 @@
     "current_order": 99,
     "tasting": false,
     "childhood": false,
-    "ending": false
+    "ending": false,
+    "ending_image": ""
   },
   {
     "id": "왕좌의 게임 킹스로드",
@@ -2619,7 +2756,8 @@
     "current_order": 1,
     "tasting": false,
     "childhood": false,
-    "ending": false
+    "ending": false,
+    "ending_image": ""
   },
   {
     "id": "운빨존많겜",
@@ -2638,7 +2776,8 @@
     "current_order": 4,
     "tasting": false,
     "childhood": false,
-    "ending": false
+    "ending": false,
+    "ending_image": ""
   },
   {
     "id": "워록",
@@ -2657,7 +2796,8 @@
     "current_order": 99,
     "tasting": false,
     "childhood": true,
-    "ending": false
+    "ending": false,
+    "ending_image": ""
   },
   {
     "id": "워크래프트 III 레인 오브 카오스",
@@ -2676,7 +2816,8 @@
     "current_order": 99,
     "tasting": false,
     "childhood": true,
-    "ending": false
+    "ending": false,
+    "ending_image": ""
   },
   {
     "id": "워크래프트 III 프로즌 쓰론",
@@ -2695,7 +2836,8 @@
     "current_order": 99,
     "tasting": false,
     "childhood": true,
-    "ending": false
+    "ending": false,
+    "ending_image": ""
   },
   {
     "id": "천하제일 거상",
@@ -2714,7 +2856,8 @@
     "current_order": 99,
     "tasting": false,
     "childhood": true,
-    "ending": false
+    "ending": false,
+    "ending_image": ""
   },
   {
     "id": "카오스 제로 나이트메어",
@@ -2733,7 +2876,8 @@
     "current_order": 99,
     "tasting": false,
     "childhood": false,
-    "ending": false
+    "ending": false,
+    "ending_image": ""
   },
   {
     "id": "카트라이더",
@@ -2752,7 +2896,8 @@
     "current_order": 99,
     "tasting": false,
     "childhood": true,
-    "ending": false
+    "ending": false,
+    "ending_image": ""
   },
   {
     "id": "커맨드 앤 컨커 레드얼럿 2",
@@ -2771,7 +2916,8 @@
     "current_order": 99,
     "tasting": false,
     "childhood": true,
-    "ending": false
+    "ending": false,
+    "ending_image": ""
   },
   {
     "id": "컴투스프로야구 V22",
@@ -2790,7 +2936,8 @@
     "current_order": 99,
     "tasting": false,
     "childhood": false,
-    "ending": false
+    "ending": false,
+    "ending_image": ""
   },
   {
     "id": "쿠키런",
@@ -2809,7 +2956,8 @@
     "current_order": 99,
     "tasting": false,
     "childhood": true,
-    "ending": false
+    "ending": false,
+    "ending_image": ""
   },
   {
     "id": "큐플레이",
@@ -2828,7 +2976,8 @@
     "current_order": 99,
     "tasting": false,
     "childhood": true,
-    "ending": false
+    "ending": false,
+    "ending_image": ""
   },
   {
     "id": "크레이지 아케이드",
@@ -2847,7 +2996,8 @@
     "current_order": 99,
     "tasting": false,
     "childhood": true,
-    "ending": false
+    "ending": false,
+    "ending_image": ""
   },
   {
     "id": "테일즈런너",
@@ -2866,7 +3016,8 @@
     "current_order": 99,
     "tasting": false,
     "childhood": true,
-    "ending": false
+    "ending": false,
+    "ending_image": ""
   },
   {
     "id": "트릭컬 리바이브",
@@ -2885,7 +3036,8 @@
     "current_order": 3,
     "tasting": false,
     "childhood": false,
-    "ending": false
+    "ending": false,
+    "ending_image": ""
   },
   {
     "id": "포켓몬스터 골드",
@@ -2904,7 +3056,8 @@
     "current_order": 99,
     "tasting": false,
     "childhood": true,
-    "ending": false
+    "ending": false,
+    "ending_image": ""
   },
   {
     "id": "포트리스",
@@ -2923,7 +3076,8 @@
     "current_order": 99,
     "tasting": false,
     "childhood": true,
-    "ending": false
+    "ending": false,
+    "ending_image": ""
   },
   {
     "id": "프라시아 전기",
@@ -2942,7 +3096,8 @@
     "current_order": 99,
     "tasting": false,
     "childhood": false,
-    "ending": false
+    "ending": false,
+    "ending_image": ""
   },
   {
     "id": "피파 온라인",
@@ -2961,7 +3116,8 @@
     "current_order": 99,
     "tasting": false,
     "childhood": true,
-    "ending": false
+    "ending": false,
+    "ending_image": ""
   },
   {
     "id": "헬게이트 런던",
@@ -2980,7 +3136,8 @@
     "current_order": 99,
     "tasting": false,
     "childhood": true,
-    "ending": false
+    "ending": false,
+    "ending_image": ""
   },
   {
     "id": "호연",
@@ -2999,7 +3156,8 @@
     "current_order": 99,
     "tasting": true,
     "childhood": false,
-    "ending": false
+    "ending": false,
+    "ending_image": ""
   },
   {
     "id": "히트2",
@@ -3018,6 +3176,7 @@
     "current_order": 99,
     "tasting": true,
     "childhood": false,
-    "ending": false
+    "ending": false,
+    "ending_image": ""
   }
 ]
