@@ -11,7 +11,7 @@
 /* ── Top tab bar (Archive 제목 자리) ── */
 .archive-tabbar {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     gap: 0.6rem;
     margin-bottom: 2rem;
     flex-wrap: wrap;
