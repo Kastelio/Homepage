@@ -4,68 +4,75 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>UI Reference Archive | Deokgyu Kim</title>
-    <!-- Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
-        rel="stylesheet">
+    <title>Archive | Game-Oriented</title>
+    <meta name="description" content="게임 UI 레퍼런스 아카이브 - 화면 유형 상세">
+    <link rel="icon" type="image/png" href="./assets/profile.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./style.css">
-    <style>
-        /* Specific overrides for detail page navigation */
-        body {
-            background-color: #111111;
-        }
-
-        .framer-nav {
-            background-color: #000000;
-            position: fixed;
-            border-bottom: 1px solid #333;
-        }
-    </style>
+    <link rel="stylesheet" href="./archive.css">
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-D1BEYHSFY3"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-D1BEYHSFY3');
+    </script>
 </head>
 
 <body>
     <div id="app">
-        <!-- Navigation -->
         <nav class="framer-nav">
             <div class="nav-content">
                 <div class="logo-area">
-                    <span class="logo-text">Game-Oriented</span>
+                    <a href="./index.html" style="text-decoration:none; color:inherit;">
+                        <span class="logo-text">Game-Oriented</span>
+                    </a>
                 </div>
                 <ul class="nav-links">
                     <li><a href="./index.html#about">About Me</a></li>
-                    <li><a href="./index.html#projects">Projects</a></li>
-                    <li><a href="./index.html#sub-projects">Sub-Projects</a></li>
-                    <li><a href="./index.html#archive">Archive</a></li>
+                    <li><a href="./projects.html">Projects</a></li>
+                    <li><a href="./playing.html">Playlist</a></li>
+                    <li><a href="./archive.html" class="nav-active">Archive</a></li>
+                    <li><a href="./etc.html">Etc</a></li>
                 </ul>
             </div>
         </nav>
 
-        <main>
-            <!-- Details UI Section -->
-            <section class="archive-detail-section">
-                <div class="archive-detail-container">
-                    <!-- Title is populated by JS -->
-                    <h1 class="detail-header-title text-center fade-in" id="category-main-title">UI Reference</h1>
+        <main class="archive-main">
+            <a class="archive-back" href="./archive.html">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16">
+                    <path d="M19 12H5M12 5l-7 7 7 7" />
+                </svg>
+                전체 아카이브
+            </a>
 
-                    <div class="reference-grid" id="reference-grid">
-                        <!-- Images will be injected by main.js -->
-                    </div>
-                </div>
-            </section>
+            <div class="archive-header" style="text-align:left;">
+                <h1 class="archive-title" id="archive-detail-title">-</h1>
+                <p class="archive-subtitle" id="archive-detail-meta"></p>
+            </div>
+
+            <div id="archive-detail" style="margin-top:2rem;"></div>
         </main>
 
-        <footer class="footer text-center" style="margin-top: 5rem; border-top: 1px solid #333; padding-top: 2rem;">
+        <footer class="footer text-center">
             <p>&copy; 2026 Deokgyu Kim. All rights reserved.</p>
         </footer>
     </div>
 
-    <!-- Lightbox Modal (Reusing existing one from CSS/JS) -->
     <div id="lightbox" class="lightbox-modal">
         <span class="lightbox-close">&times;</span>
         <img class="lightbox-content" id="lightbox-img">
     </div>
 
-    <script src="./main.js" defer></script>
+    <div class="scroll-btns">
+        <button class="scroll-btn" id="btn-top" title="맨 위로">↑</button>
+        <button class="scroll-btn" id="btn-bottom" title="맨 아래로">↓</button>
+    </div>
+
+    <script src="./archive.js" defer></script>
 </body>
 
 </html>

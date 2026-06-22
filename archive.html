@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Archive | Game-Oriented</title>
+    <meta name="description" content="Deokgyu Kim이 화면 유형별로 분류한 게임 UI 레퍼런스 아카이브">
+    <meta property="og:title" content="Archive | Game-Oriented">
+    <meta property="og:image" content="https://deokgoo1202.github.io/Homepage/assets/profile.png">
+    <link rel="icon" type="image/png" href="./assets/profile.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./archive.css">
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-D1BEYHSFY3"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-D1BEYHSFY3');
+    </script>
+</head>
+
+<body>
+    <div id="app">
+        <nav class="framer-nav">
+            <div class="nav-content">
+                <div class="logo-area">
+                    <a href="./index.html" style="text-decoration:none; color:inherit;">
+                        <span class="logo-text">Game-Oriented</span>
+                    </a>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="./index.html#about">About Me</a></li>
+                    <li><a href="./projects.html">Projects</a></li>
+                    <li><a href="./playing.html">Playlist</a></li>
+                    <li><a href="./archive.html" class="nav-active">Archive</a></li>
+                    <li><a href="./etc.html">Etc</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <main class="archive-main">
+            <div class="archive-header page-enter">
+                <h1 class="archive-title">Archive</h1>
+                <p class="archive-subtitle">화면 유형별로 분류한 게임 UI 레퍼런스</p>
+                <div class="archive-stats">
+                    <span class="archive-stat"><b id="stat-cat">-</b>화면 유형</span>
+                    <span class="archive-stat"><b id="stat-game">-</b>게임</span>
+                    <span class="archive-stat"><b id="stat-img">-</b>스크린샷</span>
+                </div>
+            </div>
+
+            <input type="text" id="archive-search" class="archive-search page-enter" placeholder="화면 유형 검색 (예: Title, Shop, Gacha)">
+
+            <div class="archive-cat-grid page-enter" id="archive-cat-grid" style="animation-delay:0.1s"></div>
+        </main>
+
+        <footer class="footer text-center">
+            <p>&copy; 2026 Deokgyu Kim. All rights reserved.</p>
+        </footer>
+    </div>
+
+    <div class="scroll-btns">
+        <button class="scroll-btn" id="btn-top" title="맨 위로">↑</button>
+        <button class="scroll-btn" id="btn-bottom" title="맨 아래로">↓</button>
+    </div>
+
+    <script src="./archive.js" defer></script>
+</body>
+
+</html>
