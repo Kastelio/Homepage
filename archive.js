@@ -404,17 +404,21 @@ function renderGame(g) {
 
 function renderOverview() {
     const el = document.getElementById('archive-content');
+    const shown = ARCHIVE.categories.filter(c => !ETC_CATS.has(c.name));
+    const catCount = shown.length;
+    const imgCount = shown.reduce((s, c) => s + c.image_count, 0);
+    const gameCount = GAME_INDEX.length;
     el.innerHTML = `
         <div class="archive-header">
             <p class="archive-subtitle">화면 유형별로 분류한 게임 UI 레퍼런스</p>
             <div class="archive-stats">
-                <span class="archive-stat"><b>${ARCHIVE.total_categories}</b>화면 유형</span>
-                <span class="archive-stat"><b>${ARCHIVE.total_games}</b>게임</span>
-                <span class="archive-stat"><b>${ARCHIVE.total_images.toLocaleString()}</b>스크린샷</span>
+                <span class="archive-stat"><b>${catCount}</b>화면 유형</span>
+                <span class="archive-stat"><b>${gameCount}</b>게임</span>
+                <span class="archive-stat"><b>${imgCount.toLocaleString()}</b>스크린샷</span>
             </div>
         </div>
         <div class="archive-cat-grid">
-            ${ARCHIVE.categories.filter(c => !ETC_CATS.has(c.name)).map(c => {
+            ${shown.map(c => {
                 const cover = c.games[0]?.images[0] || '';
                 return `
                 <a class="archive-cat-card" href="#${encodeURIComponent(c.name)}">
