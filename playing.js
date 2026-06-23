@@ -178,9 +178,9 @@ function renderGames() {
     initEndingShots();
 }
 
-// 엔딩 스크린샷: PC는 호버 미리보기, 모바일은 클릭 라이트박스
+// 엔딩 스크린샷: 진짜 마우스(PC)는 호버 미리보기, 터치(모바일)는 클릭 라이트박스
 function initEndingShots() {
-    const isHover = window.matchMedia('(hover: hover)').matches;
+    const isHover = window.matchMedia('(hover: hover) and (pointer: fine)').matches;
 
     let pop = document.getElementById('ending-pop');
     if (!pop) {
