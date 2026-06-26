@@ -249,11 +249,15 @@ function renderEtc() {
             <div class="archive-game-group">
                 <span class="archive-game-label">${s.name}<span class="archive-game-count">${subCount(s)}</span></span>
                 <div class="archive-img-grid">
-                    ${s.videos.map(id => `
-                        <div class="archive-img-item archive-video-item" data-yt="${id}">
+                    ${s.videos.map(v => {
+                        const id = typeof v === 'string' ? v : v.id;
+                        const wide = (typeof v === 'object' && v.wide) ? 1 : 0;
+                        return `
+                        <div class="archive-img-item archive-video-item" data-yt="${id}" data-wide="${wide}">
                             <img src="https://img.youtube.com/vi/${id}/hqdefault.jpg" alt="video" loading="lazy">
                             <span class="video-play">▶</span>
-                        </div>`).join('')}
+                        </div>`;
+                    }).join('')}
                     ${s.images.map(src => `
                         <div class="archive-img-item" data-full="${encPath(src)}">
                             <img src="${encPath(src)}" alt="${s.name}" loading="lazy">
@@ -474,8 +478,8 @@ function initLightbox() {
         if (item.dataset.yt) {
             modalImg.style.display = 'none';
             frame = document.createElement('iframe');
-            frame.className = 'lightbox-video';
-            frame.src = `https://www.youtube.com/embed/${item.dataset.yt}?autoplay=1&rel=0`;
+            frame.className = 'lightbox-video' + (item.dataset.wide === '1' ? ' wide' : '');
+            frame.src = `https://www.youtube-nocookie.com/embed/${item.dataset.yt}?autoplay=1&rel=0`;
             frame.allow = 'autoplay; encrypted-media; fullscreen';
             frame.allowFullscreen = true;
             modal.appendChild(frame);

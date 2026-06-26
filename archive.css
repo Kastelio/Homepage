@@ -264,3 +264,7 @@
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
     background: #000;
 }
+.lightbox-video.wide {
+    width: min(92vw, calc(88vh * 16 / 9));
+    aspect-ratio: 16 / 9;
+}
