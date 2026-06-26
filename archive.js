@@ -145,7 +145,7 @@ document.addEventListener('DOMContentLoaded', async () => {
 function buildGameIndex() {
     const map = {};  // 한글명 -> { 카테고리 -> images[] }
     ARCHIVE.categories.forEach(c => {
-        if (ETC_CATS.has(c.name)) return;
+        if (ALL_GALLERY_CATS.has(c.name)) return;
         c.games.forEach(g => {
             if (g.name.startsWith('_')) return; // 비게임 폴더(_, _NoGame...) 제외
             const ko = gameKo(g.name);
@@ -173,19 +173,25 @@ const TAB_INFO = {
     system: { ko: '시스템 레퍼런스', en: 'System Reference' },
 };
 
-// Etc 탭에 둘 카테고리 (레퍼런스 아님 — 취향/재미)
-const ETC_CATS = new Set(['meme']);
-let etcSel = '';   // 선택된 하위분류 ('' = 전체)
+// 갤러리형 탭 (사이드바+그리드, 이미지·영상 혼합). 각 탭 = 매니페스트 카테고리 묶음
+const GALLERY_TABS = {
+    detail: { cats: new Set(['detail']), ko: '디테일 레퍼런스', en: 'Detail', sub: '게임의 디테일·연출 레퍼런스' },
+    meme:   { cats: new Set(['meme']),   ko: '밈 레퍼런스',   en: 'Meme',   sub: '재미있게 본 게임 밈 모음' },
+};
+// UI 레퍼런스에서 제외할 모든 갤러리 카테고리
+const ALL_GALLERY_CATS = new Set(Object.values(GALLERY_TABS).flatMap(t => [...t.cats]));
+const gallerySel = {};   // tabKey -> 선택된 하위분류 ('' = 전체)
 
-// Etc 하위분류 목록 (카테고리의 games = 하위분류)
-function etcSubs() {
+const subCount = (s) => s.images.length + s.videos.length;
+
+// 갤러리 탭의 하위분류 목록 (카테고리의 games = 하위분류)
+function gallerySubs(cats) {
     const subs = [];
-    ARCHIVE.categories.filter(c => ETC_CATS.has(c.name)).forEach(c => {
+    ARCHIVE.categories.filter(c => cats.has(c.name)).forEach(c => {
         c.games.forEach(g => subs.push({ name: g.name, images: g.images || [], videos: g.videos || [] }));
     });
     return subs;
 }
-const subCount = (s) => s.images.length + s.videos.length;
 
 function initTabs() {
     const tabs = document.querySelectorAll('.archive-tab');
@@ -202,13 +208,13 @@ function initTabs() {
                 if (vt) vt.style.display = '';
                 if (search) search.style.display = '';
                 route();
-            } else if (t === 'etc') {
+            } else if (GALLERY_TABS[t]) {
                 sidebar.style.display = '';
                 if (vt) vt.style.display = 'none';
                 if (search) search.style.display = 'none';
-                etcSel = '';
-                renderEtcSidebar();
-                renderEtc();
+                gallerySel[t] = '';
+                renderGallerySidebar(t);
+                renderGallery(t);
             } else {
                 sidebar.style.display = 'none';
                 renderConstruction(TAB_INFO[t]);
@@ -217,33 +223,36 @@ function initTabs() {
     });
 }
 
-function renderEtcSidebar() {
+function renderGallerySidebar(tabKey) {
     const list = document.getElementById('archive-cat-list');
-    list.innerHTML = etcSubs().map(s => `
+    const sel = gallerySel[tabKey] || '';
+    list.innerHTML = gallerySubs(GALLERY_TABS[tabKey].cats).map(s => `
         <li>
-            <a class="archive-cat-link${s.name === etcSel ? ' active' : ''}" data-etc="${s.name}" href="javascript:void 0">
+            <a class="archive-cat-link${s.name === sel ? ' active' : ''}" data-gsub="${s.name}" href="javascript:void 0">
                 <span class="cat-link-label">${s.name}</span>
                 <span class="cat-link-count">${subCount(s)}</span>
             </a>
         </li>`).join('');
-    list.querySelectorAll('[data-etc]').forEach(el => {
+    list.querySelectorAll('[data-gsub]').forEach(el => {
         el.addEventListener('click', (e) => {
             e.preventDefault();
-            etcSel = (etcSel === el.dataset.etc) ? '' : el.dataset.etc; // 재클릭 시 전체
-            renderEtcSidebar();
-            renderEtc();
+            gallerySel[tabKey] = (gallerySel[tabKey] === el.dataset.gsub) ? '' : el.dataset.gsub;
+            renderGallerySidebar(tabKey);
+            renderGallery(tabKey);
         });
     });
 }
 
-function renderEtc() {
+function renderGallery(tabKey) {
+    const t = GALLERY_TABS[tabKey];
     const el = document.getElementById('archive-content');
-    let subs = etcSubs();
-    if (etcSel) subs = subs.filter(s => s.name === etcSel);
+    const sel = gallerySel[tabKey] || '';
+    let subs = gallerySubs(t.cats);
+    if (sel) subs = subs.filter(s => s.name === sel);
     el.innerHTML = `
         <div class="archive-header" style="text-align:left;">
-            <h1 class="archive-title">밈 레퍼런스 <span class="cat-en-big">(Meme)</span></h1>
-            <p class="archive-subtitle">재미있게 본 게임 밈 모음</p>
+            <h1 class="archive-title">${t.ko} <span class="cat-en-big">(${t.en})</span></h1>
+            <p class="archive-subtitle">${t.sub}</p>
         </div>
         ${subs.map(s => `
             <div class="archive-game-group">
@@ -302,7 +311,7 @@ function renderScreenSidebar() {
     const buckets = {};
     GROUP_DEF.forEach(([key]) => { buckets[key] = []; });
     ARCHIVE.categories.forEach(c => {
-        if (ETC_CATS.has(c.name)) return;
+        if (ALL_GALLERY_CATS.has(c.name)) return;
         const g = GROUP_OF[c.name] || 'Misc';
         (buckets[g] || buckets['Misc']).push(c);
     });
@@ -414,7 +423,7 @@ function renderGame(g) {
 
 function renderOverview() {
     const el = document.getElementById('archive-content');
-    const shown = ARCHIVE.categories.filter(c => !ETC_CATS.has(c.name));
+    const shown = ARCHIVE.categories.filter(c => !ALL_GALLERY_CATS.has(c.name));
     const catCount = shown.length;
     const imgCount = shown.reduce((s, c) => s + c.image_count, 0);
     const gameCount = GAME_INDEX.length;
