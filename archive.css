@@ -238,3 +238,29 @@
     .archive-cat-grid { grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); gap: 0.7rem; }
     .archive-img-grid { grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); gap: 0.5rem; }
 }
+
+/* 영상(YouTube) 항목 */
+.archive-video-item { position: relative; }
+.archive-video-item .video-play {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.6rem;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.35);
+    text-shadow: 0 2px 6px rgba(0, 0, 0, 0.6);
+    pointer-events: none;
+}
+.archive-video-item:hover .video-play { background: rgba(0, 0, 0, 0.2); }
+
+/* 라이트박스 내 YouTube 임베드 (Shorts 세로 비율) */
+.lightbox-video {
+    width: min(92vw, calc(88vh * 9 / 16));
+    aspect-ratio: 9 / 16;
+    border: 0;
+    border-radius: 8px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+    background: #000;
+}

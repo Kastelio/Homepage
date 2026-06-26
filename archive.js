@@ -181,10 +181,11 @@ let etcSel = '';   // 선택된 하위분류 ('' = 전체)
 function etcSubs() {
     const subs = [];
     ARCHIVE.categories.filter(c => ETC_CATS.has(c.name)).forEach(c => {
-        c.games.forEach(g => subs.push({ name: g.name, images: g.images }));
+        c.games.forEach(g => subs.push({ name: g.name, images: g.images || [], videos: g.videos || [] }));
     });
     return subs;
 }
+const subCount = (s) => s.images.length + s.videos.length;
 
 function initTabs() {
     const tabs = document.querySelectorAll('.archive-tab');
@@ -222,7 +223,7 @@ function renderEtcSidebar() {
         <li>
             <a class="archive-cat-link${s.name === etcSel ? ' active' : ''}" data-etc="${s.name}" href="javascript:void 0">
                 <span class="cat-link-label">${s.name}</span>
-                <span class="cat-link-count">${s.images.length}</span>
+                <span class="cat-link-count">${subCount(s)}</span>
             </a>
         </li>`).join('');
     list.querySelectorAll('[data-etc]').forEach(el => {
@@ -246,8 +247,13 @@ function renderEtc() {
         </div>
         ${subs.map(s => `
             <div class="archive-game-group">
-                <span class="archive-game-label">${s.name}<span class="archive-game-count">${s.images.length}</span></span>
+                <span class="archive-game-label">${s.name}<span class="archive-game-count">${subCount(s)}</span></span>
                 <div class="archive-img-grid">
+                    ${s.videos.map(id => `
+                        <div class="archive-img-item archive-video-item" data-yt="${id}">
+                            <img src="https://img.youtube.com/vi/${id}/hqdefault.jpg" alt="video" loading="lazy">
+                            <span class="video-play">▶</span>
+                        </div>`).join('')}
                     ${s.images.map(src => `
                         <div class="archive-img-item" data-full="${encPath(src)}">
                             <img src="${encPath(src)}" alt="${s.name}" loading="lazy">
@@ -456,13 +462,31 @@ function initLightbox() {
     const modalImg = document.getElementById('lightbox-img');
     const closeBtn = document.querySelector('.lightbox-close');
     if (!modal) return;
+    let frame = null;
+    const clearVideo = () => { if (frame) { frame.remove(); frame = null; } };
+    const close = () => { modal.style.display = 'none'; clearVideo(); modalImg.style.display = ''; modalImg.src = ''; };
+
     document.body.addEventListener('click', (e) => {
         const item = e.target.closest('.archive-img-item');
-        if (item) { modal.style.display = 'flex'; modalImg.src = item.dataset.full; }
+        if (!item) return;
+        modal.style.display = 'flex';
+        clearVideo();
+        if (item.dataset.yt) {
+            modalImg.style.display = 'none';
+            frame = document.createElement('iframe');
+            frame.className = 'lightbox-video';
+            frame.src = `https://www.youtube.com/embed/${item.dataset.yt}?autoplay=1&rel=0`;
+            frame.allow = 'autoplay; encrypted-media; fullscreen';
+            frame.allowFullscreen = true;
+            modal.appendChild(frame);
+        } else {
+            modalImg.style.display = '';
+            modalImg.src = item.dataset.full;
+        }
     });
-    if (closeBtn) closeBtn.addEventListener('click', () => modal.style.display = 'none');
-    modal.addEventListener('click', (e) => { if (e.target === modal) modal.style.display = 'none'; });
-    document.addEventListener('keydown', (e) => { if (e.key === 'Escape') modal.style.display = 'none'; });
+    if (closeBtn) closeBtn.addEventListener('click', close);
+    modal.addEventListener('click', (e) => { if (e.target === modal) close(); });
+    document.addEventListener('keydown', (e) => { if (e.key === 'Escape') close(); });
 }
 
 function initScrollButtons() {
