@@ -50,7 +50,8 @@ const CAT_KO = {
 
 // 분류 체계(22개) — system_classification.md 기준. 각 그룹에 UI 화면 유형을 배속.
 const GROUP_DEF = [
-    ['Core', '코어', ['Inventory','ItemDetail','Storage','Loot','Reward','Mail','Shortcut','Matchmaking','EffectDetailInfo','Stats','Notification']],
+    ['Core', '코어', ['Inventory','ItemDetail','Loot','Reward','Mail','Shortcut','Matchmaking','EffectDetailInfo','Stats','Notification']],
+    ['Resource', '자원', ['Storage']],
     ['Input', '입력', ['KeyBinding']],
     ['Launching', '실행', ['Title','Launcher','PatchProcess','Benchmark','Loading','Steam','Settings','Account','Lobby','EventLobby','Queue','Channel','Home','MainScreen','MainMenu','Menu','Navigation','HamburgerMenu','ContentMenu','SystemMenu','Play','_PCCafe','HUD']],
     ['Character', '캐릭터', ['CharacterCreate','CharacterSelect','Customizing','CharacterInfo','CharacterSkill','Class','ClassChange','ClassTree','Appearance','Death','Hero','HeroRating','Guardian','Pet','Mount','NPC','monster','MonsterSummon','Skill']],
