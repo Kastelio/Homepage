@@ -2,7 +2,7 @@
 
 // 카테고리 한글명 매핑
 const CAT_KO = {
-    AIAssistant: 'AI 어시스턴트', Account: '계정', Achievement: '업적', AdventureBook: '모험일지',
+    AIAssistant: 'AI 어시스턴트', Account: '계정', Achievement: '업적', ActionTutorial: '액션 튜토리얼', AdventureBook: '모험일지',
     Affinity: '호감도', Alchemy: '연금술', Altar: '제단', Appearance: '외형', Arena: '투기장',
     Artifact: '유물', Astrology: '점성술', Attendance: '출석', BaseDefense: '거점 방어', Battle: '전투',
     BattleContentMenu: '전투 콘텐츠 메뉴', BattleGround: '전장', Benchmark: '벤치마크', Boss: '보스',
@@ -33,13 +33,13 @@ const CAT_KO = {
     Notice: '공지', Notification: '알림', NumericInput: '숫자 입력', OfflinePlay: '오프라인 플레이',
     Party: '파티', PatchProcess: '패치 프로세스', PerkPoint: '특성 포인트', Pet: '펫', PhotoMode: '포토 모드',
     Play: '플레이', PowerSaving: '절전 모드', PreRegistration: '사전 등록', Production: '생산', Profile: '프로필',
-    Protocol: '프로토콜', Purchase: '구매', Push: '푸시', PvP: 'PvP', QualityUpgrade: '품질 강화', Quest: '퀘스트',
+    Purchase: '구매', Push: '푸시', PvP: 'PvP', QualityUpgrade: '품질 강화', Quest: '퀘스트',
     Queue: '대기열', Raid: '레이드', Rally: '집결', Ranking: '랭킹', Refine: '재련', Replay: '리플레이',
     Reputation: '평판', ResourceCollection: '자원 수집', Reward: '보상', RoyalCourt: '왕궁', Rune: '룬',
-    Scan: '스캔', Scheme: '책략', Search: '검색', SeasonPass: '시즌 패스', Settings: '설정', Shop: '상점',
+    Scan: '스캔', Scheme: '책략', SeasonPass: '시즌 패스', Settings: '설정', Shop: '상점',
     Shortcut: '바로가기', SiegeBattle: '공성전', Simulation: '시뮬레이션', Skill: '스킬', SoulCore: '소울 코어',
     SpecialOffer: '특별 상품', Stage: '스테이지', StaminaCharge: '스태미나 충전', StarterPack: '스타터 팩',
-    Statistics: '통계', Stats: '스탯', Status: '상태', Steam: '스팀', StepUpOffer: '스텝업 상품',
+    Statistics: '통계', Stats: '스탯', StatFilter: '스탯 필터', Steam: '스팀', StepUpOffer: '스텝업 상품',
     Storage: '창고', Story: '스토리', StrategicMeeting: '전략 회의', Subscription: '구독', Synthesis: '합성',
     SystemMenu: '시스템 메뉴', Tarot: '타로', TeamFormation: '편성', Timeline: '타임라인', Title: '타이틀',
     Title_Badge: '칭호', TradingPort: '교역항', Training: '훈련', Trait: '특성', TraitPoint: '특성 포인트',
@@ -50,7 +50,7 @@ const CAT_KO = {
 
 // 분류 체계(22개) — system_classification.md 기준. 각 그룹에 UI 화면 유형을 배속.
 const GROUP_DEF = [
-    ['Core', '코어', ['Inventory','ItemDetail','Storage','Loot','Reward','Mail','Shortcut','Matchmaking','EffectDetailInfo','Stats','Status','Notification','Search','Protocol']],
+    ['Core', '코어', ['Inventory','ItemDetail','Storage','Loot','Reward','Mail','Shortcut','Matchmaking','EffectDetailInfo','Stats','Notification']],
     ['Input', '입력', ['KeyBinding']],
     ['Launching', '실행', ['Title','Launcher','PatchProcess','Benchmark','Loading','Steam','Settings','Account','Lobby','EventLobby','Queue','Channel','Home','MainScreen','MainMenu','Menu','Navigation','HamburgerMenu','ContentMenu','SystemMenu','Play','_PCCafe','HUD']],
     ['Character', '캐릭터', ['CharacterCreate','CharacterSelect','Customizing','CharacterInfo','CharacterSkill','Class','ClassChange','ClassTree','Appearance','Death','Hero','HeroRating','Guardian','Pet','Mount','NPC','monster','MonsterSummon','Skill']],
@@ -64,8 +64,8 @@ const GROUP_DEF = [
     ['Economy', '경제', ['Exchange','TradingPort']],
     ['Management', '경영', ['Housing','Camp','Council','Courtiers','RoyalCourt','Feudal','Family','Culture','Faction','Military','Decision','Scheme','StrategicMeeting','Faith','Farm']],
     ['Idle', '방치', ['Production','OfflinePlay','ResourceCollection','StaminaCharge','Dispatch']],
-    ['UX', 'UX', ['PowerSaving','Scan','NumericInput','AIAssistant']],
-    ['Guide', '가이드', ['Tutorial','Guide','GameTips','GrowthGuide','DropInfo']],
+    ['UX', 'UX', ['PowerSaving','Scan','NumericInput','StatFilter','AIAssistant']],
+    ['Guide', '가이드', ['Tutorial','ActionTutorial','Guide','GameTips','GrowthGuide','DropInfo']],
     ['BM', 'BM', ['Shop','CashShop','SpecialOffer','StepUpOffer','ConditionalOffer','MilestoneOffer','FirstPurchase','StarterPack','Subscription','SeasonPass','Gacha','GachaProbability','GuardianSummon','Purchase','VIP']],
     ['Event', '이벤트', ['Event','InGameEvent','PreRegistration','Minigame']],
     ['Service', '운영/서비스', ['Account_Login','WebView','Push','Notice']],
