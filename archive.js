@@ -44,13 +44,13 @@ const CAT_KO = {
     SystemMenu: '시스템 메뉴', Tarot: '타로', TeamFormation: '편성', Timeline: '타임라인', Title: '타이틀',
     Title_Badge: '칭호', TradingPort: '교역항', Training: '훈련', Trait: '특성', TraitPoint: '특성 포인트',
     TravelLevel: '여행 레벨', Tutorial: '튜토리얼', VIP: 'VIP', WarArchive: '전쟁 기록', WeaponMastery: '무기 숙련',
-    WebView: '웹뷰', _Modding: '모딩', _PCCafe: 'PC방', book: '책', equipment: '장비', item: '아이템',
+    WebView: '웹뷰', _Modding: '모딩', _PCCafe: 'PC방', book: '책', equipment: '장비',
     level_art: '레벨 아트', meme: '밈', monster: '몬스터',
 };
 
 // 분류 체계(22개) — system_classification.md 기준. 각 그룹에 UI 화면 유형을 배속.
 const GROUP_DEF = [
-    ['Core', '코어', ['Inventory','ItemDetail','ItemEquip','Storage','Loot','Reward','Mail','Shortcut','Matchmaking','EffectDetailInfo','item','Stats','Status','Notification','Search','Protocol']],
+    ['Core', '코어', ['Inventory','ItemDetail','ItemEquip','Storage','Loot','Reward','Mail','Shortcut','Matchmaking','EffectDetailInfo','Stats','Status','Notification','Search','Protocol']],
     ['Input', '입력', ['KeyBinding']],
     ['Launching', '실행', ['Title','Launcher','PatchProcess','Benchmark','Loading','Steam','Settings','Account','Lobby','EventLobby','Queue','Channel','Home','MainScreen','MainMenu','Menu','Navigation','HamburgerMenu','ContentMenu','SystemMenu','Play','_PCCafe','HUD']],
     ['Character', '캐릭터', ['CharacterCreate','CharacterSelect','Customizing','CharacterInfo','CharacterSkill','Class','ClassChange','ClassTree','Appearance','Death','Hero','HeroRating','Guardian','Pet','Mount','NPC','monster','MonsterSummon','Skill']],
