@@ -6,7 +6,7 @@ const CAT_KO = {
     Affinity: '호감도', Alchemy: '연금술', Altar: '제단', Appearance: '외형', Arena: '투기장',
     Artifact: '유물', Astrology: '점성술', Attendance: '출석', BaseDefense: '거점 방어', Battle: '전투',
     BattleContentMenu: '전투 콘텐츠 메뉴', BattleGround: '전장', Benchmark: '벤치마크', Boss: '보스',
-    BuffInfo: '버프 정보', Camp: '캠프', Card: '카드', CashShop: '캐시샵', Challenge: '도전',
+    Camp: '캠프', Card: '카드', CashShop: '캐시샵', Challenge: '도전',
     Channel: '채널', CharacterAscension: '캐릭터 승급', CharacterCreate: '캐릭터 생성',
     CharacterInfo: '캐릭터 정보', CharacterLevel: '캐릭터 레벨', CharacterSelect: '캐릭터 선택',
     CharacterSkill: '캐릭터 스킬', Chat: '채팅', Cinematic: '시네마틱', Class: '클래스',
@@ -15,7 +15,7 @@ const CAT_KO = {
     Cooking: '요리', Council: '평의회', Courtiers: '신하', Crafting: '제작', Culture: '문화',
     Customizing: '커스터마이징', Cyberware: '사이버웨어', DailyTraining: '일일 훈련',
     Death: '사망', Decision: '결정', Decompose: '분해', Dialogue: '대화',
-    Dispatch: '파견', DropInfo: '획득처', Dungeon: '던전', EffectInfo: '효과 정보', Emote: '감정표현',
+    Dispatch: '파견', DropInfo: '획득처', Dungeon: '던전', EffectDetailInfo: '효과 정보', PossessionEffect: '보유 효과', Emote: '감정표현',
     Encyclopedia: '도감', Enhancement: '강화', Event: '이벤트', EventLobby: '이벤트 로비', Exchange: '거래소',
     Exploration: '탐험', Faction: '세력', Faith: '신앙', Family: '가문', Farm: '농장', Feudal: '영지',
     Field: '필드', FieldBoss: '필드 보스', FieldEvent: '필드 이벤트', FirstPurchase: '첫 구매', Friend: '친구',
@@ -50,12 +50,12 @@ const CAT_KO = {
 
 // 분류 체계(22개) — system_classification.md 기준. 각 그룹에 UI 화면 유형을 배속.
 const GROUP_DEF = [
-    ['Core', '코어', ['Inventory','ItemDetail','ItemEquip','Storage','Loot','Reward','Mail','Shortcut','Matchmaking','EffectInfo','BuffInfo','item','Stats','Status','Notification','Search','Protocol']],
+    ['Core', '코어', ['Inventory','ItemDetail','ItemEquip','Storage','Loot','Reward','Mail','Shortcut','Matchmaking','EffectDetailInfo','item','Stats','Status','Notification','Search','Protocol']],
     ['Input', '입력', ['KeyBinding']],
     ['Launching', '실행', ['Title','Launcher','PatchProcess','Benchmark','Loading','Steam','Settings','Account','Lobby','EventLobby','Queue','Channel','Home','MainScreen','MainMenu','Menu','Navigation','HamburgerMenu','ContentMenu','SystemMenu','Play','_PCCafe','HUD']],
     ['Character', '캐릭터', ['CharacterCreate','CharacterSelect','Customizing','CharacterInfo','CharacterSkill','Class','ClassChange','ClassTree','Appearance','Death','Hero','HeroRating','Guardian','Pet','Mount','NPC','monster','MonsterSummon','Skill']],
     ['World', '월드', ['Field','FieldEvent','Map']],
-    ['Growth', '성장', ['Enhancement','Refine','Synthesis','Decompose','Rune','Artifact','Constellation','Astrology','Alchemy','Cooking','WeaponMastery','QualityUpgrade','Training','DailyTraining','GrowthEvent','CharacterLevel','CharacterAscension','HeroLevel','GuardianPromotion','PerkPoint','Trait','TraitPoint','TravelLevel','SoulCore','Cyberware','Card','Heritage','Lifestyle','equipment','Altar']],
+    ['Growth', '성장', ['Enhancement','Refine','Synthesis','Decompose','Rune','Artifact','Constellation','Astrology','Alchemy','Cooking','WeaponMastery','QualityUpgrade','Training','DailyTraining','GrowthEvent','CharacterLevel','CharacterAscension','HeroLevel','GuardianPromotion','PerkPoint','Trait','TraitPoint','TravelLevel','SoulCore','Cyberware','Card','Heritage','Lifestyle','equipment','Altar','PossessionEffect']],
     ['Trade', '교환', ['Crafting','Construction']],
     ['Accomplishment', '달성', ['Achievement','Mission','Journal','Ranking','Quest','Challenge','Statistics','Attendance']],
     ['Collect', '수집', ['Collection','Encyclopedia','Gallery','Profile','Title_Badge','Emote','Gift','Cinematic','Dialogue','Story','Lore','Media','Memoir','Timeline','HeroLibrary','AdventureBook','book']],
