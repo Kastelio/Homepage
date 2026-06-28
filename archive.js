@@ -24,7 +24,7 @@ const CAT_KO = {
     GuardianSummon: '수호자 소환', Guide: '가이드', Guild: '길드', GuildAuction: '길드 경매', HUD: 'HUD',
     HamburgerMenu: '햄버거 메뉴', Heritage: '유산', Hero: '영웅', HeroLevel: '영웅 레벨', HeroLibrary: '영웅 도서관',
     HeroRating: '영웅 평가', Home: '홈', Housing: '하우징', InGameComputer: '인게임 컴퓨터',
-    Inventory: '인벤토리', ItemDetail: '아이템 상세', ItemEquip: '아이템 장착',
+    Inventory: '인벤토리', ItemDetail: '아이템 상세',
     Journal: '일지', KeyBinding: '키 설정', Launcher: '런처', Lifestyle: '생활', Loading: '로딩', Lobby: '로비',
     Loot: '전리품', Lore: '세계관', Mail: '우편', MainMenu: '메인 메뉴', MainScreen: '메인 화면',
     Map: '지도', MatchResult: '매치 결과', Matchmaking: '매치메이킹', Media: '미디어', Memoir: '회고록',
@@ -50,7 +50,7 @@ const CAT_KO = {
 
 // 분류 체계(22개) — system_classification.md 기준. 각 그룹에 UI 화면 유형을 배속.
 const GROUP_DEF = [
-    ['Core', '코어', ['Inventory','ItemDetail','ItemEquip','Storage','Loot','Reward','Mail','Shortcut','Matchmaking','EffectDetailInfo','Stats','Status','Notification','Search','Protocol']],
+    ['Core', '코어', ['Inventory','ItemDetail','Storage','Loot','Reward','Mail','Shortcut','Matchmaking','EffectDetailInfo','Stats','Status','Notification','Search','Protocol']],
     ['Input', '입력', ['KeyBinding']],
     ['Launching', '실행', ['Title','Launcher','PatchProcess','Benchmark','Loading','Steam','Settings','Account','Lobby','EventLobby','Queue','Channel','Home','MainScreen','MainMenu','Menu','Navigation','HamburgerMenu','ContentMenu','SystemMenu','Play','_PCCafe','HUD']],
     ['Character', '캐릭터', ['CharacterCreate','CharacterSelect','Customizing','CharacterInfo','CharacterSkill','Class','ClassChange','ClassTree','Appearance','Death','Hero','HeroRating','Guardian','Pet','Mount','NPC','monster','MonsterSummon','Skill']],
