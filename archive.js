@@ -321,7 +321,7 @@ function renderScreenSidebar() {
             <a class="archive-cat-link" href="#${encodeURIComponent(c.name)}"
                data-cat="${c.name}" data-search="${(catKo(c.name) + ' ' + c.name).toLowerCase()}">
                 <span class="cat-link-label">${catLabel(c.name)}</span>
-                <span class="cat-link-count">${c.image_count}</span>
+                <span class="cat-link-count">${c.game_count}</span>
             </a>
         </li>`;
 
@@ -460,7 +460,7 @@ function renderCategory(cat) {
         </div>
         ${cat.games.map(g => `
             <div class="archive-game-group">
-                <span class="archive-game-label">${g.name}<span class="archive-game-count">${g.images.length}</span></span>
+                <span class="archive-game-label">${gameKo(g.name)}<span class="archive-game-count">${g.images.length}</span></span>
                 <div class="archive-img-grid">
                     ${g.images.map(src => `
                         <div class="archive-img-item" data-full="${encPath(src)}">
