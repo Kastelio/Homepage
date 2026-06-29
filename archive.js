@@ -177,7 +177,7 @@ const TAB_INFO = {
 // 갤러리형 탭 (사이드바+그리드, 이미지·영상 혼합). 각 탭 = 매니페스트 카테고리 묶음
 const GALLERY_TABS = {
     detail: { cats: new Set(['detail']), ko: '디테일 레퍼런스', en: 'Detail', sub: '게임의 디테일·연출 레퍼런스' },
-    meme:   { cats: new Set(['meme']),   ko: '밈 레퍼런스',   en: 'Meme',   sub: '재미있게 본 게임 밈 모음' },
+    meme:   { cats: new Set(['meme']),   ko: '밈 레퍼런스',   en: 'Meme',   sub: '재미있게 본 것들 모음' },
 };
 // UI 레퍼런스에서 제외할 모든 갤러리 카테고리
 const ALL_GALLERY_CATS = new Set(Object.values(GALLERY_TABS).flatMap(t => [...t.cats]));
