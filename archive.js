@@ -194,32 +194,17 @@ function gallerySubs(cats) {
     return subs;
 }
 
+function setActiveTabBtn(tabKey) {
+    document.querySelectorAll('.archive-tab').forEach(t => t.classList.toggle('active', t.dataset.tab === tabKey));
+}
+
 function initTabs() {
-    const tabs = document.querySelectorAll('.archive-tab');
-    const sidebar = document.getElementById('archive-sidebar');
-    const vt = document.querySelector('.archive-viewtoggle');
-    const search = document.getElementById('archive-search');
-    tabs.forEach(tab => {
+    document.querySelectorAll('.archive-tab').forEach(tab => {
         tab.addEventListener('click', () => {
-            tabs.forEach(t => t.classList.remove('active'));
-            tab.classList.add('active');
             const t = tab.dataset.tab;
-            if (t === 'ui') {
-                sidebar.style.display = '';
-                if (vt) vt.style.display = '';
-                if (search) search.style.display = '';
-                route();
-            } else if (GALLERY_TABS[t]) {
-                sidebar.style.display = '';
-                if (vt) vt.style.display = 'none';
-                if (search) search.style.display = 'none';
-                gallerySel[t] = '';
-                renderGallerySidebar(t);
-                renderGallery(t);
-            } else {
-                sidebar.style.display = 'none';
-                renderConstruction(TAB_INFO[t]);
-            }
+            const target = (t === 'ui') ? '' : ('t/' + t);
+            if (location.hash.replace(/^#/, '') === target) route();  // 해시 변화 없으면 직접 렌더
+            else location.hash = target;                              // 해시 변경 → hashchange → route
         });
     });
 }
@@ -356,6 +341,40 @@ function initSearch() {
 
 function route() {
     const raw = location.hash.replace(/^#/, '');
+    const sidebar = document.getElementById('archive-sidebar');
+    const vt = document.querySelector('.archive-viewtoggle');
+    const search = document.getElementById('archive-search');
+
+    // 갤러리/시스템 탭 (#t/<tab>)
+    if (raw.startsWith('t/')) {
+        const tab = decodeURIComponent(raw.slice(2));
+        if (GALLERY_TABS[tab]) {
+            setActiveTabBtn(tab);
+            sidebar.style.display = '';
+            if (vt) vt.style.display = 'none';
+            if (search) search.style.display = 'none';
+            if (!gallerySel[tab]) gallerySel[tab] = '';
+            renderGallerySidebar(tab);
+            renderGallery(tab);
+            window.scrollTo({ top: 0 });
+            return;
+        }
+        if (TAB_INFO[tab]) {   // 시스템 등 준비중 탭
+            setActiveTabBtn(tab);
+            sidebar.style.display = 'none';
+            renderConstruction(TAB_INFO[tab]);
+            window.scrollTo({ top: 0 });
+            return;
+        }
+        // 알 수 없는 탭 → UI로 폴백
+    }
+
+    // UI 레퍼런스 탭
+    setActiveTabBtn('ui');
+    sidebar.style.display = '';
+    if (vt) vt.style.display = '';
+    if (search) search.style.display = '';
+
     const isGame = raw.startsWith('@');
     VIEW = isGame ? 'game' : 'screen';
     renderSidebar();
