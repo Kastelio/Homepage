@@ -16,17 +16,17 @@ const CAT_KO = {
     Customizing: '커스터마이징', Cyberware: '사이버웨어', DailyTraining: '일일 훈련',
     Death: '사망', Decision: '결정', Decompose: '분해', Dialogue: '대화',
     Dispatch: '파견', DropInfo: '획득처', Dungeon: '던전', EffectDetailInfo: '효과 정보', PossessionEffect: '보유 효과', Emote: '감정표현',
-    Encyclopedia: '도감', Enhancement: '강화', Event: '이벤트', EventLobby: '이벤트 로비', Exchange: '거래소',
+    Encyclopedia: '도감', Enhancement: '강화', Event: '이벤트', Exchange: '거래소',
     Exploration: '탐험', Faction: '세력', Faith: '신앙', Family: '가문', Farm: '농장', Feudal: '영지',
     Field: '필드', FieldBoss: '필드 보스', FieldEvent: '필드 이벤트', FirstPurchase: '첫 구매', Friend: '친구',
     Gacha: '가챠', GachaProbability: '가챠 확률', Gallery: '갤러리', GameTips: '게임 팁', Gift: '선물',
     GrowthEvent: '성장 이벤트', GrowthGuide: '성장 가이드', GrowthCollection: '수집', Guardian: '수호자', GuardianPromotion: '수호자 승급',
     GuardianSummon: '수호자 소환', Guide: '가이드', Guild: '길드', GuildAuction: '길드 경매', HUD: 'HUD',
-    HamburgerMenu: '햄버거 메뉴', Heritage: '유산', Hero: '영웅', HeroLevel: '영웅 레벨', HeroLibrary: '영웅 도서관',
+    Heritage: '유산', Hero: '영웅', HeroLevel: '영웅 레벨', HeroLibrary: '영웅 도서관',
     HeroRating: '영웅 평가', Home: '홈', Housing: '하우징', InGameComputer: '인게임 컴퓨터', IdleReward: '방치형 보상',
     Inventory: '인벤토리', ItemDetail: '아이템 상세',
     Journal: '일지', KeyBinding: '키 설정', Launcher: '런처', Lifestyle: '생활', Loading: '로딩', Lobby: '로비',
-    Lore: '세계관', Mail: '우편', MainMenu: '메인 메뉴', MainScreen: '메인 화면',
+    Lore: '세계관', Mail: '우편', MainScreen: '메인 화면',
     Map: '지도', MatchResult: '매치 결과', Matchmaking: '매치메이킹', Media: '미디어', Memoir: '회고록',
     Menu: '메뉴', MilestoneOffer: '마일스톤 상품', Military: '군사', Minigame: '미니게임', Mission: '미션',
     MonsterSummon: '몬스터 소환', Mount: '탈것', Multiplayer: '멀티플레이', NPC: 'NPC', Navigation: '내비게이션',
@@ -50,10 +50,10 @@ const CAT_KO = {
 
 // 분류 체계(22개) — system_classification.md 기준. 각 그룹에 UI 화면 유형을 배속.
 const GROUP_DEF = [
-    ['Core', '코어', ['Reward','Mail','Shortcut','Matchmaking','Stats']],
+    ['Core', '코어', ['Reward','Mail','Shortcut','Matchmaking','Stats','Channel','Loading']],
     ['Resource', '자원', ['Storage','Inventory','ItemDetail']],
     ['Input', '입력', ['KeyBinding']],
-    ['Launching', '실행', ['Title','Launcher','PatchProcess','Loading','Steam','Settings','Account','Lobby','EventLobby','Queue','Channel','Home','MainScreen','MainMenu','Menu','Navigation','HamburgerMenu','ContentMenu','SystemMenu','Play','_PCCafe','HUD']],
+    ['Launching', '실행', ['Title','Launcher','PatchProcess','Steam','Settings','Lobby','Queue','Home','MainScreen','Menu','Navigation','ContentMenu','SystemMenu','Play','_PCCafe','HUD']],
     ['Character', '캐릭터', ['CharacterCreate','CharacterSelect','Customizing','CharacterInfo','CharacterSkill','Class','ClassChange','ClassTree','Appearance','Death','Hero','HeroRating','Guardian','Pet','Mount','NPC','monster','MonsterSummon','Skill']],
     ['World', '월드', ['Field','FieldEvent','Map']],
     ['Growth', '성장', ['Enhancement','Refine','Synthesis','Decompose','Rune','Artifact','Constellation','Astrology','Alchemy','Cooking','WeaponMastery','QualityUpgrade','Training','DailyTraining','GrowthEvent','CharacterLevel','CharacterAscension','HeroLevel','GuardianPromotion','PerkPoint','Trait','TraitPoint','TravelLevel','SoulCore','Cyberware','Card','Heritage','Lifestyle','equipment','Altar','PossessionEffect','GrowthCollection']],
@@ -71,7 +71,7 @@ const GROUP_DEF = [
     ['Guide', '가이드', ['Tutorial','ActionTutorial','Guide','GameTips','GrowthGuide','DropInfo','Notification']],
     ['BM', 'BM', ['Shop','CashShop','SpecialOffer','StepUpOffer','ConditionalOffer','MilestoneOffer','FirstPurchase','StarterPack','Subscription','SeasonPass','Gacha','GachaProbability','GuardianSummon','Purchase','VIP']],
     ['Event', '이벤트', ['Event','InGameEvent','PreRegistration','Minigame']],
-    ['Service', '운영/서비스', ['Account_Login','WebView','Push','Notice']],
+    ['Service', '운영/서비스', ['Account_Login','Account','WebView','Push','Notice']],
     ['Misc', '기타', ['PhotoMode','Replay','Tarot','InGameComputer','_Modding','level_art','meme']],
 ];
 const GROUP_OF = {};
