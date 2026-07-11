@@ -50,8 +50,8 @@ const CAT_KO = {
 
 // 분류 체계(22개) — system_classification.md 기준. 각 그룹에 UI 화면 유형을 배속.
 const GROUP_DEF = [
-    ['Core', '코어', ['Inventory','ItemDetail','Reward','Mail','Shortcut','Matchmaking','EffectDetailInfo','Stats','Notification']],
-    ['Resource', '자원', ['Storage']],
+    ['Core', '코어', ['Reward','Mail','Shortcut','Matchmaking','Stats']],
+    ['Resource', '자원', ['Storage','Inventory','ItemDetail']],
     ['Input', '입력', ['KeyBinding']],
     ['Launching', '실행', ['Title','Launcher','PatchProcess','Benchmark','Loading','Steam','Settings','Account','Lobby','EventLobby','Queue','Channel','Home','MainScreen','MainMenu','Menu','Navigation','HamburgerMenu','ContentMenu','SystemMenu','Play','_PCCafe','HUD']],
     ['Character', '캐릭터', ['CharacterCreate','CharacterSelect','Customizing','CharacterInfo','CharacterSkill','Class','ClassChange','ClassTree','Appearance','Death','Hero','HeroRating','Guardian','Pet','Mount','NPC','monster','MonsterSummon','Skill']],
@@ -66,7 +66,8 @@ const GROUP_DEF = [
     ['Management', '경영', ['Housing','Camp','Council','Courtiers','RoyalCourt','Feudal','Family','Culture','Faction','Military','Decision','Scheme','StrategicMeeting','Faith','Farm']],
     ['Idle', '방치', ['Production','OfflinePlay','ResourceCollection','StaminaCharge','Dispatch','IdleReward']],
     ['UX', 'UX', ['PowerSaving','Scan','NumericInput','StatFilter','AIAssistant']],
-    ['Guide', '가이드', ['Tutorial','ActionTutorial','Guide','GameTips','GrowthGuide','DropInfo']],
+    ['Convenience', '편의성', ['EffectDetailInfo']],
+    ['Guide', '가이드', ['Tutorial','ActionTutorial','Guide','GameTips','GrowthGuide','DropInfo','Notification']],
     ['BM', 'BM', ['Shop','CashShop','SpecialOffer','StepUpOffer','ConditionalOffer','MilestoneOffer','FirstPurchase','StarterPack','Subscription','SeasonPass','Gacha','GachaProbability','GuardianSummon','Purchase','VIP']],
     ['Event', '이벤트', ['Event','InGameEvent','PreRegistration','Minigame']],
     ['Service', '운영/서비스', ['Account_Login','WebView','Push','Notice']],
