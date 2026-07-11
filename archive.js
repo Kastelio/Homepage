@@ -5,7 +5,7 @@ const CAT_KO = {
     AIAssistant: 'AI 어시스턴트', Account: '계정', Achievement: '업적', ActionTutorial: '액션 튜토리얼', AdventureBook: '모험일지',
     Affinity: '호감도', Alchemy: '연금술', Altar: '제단', Appearance: '외형', Arena: '투기장',
     Artifact: '유물', Astrology: '점성술', Attendance: '출석', BaseDefense: '거점 방어', Battle: '전투',
-    BattleBattleGround: '전장', Benchmark: '벤치마크', Boss: '보스',
+    BattleContentMenu: '전투 콘텐츠 메뉴', BattleGround: '전장', Benchmark: '벤치마크', Boss: '보스',
     Camp: '캠프', Card: '카드', CashShop: '캐시샵', Challenge: '도전',
     Channel: '채널', CharacterAscension: '캐릭터 승급', CharacterCreate: '캐릭터 생성',
     CharacterInfo: '캐릭터 정보', CharacterLevel: '캐릭터 레벨', CharacterSelect: '캐릭터 선택',
@@ -32,7 +32,7 @@ const CAT_KO = {
     MonsterSummon: '몬스터 소환', Mount: '탈것', Multiplayer: '멀티플레이', NPC: 'NPC', 
     Notice: '공지', Notification: '알림', NumericInput: '숫자 입력', OfflinePlay: '오프라인 플레이',
     Party: '파티', PatchProcess: '패치 프로세스', PerkPoint: '특성 포인트', Pet: '펫', PhotoMode: '포토 모드',
-    Play: '플레이', PowerSaving: '절전 모드', PreRegistration: '사전 등록', Production: '생산', Profile: '프로필',
+    PowerSaving: '절전 모드', PreRegistration: '사전 등록', Production: '생산', Profile: '프로필',
     Purchase: '구매', Push: '푸시', PvP: 'PvP', QualityUpgrade: '품질 강화', Quest: '퀘스트',
     Queue: '대기열', Raid: '레이드', Rally: '집결', Ranking: '랭킹', Refine: '재련', Replay: '리플레이',
     Reputation: '평판', ResourceCollection: '자원 수집', Reward: '보상', RoyalCourt: '왕궁', Rune: '룬',
@@ -54,7 +54,7 @@ const GROUP_DEF = [
     ['Resource', '자원', ['Storage','Inventory','ItemDetail']],
     ['Input', '입력', ['KeyBinding']],
     ['TitleGroup', '타이틀', ['Title','PatchProcess','Queue']],
-    ['Launching', '실행', ['Launcher','Lobby','MainScreen','Menu','Play']],
+    ['Launching', '실행', ['Launcher','Lobby','MainScreen','Menu']],
     ['Character', '캐릭터', ['CharacterCreate','CharacterSelect','Customizing','CharacterInfo','CharacterSkill','Class','ClassChange','ClassTree','Appearance','Death','Hero','HeroRating','Guardian','Pet','Mount','NPC','monster','MonsterSummon','Skill']],
     ['World', '월드', ['Field','FieldEvent','Map']],
     ['Growth', '성장', ['Enhancement','Refine','Synthesis','Decompose','Rune','Artifact','Constellation','Astrology','Alchemy','Cooking','WeaponMastery','QualityUpgrade','Training','DailyTraining','GrowthEvent','CharacterLevel','CharacterAscension','HeroLevel','GuardianPromotion','PerkPoint','Trait','TraitPoint','TravelLevel','SoulCore','Cyberware','Card','Heritage','Lifestyle','equipment','Altar','PossessionEffect','GrowthCollection']],
@@ -483,7 +483,7 @@ function renderCategory(cat) {
         </div>
         ${cat.games.map(g => `
             <div class="archive-game-group">
-                <span class="archive-game-label">${gameKo(g.name)}<span class="archive-game-count">${g.images.length}</span></span>
+                <span class="archive-game-label">${gameKo(g.name)}${g.note ? ` <span class="game-note">(${g.note})</span>` : ''}<span class="archive-game-count">${g.images.length}</span></span>
                 <div class="archive-img-grid">
                     ${g.images.map(src => `
                         <div class="archive-img-item" data-full="${encPath(src)}">

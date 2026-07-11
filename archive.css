@@ -211,6 +211,7 @@
     border-bottom: 2px solid var(--accent-yellow);
 }
 .archive-game-count { color: var(--text-muted); font-size: 0.8rem; font-weight: 400; margin-left: 0.5rem; }
+.archive-game-label .game-note { color: var(--accent-yellow); font-size: 0.82rem; font-weight: 400; margin-left: 0.35rem; opacity: 0.85; }
 .archive-img-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
