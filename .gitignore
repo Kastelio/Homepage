@@ -9,3 +9,8 @@ steam_config.py
 desktop.ini
 .DS_Store
 Thumbs.db
+
+# 작업용 검수 리포트
+_audit_findings.md
+_audit/
+_audit_index.json
