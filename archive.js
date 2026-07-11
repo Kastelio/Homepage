@@ -179,8 +179,9 @@ const TAB_INFO = {
 
 // 갤러리형 탭 (사이드바+그리드, 이미지·영상 혼합). 각 탭 = 매니페스트 카테고리 묶음
 const GALLERY_TABS = {
-    detail: { cats: new Set(['detail']), ko: '디테일 레퍼런스', en: 'Detail', sub: '게임의 디테일·연출 레퍼런스' },
-    meme:   { cats: new Set(['meme']),   ko: '밈 레퍼런스',   en: 'Meme',   sub: '재미있게 본 것들 모음' },
+    detail:  { cats: new Set(['detail']),     ko: '디테일 레퍼런스', en: 'Detail',  sub: '게임의 디테일한 구현이나 현실 세계의 세세한 것들에 대한 레퍼런스' },
+    monster: { cats: new Set(['monsterref']), ko: '몬스터 레퍼런스', en: 'Monster', sub: '몬스터 디자인에 참고할 현실 생물 레퍼런스' },
+    meme:    { cats: new Set(['meme']),       ko: '밈 레퍼런스',     en: 'Meme',    sub: '재미있게 본 것들 모음' },
 };
 // UI 레퍼런스에서 제외할 모든 갤러리 카테고리
 const ALL_GALLERY_CATS = new Set(Object.values(GALLERY_TABS).flatMap(t => [...t.cats]));
@@ -248,6 +249,13 @@ function renderGallery(tabKey) {
                 <span class="archive-game-label">${s.name}<span class="archive-game-count">${subCount(s)}</span></span>
                 <div class="archive-img-grid">
                     ${s.videos.map(v => {
+                        if (v && v.ig) {
+                            return `
+                        <div class="archive-img-item archive-video-item archive-ig-item" data-ig="${v.ig}">
+                            <span class="ig-logo">Reels</span>
+                            <span class="video-play">▶</span>
+                        </div>`;
+                        }
                         const id = typeof v === 'string' ? v : v.id;
                         const wide = (typeof v === 'object' && v.wide) ? 1 : 0;
                         return `
@@ -507,7 +515,15 @@ function initLightbox() {
         if (!item) return;
         modal.style.display = 'flex';
         clearVideo();
-        if (item.dataset.yt) {
+        if (item.dataset.ig) {
+            modalImg.style.display = 'none';
+            frame = document.createElement('iframe');
+            frame.className = 'lightbox-video ig';
+            frame.src = `https://www.instagram.com/reel/${item.dataset.ig}/embed/`;
+            frame.allow = 'autoplay; encrypted-media; clipboard-write; picture-in-picture';
+            frame.allowFullscreen = true;
+            modal.appendChild(frame);
+        } else if (item.dataset.yt) {
             modalImg.style.display = 'none';
             frame = document.createElement('iframe');
             frame.className = 'lightbox-video' + (item.dataset.wide === '1' ? ' wide' : '');

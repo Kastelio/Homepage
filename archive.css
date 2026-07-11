@@ -269,3 +269,28 @@
     width: min(92vw, calc(88vh * 16 / 9));
     aspect-ratio: 16 / 9;
 }
+
+/* 인스타그램 릴스 항목 */
+.archive-ig-item {
+    background: linear-gradient(135deg, #405DE6, #5851DB 25%, #833AB4 50%, #C13584 68%, #E1306C 82%, #FD1D1D);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.archive-ig-item .ig-logo {
+    position: absolute;
+    top: 8px;
+    left: 10px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 0.78rem;
+    letter-spacing: 0.4px;
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.45);
+}
+.archive-ig-item .video-play { background: rgba(0, 0, 0, 0.18); }
+.lightbox-video.ig {
+    width: min(94vw, 400px);
+    height: min(88vh, 720px);
+    aspect-ratio: auto;
+    background: #fff;
+}
