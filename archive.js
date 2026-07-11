@@ -249,6 +249,13 @@ function renderGallery(tabKey) {
                 <span class="archive-game-label">${s.name}<span class="archive-game-count">${subCount(s)}</span></span>
                 <div class="archive-img-grid">
                     ${s.videos.map(v => {
+                        if (v && v.mp4) {
+                            return `
+                        <div class="archive-img-item archive-video-item" data-mp4="${encPath(v.mp4)}">
+                            <img src="${encPath(v.poster)}" alt="video" loading="lazy">
+                            <span class="video-play">▶</span>
+                        </div>`;
+                        }
                         if (v && v.ig) {
                             return `
                         <div class="archive-img-item archive-video-item archive-ig-item" data-ig="${v.ig}">
@@ -515,7 +522,16 @@ function initLightbox() {
         if (!item) return;
         modal.style.display = 'flex';
         clearVideo();
-        if (item.dataset.ig) {
+        if (item.dataset.mp4) {
+            modalImg.style.display = 'none';
+            frame = document.createElement('video');
+            frame.className = 'lightbox-video-el';
+            frame.src = item.dataset.mp4;
+            frame.controls = true;
+            frame.autoplay = true;
+            frame.playsInline = true;
+            modal.appendChild(frame);
+        } else if (item.dataset.ig) {
             modalImg.style.display = 'none';
             frame = document.createElement('iframe');
             frame.className = 'lightbox-video ig';

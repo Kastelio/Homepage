@@ -294,3 +294,11 @@
     aspect-ratio: auto;
     background: #fff;
 }
+/* 자체 호스팅 영상(릴스 mp4) — 세로/가로 자동 대응 */
+.lightbox-video-el {
+    max-width: 94vw;
+    max-height: 88vh;
+    border-radius: 8px;
+    background: #000;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+}
