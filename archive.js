@@ -32,7 +32,7 @@ const CAT_KO = {
     MonsterSummon: '몬스터 소환', Mount: '탈것', Multiplayer: '멀티플레이', NPC: 'NPC', 
     Notice: '공지', Notification: '알림', NpcShop: 'NPC 상점', IdleContent: '방치형 콘텐츠', NpcAffinity: '호감도', NpcDialog: '다이얼로그', NumericInput: '숫자 입력', OfflinePlay: '오프라인 플레이',
     Party: '파티', PatchProcess: '패치 프로세스', Pass: '패스', PerkPoint: '특성 포인트', Pet: '펫', PhotoMode: '포토 모드',
-    PowerSaving: '절전 모드', PreRegistration: '사전 등록', Production: '생산', Profile: '프로필',
+    PowerSaving: '절전 모드', PreRegistration: '사전 등록', Production: '자동 수급', Profile: '프로필',
     Purchase: '구매', Push: '푸시', PvP: 'PvP', QualityUpgrade: '품질 강화', Quest: '퀘스트',
     Queue: '대기열', Raid: '레이드', Rally: '집결', Ranking: '랭킹', RingMenu: '링 메뉴', Refine: '재련', Replay: '리플레이',
     Reward: '보상',  Rune: '룬',
