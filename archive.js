@@ -3,7 +3,7 @@
 // 카테고리 한글명 매핑
 const CAT_KO = {
     Account: '계정', AccountGrowth: '계정 성장', Achievement: '업적', ActionTutorial: '액션 튜토리얼', 
-    Affinity: '호감도', Alchemy: '연금술', Altar: '제단', Appearance: '외형', Arena: '투기장',
+    Alchemy: '연금술', Altar: '제단', Appearance: '외형', Arena: '투기장',
     Artifact: '유물', Astrology: '점성술', Attendance: '출석', BaseDefense: '거점 방어', Battle: '전투',
     BattleContentMenu: '전투 콘텐츠 메뉴', BattleGround: '전장', Benchmark: '벤치마크', Boss: '보스',
     Camp: '캠프', Card: '카드', CashShop: '캐시샵',
@@ -30,7 +30,7 @@ const CAT_KO = {
     Map: '지도', MatchResult: '매치 결과', Matchmaking: '매치메이킹',
     Menu: '메뉴', MilestoneOffer: '마일스톤 상품', Military: '군사', Minigame: '미니게임', Mission: '미션',
     MonsterSummon: '몬스터 소환', Mount: '탈것', Multiplayer: '멀티플레이', NPC: 'NPC', 
-    Notice: '공지', Notification: '알림', NpcAffinity: '호감도', NpcDialog: '다이얼로그', NumericInput: '숫자 입력', OfflinePlay: '오프라인 플레이',
+    Notice: '공지', Notification: '알림', NpcNpcDialog: '다이얼로그', NumericInput: '숫자 입력', OfflinePlay: '오프라인 플레이',
     Party: '파티', PatchProcess: '패치 프로세스', Pass: '패스', PerkPoint: '특성 포인트', Pet: '펫', PhotoMode: '포토 모드',
     PowerSaving: '절전 모드', PreRegistration: '사전 등록', Production: '생산', Profile: '프로필',
     Purchase: '구매', Push: '푸시', PvP: 'PvP', QualityUpgrade: '품질 강화', Quest: '퀘스트',
@@ -65,7 +65,7 @@ const GROUP_DEF = [
     ['AccountGrowthGroup', '계정 성장', ['AccountGrowth','CollectionGrowth']],
     ['Collect', '수집', ['Profile','CharacterTitle']],
     ['Dungeon', '전투/던전', ['Battle','Boss','FieldBoss','Arena','PvP','BattleGround','SiegeBattle','Raid','Dungeon','BaseDefense','Rally','Field_Battle','Exploration','Simulation','MatchResult','Multiplayer','BattleContentMenu','TeamFormation','Stage','WarArchive']],
-    ['Social', '소셜', ['Chat','Friend','Party','Guild','Affinity','Reputation','Emote']],
+    ['Social', '소셜', ['Chat','Friend','Party','Guild','Reputation','Emote']],
     ['NpcGroup', 'NPC', ['NpcAffinity','NpcDialog']],
     ['Economy', '경제', ['Exchange','TradingPort']],
     ['Management', '경영', ['Housing','Camp','Council','Courtiers','RoyalCourt','Feudal','Family','Culture','Faction','Military','Decision','Scheme','StrategicMeeting','Faith','Farm']],
