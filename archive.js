@@ -2,14 +2,14 @@
 
 // 카테고리 한글명 매핑
 const CAT_KO = {
-    AIAssistant: 'AI 어시스턴트', Account: '계정', Achievement: '업적', ActionTutorial: '액션 튜토리얼', AdventureBook: '모험일지',
+    AIAssistant: 'AI 어시스턴트', Account: '계정', AccountGrowth: '계정 성장', Achievement: '업적', ActionTutorial: '액션 튜토리얼', AdventureBook: '모험일지',
     Affinity: '호감도', Alchemy: '연금술', Altar: '제단', Appearance: '외형', Arena: '투기장',
     Artifact: '유물', Astrology: '점성술', Attendance: '출석', BaseDefense: '거점 방어', Battle: '전투',
     BattleContentMenu: '전투 콘텐츠 메뉴', BattleGround: '전장', Benchmark: '벤치마크', Boss: '보스',
     Camp: '캠프', Card: '카드', CashShop: '캐시샵', Challenge: '도전',
     Channel: '채널', CharacterAscension: '캐릭터 승급', CharacterCreate: '캐릭터 생성',
     CharacterInfo: '캐릭터 정보', CharacterLevel: '캐릭터 레벨', CharacterSelect: '캐릭터 선택',
-    CharacterSkill: '캐릭터 스킬', Chat: '채팅', Cinematic: '시네마틱', Class: '클래스',
+    CharacterSkill: '캐릭터 스킬', Chat: '채팅', Cinematic: '시네마틱', Codex: '도감', Class: '클래스',
     ClassChange: '전직', ClassTree: '클래스 트리', Collection: '수집/도감', Community: '커뮤니티',
     ConditionalOffer: '조건부 상품', Constellation: '별자리', Construction: '건설', 
     Cooking: '요리', Council: '평의회', Courtiers: '신하', Crafting: '제작', Culture: '문화',
@@ -61,7 +61,8 @@ const GROUP_DEF = [
     ['Growth', '성장', ['Enhancement','Refine','Synthesis','Decompose','Rune','Artifact','Constellation','Astrology','Alchemy','Cooking','WeaponMastery','QualityUpgrade','Training','DailyTraining','GrowthEvent','CharacterLevel','CharacterAscension','HeroLevel','GuardianPromotion','PerkPoint','Trait','TraitPoint','TravelLevel','SoulCore','Cyberware','Card','Heritage','Lifestyle','equipment','Altar','PossessionEffect','GrowthCollection','Stats']],
     ['Trade', '교환', ['Crafting']],
     ['TerritoryGrowth', '영지 성장', ['Construction']],
-    ['Accomplishment', '달성', ['Achievement','Trophy','Mission','Journal','Ranking','Quest','Challenge','Statistics','Attendance']],
+    ['Accomplishment', '달성', ['Achievement','Trophy','Codex','Mission','Journal','Ranking','Quest','Challenge','Statistics','Attendance']],
+    ['AccountGrowthGroup', '계정 성장', ['AccountGrowth']],
     ['Collect', '수집', ['Collection','Encyclopedia','Gallery','Profile','Title_Badge','Emote','Gift','Cinematic','Dialogue','Story','Lore','Media','Memoir','Timeline','HeroLibrary','AdventureBook','book']],
     ['Dungeon', '전투/던전', ['Battle','Boss','FieldBoss','Arena','PvP','BattleGround','SiegeBattle','Raid','Dungeon','BaseDefense','Rally','Field_Battle','Exploration','Simulation','MatchResult','Multiplayer','BattleContentMenu','TeamFormation','Stage','WarArchive']],
     ['Social', '소셜', ['Chat','Friend','Party','Guild','GuildAuction','Community','Affinity','Reputation']],
