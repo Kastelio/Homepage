@@ -2,7 +2,7 @@
 
 // 카테고리 한글명 매핑
 const CAT_KO = {
-    AIAssistant: 'AI 어시스턴트', Account: '계정', AccountGrowth: '계정 성장', Achievement: '업적', ActionTutorial: '액션 튜토리얼', AdventureBook: '모험일지',
+    Account: '계정', AccountGrowth: '계정 성장', Achievement: '업적', ActionTutorial: '액션 튜토리얼', AdventureBook: '모험일지',
     Affinity: '호감도', Alchemy: '연금술', Altar: '제단', Appearance: '외형', Arena: '투기장',
     Artifact: '유물', Astrology: '점성술', Attendance: '출석', BaseDefense: '거점 방어', Battle: '전투',
     BattleContentMenu: '전투 콘텐츠 메뉴', BattleGround: '전장', Benchmark: '벤치마크', Boss: '보스',
@@ -71,7 +71,7 @@ const GROUP_DEF = [
     ['Economy', '경제', ['Exchange','TradingPort']],
     ['Management', '경영', ['Housing','Camp','Council','Courtiers','RoyalCourt','Feudal','Family','Culture','Faction','Military','Decision','Scheme','StrategicMeeting','Faith','Farm']],
     ['Idle', '방치', ['Production','OfflinePlay','ResourceCollection','StaminaCharge','Dispatch','IdleReward']],
-    ['UX', 'UX', ['PowerSaving','Scan','NumericInput','StatFilter','AIAssistant']],
+    ['UX', 'UX', ['PowerSaving','Scan','NumericInput','StatFilter']],
     ['Convenience', '편의성', ['EffectDetailInfo']],
     ['Environment', '환경', ['Benchmark','GameSettings','Settings','HUDEdit','RingMenu']],
     ['Guide', '가이드', ['Tutorial','ActionTutorial','Guide','GuideMission','GameTips','GrowthGuide','DropInfo','Notification','Statistics','Wiki']],
