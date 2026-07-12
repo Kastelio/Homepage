@@ -66,7 +66,7 @@ const GROUP_DEF = [
     ['NpcGroup', 'NPC', ['NpcAffinity','NpcDialog']],
     ['Economy', '경제', ['Market']],
     ['Management', '경영', ['Housing','Construction','Camp']],
-    ['Idle', '방치', ['Production','OfflinePlay','Dispatch']],
+    ['Idle', '방치', ['Production','Dispatch','OfflinePlay']],
     ['UX', 'UX', ['PowerSaving','Scan','NumericInput','StatFilter']],
     ['Convenience', '편의성', ['EffectDetailInfo']],
     ['Environment', '환경', ['KeyBinding','Benchmark','GameSettings','Settings','HUDEdit','RingMenu']],
