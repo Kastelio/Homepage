@@ -54,7 +54,8 @@ const GROUP_DEF = [
     ['Resource', '자원', ['Storage','Inventory','ItemDetail']],
     ['Input', '입력', ['KeyBinding']],
     ['TitleGroup', '타이틀', ['Title','PatchProcess','Queue']],
-    ['Launching', '실행', ['Launcher','Lobby','MainScreen','Menu']],
+    ['Launching', '실행', ['Launcher']],
+    ['MainGroup', '메인 화면', ['MainScreen','Lobby','Menu']],
     ['Character', '캐릭터', ['CharacterCreate','CharacterSelect','Customizing','CharacterInfo','CharacterSkill','Class','ClassChange','ClassTree','Appearance','Death','Hero','HeroRating','Guardian','Pet','Mount','NPC','monster','MonsterSummon','Skill']],
     ['World', '월드', ['Field','FieldEvent','Map']],
     ['Growth', '성장', ['Enhancement','Refine','Synthesis','Decompose','Rune','Artifact','Constellation','Astrology','Alchemy','Cooking','WeaponMastery','QualityUpgrade','Training','DailyTraining','GrowthEvent','CharacterLevel','CharacterAscension','HeroLevel','GuardianPromotion','PerkPoint','Trait','TraitPoint','TravelLevel','SoulCore','Cyberware','Card','Heritage','Lifestyle','equipment','Altar','PossessionEffect','GrowthCollection','Stats']],
@@ -76,7 +77,8 @@ const GROUP_DEF = [
     ['Misc', '기타', ['PhotoMode','Replay','Tarot','InGameComputer','_Modding','level_art','meme']],
 ];
 const GROUP_OF = {};
-GROUP_DEF.forEach(([key, , members]) => members.forEach(m => { GROUP_OF[m] = key; }));
+const CAT_ORDER = {};   // 그룹 내 정렬 순서(GROUP_DEF 멤버 순서 기준)
+GROUP_DEF.forEach(([key, , members]) => members.forEach((m, i) => { GROUP_OF[m] = key; CAT_ORDER[m] = i; }));
 
 function catKo(name) { return CAT_KO[name] || name; }
 function catLabel(name) {
@@ -319,6 +321,8 @@ function renderScreenSidebar() {
         const g = GROUP_OF[c.name] || 'Misc';
         (buckets[g] || buckets['Misc']).push(c);
     });
+    // 그룹 내 순서를 GROUP_DEF 멤버 순서대로 정렬
+    Object.values(buckets).forEach(arr => arr.sort((a, b) => (CAT_ORDER[a.name] ?? 999) - (CAT_ORDER[b.name] ?? 999)));
 
     const liOf = (c) => `
         <li>
