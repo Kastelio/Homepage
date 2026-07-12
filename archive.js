@@ -65,7 +65,7 @@ const GROUP_DEF = [
     ['AccountGrowthGroup', '계정 성장', ['AccountGrowth','CollectionGrowth']],
     ['Collect', '수집', ['Profile','CharacterTitle']],
     ['Dungeon', '전투/던전', ['Battle','Boss','FieldBoss','Arena','PvP','BattleGround','SiegeBattle','Raid','Dungeon','BaseDefense','Rally','Field_Battle','Exploration','Simulation','MatchResult','Multiplayer','BattleContentMenu','TeamFormation','Stage','WarArchive']],
-    ['Social', '소셜', ['Chat','Friend','Party','Guild','Emote']],
+    ['Social', '소셜', ['Chat','Emote','Friend','Party','Guild']],
     ['NpcGroup', 'NPC', ['NpcAffinity','NpcDialog']],
     ['Economy', '경제', ['Exchange','TradingPort']],
     ['Management', '경영', ['Housing','Camp','Council','Courtiers','RoyalCourt','Feudal','Family','Culture','Faction','Military','Decision','Scheme','StrategicMeeting','Faith','Farm']],
