@@ -39,7 +39,7 @@ const CAT_KO = {
     Scan: '스캔', Scheme: '책략', SeasonPass: '시즌 패스', Settings: '설정', Shop: '상점',
     Shortcut: '바로가기', SiegeBattle: '공성전', Simulation: '시뮬레이션', Skill: '스킬', SoulCore: '소울 코어',
     SpecialOffer: '특별 상품', Stage: '스테이지', StaminaCharge: '스태미나 충전', StarterPack: '스타터 팩',
-    Statistics: '통계', Stats: '스탯', StatFilter: '스탯 필터', StepUpOffer: '스텝업 상품',
+    Statistics: '통계', Stats: '캐릭터 스탯', StatFilter: '스탯 필터', StepUpOffer: '스텝업 상품',
     Storage: '창고', Story: '스토리', StrategicMeeting: '전략 회의', Subscription: '구독', Synthesis: '합성',
     Tarot: '타로', TeamFormation: '편성', Timeline: '타임라인', Title: '타이틀',
     Title_Badge: '칭호', TradingPort: '교역항', Training: '훈련', Trait: '특성', TraitPoint: '특성 포인트',
@@ -50,14 +50,14 @@ const CAT_KO = {
 
 // 분류 체계(22개) — system_classification.md 기준. 각 그룹에 UI 화면 유형을 배속.
 const GROUP_DEF = [
-    ['Core', '코어', ['Reward','Mail','Shortcut','Matchmaking','Stats','Channel','Loading']],
+    ['Core', '코어', ['Reward','Mail','Shortcut','Matchmaking','Channel','Loading']],
     ['Resource', '자원', ['Storage','Inventory','ItemDetail']],
     ['Input', '입력', ['KeyBinding']],
     ['TitleGroup', '타이틀', ['Title','PatchProcess','Queue']],
     ['Launching', '실행', ['Launcher','Lobby','MainScreen','Menu']],
     ['Character', '캐릭터', ['CharacterCreate','CharacterSelect','Customizing','CharacterInfo','CharacterSkill','Class','ClassChange','ClassTree','Appearance','Death','Hero','HeroRating','Guardian','Pet','Mount','NPC','monster','MonsterSummon','Skill']],
     ['World', '월드', ['Field','FieldEvent','Map']],
-    ['Growth', '성장', ['Enhancement','Refine','Synthesis','Decompose','Rune','Artifact','Constellation','Astrology','Alchemy','Cooking','WeaponMastery','QualityUpgrade','Training','DailyTraining','GrowthEvent','CharacterLevel','CharacterAscension','HeroLevel','GuardianPromotion','PerkPoint','Trait','TraitPoint','TravelLevel','SoulCore','Cyberware','Card','Heritage','Lifestyle','equipment','Altar','PossessionEffect','GrowthCollection']],
+    ['Growth', '성장', ['Enhancement','Refine','Synthesis','Decompose','Rune','Artifact','Constellation','Astrology','Alchemy','Cooking','WeaponMastery','QualityUpgrade','Training','DailyTraining','GrowthEvent','CharacterLevel','CharacterAscension','HeroLevel','GuardianPromotion','PerkPoint','Trait','TraitPoint','TravelLevel','SoulCore','Cyberware','Card','Heritage','Lifestyle','equipment','Altar','PossessionEffect','GrowthCollection','Stats']],
     ['Trade', '교환', ['Crafting','Construction']],
     ['Accomplishment', '달성', ['Achievement','Mission','Journal','Ranking','Quest','Challenge','Statistics','Attendance']],
     ['Collect', '수집', ['Collection','Encyclopedia','Gallery','Profile','Title_Badge','Emote','Gift','Cinematic','Dialogue','Story','Lore','Media','Memoir','Timeline','HeroLibrary','AdventureBook','book']],
