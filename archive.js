@@ -70,7 +70,7 @@ const GROUP_DEF = [
     ['UX', 'UX', ['NumericInput','StatFilter']],
     ['Convenience', '편의성', ['EffectDetailInfo','PowerSaving','Scan']],
     ['Environment', '환경', ['Settings','KeyBinding','HUDEdit','RingMenu','Benchmark']],
-    ['Guide', '가이드', ['Tutorial','ActionTutorial','Guide','GuideMission','GameTips','AcquireInfo','Notification','Statistics','Wiki']],
+    ['Guide', '가이드', ['Guide','GuideMission','Statistics','Tutorial','ActionTutorial','GameTips','AcquireInfo','Notification','Wiki']],
     ['BM', 'BM', ['Shop','StaminaCharge','CashShop','SpecialOffer','StepUpOffer','ConditionalOffer','MilestoneOffer','FirstPurchase','StarterPack','Subscription','SeasonPass','Pass','Gacha','GachaProbability','GuardianSummon','Purchase','VIP']],
     ['Event', '이벤트', ['Event','InGameEvent','PreRegistration','Minigame','Attendance','_PCCafe']],
     ['Service', '운영/서비스', ['Account_Login','Account','WebView','Push','Notice']],
