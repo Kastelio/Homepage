@@ -93,7 +93,7 @@ function encPath(p) { return p.split('/').map(encodeURIComponent).join('/'); }
 const GAME_KO = {
     PrasiaTales: '프라시아 전기', AsdalChronicles: '아스달 연대기', SoloLevelingArise: '나 혼자만 레벨업: 어라이즈',
     Hoyeon: '호연', 제2의나라CrossWorlds: '제2의 나라: 크로스 월드', 제2의나라Crossworlds: '제2의 나라: 크로스 월드',
-    SummonersWarChronicles: '서머너즈 워: 크로니클', LineageW: '리니지W', 제노니아크로노브레이크: '제노니아: 크로노브레이크',
+    SummonersWarChronicles: '서머너즈 워: 크로니클', 서머너즈워백년전쟁: '서머너즈 워: 백년전쟁', LineageW: '리니지W', 제노니아크로노브레이크: '제노니아: 크로노브레이크',
     Lineage2Revolution: '리니지2 레볼루션', NightCrows: '나이트 크로우', ThroneAndLiberty: '쓰론 앤 리버티',
     트릭컬리바이브: '트릭컬 리바이브', HonkaiStarRail: '붕괴: 스타레일', DragonheirSilentGods: '드래곤히어: 사일런트 갓즈',
     로드나인: '로드나인', Lineage2M: '리니지2M', 가디언테일즈: '가디언 테일즈', LostArk: '로스트아크',
