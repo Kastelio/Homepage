@@ -52,7 +52,6 @@ const CAT_KO = {
 const GROUP_DEF = [
     ['Core', '코어', ['Reward','Mail','Shortcut','Matchmaking','Channel','Loading']],
     ['Resource', '자원', ['Storage','Inventory','ItemDetail']],
-    ['Input', '입력', ['KeyBinding']],
     ['TitleGroup', '타이틀', ['Title','PatchProcess','Queue']],
     ['Launching', '실행', ['Launcher']],
     ['MainGroup', '메인 화면', ['MainScreen','Lobby','Menu']],
@@ -72,7 +71,7 @@ const GROUP_DEF = [
     ['Idle', '방치', ['Production','OfflinePlay','ResourceCollection','StaminaCharge','Dispatch','IdleReward','IdleContent']],
     ['UX', 'UX', ['PowerSaving','Scan','NumericInput','StatFilter']],
     ['Convenience', '편의성', ['EffectDetailInfo']],
-    ['Environment', '환경', ['Benchmark','GameSettings','Settings','HUDEdit','RingMenu']],
+    ['Environment', '환경', ['KeyBinding','Benchmark','GameSettings','Settings','HUDEdit','RingMenu']],
     ['Guide', '가이드', ['Tutorial','ActionTutorial','Guide','GuideMission','GameTips','GrowthGuide','DropInfo','Notification','Statistics','Wiki']],
     ['BM', 'BM', ['Shop','CashShop','SpecialOffer','StepUpOffer','ConditionalOffer','MilestoneOffer','FirstPurchase','StarterPack','Subscription','SeasonPass','Pass','Gacha','GachaProbability','GuardianSummon','Purchase','VIP']],
     ['Event', '이벤트', ['Event','InGameEvent','PreRegistration','Minigame','Attendance','_PCCafe']],
