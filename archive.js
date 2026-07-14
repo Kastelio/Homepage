@@ -18,7 +18,7 @@ const CAT_KO = {
     Etc: '기타', Enhancement: '강화', Event: '이벤트', Market: '거래소',
     Exploration: '탐험',     
     FieldBoss: '필드 보스', Event_FirstPurchase: '첫 구매', BMShopDouble: '두배 상품', Friend: '친구',
-    BMGacha: '가챠', ProbabilityNotice: '확률고지', GameTips: '튜토리얼 다시보기',
+    BMGacha: '뽑기', ProbabilityNotice: '확률고지', GameTips: '튜토리얼 다시보기',
     GrowthEvent: '성장 이벤트', GrowthCollection: '수집', Guardian: '수호자', GuardianPromotion: '수호자 승급',
     Guide: '가이드', GuideMission: '가이드 미션', Guild: '길드', 
     Heritage: '유산', Hero: '영웅', HeroLevel: '영웅 레벨',
