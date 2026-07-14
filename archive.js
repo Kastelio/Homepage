@@ -4,7 +4,7 @@
 const CAT_KO = {
     Account: '계정', AccountGrowth: '계정 성장', TimeConsume: '시간 소모', Achievement: '업적', ActionTutorial: '액션 튜토리얼', 
     Alchemy: '연금술', Altar: '제단', Appearance: '외형', Arena: '투기장',
-    Artifact: '유물', Astrology: '점성술', Attendance: '출석', BaseDefense: '거점 방어', Battle: '전투',
+    Artifact: '유물', Astrology: '점성술', Event_Attendance: '출석', BaseDefense: '거점 방어', Battle: '전투',
     BattleContentMenu: '전투 콘텐츠 메뉴', BattleGround: '전장', Benchmark: '벤치마크', Boss: '보스',
     Camp: '캠프', Card: '카드', Channel: '채널', CharacterAscension: '캐릭터 승급', CharacterCreate: '캐릭터 생성',
     CharacterInfo: '캐릭터 정보', CharacterLevel: '캐릭터 레벨', CharacterSelect: '캐릭터 선택',
@@ -42,7 +42,7 @@ const CAT_KO = {
     Tarot: '타로', TeamFormation: '편성', Title: '타이틀',
     CharacterTitle: '칭호', Training: '훈련', Trophy: '도전과제', Trait: '특성', TraitPoint: '특성 포인트',
     TravelLevel: '여행 레벨', Tutorial: '튜토리얼', BMVIP: 'VIP', WarArchive: '전쟁 기록', WeaponMastery: '무기 숙련',
-    WebView: '웹뷰', Wiki: '백과사전', _Modding: '모딩', _PCCafe: 'PC방 이벤트', equipment: '장비',
+    WebView: '웹뷰', Wiki: '백과사전', _Modding: '모딩', Event_PCCafe: 'PC방', equipment: '장비',
     level_art: '레벨 아트', meme: '밈', monster: '몬스터',
 };
 
@@ -71,8 +71,8 @@ const GROUP_DEF = [
     ['Environment', '환경', ['Settings','KeyBinding','HUDEdit','RingMenu','Benchmark']],
     ['Guide', '가이드', ['Guide','GuideMission','Statistics','Tutorial','ActionTutorial','GameTips','AcquireInfo','Notification','Wiki']],
     ['BM', 'BM', ['BMShop','BMActivityCharge','BMShopProductTypeConditional','BMShopProductTypeStepup','BMShopProductTypeChoice','BMShopProductTypePeriod','BMShopProductTypeAttendance','BMShopDiscountCoupon','BMShopGuildDonation','BMShopBonusPurchaseCount','BMShopProductTypeAchive','BMShopDouble','BMPass','BMGacha','BMVIP']],
-    ['Event', '이벤트', ['Event','Event_FirstPurchase','InGameEvent','PreRegistration','Minigame','Attendance','_PCCafe']],
-    ['Service', '운영/서비스', ['Account_Login','Account','Membership','ProbabilityNotice','WebView','Push','Notice']],
+    ['Event', '이벤트', ['Event','Event_FirstPurchase','InGameEvent','Minigame','Event_Attendance','Event_PCCafe']],
+    ['Service', '운영/서비스', ['Account_Login','Account','Membership','ProbabilityNotice','PreRegistration','WebView','Push','Notice']],
     ['Misc', '기타', ['Etc','PhotoMode','Replay','Tarot','InGameComputer','_Modding','level_art','meme']],
 ];
 const GROUP_OF = {};
