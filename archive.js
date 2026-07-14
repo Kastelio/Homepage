@@ -41,7 +41,7 @@ const CAT_KO = {
     Storage: '창고',  Membership: '멤버쉽', Synthesis: '합성',
     Tarot: '타로', TeamFormation: '편성', Title: '타이틀',
     CharacterTitle: '칭호', Training: '훈련', Trophy: '도전과제', Trait: '특성', TraitPoint: '특성 포인트',
-    TravelLevel: '여행 레벨', Tutorial: '튜토리얼', VIP: 'VIP', WarArchive: '전쟁 기록', WeaponMastery: '무기 숙련',
+    TravelLevel: '여행 레벨', Tutorial: '튜토리얼', BMVIP: 'VIP', WarArchive: '전쟁 기록', WeaponMastery: '무기 숙련',
     WebView: '웹뷰', Wiki: '백과사전', _Modding: '모딩', _PCCafe: 'PC방 이벤트', equipment: '장비',
     level_art: '레벨 아트', meme: '밈', monster: '몬스터',
 };
@@ -70,7 +70,7 @@ const GROUP_DEF = [
     ['Convenience', '편의성', ['EffectDetailInfo','PowerSaving','Scan']],
     ['Environment', '환경', ['Settings','KeyBinding','HUDEdit','RingMenu','Benchmark']],
     ['Guide', '가이드', ['Guide','GuideMission','Statistics','Tutorial','ActionTutorial','GameTips','AcquireInfo','Notification','Wiki']],
-    ['BM', 'BM', ['BMShop','BMActivityCharge','BMShopProductTypeConditional','BMShopProductTypeStepup','BMShopProductTypeChoice','BMShopProductTypePeriod','BMShopProductTypeAttendance','BMShopDiscountCoupon','BMShopGuildDonation','BMShopBonusPurchaseCount','BMShopProductTypeAchive','BMShopDouble','BMPass','BMGacha','VIP']],
+    ['BM', 'BM', ['BMShop','BMActivityCharge','BMShopProductTypeConditional','BMShopProductTypeStepup','BMShopProductTypeChoice','BMShopProductTypePeriod','BMShopProductTypeAttendance','BMShopDiscountCoupon','BMShopGuildDonation','BMShopBonusPurchaseCount','BMShopProductTypeAchive','BMShopDouble','BMPass','BMGacha','BMVIP']],
     ['Event', '이벤트', ['Event','Event_FirstPurchase','InGameEvent','PreRegistration','Minigame','Attendance','_PCCafe']],
     ['Service', '운영/서비스', ['Account_Login','Account','Membership','ProbabilityNotice','WebView','Push','Notice']],
     ['Misc', '기타', ['Etc','PhotoMode','Replay','Tarot','InGameComputer','_Modding','level_art','meme']],
