@@ -26,7 +26,7 @@ const CAT_KO = {
     KeyBinding: '키 설정', Launcher: '런처', Lifestyle: '생활', Loading: '로딩', Lobby: '로비',
     Mail: '우편', MainScreen: '메인 화면',
     Map: '지도', MatchResult: '매치 결과', Matchmaking: '매치메이킹',
-    Menu: '메뉴', BMShopProductTypeAchive: '달성형 상품',  Minigame: '미니게임', Mission: '미션',
+    Menu: '메뉴', BMShopProductTypeAchive: '달성형 상품',  Event_Minigame: '미니게임', Mission: '미션',
     MonsterSummon: '몬스터 소환', Mount: '탈것', Multiplayer: '멀티플레이', NPC: 'NPC', 
     Notice: '공지', Notification: '알림', NpcShop: 'NPC 상점', NpcAffinity: '호감도', NpcDialog: '다이얼로그', NumericInput: '숫자 입력', OfflinePlay: '오프라인 플레이',
     Party: '파티', PatchProcess: '패치 프로세스', BMPass: '패스', PerkPoint: '특성 포인트', Pet: '펫', PhotoMode: '포토 모드',
@@ -71,7 +71,7 @@ const GROUP_DEF = [
     ['Environment', '환경', ['Settings','KeyBinding','HUDEdit','RingMenu','Benchmark']],
     ['Guide', '가이드', ['Guide','GuideMission','Statistics','Tutorial','ActionTutorial','GameTips','AcquireInfo','Notification','Wiki']],
     ['BM', 'BM', ['BMShop','BMActivityCharge','BMShopProductTypeConditional','BMShopProductTypeStepup','BMShopProductTypeChoice','BMShopProductTypePeriod','BMShopProductTypeAttendance','BMShopDiscountCoupon','BMShopGuildDonation','BMShopBonusPurchaseCount','BMShopProductTypeAchive','BMShopDouble','BMPass','BMGacha','BMVIP']],
-    ['Event', '이벤트', ['Event','Event_FirstPurchase','InGameEvent','Minigame','Event_Attendance','Event_PCCafe']],
+    ['Event', '이벤트', ['Event','Event_FirstPurchase','InGameEvent','Event_Minigame','Event_Attendance','Event_PCCafe']],
     ['Service', '운영/서비스', ['Account_Login','Account','Membership','ProbabilityNotice','PreRegistration','WebView','Push','Notice']],
     ['Misc', '기타', ['Etc','PhotoMode','Replay','Tarot','InGameComputer','_Modding','level_art','meme']],
 ];
@@ -404,6 +404,7 @@ function route() {
     document.querySelectorAll('.archive-cat-link').forEach(el => {
         el.classList.toggle('active', el.dataset.cat === sel);
     });
+    scrollSidebarToActive();
 
     if (isGame) {
         const gname = decodeURIComponent(raw.slice(1));
@@ -417,6 +418,16 @@ function route() {
         cat ? renderCategory(cat) : renderOverview();
     }
     window.scrollTo({ top: 0 });
+}
+
+// 사이드바를 활성 카테고리가 보이도록 스크롤(컨테이너 내부만)
+function scrollSidebarToActive() {
+    const list = document.getElementById('archive-cat-list');
+    if (!list) return;
+    const active = list.querySelector('.archive-cat-link.active');
+    if (!active) return;
+    const lr = list.getBoundingClientRect(), ar = active.getBoundingClientRect();
+    list.scrollTop += (ar.top - lr.top) - (list.clientHeight - active.offsetHeight) / 2;
 }
 
 function renderGameOverview() {
