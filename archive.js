@@ -70,7 +70,7 @@ const GROUP_DEF = [
     ['Convenience', '편의성', ['EffectDetailInfo','PowerSaving','Scan']],
     ['Environment', '환경', ['Settings','KeyBinding','HUDEdit','RingMenu','Benchmark']],
     ['Guide', '가이드', ['Guide','GuideMission','Statistics','Tutorial','ActionTutorial','GameTips','AcquireInfo','Notification','Wiki']],
-    ['BM', 'BM', ['BMShop','BMActivityCharge','BMShopProductTypeConditional','BMShopProductTypeStepup','BMShopProductTypeChoice','BMShopProductTypePeriod','BMShopProductTypeAttendance','BMShopDiscountCoupon','BMShopGuildDonation','BMShopBonusPurchaseCount','BMShopProductTypeAchive','BMShopDouble','StarterPack','Subscription','SeasonPass','Pass','Gacha','GachaProbability','GuardianSummon','Purchase','VIP']],
+    ['BM', 'BM', ['BMShop','BMActivityCharge','BMShopProductTypeConditional','BMShopProductTypeStepup','BMShopProductTypeChoice','BMShopProductTypePeriod','BMShopProductTypeAttendance','BMShopDiscountCoupon','BMShopGuildDonation','BMShopBonusPurchaseCount','BMShopProductTypeAchive','BMShopDouble','Subscription','SeasonPass','Pass','Gacha','GachaProbability','GuardianSummon','Purchase','VIP']],
     ['Event', '이벤트', ['Event','Event_FirstPurchase','InGameEvent','PreRegistration','Minigame','Attendance','_PCCafe']],
     ['Service', '운영/서비스', ['Account_Login','Account','WebView','Push','Notice']],
     ['Misc', '기타', ['Etc','PhotoMode','Replay','Tarot','InGameComputer','_Modding','level_art','meme']],
