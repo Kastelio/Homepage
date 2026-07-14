@@ -38,7 +38,7 @@ const CAT_KO = {
     Shortcut: '바로가기', SiegeBattle: '공성전', Simulation: '시뮬레이션', Skill: '스킬', SoulCore: '소울 코어',
     BMShopProductTypeConditional: '조건형 상품', BMShopDiscountCoupon: 'BM상점 할인 쿠폰', BMShopGuildDonation: '길드 기여 상품', BMShopBonusPurchaseCount: '구매 횟수 보너스 상품', BMShopProductTypeChoice: '선택형 상품', BMShopProductTypePeriod: '기간형 상품', BMShopProductTypeAttendance: '출석 상품', Stage: '스테이지', BMActivityCharge: '활동력 충전', StarterPack: '스타터 팩',
     Statistics: '통계형 가이드', Stats: '캐릭터 스탯', StatFilter: '스탯 필터', BMShopProductTypeStepup: '스텝업 상품',
-    Storage: '창고',  Subscription: '구독', Synthesis: '합성',
+    Storage: '창고',  Membership: '멤버쉽', Synthesis: '합성',
     Tarot: '타로', TeamFormation: '편성', Title: '타이틀',
     CharacterTitle: '칭호', Training: '훈련', Trophy: '도전과제', Trait: '특성', TraitPoint: '특성 포인트',
     TravelLevel: '여행 레벨', Tutorial: '튜토리얼', VIP: 'VIP', WarArchive: '전쟁 기록', WeaponMastery: '무기 숙련',
@@ -70,9 +70,9 @@ const GROUP_DEF = [
     ['Convenience', '편의성', ['EffectDetailInfo','PowerSaving','Scan']],
     ['Environment', '환경', ['Settings','KeyBinding','HUDEdit','RingMenu','Benchmark']],
     ['Guide', '가이드', ['Guide','GuideMission','Statistics','Tutorial','ActionTutorial','GameTips','AcquireInfo','Notification','Wiki']],
-    ['BM', 'BM', ['BMShop','BMActivityCharge','BMShopProductTypeConditional','BMShopProductTypeStepup','BMShopProductTypeChoice','BMShopProductTypePeriod','BMShopProductTypeAttendance','BMShopDiscountCoupon','BMShopGuildDonation','BMShopBonusPurchaseCount','BMShopProductTypeAchive','BMShopDouble','Subscription','SeasonPass','Pass','Gacha','GachaProbability','GuardianSummon','Purchase','VIP']],
+    ['BM', 'BM', ['BMShop','BMActivityCharge','BMShopProductTypeConditional','BMShopProductTypeStepup','BMShopProductTypeChoice','BMShopProductTypePeriod','BMShopProductTypeAttendance','BMShopDiscountCoupon','BMShopGuildDonation','BMShopBonusPurchaseCount','BMShopProductTypeAchive','BMShopDouble','SeasonPass','Pass','Gacha','GachaProbability','GuardianSummon','Purchase','VIP']],
     ['Event', '이벤트', ['Event','Event_FirstPurchase','InGameEvent','PreRegistration','Minigame','Attendance','_PCCafe']],
-    ['Service', '운영/서비스', ['Account_Login','Account','WebView','Push','Notice']],
+    ['Service', '운영/서비스', ['Account_Login','Account','Membership','WebView','Push','Notice']],
     ['Misc', '기타', ['Etc','PhotoMode','Replay','Tarot','InGameComputer','_Modding','level_art','meme']],
 ];
 const GROUP_OF = {};
