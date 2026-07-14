@@ -18,7 +18,7 @@ const CAT_KO = {
     Etc: '기타', Enhancement: '강화', Event: '이벤트', Market: '거래소',
     Exploration: '탐험',     
     FieldBoss: '필드 보스', Event_FirstPurchase: '첫 구매', BMShopDouble: '두배 상품', Friend: '친구',
-    Gacha: '가챠', GachaProbability: '가챠 확률', GameTips: '튜토리얼 다시보기',
+    BMGacha: '가챠', GameTips: '튜토리얼 다시보기',
     GrowthEvent: '성장 이벤트', GrowthCollection: '수집', Guardian: '수호자', GuardianPromotion: '수호자 승급',
     GuardianSummon: '수호자 소환', Guide: '가이드', GuideMission: '가이드 미션', Guild: '길드', 
     Heritage: '유산', Hero: '영웅', HeroLevel: '영웅 레벨',
@@ -70,9 +70,9 @@ const GROUP_DEF = [
     ['Convenience', '편의성', ['EffectDetailInfo','PowerSaving','Scan']],
     ['Environment', '환경', ['Settings','KeyBinding','HUDEdit','RingMenu','Benchmark']],
     ['Guide', '가이드', ['Guide','GuideMission','Statistics','Tutorial','ActionTutorial','GameTips','AcquireInfo','Notification','Wiki']],
-    ['BM', 'BM', ['BMShop','BMActivityCharge','BMShopProductTypeConditional','BMShopProductTypeStepup','BMShopProductTypeChoice','BMShopProductTypePeriod','BMShopProductTypeAttendance','BMShopDiscountCoupon','BMShopGuildDonation','BMShopBonusPurchaseCount','BMShopProductTypeAchive','BMShopDouble','BMPass','Gacha','GachaProbability','GuardianSummon','Purchase','VIP']],
+    ['BM', 'BM', ['BMShop','BMActivityCharge','BMShopProductTypeConditional','BMShopProductTypeStepup','BMShopProductTypeChoice','BMShopProductTypePeriod','BMShopProductTypeAttendance','BMShopDiscountCoupon','BMShopGuildDonation','BMShopBonusPurchaseCount','BMShopProductTypeAchive','BMShopDouble','BMPass','BMGacha','GuardianSummon','Purchase','VIP']],
     ['Event', '이벤트', ['Event','Event_FirstPurchase','InGameEvent','PreRegistration','Minigame','Attendance','_PCCafe']],
-    ['Service', '운영/서비스', ['Account_Login','Account','Membership','WebView','Push','Notice']],
+    ['Service', '운영/서비스', ['Account_Login','Account','Membership','ProbabilityNotice','WebView','Push','Notice']],
     ['Misc', '기타', ['Etc','PhotoMode','Replay','Tarot','InGameComputer','_Modding','level_art','meme']],
 ];
 const GROUP_OF = {};
