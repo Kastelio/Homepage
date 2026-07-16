@@ -39,7 +39,7 @@ const CAT_KO = {
     BMShopProductTypeConditional: '조건형 상품', BMShopDiscountCoupon: 'BM상점 할인 쿠폰', BMShopProductTypeGuildDonation: '길드 기여 상품', BMShopProductTypeBonusPurchaseCount: '구매 횟수 보너스 상품', BMShopProductTypeChoice: '선택형 상품', BMShopProductTypePeriod: '기간형 상품', BMShopProductTypeAttendance: '출석 상품', Stage: '스테이지', BMActivityCharge: '활동력 충전', StarterPack: '스타터 팩',
     Statistics: '통계형 가이드', Stats: '캐릭터 스탯', StatFilter: '스탯 필터', BMShopProductTypeStepup: '스텝업 상품',
     Storage: '창고',  Membership: '멤버쉽', Synthesis: '합성',
-    Tarot: '타로', TeamFormation: '편성', Title: '타이틀',
+    TeamFormation: '편성', Title: '타이틀',
     CharacterTitle: '칭호', Training: '훈련', Trophy: '도전과제', Trait: '특성', TraitPoint: '특성 포인트',
     TravelLevel: '여행 레벨', Tutorial: '튜토리얼', BMVIP: 'VIP', WarArchive: '전쟁 기록', WeaponMastery: '무기 숙련',
     WebView: '웹뷰', Wiki: '백과사전', _Modding: '모딩', Event_PCCafe: 'PC방', equipment: '장비',
@@ -73,7 +73,7 @@ const GROUP_DEF = [
     ['BM', 'BM', ['BMShop','BMPass','BMGacha','BMVIP','BMActivityCharge','BMShopProductTypePeriod','BMShopProductTypeAttendance','BMShopProductTypeStepup','BMShopProductTypeAchive','BMShopProductTypeConditional','BMShopProductTypeBonusPurchaseCount','BMShopProductTypeChoice','BMShopProductTypeGuildDonation','BMShopDiscountCoupon','BMShopDouble']],
     ['Event', '이벤트', ['Event','Event_FirstPurchase','InGameEvent','Event_Minigame','Event_Attendance','Event_PCCafe']],
     ['Service', '운영/서비스', ['Account_Login','Account','Membership','ProbabilityNotice','PreRegistration','WebView','Push','Notice']],
-    ['Misc', '기타', ['Etc','PhotoMode','Replay','Tarot','InGameComputer','_Modding','level_art','meme']],
+    ['Misc', '기타', ['Etc','PhotoMode','Replay','InGameComputer','_Modding','level_art','meme']],
 ];
 const GROUP_OF = {};
 const CAT_ORDER = {};   // 그룹 내 정렬 순서(GROUP_DEF 멤버 순서 기준)
