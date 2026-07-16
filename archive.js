@@ -22,13 +22,13 @@ const CAT_KO = {
     GrowthEvent: '성장 이벤트', GrowthCollection: '수집', Guardian: '수호자', GuardianPromotion: '수호자 승급',
     Guide: '가이드', GuideMission: '가이드 미션', Guild: '길드', 
     Heritage: '유산', Hero: '영웅', HeroLevel: '영웅 레벨',
-    HeroRating: '영웅 평가', Housing: '하우징', HUDEdit: 'HUD 설정', InGameComputer: '인게임 컴퓨터', Inventory: '인벤토리', ItemDetail: '아이템 상세',
+    HeroRating: '영웅 평가', Housing: '하우징', HUDEdit: 'HUD 설정', Inventory: '인벤토리', ItemDetail: '아이템 상세',
     KeyBinding: '키 설정', Launcher: '런처', Lifestyle: '생활', Loading: '로딩', Lobby: '로비',
     Mail: '우편', MainScreen: '메인 화면',
     Map: '지도', MatchResult: '매치 결과', Matchmaking: '매치메이킹',
     Menu: '메뉴', BMShopProductTypeAchive: '달성형 상품',  Event_Minigame: '미니게임', Mission: '미션',
     MonsterSummon: '몬스터 소환', Mount: '탈것', Multiplayer: '멀티플레이', NPC: 'NPC', 
-    Notice: '공지', Notification: '알림', NpcShop: 'NPC 상점', NpcAffinity: '호감도', NpcDialog: '다이얼로그', NumericInput: '숫자 입력', OfflinePlay: '오프라인 플레이',
+    Notice: '공지', Notification: '알림', NpcShop: 'NPC 상점', NpcAffinity: '호감도', NpcDialog: '다이얼로그', NpcComputer: '컴퓨터', NumericInput: '숫자 입력', OfflinePlay: '오프라인 플레이',
     Party: '파티', PatchProcess: '패치 프로세스', BMPass: '패스', PerkPoint: '특성 포인트', Pet: '펫', PhotoMode: '포토 모드',
     PowerSaving: '절전 모드', PreRegistration: '사전 등록', Production: '자동 수급', Profile: '프로필',
     Push: '푸시', PvP: 'PvP', QualityUpgrade: '품질 강화', Quest: '퀘스트',
@@ -42,7 +42,7 @@ const CAT_KO = {
     TeamFormation: '편성', Title: '타이틀',
     CharacterTitle: '칭호', Training: '훈련', Trophy: '도전과제', Trait: '특성', TraitPoint: '특성 포인트',
     TravelLevel: '여행 레벨', Tutorial: '튜토리얼', BMVIP: 'VIP', WarArchive: '전쟁 기록', WeaponMastery: '무기 숙련',
-    WebView: '웹뷰', Wiki: '백과사전', _Modding: '모딩', Event_PCCafe: 'PC방', equipment: '장비',
+    WebView: '웹뷰', Wiki: '백과사전', Event_PCCafe: 'PC방', equipment: '장비',
     level_art: '레벨 아트', meme: '밈', monster: '몬스터',
 };
 
@@ -62,7 +62,7 @@ const GROUP_DEF = [
     ['Collect', '수집', ['CharacterTitle']],
     ['Dungeon', '전투/던전', ['Battle','Boss','FieldBoss','Arena','PvP','BattleGround','SiegeBattle','Raid','Dungeon','BaseDefense','Rally','Field_Battle','Exploration','Simulation','MatchResult','Multiplayer','BattleContentMenu','TeamFormation','Stage','WarArchive']],
     ['Social', '소셜', ['Chat','Emote','Friend','Party','Guild','Profile']],
-    ['NpcGroup', 'NPC', ['NpcAffinity','NpcDialog']],
+    ['NpcGroup', 'NPC', ['NpcAffinity','NpcDialog','NpcComputer']],
     ['Economy', '경제', ['Market']],
     ['Management', '경영', ['Housing','Construction','Camp']],
     ['Idle', '방치', ['Production','Dispatch','OfflinePlay']],
@@ -73,7 +73,7 @@ const GROUP_DEF = [
     ['BM', 'BM', ['BMShop','BMPass','BMGacha','BMVIP','BMActivityCharge','BMShopProductTypePeriod','BMShopProductTypeAttendance','BMShopProductTypeStepup','BMShopProductTypeAchive','BMShopProductTypeConditional','BMShopProductTypeBonusPurchaseCount','BMShopProductTypeChoice','BMShopProductTypeGuildDonation','BMShopDiscountCoupon','BMShopDouble']],
     ['Event', '이벤트', ['Event','Event_FirstPurchase','InGameEvent','Event_Minigame','Event_Attendance','Event_PCCafe']],
     ['Service', '운영/서비스', ['Account_Login','Account','Membership','ProbabilityNotice','PreRegistration','WebView','Push','Notice']],
-    ['Misc', '기타', ['Etc','PhotoMode','Replay','InGameComputer','_Modding','level_art','meme']],
+    ['Misc', '기타', ['Etc','PhotoMode','Replay','level_art','meme']],
 ];
 const GROUP_OF = {};
 const CAT_ORDER = {};   // 그룹 내 정렬 순서(GROUP_DEF 멤버 순서 기준)
